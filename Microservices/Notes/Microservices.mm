@@ -134,7 +134,7 @@
 <node TEXT="Slow time to market" ID="ID_324881967" CREATED="1528128666684" MODIFIED="1528128712788"/>
 </node>
 </node>
-<node TEXT="Architectures" POSITION="left" ID="ID_826221561" CREATED="1506368970346" MODIFIED="1506368976362">
+<node TEXT="Architectures" FOLDED="true" POSITION="left" ID="ID_826221561" CREATED="1506368970346" MODIFIED="1506368976362">
 <edge COLOR="#7c0000"/>
 <node TEXT="Goals (12 Factor)" ID="ID_34966102" CREATED="1506369206804" MODIFIED="1506369347039"><richcontent TYPE="NOTE">
 
@@ -185,14 +185,14 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="Conceptual (Gartner)" ID="ID_946235947" CREATED="1506368990267" MODIFIED="1506369026179">
+<node TEXT="Conceptual (Gartner)" FOLDED="true" ID="ID_946235947" CREATED="1506368990267" MODIFIED="1506369026179">
 <node TEXT="Inner Architecture" ID="ID_1917764418" CREATED="1506369009803" MODIFIED="1506369033827">
 <node TEXT="Service boundaries" ID="ID_1367458700" CREATED="1506369038925" MODIFIED="1506369044332"/>
 <node TEXT="Data management" ID="ID_1956231525" CREATED="1506369044715" MODIFIED="1506369047916"/>
 <node TEXT="Transaction support" ID="ID_679217395" CREATED="1506369048603" MODIFIED="1506369051787"/>
 <node TEXT="Units of deployment" ID="ID_129556788" CREATED="1506369052435" MODIFIED="1506369083819"/>
 </node>
-<node TEXT="Outer Architecture" ID="ID_1044087225" CREATED="1506369034475" MODIFIED="1506369037940">
+<node TEXT="Outer Architecture" FOLDED="true" ID="ID_1044087225" CREATED="1506369034475" MODIFIED="1506369037940">
 <node TEXT="Service discovery" ID="ID_987072645" CREATED="1506369087661" MODIFIED="1506369093236"/>
 <node TEXT="Service communication" ID="ID_1419617573" CREATED="1506369093795" MODIFIED="1506369098660">
 <node TEXT="Mechanism" ID="ID_497649051" CREATED="1528129161193" MODIFIED="1528129166084">
@@ -221,7 +221,7 @@
 <node TEXT="Deployment" ID="ID_1060869809" CREATED="1506369115612" MODIFIED="1506369119540"/>
 </node>
 </node>
-<node TEXT="Implementation" ID="ID_874384197" CREATED="1501542862678" MODIFIED="1506369002300">
+<node TEXT="Implementation" FOLDED="true" ID="ID_874384197" CREATED="1501542862678" MODIFIED="1506369002300">
 <node TEXT="Container Architecture" FOLDED="true" ID="ID_1666252240" CREATED="1501544546195" MODIFIED="1501544556541">
 <node TEXT="What?" ID="ID_325446786" CREATED="1507076403504" MODIFIED="1507076410558">
 <node TEXT="Uses the kernel on host&apos;s OS to run multiple guest instances" FOLDED="true" ID="ID_291717523" CREATED="1507076411414" MODIFIED="1507076428504">
@@ -251,7 +251,7 @@
 <node TEXT="Best Practices" FOLDED="true" POSITION="left" ID="ID_1050432407" CREATED="1501644739874" MODIFIED="1501644744767">
 <edge COLOR="#ff00ff"/>
 <node TEXT="12 Factor app principles are useful, but should not be over-applied" ID="ID_717035303" CREATED="1501644746837" MODIFIED="1507304028059"/>
-<node TEXT="Use intelligent defaults (if config files or environment variables are un available)" ID="ID_293831405" CREATED="1507304039058" MODIFIED="1507304073210"/>
+<node TEXT="Use intelligent defaults (if config files or environment variables are unavailable)" ID="ID_293831405" CREATED="1507304039058" MODIFIED="1532644730370"/>
 <node TEXT="Manage working directories and temp files" ID="ID_811663423" CREATED="1507304076380" MODIFIED="1507304110876"/>
 <node TEXT="Avoid race conditions and orchestrated startups." FOLDED="true" ID="ID_1706374201" CREATED="1507304127675" MODIFIED="1507304146100">
 <node TEXT="Instead of erroring if a connection is unavailable, startup anyway and try to reconnect on a backing-off timeout" ID="ID_618708033" CREATED="1507304148043" MODIFIED="1507304194596"/>
@@ -266,7 +266,7 @@
 </node>
 </node>
 <node TEXT="Use HealthZ patterns" ID="ID_589242288" CREATED="1507311332843" MODIFIED="1507311348779"/>
-<node TEXT="Use data and storage patterns to support high scale" ID="ID_1419364918" CREATED="1507312180468" MODIFIED="1507312215877">
+<node TEXT="Use data and storage patterns to support high scale" FOLDED="true" ID="ID_1419364918" CREATED="1507312180468" MODIFIED="1507312215877">
 <node TEXT="For e.g." ID="ID_1100325455" CREATED="1507312217125" MODIFIED="1507312219741">
 <node TEXT="Eventual consistency" ID="ID_443265576" CREATED="1507312220533" MODIFIED="1507312225990"/>
 </node>
@@ -278,7 +278,7 @@
 </node>
 <node TEXT="Use containers" ID="ID_1288683362" CREATED="1507312714730" MODIFIED="1507312719083"/>
 </node>
-<node TEXT="When?" POSITION="left" ID="ID_1542843257" CREATED="1507864087785" MODIFIED="1507864093959">
+<node TEXT="When?" FOLDED="true" POSITION="left" ID="ID_1542843257" CREATED="1507864087785" MODIFIED="1507864093959">
 <edge COLOR="#7c7c00"/>
 <node TEXT="To use?" ID="ID_120869217" CREATED="1507864095942" MODIFIED="1507864099378"/>
 <node TEXT="Not to use?" FOLDED="true" ID="ID_534960104" CREATED="1507864100521" MODIFIED="1507864103523">
@@ -475,21 +475,21 @@
 <node TEXT="MicroService Architecture (CA/Oreily)" FOLDED="true" POSITION="right" ID="ID_84014540" CREATED="1507864602998" MODIFIED="1507864642903">
 <edge COLOR="#ff0000"/>
 <node TEXT="Understanding microservices" ID="ID_1238393244" CREATED="1507864645222" MODIFIED="1507864665616"/>
-<node TEXT="Microservice design principles" ID="ID_1796994048" CREATED="1507864666079" MODIFIED="1507864685605">
+<node TEXT="Microservice design principles" FOLDED="true" ID="ID_1796994048" CREATED="1507864666079" MODIFIED="1507864685605">
 <node TEXT="Designing Microservice systems" FOLDED="true" ID="ID_915505587" CREATED="1507864695062" MODIFIED="1507864704515">
 <node TEXT="Notes" FOLDED="true" ID="ID_1406390431" CREATED="1507864852821" MODIFIED="1507864858114">
 <node TEXT="Lot of moving parts" ID="ID_621292554" CREATED="1507864859691" MODIFIED="1507864866109"/>
 <node TEXT="Focus is on building apps that balance speed &amp; safety at scale, primarily through replaceability" ID="ID_762273557" CREATED="1507864866647" MODIFIED="1507864917819"/>
 </node>
-<node TEXT="Systems approach to microservices" ID="ID_1105224237" CREATED="1507864920739" MODIFIED="1507864931254">
+<node TEXT="Systems approach to microservices" FOLDED="true" ID="ID_1105224237" CREATED="1507864920739" MODIFIED="1507864931254">
 <node TEXT="Need to think how all aspects of system can work together to form an emergent behavior" ID="ID_1277884671" CREATED="1507865094519" MODIFIED="1507865151649"/>
-<node TEXT="Microservices system encompasses" ID="ID_1474245269" CREATED="1507865528204" MODIFIED="1507865562701">
+<node TEXT="Microservices system encompasses" FOLDED="true" ID="ID_1474245269" CREATED="1507865528204" MODIFIED="1507865562701">
 <node TEXT="Structure of organization" ID="ID_1464379557" CREATED="1507865563894" MODIFIED="1507865579686"/>
 <node TEXT="People" ID="ID_833078118" CREATED="1507865580143" MODIFIED="1507865587802"/>
 <node TEXT="Way they work" ID="ID_1139351767" CREATED="1507865588075" MODIFIED="1507865591395"/>
 <node TEXT="Work output" ID="ID_380080569" CREATED="1507865591833" MODIFIED="1507865596881"/>
 </node>
-<node TEXT="Microservice design model" ID="ID_1103647544" CREATED="1507865727049" MODIFIED="1507865736517">
+<node TEXT="Microservice design model" FOLDED="true" ID="ID_1103647544" CREATED="1507865727049" MODIFIED="1507865736517">
 <node TEXT="Service" FOLDED="true" ID="ID_340456219" CREATED="1507865740769" MODIFIED="1507865750803">
 <node TEXT="Implementing well-designed microservices and APIs are essential" ID="ID_1657749332" CREATED="1507865936851" MODIFIED="1507865939753"/>
 </node>
@@ -506,16 +506,16 @@
 <node TEXT="organization&#x2019;s culture is important because it shapes all of the atomic decisions that people within the system will make." ID="ID_506678939" CREATED="1507866673695" MODIFIED="1507866683757"/>
 </node>
 </node>
-<node TEXT="Embracing change" ID="ID_1080783681" CREATED="1507866918728" MODIFIED="1507866927903">
+<node TEXT="Embracing change" FOLDED="true" ID="ID_1080783681" CREATED="1507866918728" MODIFIED="1507866927903">
 <node TEXT="Change is inevitable. Design adaptability as a feature" ID="ID_1171497738" CREATED="1507866941498" MODIFIED="1507866978024"/>
 </node>
-<node TEXT="Standardization &amp; Coordination" ID="ID_1479355408" CREATED="1507867450092" MODIFIED="1507867459975">
+<node TEXT="Standardization &amp; Coordination" FOLDED="true" ID="ID_1479355408" CREATED="1507867450092" MODIFIED="1507867459975">
 <node TEXT="Dilemma with Standardization" FOLDED="true" ID="ID_1981674902" CREATED="1507867471280" MODIFIED="1507867480860">
 <node TEXT="Necessary to ensure desirable behavior" ID="ID_1547860031" CREATED="1507867481991" MODIFIED="1507867499589"/>
 <node TEXT="Reduces adaptability" ID="ID_266838429" CREATED="1507867503747" MODIFIED="1507867513280"/>
 </node>
 </node>
-<node TEXT="Microservice design process" ID="ID_1458764969" CREATED="1507867577913" MODIFIED="1507867591014">
+<node TEXT="Microservice design process" FOLDED="true" ID="ID_1458764969" CREATED="1507867577913" MODIFIED="1507867591014">
 <node TEXT="The first step to good service design is to design the process" FOLDED="true" ID="ID_1297481546" CREATED="1507867685463" MODIFIED="1507867718204">
 <node TEXT="Design a process that helps you understand the impact of your assumptions and the applicability of advice as you change the system." ID="ID_1692586844" CREATED="1507867720379" MODIFIED="1507867819479"/>
 </node>
@@ -600,7 +600,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Frameworks" POSITION="left" ID="ID_1642976092" CREATED="1501111028946" MODIFIED="1501111037363">
+<node TEXT="Frameworks" FOLDED="true" POSITION="left" ID="ID_1642976092" CREATED="1501111028946" MODIFIED="1501111037363">
 <edge COLOR="#ff0000"/>
 <node TEXT="Serverless Framework" ID="ID_1480826420" CREATED="1501111041218" MODIFIED="1501111086677" LINK="Serverless%20Framework.mm"/>
 </node>
