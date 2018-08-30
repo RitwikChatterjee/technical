@@ -81,7 +81,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="10" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="11" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="What?" FOLDED="true" POSITION="left" ID="ID_704267071" CREATED="1503451572935" MODIFIED="1503451575818">
 <edge COLOR="#0000ff"/>
 <node TEXT="JavaScript runtime built on Chrome&apos;s V8 JavaScript Engine" ID="ID_596310725" CREATED="1503451577712" MODIFIED="1503451601636"/>
@@ -147,16 +147,16 @@
 </node>
 </node>
 </node>
-<node TEXT="References" POSITION="left" ID="ID_1723318205" CREATED="1506971132793" MODIFIED="1506971137882">
+<node TEXT="References" FOLDED="true" POSITION="left" ID="ID_1723318205" CREATED="1506971132793" MODIFIED="1506971137882">
 <edge COLOR="#007c00"/>
 <node TEXT="Learn all the Nodes" ID="ID_573200958" CREATED="1506971139056" MODIFIED="1506971279584" LINK="https://www.youtube.com/watch?v=zWLj3O576jM&amp;list=PLQmX5gaHg2SXyKuT9BQ_nbFIdZ39yeRxH"/>
 <node TEXT="Node Beginner" ID="ID_579508911" CREATED="1507004019617" MODIFIED="1507004028339"/>
 </node>
-<node TEXT="Coding" POSITION="right" ID="ID_745290569" CREATED="1506972421142" MODIFIED="1506972424319">
+<node TEXT="Coding" FOLDED="true" POSITION="right" ID="ID_745290569" CREATED="1506972421142" MODIFIED="1506972424319">
 <edge COLOR="#7c007c"/>
-<node TEXT="require" ID="ID_339109415" CREATED="1511541644527" MODIFIED="1511541669712">
+<node TEXT="require" FOLDED="true" ID="ID_339109415" CREATED="1511541644527" MODIFIED="1511541669712">
 <font BOLD="true" ITALIC="true"/>
-<node TEXT="What?" ID="ID_1396982490" CREATED="1506972425566" MODIFIED="1511541682920">
+<node TEXT="What?" FOLDED="true" ID="ID_1396982490" CREATED="1506972425566" MODIFIED="1511541682920">
 <font BOLD="false" ITALIC="false"/>
 <node TEXT="Node.js built-in function to import external modules" ID="ID_1935441485" CREATED="1506972434055" MODIFIED="1506972453551">
 <node TEXT="takes arguments" ID="ID_312219710" CREATED="1511542377310" MODIFIED="1511542384334"/>
@@ -165,7 +165,7 @@
 <node TEXT="Comes from common.js" ID="ID_1997955820" CREATED="1506972454071" MODIFIED="1506972460176"/>
 <node TEXT="Globally accessible" ID="ID_1297513311" CREATED="1511542352517" MODIFIED="1511542358340"/>
 </node>
-<node TEXT="How it works?" ID="ID_514202266" CREATED="1511541683862" MODIFIED="1511541688097">
+<node TEXT="How it works?" FOLDED="true" ID="ID_514202266" CREATED="1511541683862" MODIFIED="1511541688097">
 <node TEXT="By default" FOLDED="true" ID="ID_583557901" CREATED="1511541689055" MODIFIED="1511541720872">
 <node FOLDED="true" ID="ID_1660198911" CREATED="1511541722696" MODIFIED="1511627059859"><richcontent TYPE="NODE">
 
@@ -229,11 +229,11 @@
 </node>
 <node TEXT="If not found there, moves up the directory structure" ID="ID_1341107418" CREATED="1511541741511" MODIFIED="1511626990921"/>
 </node>
-<node TEXT="To include file somewhere else" ID="ID_124690258" CREATED="1511541810952" MODIFIED="1511541836465">
+<node TEXT="To include file somewhere else" FOLDED="true" ID="ID_124690258" CREATED="1511541810952" MODIFIED="1511541836465">
 <node TEXT="Specify the relative path in the argument" ID="ID_1732564955" CREATED="1511542823218" MODIFIED="1511626952921"/>
 <node TEXT="For e.g. require(&quot;./exp&quot;)" ID="ID_1920936953" CREATED="1511541876449" MODIFIED="1511541895954"/>
 </node>
-<node ID="ID_433351308" CREATED="1511541979706" MODIFIED="1511627785097"><richcontent TYPE="NODE">
+<node FOLDED="true" ID="ID_433351308" CREATED="1511541979706" MODIFIED="1511627785097"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -272,7 +272,7 @@
 <node TEXT="exports vs module.exports" ID="ID_168517710" CREATED="1511628632498" MODIFIED="1511628647013" LINK="../../../../../Users/116500/Documents/https:/www.hacksparrow.com/node-js-exports-vs-module-exports.html"/>
 </node>
 </node>
-<node TEXT="node caches the return value" ID="ID_1703476763" CREATED="1511628973876" MODIFIED="1511628999565">
+<node TEXT="node caches the return value" FOLDED="true" ID="ID_1703476763" CREATED="1511628973876" MODIFIED="1511628999565">
 <node TEXT="Implications" FOLDED="true" ID="ID_1522200385" CREATED="1511629002477" MODIFIED="1511629007109">
 <node TEXT="If you require it multiple times, node internally only calls it the first time and caches it" FOLDED="true" ID="ID_571235568" CREATED="1511629009005" MODIFIED="1511629040829">
 <node TEXT="for e.g." ID="ID_914833886" CREATED="1511629076262" MODIFIED="1511629081181">
@@ -343,14 +343,14 @@
 </node>
 <node TEXT="Express.js" FOLDED="true" POSITION="right" ID="ID_697723331" CREATED="1505258976402" MODIFIED="1507004817578">
 <edge COLOR="#7c0000"/>
-<node TEXT="What?" ID="ID_694310983" CREATED="1507004824265" MODIFIED="1507004827626">
+<node TEXT="What?" FOLDED="true" ID="ID_694310983" CREATED="1507004824265" MODIFIED="1507004827626">
 <node TEXT="Minimal and flexible framework for node.js web applications" ID="ID_1337272597" CREATED="1507004829538" MODIFIED="1507004859186"/>
 <node TEXT="Built on Connect" ID="ID_883587909" CREATED="1507004859603" MODIFIED="1507004895475">
 <node TEXT="Middleware framework for nodejs" ID="ID_57455723" CREATED="1507004897275" MODIFIED="1507004910395"/>
 <node TEXT="Pipes &amp; Filter pattern" ID="ID_1163104211" CREATED="1507004932890" MODIFIED="1507004941796"/>
 </node>
 </node>
-<node TEXT="Creation" FOLDED="true" ID="ID_427612173" CREATED="1505258981507" MODIFIED="1507004817577">
+<node TEXT="Creation" ID="ID_427612173" CREATED="1505258981507" MODIFIED="1507004817577">
 <node TEXT="Use" ID="ID_367738752" CREATED="1505258991347" MODIFIED="1505258995557">
 <node TEXT="express-generator" ID="ID_1964143492" CREATED="1505258996780" MODIFIED="1505259046895"/>
 </node>
@@ -394,7 +394,64 @@
 </node>
 </node>
 </node>
-<node TEXT="Recommended project structure" POSITION="right" ID="ID_1800213180" CREATED="1512005325860" MODIFIED="1512005349948">
+<node TEXT="npm" POSITION="right" ID="ID_1568377081" CREATED="1535070848298" MODIFIED="1535070853920">
+<edge COLOR="#7c7c00"/>
+<node TEXT="package.json" ID="ID_257119154" CREATED="1535070916310" MODIFIED="1535070932682"/>
+<node TEXT="npm init" ID="ID_175514999" CREATED="1535070951136" MODIFIED="1535070956816"/>
+<node TEXT="Adding dependencies" FOLDED="true" ID="ID_1508524218" CREATED="1535070858050" MODIFIED="1535070869555">
+<node FOLDED="true" ID="ID_1374221795" CREATED="1535071021810" MODIFIED="1535071076334"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      npm install &lt;module&gt; <i>--save</i>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<font NAME="Courier New"/>
+<node TEXT="Adds dependency to package.json file" ID="ID_533044039" CREATED="1535071099723" MODIFIED="1535071108906"/>
+</node>
+<node FOLDED="true" ID="ID_1852662885" CREATED="1535071021810" MODIFIED="1535071132212"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      npm install &lt;module&gt; <i>--save-dev</i>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<font NAME="Courier New"/>
+<node TEXT="Adds build dependency to package.json file" ID="ID_1535180432" CREATED="1535071099723" MODIFIED="1535071142343"/>
+</node>
+</node>
+<node TEXT="Scripts" FOLDED="true" ID="ID_550749600" CREATED="1535071158076" MODIFIED="1535071161693">
+<node TEXT="What?" FOLDED="true" ID="ID_195385029" CREATED="1535071230327" MODIFIED="1535071232506">
+<node TEXT="Scripting to do small stuff" ID="ID_385424173" CREATED="1535071246778" MODIFIED="1535071257672"/>
+</node>
+<node TEXT="Where?" FOLDED="true" ID="ID_1111142026" CREATED="1535071278873" MODIFIED="1535071282042">
+<node TEXT="Declared in package.json file" ID="ID_1460940354" CREATED="1535071283445" MODIFIED="1535071293312"/>
+<node TEXT="&#x201c;scripts&#x201d;: {&#xa;   &#x201c;start&#x201d;: &#x201c;node index.js&#x201d;,&#xa;   &#x201c;test&#x201d;: &#x201c;mocha test&#x201d;,&#xa;   &#x201c;echo-custom&#x201d;: &#x201c;echo npm&#x201d;,&#xa;   &quot;do-something&quot;: &quot;npm run &lt;custom-npm-script&gt;&quot;&#xa;}" ID="ID_1532290381" CREATED="1535071298263" MODIFIED="1535071488183">
+<font NAME="Courier New"/>
+</node>
+</node>
+<node TEXT="Examples" FOLDED="true" ID="ID_232135776" CREATED="1535071260190" MODIFIED="1535071263630">
+<node TEXT="start" ID="ID_615647042" CREATED="1535071266782" MODIFIED="1535071270596"/>
+<node TEXT="test" ID="ID_1201145784" CREATED="1535071271133" MODIFIED="1535071272883"/>
+</node>
+<node TEXT="Custom" ID="ID_1827330879" CREATED="1535071360970" MODIFIED="1535071364129"/>
+</node>
+</node>
+<node TEXT="Recommended project structure" FOLDED="true" POSITION="right" ID="ID_1800213180" CREATED="1512005325860" MODIFIED="1512005349948">
 <edge COLOR="#007c7c"/>
 <node TEXT="/project" ID="ID_1711784127" CREATED="1512005391486" MODIFIED="1512005396806">
 <node TEXT="/config" ID="ID_392269664" CREATED="1512005397789" MODIFIED="1512005400518">

@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Apigee" FOLDED="false" ID="ID_1793351455" CREATED="1504806254755" MODIFIED="1504806258561" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle">
+<hook NAME="MapStyle" zoom="1.5">
     <properties fit_to_viewport="false;" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
@@ -81,7 +81,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="19" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="20" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="Anatomy of API Proxy" FOLDED="true" POSITION="right" ID="ID_1405460703" CREATED="1530559484021" MODIFIED="1530559492490">
 <edge COLOR="#00ffff"/>
 <node TEXT="Self-study" FOLDED="true" ID="ID_508156902" CREATED="1504807231764" MODIFIED="1530559508889">
@@ -689,15 +689,440 @@
 <node TEXT="What?" FOLDED="true" ID="ID_1357990094" CREATED="1508787405136" MODIFIED="1508787407793">
 <node TEXT="Secure, HTTP-based Message Processor" ID="ID_548870525" CREATED="1508787430276" MODIFIED="1508787446138"/>
 <node TEXT="Processes request/response securely" ID="ID_890258070" CREATED="1508787446575" MODIFIED="1508787474154"/>
-<node TEXT="Sends analytics asynchronously to Apigee Edge" ID="ID_1720408182" CREATED="1508787474497" MODIFIED="1508787501701"/>
+<node TEXT="Sends analytics asynchronously to Apigee Edge" FOLDED="true" ID="ID_1720408182" CREATED="1508787474497" MODIFIED="1535002362272">
+<node TEXT="in batches" ID="ID_665612430" CREATED="1535002363115" MODIFIED="1535002366996"/>
+<node TEXT="No impact on Edge availability" ID="ID_1188138807" CREATED="1535002367678" MODIFIED="1535002373664"/>
+</node>
 <node TEXT="Not full capabilities of Apigee Edge" ID="ID_1072878004" CREATED="1508787614213" MODIFIED="1508787625668"/>
+</node>
+<node TEXT="Under the hood" FOLDED="true" ID="ID_1604923954" CREATED="1535001958921" MODIFIED="1535001963983">
+<node TEXT="Node.js application" ID="ID_1105445190" CREATED="1535001965857" MODIFIED="1535001980131"/>
 </node>
 <node TEXT="Functionality" FOLDED="true" ID="ID_526541934" CREATED="1508787555259" MODIFIED="1508787558869">
 <node TEXT="Provides enterprise-grade security" ID="ID_1994243514" CREATED="1508787559619" MODIFIED="1508787568200"/>
 <node TEXT="Provides key features through plugins:" FOLDED="true" ID="ID_1160182042" CREATED="1508787568749" MODIFIED="1508789002684">
-<node TEXT="Spike arrest" ID="ID_1007965629" CREATED="1508787583699" MODIFIED="1508787591558"/>
-<node TEXT="Quota" ID="ID_3017548" CREATED="1508787591886" MODIFIED="1508787593949"/>
-<node TEXT="Analytics" ID="ID_1857241595" CREATED="1508787594293" MODIFIED="1508787596965"/>
+<node TEXT="What?" FOLDED="true" ID="ID_62057685" CREATED="1535486411344" MODIFIED="1535486414393">
+<node TEXT="Node.js module that implements one or more microgateway events" FOLDED="true" ID="ID_1055486153" CREATED="1535486421299" MODIFIED="1535486439490">
+<node TEXT="Request Plugin events" FOLDED="true" ID="ID_1736103774" CREATED="1535486465633" MODIFIED="1535486475618">
+<node FOLDED="true" ID="ID_1491750087" CREATED="1535486492646" MODIFIED="1535486492646"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="line-height: normal; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; margin-right: 0in; text-indent: 0in; text-align: center">
+      <span style="font-size: 12.0pt; font-family: Roboto; font-variant: normal; color: #666666; text-transform: none; font-weight: normal; font-style: normal"><font size="12.0pt" face="Roboto" color="#666666">onrequest</font></span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Fires when the first byte of the request is sent." ID="ID_101186022" CREATED="1535486519648" MODIFIED="1535486546435"/>
+<node TEXT="Gives access to the headers, URL, query parameters, and HTTP method." ID="ID_1171993992" CREATED="1535486547448" MODIFIED="1535486551306"/>
+</node>
+<node FOLDED="true" ID="ID_504791434" CREATED="1535486492647" MODIFIED="1535486492647"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="line-height: normal; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; margin-right: 0in; text-indent: 0in; text-align: center">
+      <span style="font-size: 12.0pt; font-family: Roboto; font-variant: normal; color: #666666; text-transform: none; font-weight: normal; font-style: normal"><font size="12.0pt" face="Roboto" color="#666666">ondata_request</font></span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Called when a chunk of data is sent." ID="ID_579610083" CREATED="1535486578730" MODIFIED="1535486602498"/>
+<node TEXT="Passes the data to the next plugin in the sequence. The data returned by the last plugin is sent to the target." ID="ID_1821690196" CREATED="1535486603513" MODIFIED="1535486606858"/>
+</node>
+<node FOLDED="true" ID="ID_823642793" CREATED="1535486492653" MODIFIED="1535486492653"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="line-height: normal; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; margin-right: 0in; text-indent: 0in; text-align: center">
+      <span style="font-size: 12.0pt; font-family: Roboto; font-variant: normal; color: #666666; text-transform: none; font-weight: normal; font-style: normal"><font size="12.0pt" face="Roboto" color="#666666">onend_request</font></span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Called when all of the request data has been sent from the client" ID="ID_272564125" CREATED="1535486637957" MODIFIED="1535486641746"/>
+</node>
+<node FOLDED="true" ID="ID_342531461" CREATED="1535486492657" MODIFIED="1535486492657"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="line-height: normal; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; margin-right: 0in; text-indent: 0in; text-align: center">
+      <span style="font-size: 12.0pt; font-family: Roboto; font-variant: normal; color: #666666; text-transform: none; font-weight: normal; font-style: normal"><font size="12.0pt" face="Roboto" color="#666666">onclose_request</font></span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Indicates that the client connection has closed" ID="ID_849485910" CREATED="1535486652794" MODIFIED="1535486654947"/>
+</node>
+<node FOLDED="true" ID="ID_208372346" CREATED="1535486492660" MODIFIED="1535486492660"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <span style="font-size: 12.0pt; font-family: Roboto; font-variant: normal; color: #666666; text-transform: none; font-weight: normal; font-style: normal"><font size="12.0pt" face="Roboto" color="#666666">onerror_reques</font></span>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Called if there is an error sending the request to the target" ID="ID_863799418" CREATED="1535486664625" MODIFIED="1535486666786"/>
+</node>
+</node>
+<node TEXT="Response Plugin events" FOLDED="true" ID="ID_675774406" CREATED="1535486691873" MODIFIED="1535486701570">
+<node FOLDED="true" ID="ID_1213194908" CREATED="1535486718380" MODIFIED="1535486718380"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="line-height: normal; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; margin-right: 0in; text-indent: 0in; text-align: center">
+      <span style="font-size: 12.0pt; font-family: Roboto; font-variant: normal; color: #666666; text-transform: none; font-weight: normal; font-style: normal"><font size="12.0pt" face="Roboto" color="#666666">onresponse</font></span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Fires when the first byte of the response is received." ID="ID_175499202" CREATED="1535486731329" MODIFIED="1535486743642"/>
+<node TEXT="Gives access to the response headers and status code." ID="ID_1447558735" CREATED="1535486744289" MODIFIED="1535486747299"/>
+</node>
+<node FOLDED="true" ID="ID_1505495428" CREATED="1535486718381" MODIFIED="1535486718381"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="line-height: normal; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; margin-right: 0in; text-indent: 0in; text-align: center">
+      <span style="font-size: 12.0pt; font-family: Roboto; font-variant: normal; color: #666666; text-transform: none; font-weight: normal; font-style: normal"><font size="12.0pt" face="Roboto" color="#666666">ondata_response</font></span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Called when a chunk of data is received from the target." ID="ID_1518804431" CREATED="1535486750250" MODIFIED="1535486765578"/>
+<node TEXT="The payload can be transformed here" ID="ID_1410323530" CREATED="1535486766505" MODIFIED="1535486768786"/>
+</node>
+<node FOLDED="true" ID="ID_1811733610" CREATED="1535486718384" MODIFIED="1535486718384"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="line-height: normal; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; margin-right: 0in; text-indent: 0in; text-align: center">
+      <span style="font-size: 12.0pt; font-family: Roboto; font-variant: normal; color: #666666; text-transform: none; font-weight: normal; font-style: normal"><font size="12.0pt" face="Roboto" color="#666666">onend_response</font></span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Called when the socket connection to the target is closed" ID="ID_934268340" CREATED="1535486784402" MODIFIED="1535486786610"/>
+</node>
+<node FOLDED="true" ID="ID_1482888975" CREATED="1535486718386" MODIFIED="1535486718386"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="line-height: normal; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; margin-right: 0in; text-indent: 0in; text-align: center">
+      <span style="font-size: 12.0pt; font-family: Roboto; font-variant: normal; color: #666666; text-transform: none; font-weight: normal; font-style: normal"><font size="12.0pt" face="Roboto" color="#666666">onclose_response</font></span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Called when all of the response data has been received from the target." ID="ID_209116746" CREATED="1535486801507" MODIFIED="1535486809617"/>
+<node TEXT="The payload can be transformed here too" ID="ID_1178224516" CREATED="1535486810977" MODIFIED="1535486813682"/>
+</node>
+<node FOLDED="true" ID="ID_1353139042" CREATED="1535486718388" MODIFIED="1535486718388"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="line-height: normal; margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; margin-right: 0in; text-indent: 0in; text-align: center">
+      <span style="font-size: 12.0pt; font-family: Roboto; font-variant: normal; color: #666666; text-transform: none; font-weight: normal; font-style: normal"><font size="12.0pt" face="Roboto" color="#666666">onerror_response</font></span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Called if there is an error receiving the target response" ID="ID_1524801051" CREATED="1535486828410" MODIFIED="1535486832906"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Types" ID="ID_462881619" CREATED="1535486907937" MODIFIED="1535486911458">
+<node TEXT="Default" ID="ID_1891798311" CREATED="1535486373049" MODIFIED="1535486376498">
+<node TEXT="OAuth" ID="ID_895185551" CREATED="1535002064051" MODIFIED="1535002066465"/>
+<node TEXT="Quota" ID="ID_3017548" CREATED="1508787591886" MODIFIED="1508787593949">
+<node TEXT="How?" ID="ID_807193982" CREATED="1535487960777" MODIFIED="1535487967738">
+<node ID="ID_604358567" CREATED="1535487989754" MODIFIED="1535488202483"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="O0" style="line-height: normal; margin-top: 0pt; margin-bottom: 0pt; margin-left: .5in; margin-right: 0in; text-indent: -.33in; text-align: left">
+      <font size="12.0pt" color="#666666" face="Roboto"><span style="font-size: 12.0pt; font-family: Roboto; font-variant: normal; color: #666666; text-transform: none; font-weight: normal; font-style: normal">Asynchronous request to Edge to update count.</span></font>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+<font NAME="Courier New"/>
+</node>
+<node ID="ID_1970829343" CREATED="1535487989763" MODIFIED="1535488008717"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="O0" style="line-height: normal; margin-top: 0pt; margin-bottom: 0pt; margin-left: .5in; margin-right: 0in; text-indent: -.33in; text-align: left">
+      <font size="12.0pt" color="#666666" face="Roboto"><span style="font-size: 12.0pt; font-family: Roboto; font-variant: normal; color: #666666; text-transform: none; font-weight: normal; font-style: normal">It is approximate.</span></font>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_222701665" CREATED="1535487989767" MODIFIED="1535489676621"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="O0" style="line-height: normal; margin-top: 0pt; margin-bottom: 0pt; margin-left: .5in; margin-right: 0in; text-indent: -.33in; text-align: left">
+      <font size="12.0pt" color="#666666" face="Roboto"><span style="font-size: 12.0pt; font-family: Roboto; font-variant: normal; color: #666666; text-transform: none; font-weight: normal; font-style: normal">If Edge is not available, then quota is <b>NOT applied</b>.</span></font>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="OAuth plugin must be enabled" ID="ID_1506492579" CREATED="1535559853659" MODIFIED="1535559881244"/>
+<node ID="ID_487654792" CREATED="1535487989771" MODIFIED="1535488015037"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="O0" style="line-height: normal; margin-top: 0pt; margin-bottom: 0pt; margin-left: .5in; margin-right: 0in; text-indent: -.33in; text-align: left">
+      <font size="12.0pt" color="#666666" face="Roboto"><span style="font-size: 12.0pt; font-family: Roboto; font-variant: normal; color: #666666; text-transform: none; font-weight: normal; font-style: normal">Must be placed after the oauth plugin.</span></font>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Configure" ID="ID_555477071" CREATED="1535559943426" MODIFIED="1535559946540">
+<node ID="ID_1779730653" CREATED="1535487989753" MODIFIED="1535487998238"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="O0" style="line-height: normal; margin-top: 0pt; margin-bottom: 0pt; margin-left: .5in; margin-right: 0in; text-indent: -.33in; text-align: left">
+      <font size="12.0pt" color="#666666" face="Roboto"><span style="font-size: 12.0pt; font-family: Roboto; font-variant: normal; color: #666666; text-transform: none; font-weight: normal; font-style: normal">Configured on Edge at product level.</span></font>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="Spike arrest" ID="ID_1007965629" CREATED="1508787583699" MODIFIED="1508787591558">
+<node TEXT="Configuration" FOLDED="true" ID="ID_1946517613" CREATED="1535487127411" MODIFIED="1535487136347">
+<node TEXT="Requests per time period converted to time period between requests" FOLDED="true" ID="ID_1800022409" CREATED="1535487137177" MODIFIED="1535487248114">
+<node TEXT="For requests per min" FOLDED="true" ID="ID_1518290088" CREATED="1535559647993" MODIFIED="1535559657220">
+<node TEXT="Converted to seconds between requests" ID="ID_1028629760" CREATED="1535559657977" MODIFIED="1535559667276"/>
+</node>
+<node TEXT="For requests per second" FOLDED="true" ID="ID_1949282131" CREATED="1535559669473" MODIFIED="1535559675516">
+<node TEXT="Converted to milliseconds between requests" ID="ID_1426157641" CREATED="1535559675907" MODIFIED="1535559696507"/>
+</node>
+</node>
+<node TEXT="Attributes" FOLDED="true" ID="ID_1107962761" CREATED="1535559702362" MODIFIED="1535559742331">
+<node TEXT="allow" FOLDED="true" ID="ID_61140760" CREATED="1535559742754" MODIFIED="1535559747179">
+<node TEXT="# of requests allowed (per running microedge process)" ID="ID_556835708" CREATED="1535559748522" MODIFIED="1535559771323"/>
+</node>
+<node TEXT="Buffer size" FOLDED="true" ID="ID_1316900242" CREATED="1535487762274" MODIFIED="1535487765987">
+<node TEXT="# of requests to buffer when requests arrives faster than time period" ID="ID_218007248" CREATED="1535487766793" MODIFIED="1535487793139"/>
+<node TEXT="Edge micro will process these requests when the next period starts" ID="ID_1184776945" CREATED="1535487794705" MODIFIED="1535487809106"/>
+</node>
+</node>
+<node TEXT="Syntax" FOLDED="true" ID="ID_276123930" CREATED="1535487856474" MODIFIED="1535487860580">
+<node TEXT="spikearrest:&#xa;   timeUnit: minute&#xa;   allow: 10&#xa;   bufferSize: 10" ID="ID_1786956375" CREATED="1535487861732" MODIFIED="1535487919504">
+<font NAME="Courier New"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Analytics" FOLDED="true" ID="ID_1857241595" CREATED="1508787594293" MODIFIED="1535488394423">
+<node TEXT="How" FOLDED="true" ID="ID_1195836864" CREATED="1535488325898" MODIFIED="1535488394422">
+<node ID="ID_591062432" CREATED="1535488330384" MODIFIED="1535488384875"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="O0" style="line-height: normal; margin-top: 0pt; margin-bottom: 0pt; margin-left: .38in; margin-right: 0in; text-indent: -.26in; text-align: left">
+      <font size="12.0pt" color="#666666" face="Roboto"><span style="font-size: 12.0pt; font-family: Roboto; font-variant: normal; color: #666666; text-transform: none; font-weight: normal; font-style: normal">AX data gets sent to Edge asynchronously in batch.</span></font>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+<font SIZE="10"/>
+</node>
+<node FOLDED="true" ID="ID_390652855" CREATED="1535488330385" MODIFIED="1535488354285"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="O0" style="line-height: normal; margin-top: 5.0pt; margin-bottom: 0pt; margin-left: .38in; margin-right: 0in; text-indent: -.26in; text-align: left">
+      <font size="12.0pt" color="#666666" face="Roboto"><span style="font-size: 12.0pt; font-family: Roboto; font-variant: normal; color: #666666; text-transform: none; font-weight: normal; font-style: normal">If for some reason the AX data cannot be sent and the batch size is reached</span></font>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="data is dropped to favor runtime traffic." ID="ID_878589284" CREATED="1535488355322" MODIFIED="1535488358395"/>
+</node>
+<node ID="ID_622960474" CREATED="1535488330388" MODIFIED="1535488365204"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="O0" style="line-height: normal; margin-top: 5.0pt; margin-bottom: 5.0pt; margin-left: .38in; margin-right: 0in; text-indent: -.26in; text-align: left">
+      <font size="12.0pt" color="#666666" face="Roboto"><span style="font-size: 12.0pt; font-family: Roboto; font-variant: normal; color: #666666; text-transform: none; font-weight: normal; font-style: normal">AX data gets sent regardless of the target availability.</span></font>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Configuration" FOLDED="true" ID="ID_1120881677" CREATED="1535488411242" MODIFIED="1535488415356">
+<node ID="ID_1541039132" CREATED="1535488416258" MODIFIED="1535488462516"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Enabled by default</b>. Does not need to be included in plugin sequence
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_318506808" CREATED="1535488490326" MODIFIED="1535488500080"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="O0" style="line-height: normal; margin-top: 10.0pt; margin-bottom: 0pt; margin-left: .5in; margin-right: 0in; text-indent: -.33in; text-align: left">
+      <font size="12.0pt" color="#666666" face="Roboto"><span style="font-size: 12.0pt; font-family: Roboto; font-variant: normal; color: #666666; text-transform: none; font-weight: normal; font-style: normal"><b>bufferSize </b>- maximum number of records the buffer can hold before it starts to drop requests</span></font>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_9358727" CREATED="1535488490327" MODIFIED="1535488506502"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="O0" style="line-height: normal; margin-top: 10.0pt; margin-bottom: 0pt; margin-left: .5in; margin-right: 0in; text-indent: -.33in; text-align: left">
+      <font size="12.0pt" color="#666666" face="Roboto"><span style="font-size: 12.0pt; font-family: Roboto; font-variant: normal; color: #666666; text-transform: none; font-weight: normal; font-style: normal"><b>batchSize </b>- maximum number of records sent to Edge Analytics</span></font>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_652595892" CREATED="1535488490331" MODIFIED="1535488513629"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="O0" style="line-height: normal; margin-top: 10.0pt; margin-bottom: 0pt; margin-left: .5in; margin-right: 0in; text-indent: -.33in; text-align: left">
+      <font size="12.0pt" color="#666666" face="Roboto"><span style="font-size: 12.0pt; font-family: Roboto; font-variant: normal; color: #666666; text-transform: none; font-weight: normal; font-style: normal"><b>flushInterval </b>-</span><span>&#160; </span><span style="font-size: 12.0pt; font-family: Roboto; font-variant: normal; color: #666666; text-transform: none; font-weight: normal; font-style: normal">Number of ms between each flush of a batch of records to Edge.</span></font>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Caution" FOLDED="true" ID="ID_186729239" CREATED="1535488674331" MODIFIED="1535488678363">
+<node TEXT="Data loss scenarios" FOLDED="true" ID="ID_39369291" CREATED="1535488783330" MODIFIED="1535488789339">
+<node TEXT="If Microgateway has items stored in it&#x2019;s buffer and it crashes" ID="ID_1680239708" CREATED="1535488757211" MODIFIED="1535488798372"/>
+<node TEXT="If Microgateway has items stored in it&#x2019;s buffer and connection to edge is lost and flush interval is applied." FOLDED="true" ID="ID_1061127230" CREATED="1535488811714" MODIFIED="1535489289830">
+<node TEXT="Microgateway sends the data, but the request fails" ID="ID_1214298467" CREATED="1535489291291" MODIFIED="1535489308024"/>
+</node>
+</node>
+</node>
+<node TEXT="Syntax" FOLDED="true" ID="ID_1062488037" CREATED="1535559246546" MODIFIED="1535559251147">
+<node TEXT="analytics:&#xa;     bufferSize: 5&#xa;     batchSize: 5&#xa;     flushInterval: 10000" ID="ID_1765565717" CREATED="1535559251673" MODIFIED="1535559268343">
+<font NAME="Courier New"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Custom" FOLDED="true" ID="ID_50949470" CREATED="1535002389392" MODIFIED="1535002391766">
+<node TEXT="In Node.js" ID="ID_465770855" CREATED="1535002398778" MODIFIED="1535002405858"/>
+</node>
+</node>
+<node TEXT="Stored in" FOLDED="true" ID="ID_1789921390" CREATED="1535486917425" MODIFIED="1535486926585">
+<node TEXT="[npm prefix]/lib/node_modules/edgemicro/node_modules /microgateway-plugins" ID="ID_1448908426" CREATED="1535486927521" MODIFIED="1535486979939"/>
+</node>
+<node TEXT="Syntax" FOLDED="true" ID="ID_1012530596" CREATED="1535488140986" MODIFIED="1535488144227">
+<node TEXT="plugins:&#xa;        dir: ../plugins&#xa;sequence:&#xa;     - oauth   &#xa;     - quota&#xa;     - spikearrest&#xa;oauth:&#xa;       allowNoAuthorization: false&#xa;       allowInvalidAuthorization: false" ID="ID_722453889" CREATED="1535488147778" MODIFIED="1535560094260">
+<font NAME="Courier New"/>
+</node>
+</node>
 </node>
 </node>
 <node TEXT="Usage" FOLDED="true" ID="ID_597791565" CREATED="1508787506060" MODIFIED="1508787509298">
@@ -705,23 +1130,120 @@
 </node>
 <node TEXT="Use-cases" FOLDED="true" ID="ID_1250054114" CREATED="1508787721060" MODIFIED="1508787725904">
 <node TEXT="Reduce latency for internal consumption" ID="ID_1599603022" CREATED="1508787734768" MODIFIED="1508787769332"/>
-<node TEXT="Keep API traffic within enterprise-approved boundaries" ID="ID_1748106872" CREATED="1508787780652" MODIFIED="1508787802693"/>
+<node TEXT="Keep API traffic within enterprise-approved boundaries" FOLDED="true" ID="ID_1748106872" CREATED="1508787780652" MODIFIED="1508787802693">
+<node TEXT="Jurisdiction or regulatory needs" ID="ID_1178063813" CREATED="1535402314543" MODIFIED="1535402325448"/>
+<node TEXT="Privacy needs" ID="ID_30535920" CREATED="1535402327295" MODIFIED="1535402330943"/>
+</node>
+<node TEXT="Continue processing traffic during temporary internet outage" ID="ID_888840350" CREATED="1535402247478" MODIFIED="1535402263839"/>
 </node>
 <node TEXT="Key Features" FOLDED="true" ID="ID_1627234851" CREATED="1508787811695" MODIFIED="1508787816024">
-<node TEXT="Security" FOLDED="true" ID="ID_561708395" CREATED="1508787817633" MODIFIED="1508787831098">
-<node TEXT="Signed access tokens" ID="ID_1857050526" CREATED="1508787832176" MODIFIED="1508787837685"/>
-<node TEXT="API key" ID="ID_1969612140" CREATED="1508787837967" MODIFIED="1508787840730"/>
+<node TEXT="Security" FOLDED="true" ID="ID_1042868754" CREATED="1535504922673" MODIFIED="1535504926194">
+<node TEXT="AuthN/AuthZ" ID="ID_250664016" CREATED="1535484994000" MODIFIED="1535505018738">
+<node TEXT="Options" FOLDED="true" ID="ID_561708395" CREATED="1508787817633" MODIFIED="1535485717841">
+<node TEXT="Signed access tokens (JWT/OAuth)" FOLDED="true" ID="ID_1857050526" CREATED="1508787832176" MODIFIED="1535002435637">
+<node TEXT="Not the same OAuthv2 token as obtained from native policy" ID="ID_1805290602" CREATED="1535403103537" MODIFIED="1535403140657"/>
+<node TEXT="Grant types supported" FOLDED="true" ID="ID_1061457493" CREATED="1535484635711" MODIFIED="1535484654161">
+<node TEXT="Client credentials grant (OOTB)" ID="ID_830346829" CREATED="1535484549550" MODIFIED="1535484565473"/>
+<node TEXT="Password grant (requires implementation within edgemicro-auth proxy)" ID="ID_1840469557" CREATED="1535484566487" MODIFIED="1535484605235"/>
 </node>
-<node TEXT="Rapid deployment" ID="ID_414208158" CREATED="1508787842309" MODIFIED="1508787846885"/>
+<node TEXT="Signature" ID="ID_833417848" CREATED="1535484656655" MODIFIED="1535484675474">
+<node ID="ID_1531794072" CREATED="1535484677416" MODIFIED="1535484707109"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Using private key generated by <i>edgemicro configure </i>command
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Signed by edgemicro-auth proxy" ID="ID_882988504" CREATED="1535484718407" MODIFIED="1535484734866"/>
+</node>
+<node TEXT="Encryption" FOLDED="true" ID="ID_437903210" CREATED="1535484739951" MODIFIED="1535484743408">
+<node TEXT="None" ID="ID_374266142" CREATED="1535484744216" MODIFIED="1535484745721"/>
+</node>
+<node TEXT="Expires" FOLDED="true" ID="ID_1444306870" CREATED="1535484748167" MODIFIED="1535484750649">
+<node TEXT="Default = 15 mins" ID="ID_1600550353" CREATED="1535484751376" MODIFIED="1535484765169"/>
+</node>
+</node>
+<node TEXT="API key" FOLDED="true" ID="ID_1969612140" CREATED="1508787837967" MODIFIED="1508787840730">
+<node TEXT="Requires Edge connection" ID="ID_779848551" CREATED="1535002438461" MODIFIED="1535002448724"/>
+<node TEXT="Validated and exchanged for JWT" ID="ID_1199701582" CREATED="1535484846263" MODIFIED="1535484853425"/>
+</node>
+</node>
+<node TEXT="Flows" FOLDED="true" ID="ID_634454387" CREATED="1535485773928" MODIFIED="1535485779298">
+<node TEXT="API Key" FOLDED="true" ID="ID_875766243" CREATED="1535485780336" MODIFIED="1535485784395">
+<node TEXT="Validate API Key" ID="ID_421944178" CREATED="1535486008306" MODIFIED="1535486066315" TEXT_SHORTENED="true">
+<hook URI="../Apigee%20Training/Coursera/EdgeMicro%20-%20API%20Key%20flow%201.JPG" SIZE="0.6984866" NAME="ExternalObject"/>
+</node>
+<node TEXT="Use cached JWT token" ID="ID_352904591" CREATED="1535486070832" MODIFIED="1535486133082" TEXT_SHORTENED="true">
+<hook URI="../Apigee%20Training/Coursera/EdgeMicro%20-%20API%20Key%20flow%202.JPG" SIZE="0.71513706" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="JWT Token" FOLDED="true" ID="ID_1449165844" CREATED="1535486136145" MODIFIED="1535486141587">
+<node TEXT="Token Request" ID="ID_1998219088" CREATED="1535486142497" MODIFIED="1535486205009" TEXT_SHORTENED="true">
+<hook URI="../Apigee%20Training/Coursera/EdgeMicro%20-%20JWT%20token%20flow%201.JPG" SIZE="0.6430868" NAME="ExternalObject"/>
+</node>
+<node TEXT="Call with token" ID="ID_1277156566" CREATED="1535486208409" MODIFIED="1535486234105" TEXT_SHORTENED="true">
+<hook URI="../Apigee%20Training/Coursera/EdgeMicro%20-%20JWT%20token%20flow%202.JPG" SIZE="0.7159904" NAME="ExternalObject"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="TLS" FOLDED="true" ID="ID_1654515458" CREATED="1535505021850" MODIFIED="1535505024474">
+<node TEXT="Capabilities" FOLDED="true" ID="ID_475810517" CREATED="1535505025417" MODIFIED="1535505028474">
+<node TEXT="Terminate TLS for north bound" FOLDED="true" ID="ID_1834780914" CREATED="1535505029346" MODIFIED="1535505051682">
+<node TEXT="Steps" FOLDED="true" ID="ID_1384476332" CREATED="1535505119049" MODIFIED="1535505121337">
+<node TEXT="Create a certificate + private key" ID="ID_462999830" CREATED="1535505122819" MODIFIED="1535505139154"/>
+<node TEXT="Update config file" ID="ID_1042527928" CREATED="1535505145057" MODIFIED="1535505149331"/>
+<node TEXT="Reboot/restart" ID="ID_1508374168" CREATED="1535505149880" MODIFIED="1535505155666"/>
+</node>
+</node>
+<node TEXT="Execute Two-Way-TLS for southbound traffic" ID="ID_547966655" CREATED="1535505053273" MODIFIED="1535505081363"/>
+</node>
+</node>
+</node>
+<node TEXT="Operations" FOLDED="true" ID="ID_414208158" CREATED="1508787842309" MODIFIED="1535002539168">
+<node TEXT="Use your own tools to deploy, manage &amp; monitor (node.js app)" ID="ID_1857401953" CREATED="1535002482875" MODIFIED="1535002504655"/>
+</node>
+<node TEXT="Traffic Management" FOLDED="true" ID="ID_1527417585" CREATED="1535002575608" MODIFIED="1535002580236">
+<node TEXT="Through plugins" ID="ID_629514899" CREATED="1535002539643" MODIFIED="1535002586752">
+<node TEXT="Spike arrest" ID="ID_795325196" CREATED="1535002555613" MODIFIED="1535002559101"/>
+<node TEXT="Quota" ID="ID_1916751917" CREATED="1535002559527" MODIFIED="1535002563793"/>
+</node>
+</node>
+<node TEXT="Rapid Deployment" FOLDED="true" ID="ID_520426320" CREATED="1535002626988" MODIFIED="1535002632407">
+<node TEXT="Light weight, single component - deployable in minutes" ID="ID_384307174" CREATED="1535002633698" MODIFIED="1535002651927"/>
+</node>
 <node TEXT="Network proximity" FOLDED="true" ID="ID_1194324700" CREATED="1508787853214" MODIFIED="1508787865504">
-<node TEXT="Can install/manage on same machine as backend target APIs" ID="ID_1175902568" CREATED="1508787871754" MODIFIED="1508787893697"/>
+<node TEXT="Can install/manage on same machine, subnet or DC as backend target APIs" ID="ID_1175902568" CREATED="1508787871754" MODIFIED="1535002690054"/>
+<node TEXT="Needs Node.js runtime" ID="ID_1466587151" CREATED="1535002001863" MODIFIED="1535002009539"/>
+<node TEXT="Needs private/public Edge installation available" ID="ID_561283577" CREATED="1535002017952" MODIFIED="1535002035579"/>
 </node>
 <node TEXT="Analytics" ID="ID_1025851076" CREATED="1508787895806" MODIFIED="1508787899979"/>
-<node TEXT="Reduced latency" ID="ID_1470893750" CREATED="1508787900288" MODIFIED="1508787909883"/>
+<node TEXT="Reduced latency" FOLDED="true" ID="ID_1470893750" CREATED="1508787900288" MODIFIED="1508787909883">
+<node TEXT="All communication with Edge is async, does not affect performance" ID="ID_50764572" CREATED="1535002710786" MODIFIED="1535002731312"/>
+</node>
 <node TEXT="Familiarity" FOLDED="true" ID="ID_1769574739" CREATED="1508787910180" MODIFIED="1508787920087">
 <node TEXT="to existing Apigee Edge solution" ID="ID_1783744068" CREATED="1508787920994" MODIFIED="1508787927185"/>
 </node>
-<node TEXT="Configuration based" ID="ID_1857934759" CREATED="1508787953601" MODIFIED="1508787994003"/>
+<node TEXT="Configuration based" FOLDED="true" ID="ID_1857934759" CREATED="1508787953601" MODIFIED="1508787994003">
+<node TEXT="No programming required" ID="ID_108513331" CREATED="1535002746691" MODIFIED="1535002755236"/>
+<node TEXT="YAML config file" FOLDED="true" ID="ID_1320445174" CREATED="1535002756039" MODIFIED="1535002761650">
+<node TEXT="&lt;org&gt;-&lt;env&gt;-config.yaml" FOLDED="true" ID="ID_1876313773" CREATED="1535004543461" MODIFIED="1535004572380">
+<node TEXT="Edgemicro config &amp; Auth Proxy config" ID="ID_552407781" CREATED="1535004584279" MODIFIED="1535004606397"/>
+<node TEXT="Analytics config" ID="ID_945891759" CREATED="1535004607652" MODIFIED="1535004615626"/>
+<node TEXT="Logging config" ID="ID_1000295839" CREATED="1535004616083" MODIFIED="1535004619142"/>
+<node TEXT="Plugin config &amp; execution order" ID="ID_800439429" CREATED="1535004626749" MODIFIED="1535004637425"/>
+<node TEXT="SSL/TLS config" ID="ID_769904063" CREATED="1535004638032" MODIFIED="1535004645198"/>
+</node>
+</node>
+</node>
 <node TEXT="Convenience" FOLDED="true" ID="ID_103328916" CREATED="1508787959845" MODIFIED="1508787974259">
 <node TEXT="can incorporate with current Apigee Edge solution" ID="ID_428892076" CREATED="1508787975541" MODIFIED="1508787986502"/>
 </node>
@@ -729,6 +1251,30 @@
 <node TEXT="Detailed logging" ID="ID_104904090" CREATED="1508788001353" MODIFIED="1508788004512"/>
 <node TEXT="CLI" FOLDED="true" ID="ID_1987188019" CREATED="1508788004778" MODIFIED="1508788011136">
 <node TEXT="CLI to manage/maintain microgateway" ID="ID_1322174148" CREATED="1508788012183" MODIFIED="1508788024974"/>
+</node>
+</node>
+<node TEXT="New Version Features" FOLDED="true" ID="ID_1966612814" CREATED="1535002127431" MODIFIED="1535002133676">
+<node TEXT="v2.3.1 (Jul 2018)" FOLDED="true" ID="ID_1168936021" CREATED="1535002136060" MODIFIED="1535002153292">
+<node TEXT="Always starts in cluster mode" ID="ID_1306807716" CREATED="1535002155620" MODIFIED="1535002165757"/>
+<node TEXT="Automatically reloads config changes in Edge" ID="ID_919868801" CREATED="1535002166274" MODIFIED="1535002201261">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1438400706" STARTINCLINATION="61;0;" ENDINCLINATION="61;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+</node>
+<node TEXT="Automatically reloads changes made within its YAML config file" ID="ID_186664330" CREATED="1535002205941" MODIFIED="1535002258440"/>
+<node ID="ID_1602790281" CREATED="1535490065907" MODIFIED="1535490084901"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Logging level is set to <b>error</b>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 </node>
 <node TEXT="Microgateway-aware Proxies" FOLDED="true" ID="ID_133600444" CREATED="1508788336162" MODIFIED="1530559058436">
@@ -751,7 +1297,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="Key pieces of info to be provided" FOLDED="true" ID="ID_1059637037" CREATED="1508788466524" MODIFIED="1508788696700">
+<node TEXT="Key pieces of info to be provided" ID="ID_1059637037" CREATED="1508788466524" MODIFIED="1508788696700">
 <node TEXT="Base path" ID="ID_516892670" CREATED="1508788475193" MODIFIED="1508788477615"/>
 <node TEXT="Target URL" ID="ID_1644229445" CREATED="1508788478162" MODIFIED="1508788481881"/>
 </node>
@@ -771,6 +1317,221 @@
 <node TEXT="Provides certain similar functionalities (like spike arrests) through plugins." ID="ID_1731288007" CREATED="1508789021703" MODIFIED="1508789040828"/>
 </node>
 </node>
+<node TEXT="Deployment" FOLDED="true" ID="ID_1028719787" CREATED="1535002913868" MODIFIED="1535002922837">
+<node TEXT="Prerequisites" FOLDED="true" ID="ID_1286258196" CREATED="1535415310372" MODIFIED="1535415315500">
+<node TEXT="Edge account" ID="ID_565586662" CREATED="1535415317242" MODIFIED="1535415322565"/>
+<node TEXT="Node.js environment" ID="ID_693461506" CREATED="1535415323425" MODIFIED="1535415331255"/>
+<node TEXT="Windows OS" FOLDED="true" ID="ID_279735387" CREATED="1535415331866" MODIFIED="1535415335835">
+<node TEXT="Open SSL" ID="ID_525493521" CREATED="1535415336763" MODIFIED="1535415339469"/>
+</node>
+</node>
+<node TEXT="Steps" FOLDED="true" ID="ID_1529414155" CREATED="1535002924013" MODIFIED="1535002926092">
+<node TEXT="Install EdgeMicro on internal server" ID="ID_1222053544" CREATED="1535403465108" MODIFIED="1535403488520">
+<node TEXT="npm install edgemicro -g" ID="ID_828778254" CREATED="1535403489688" MODIFIED="1535560324372">
+<font NAME="Courier New"/>
+<node TEXT="installs the software" ID="ID_205810295" CREATED="1535404970334" MODIFIED="1535404984188"/>
+<node ID="ID_506717443" CREATED="1535404984899" MODIFIED="1535404995455"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      puts the <b>edgemicro </b>executable in your path.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="Configure Edge MG to communicate with Edge" FOLDED="true" ID="ID_1449929702" CREATED="1535002994939" MODIFIED="1535003012867">
+<node TEXT="edgemicro init" ID="ID_1257152910" CREATED="1535403500873" MODIFIED="1535403521684">
+<font NAME="Courier New"/>
+<node TEXT="Needed only once" ID="ID_116644396" CREATED="1535405004627" MODIFIED="1535410589283"/>
+<node ID="ID_132111135" CREATED="1535410589770" MODIFIED="1535410645538"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Creates <b>default.yaml </b>file in user home directory <b>/.edgemicro</b>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="edgemicro configure -o [org] -e [env] -u [username]" ID="ID_1160203757" CREATED="1535410648281" MODIFIED="1535410704529">
+<font NAME="Courier New"/>
+<node TEXT="Creates an edgemicro-auth proxy to generate JWTs" ID="ID_784836704" CREATED="1535415435514" MODIFIED="1535415440003"/>
+<node TEXT="Creates a public/private key and the private key is stored in the Apigee Vault; private key is used to sign JWTs" ID="ID_200573467" CREATED="1535415462444" MODIFIED="1535415475149"/>
+<node TEXT="Creates a new Microgateway configuration file named org-env-config.yaml" ID="ID_1522825906" CREATED="1535415534611" MODIFIED="1535415537643"/>
+<node TEXT="Downloads Edge configuration such as products, proxies, developers, quotas and stores this data in the org-env-cache-config.yaml file" ID="ID_434867508" CREATED="1535415549436" MODIFIED="1535415556849"/>
+<node TEXT="Creates a key and secret that is required to start Microgateway and it&#x2019;s used to asynchronously send analytics data to Edge" ID="ID_878181812" CREATED="1535415570371" MODIFIED="1535415575940"/>
+</node>
+<node TEXT="edgemicro verify -o [org] -e [env] -k [key] -s [secret]" ID="ID_597102028" CREATED="1535410830416" MODIFIED="1535410854233">
+<font NAME="Courier New"/>
+<node TEXT="Verifies the installation" ID="ID_858585308" CREATED="1535410858696" MODIFIED="1535410864746"/>
+</node>
+</node>
+<node TEXT="Create entities on Apigee Edge" ID="ID_1522391785" CREATED="1535560725235" MODIFIED="1535560736467">
+<node TEXT="Define Microgateway(MG)-aware proxies in Edge" FOLDED="true" ID="ID_232568624" CREATED="1535002927680" MODIFIED="1535560691360">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_133600444" STARTINCLINATION="471;0;" ENDINCLINATION="471;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<node TEXT="Cannot include any policies/flows" ID="ID_1402437409" CREATED="1535003083603" MODIFIED="1535003094411"/>
+<node TEXT="Need to do with custom plugins" ID="ID_1197779942" CREATED="1535003094797" MODIFIED="1535003103587"/>
+</node>
+<node TEXT="Product, Developer &amp; Developer Apps as required" ID="ID_1583399646" CREATED="1535560745683" MODIFIED="1535560798726"/>
+</node>
+<node TEXT="Operate Edge MG" FOLDED="true" ID="ID_445187578" CREATED="1535560831532" MODIFIED="1535560852557">
+<node TEXT="Start" ID="ID_654637084" CREATED="1535560855619" MODIFIED="1535560858829">
+<node TEXT="edgemicro start -o [org] -e [env] -k [key] -s [secret]" ID="ID_312287588" CREATED="1535560872252" MODIFIED="1535560889363">
+<font NAME="Courier New"/>
+<node TEXT="Edge MG downloads list of proxies and configurations on startup and at regular intervals" ID="ID_228052917" CREATED="1535003014810" MODIFIED="1535003033908"/>
+<node TEXT="All runtime traffic hits the Edge MG - authentication, traffic management and plugin enforcement" ID="ID_1417212347" CREATED="1535003045049" MODIFIED="1535003049795"/>
+<node TEXT="Analytics data is pushed to the Apigee Cloud in batches" ID="ID_903598622" CREATED="1535003063640" MODIFIED="1535003068357"/>
+</node>
+</node>
+<node TEXT="Inquire status" FOLDED="true" ID="ID_12638850" CREATED="1535560944467" MODIFIED="1535560949588">
+<node TEXT="edgemicro status" ID="ID_1776334208" CREATED="1535560951629" MODIFIED="1535560981612">
+<font NAME="Courier New"/>
+</node>
+</node>
+<node TEXT="Stop" FOLDED="true" ID="ID_304337231" CREATED="1535561070835" MODIFIED="1535561073252">
+<node TEXT="edgemicro stop" ID="ID_1785822134" CREATED="1535561077459" MODIFIED="1535561091916">
+<font NAME="Courier New"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Logging" FOLDED="true" ID="ID_219236413" CREATED="1535490143507" MODIFIED="1535490146532">
+<node TEXT="Default" FOLDED="true" ID="ID_452332569" CREATED="1535493224903" MODIFIED="1535493234407">
+<node TEXT="Location" FOLDED="true" ID="ID_992829511" CREATED="1535493235607" MODIFIED="1535493237832">
+<node TEXT="/var/tmp" ID="ID_1551714833" CREATED="1535493245039" MODIFIED="1535493253279"/>
+</node>
+<node TEXT="Level" FOLDED="true" ID="ID_171629950" CREATED="1535493238606" MODIFIED="1535493240239">
+<node TEXT="Error" ID="ID_959185734" CREATED="1535493241766" MODIFIED="1535493243847"/>
+</node>
+</node>
+<node TEXT="File name" FOLDED="true" ID="ID_677117548" CREATED="1535493455440" MODIFIED="1535493458655">
+<node TEXT="edgemicro-&lt;Host Name&gt;-&lt;Instance ID&gt;-&lt;Log Type&gt;.log" ID="ID_233542266" CREATED="1535493459623" MODIFIED="1535493479473">
+<font NAME="Courier New"/>
+</node>
+<node TEXT="Every time Microgateway is restarted it creates a new log file with a new instance ID" ID="ID_835858287" CREATED="1535493507038" MODIFIED="1535493511240"/>
+</node>
+<node TEXT="Types" FOLDED="true" ID="ID_397400304" CREATED="1535493421286" MODIFIED="1535493423608">
+<node ID="ID_870402471" CREATED="1535493442568" MODIFIED="1535561632423"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="O0" style="line-height: 150%; margin-top: 0pt; margin-bottom: 0pt; margin-left: .5in; margin-right: 0in; text-indent: -.33in; text-align: left">
+      <font size="12.0pt" color="#666666" face="Roboto"><span style="font-size: 12.0pt; font-family: Roboto; font-variant: normal; color: #666666; text-transform: none; font-weight: normal; font-style: normal"><b>api</b>&#160;- Logs all requests and responses that flow through Edge Microgateway. API counters (stats) and errors are also logged to this file.</span></font>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_341596904" CREATED="1535493442569" MODIFIED="1535561651137"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="O0" style="line-height: 150%; margin-top: 0pt; margin-bottom: 0pt; margin-left: .5in; margin-right: 0in; text-indent: -.33in; text-align: left">
+      <font size="12.0pt" color="#666666" face="Roboto"><span style="font-size: 12.0pt; font-family: Roboto; font-variant: normal; color: #666666; text-transform: none; font-weight: normal; font-style: normal"><b>err </b>- Logs anything sent to stderr.</span></font>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_781248240" CREATED="1535493442575" MODIFIED="1535561661245"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="O0" style="line-height: 150%; margin-top: 0pt; margin-bottom: 0pt; margin-left: .5in; margin-right: 0in; text-indent: -.33in; text-align: left">
+      <font size="12.0pt" color="#666666" face="Roboto"><span style="font-size: 12.0pt; font-family: Roboto; font-variant: normal; color: #666666; text-transform: none; font-weight: normal; font-style: normal"><b>out </b>- Logs anything sent to stdout.</span></font>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Configuration" FOLDED="true" ID="ID_466441110" CREATED="1535493286567" MODIFIED="1535493290367">
+<node TEXT="  logging:&#xa;     level: error&#xa;     dir: /var/tmp&#xa;     stats_log_interval: 60&#xa;     rotate_interval: 24" FOLDED="true" ID="ID_926765936" CREATED="1535493291175" MODIFIED="1535493351873">
+<font NAME="Courier New"/>
+<node TEXT="rotate_interval" FOLDED="true" ID="ID_1653187132" CREATED="1535493361967" MODIFIED="1535493369624">
+<node TEXT="does not compress previous log file" ID="ID_1388744330" CREATED="1535493375936" MODIFIED="1535493382327"/>
+<node TEXT="Creates new log file with new timestamp" ID="ID_1471458071" CREATED="1535493387246" MODIFIED="1535493395360"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Debugging" FOLDED="true" ID="ID_1713215981" CREATED="1535503833960" MODIFIED="1535503918764">
+<node TEXT="Can be enabled through CLI" ID="ID_656303695" CREATED="1535503919697" MODIFIED="1535503928529"/>
+</node>
+<node TEXT="Monitoring" FOLDED="true" ID="ID_587953136" CREATED="1535504094104" MODIFIED="1535504097032">
+<node TEXT="Through COTS Node.js app monitoring tools" ID="ID_1836942187" CREATED="1535504097848" MODIFIED="1535504114905"/>
+<node TEXT="No Apigee specific tools" ID="ID_374878250" CREATED="1535504118896" MODIFIED="1535504187234"/>
+</node>
+<node TEXT="Best Practices" FOLDED="true" ID="ID_1176640791" CREATED="1535415102681" MODIFIED="1535489438012">
+<node TEXT="On Windows OS" FOLDED="true" ID="ID_1161649793" CREATED="1535415108722" MODIFIED="1535415114419">
+<node TEXT="Run microedge as a Windows Service" ID="ID_1760350178" CREATED="1535415115122" MODIFIED="1535415150585" LINK="https://community.apigee.com/questions/32916/best-practices-for-operational-management-of-micro.html"/>
+</node>
+<node TEXT="Microservice architecture" FOLDED="true" ID="ID_1087624714" CREATED="1535504252824" MODIFIED="1535504259272">
+<node ID="ID_544541845" CREATED="1535504261061" MODIFIED="1535504267355"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="O0" style="line-height: normal; margin-top: 0pt; margin-bottom: 0pt; margin-left: .5in; margin-right: 0in; text-indent: -.33in; text-align: left">
+      <font size="12.0pt" color="black" face="Arial"><span style="font-size: 12.0pt; font-family: Arial; font-variant: normal; color: black; text-transform: none; font-weight: normal; font-style: normal">Start the Microgateway in the same container as the target service</span></font>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1968868580" CREATED="1535504261062" MODIFIED="1535504272237"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="O0" style="line-height: normal; margin-top: 0pt; margin-bottom: 0pt; margin-left: .5in; margin-right: 0in; text-indent: -.33in; text-align: left">
+      <font size="12.0pt" color="black" face="Arial"><span style="font-size: 12.0pt; font-family: Arial; font-variant: normal; color: black; text-transform: none; font-weight: normal; font-style: normal">Target service should not be accessible from any other port; all requests must flow through Microgateway</span></font>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Handling data loss scenarios" FOLDED="true" ID="ID_1432887332" CREATED="1535489439356" MODIFIED="1535489459980">
+<node TEXT="Large buffer size, small interval" FOLDED="true" ID="ID_931206418" CREATED="1535489461035" MODIFIED="1535489475038">
+<node TEXT="Useful when microedge server crashes frequently" ID="ID_557771757" CREATED="1535489509699" MODIFIED="1535489529156"/>
+</node>
+<node TEXT="Large buffer size, large interval" FOLDED="true" ID="ID_861007577" CREATED="1535561718803" MODIFIED="1535561730518">
+<node TEXT="Addresses situation where intermittent connection to edge??" ID="ID_429749032" CREATED="1535561731346" MODIFIED="1535561750766"/>
+</node>
+</node>
+</node>
 </node>
 <node TEXT="Developer Portal" FOLDED="true" ID="ID_1739439860" CREATED="1504806433954" MODIFIED="1504806482243">
 <node TEXT="What?" ID="ID_1089308029" CREATED="1504806485030" MODIFIED="1504806487619"/>
@@ -788,13 +1549,13 @@
 </node>
 </node>
 <node TEXT="Analytics" FOLDED="true" ID="ID_668922973" CREATED="1504806771363" MODIFIED="1530559011089">
-<node TEXT="What?" ID="ID_473675314" CREATED="1504806801118" MODIFIED="1504806803692">
+<node TEXT="What?" FOLDED="true" ID="ID_473675314" CREATED="1504806801118" MODIFIED="1504806803692">
 <node TEXT="Reporting module" ID="ID_211694958" CREATED="1504806804827" MODIFIED="1504806808708"/>
 <node TEXT="Serves as repo of analytics data" ID="ID_1471970638" CREATED="1533949995475" MODIFIED="1533950003732"/>
 <node TEXT="Provides statistical graphs that can be customized" ID="ID_505363089" CREATED="1533950041571" MODIFIED="1533950054228"/>
 <node TEXT="Data available through APIs" ID="ID_763707285" CREATED="1533950060707" MODIFIED="1533950066124"/>
 </node>
-<node TEXT="Types" ID="ID_1554492702" CREATED="1533949932931" MODIFIED="1533949935420">
+<node TEXT="Types" FOLDED="true" ID="ID_1554492702" CREATED="1533949932931" MODIFIED="1533949935420">
 <node TEXT="Dashboards" ID="ID_629035795" CREATED="1533949936234" MODIFIED="1533949939836">
 <node TEXT="What?" ID="ID_549446096" CREATED="1533950019675" MODIFIED="1533950022020">
 <node TEXT="Allows high level views &amp; deeper drill downs" ID="ID_1471843003" CREATED="1533950022819" MODIFIED="1533950034093"/>
@@ -822,7 +1583,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Analytics API" ID="ID_415286110" CREATED="1533950257579" MODIFIED="1533950262852">
+<node TEXT="Analytics API" FOLDED="true" ID="ID_415286110" CREATED="1533950257579" MODIFIED="1533950262852">
 <node TEXT="Resources" ID="ID_6500522" CREATED="1533950294875" MODIFIED="1533950298268">
 <node TEXT="APIs" ID="ID_1816732677" CREATED="1533950298850" MODIFIED="1533950301044"/>
 <node TEXT="APIProducts" ID="ID_840050738" CREATED="1533950301675" MODIFIED="1533950305011"/>
@@ -1007,7 +1768,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Concepts" POSITION="right" ID="ID_1919215024" CREATED="1505001440299" MODIFIED="1534830861968">
+<node TEXT="Concepts" FOLDED="true" POSITION="right" ID="ID_1919215024" CREATED="1505001440299" MODIFIED="1534830861968">
 <edge COLOR="#7c7c00"/>
 <node TEXT="Proxies" FOLDED="true" ID="ID_890099407" CREATED="1505001511564" MODIFIED="1505001515428">
 <node TEXT="Behavior" FOLDED="true" ID="ID_1985729066" CREATED="1530558057505" MODIFIED="1530558069723">
@@ -1112,7 +1873,7 @@
 <node TEXT="Benefits" FOLDED="true" ID="ID_1294378876" CREATED="1508789384929" MODIFIED="1508789387508">
 <node TEXT="Single code base to manage for same functionality" ID="ID_602796709" CREATED="1508789388539" MODIFIED="1508789401985"/>
 </node>
-<node TEXT="Scope" ID="ID_448091612" CREATED="1508789260265" MODIFIED="1508789263078">
+<node TEXT="Scope" FOLDED="true" ID="ID_448091612" CREATED="1508789260265" MODIFIED="1508789263078">
 <node TEXT="Organization + Environment level" FOLDED="true" ID="ID_1818771819" CREATED="1508789291990" MODIFIED="1533617326884">
 <node TEXT="Can be shared by API proxies or shared flows within the same organization and environment" ID="ID_1134135528" CREATED="1508789296693" MODIFIED="1533617307746"/>
 </node>
@@ -1133,14 +1894,12 @@
 </node>
 </node>
 <node TEXT="Using" ID="ID_1341992233" CREATED="1533597378913" MODIFIED="1533597381567">
-<node TEXT="Proxy by Proxy" ID="ID_673261973" CREATED="1533597383267" MODIFIED="1533597413002">
-<node TEXT="Flow Callout Policy" ID="ID_563731835" CREATED="1508789457020" MODIFIED="1508789465342">
-<node TEXT="What?" FOLDED="true" ID="ID_716485714" CREATED="1533617515916" MODIFIED="1533617523079">
-<node TEXT="Policy to call Shared Flow" ID="ID_1194307902" CREATED="1533617525046" MODIFIED="1533617552984"/>
+<node TEXT="Proxy by Proxy" FOLDED="true" ID="ID_673261973" CREATED="1533597383267" MODIFIED="1533597413002">
+<node TEXT="Flow Callout Policy" ID="ID_563731835" CREATED="1508789457020" MODIFIED="1534999523876">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1416013494" STARTINCLINATION="604;0;" ENDINCLINATION="604;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
-</node>
-<node TEXT="Global policy" ID="ID_413195897" CREATED="1533597413492" MODIFIED="1533597422484">
+<node TEXT="Global policy" FOLDED="true" ID="ID_413195897" CREATED="1533597413492" MODIFIED="1533597422484">
 <node TEXT="Flow Hook" FOLDED="true" ID="ID_877433563" CREATED="1508789472522" MODIFIED="1508789480462">
 <node TEXT="What?" FOLDED="true" ID="ID_421500120" CREATED="1508791681988" MODIFIED="1508791692491">
 <node TEXT="Executes Shared flows at the specified position for EVERY API proxy deployed to the proxy hook&apos;s environment" ID="ID_979186417" CREATED="1508791693507" MODIFIED="1533617385591"/>
@@ -1166,7 +1925,7 @@
 <node TEXT="Pre-proxy" ID="ID_363841800" CREATED="1508792062331" MODIFIED="1508792069454"/>
 <node TEXT="Pre-target" ID="ID_521453671" CREATED="1508792070266" MODIFIED="1508792073775"/>
 <node TEXT="Post-target" ID="ID_1576727884" CREATED="1508792074353" MODIFIED="1508792080953"/>
-<node TEXT="Post-prox" ID="ID_1051927769" CREATED="1508792094790" MODIFIED="1508792142899"/>
+<node TEXT="Post-proxy" ID="ID_1051927769" CREATED="1508792094790" MODIFIED="1534999732250"/>
 </node>
 <node TEXT="How?" FOLDED="true" ID="ID_1074651834" CREATED="1533617572373" MODIFIED="1533617576106">
 <node TEXT="APIs &gt; Environments &gt; Flow Hooks" ID="ID_89801095" CREATED="1533617584534" MODIFIED="1533617627955"/>
@@ -1559,7 +2318,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_105107686" CREATED="1534830258014" MODIFIED="1534830286981"><richcontent TYPE="NODE">
@@ -1574,7 +2332,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2112,9 +2869,9 @@
 </node>
 </node>
 </node>
-<node TEXT="Important policies" POSITION="right" ID="ID_1211109120" CREATED="1504808388779" MODIFIED="1504808394501">
+<node TEXT="Important policies" FOLDED="true" POSITION="right" ID="ID_1211109120" CREATED="1504808388779" MODIFIED="1504808394501">
 <edge COLOR="#00007c"/>
-<node TEXT="Traffic Mngt" ID="ID_715356317" CREATED="1531359173610" MODIFIED="1531359180170">
+<node TEXT="Traffic Mngt" FOLDED="true" ID="ID_715356317" CREATED="1531359173610" MODIFIED="1531359180170">
 <node TEXT="Spike Arrest" FOLDED="true" ID="ID_1948490056" CREATED="1504810901212" MODIFIED="1504810905949">
 <node TEXT="What?" FOLDED="true" ID="ID_1571534359" CREATED="1531359478340" MODIFIED="1531359480018">
 <node TEXT="Avoid traffic spikes" ID="ID_1445488410" CREATED="1531359532626" MODIFIED="1531359549938"/>
@@ -2155,7 +2912,7 @@
 <node TEXT="Used to give extra weight to conditioned requests" ID="ID_15758791" CREATED="1534911328249" MODIFIED="1534911340373"/>
 <node TEXT="e.g. &lt;MessageWeight ref= &quot;request.header.weight&quot;/&gt;" ID="ID_170287323" CREATED="1534911341086" MODIFIED="1534911376405"/>
 </node>
-<node TEXT="Rate" FOLDED="true" ID="ID_1059890193" CREATED="1534911154818" MODIFIED="1534911156827">
+<node TEXT="Rate" ID="ID_1059890193" CREATED="1534911154818" MODIFIED="1534911156827">
 <node TEXT="For each MP" ID="ID_164654710" CREATED="1534911165112" MODIFIED="1534911169927"/>
 <node TEXT="Number + Unit" FOLDED="true" ID="ID_85677704" CREATED="1534911176902" MODIFIED="1534911184165">
 <node TEXT="Unit" FOLDED="true" ID="ID_1520437867" CREATED="1534911185408" MODIFIED="1534911187364">
@@ -2166,7 +2923,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Quota" ID="ID_830202785" CREATED="1504811915837" MODIFIED="1531443715675">
+<node TEXT="Quota" FOLDED="true" ID="ID_830202785" CREATED="1504811915837" MODIFIED="1531443715675">
 <node TEXT="What?" FOLDED="true" ID="ID_1516635276" CREATED="1531359337460" MODIFIED="1531359340822">
 <node TEXT="Limit calls over a period of time" ID="ID_332735365" CREATED="1531359356385" MODIFIED="1531359384414"/>
 <node TEXT="At API, Product or developer level" ID="ID_1897681818" CREATED="1531359399194" MODIFIED="1531359467165"/>
@@ -2189,7 +2946,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="To maintain different counters within a proxy" FOLDED="true" ID="ID_1344468709" CREATED="1534917240512" MODIFIED="1534917266185">
@@ -2206,7 +2962,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="OR Use the &lt;Class&gt; or &lt;Identifier&gt; elements" ID="ID_1257540952" CREATED="1534917327665" MODIFIED="1534917351973"/>
@@ -2360,7 +3115,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Security" ID="ID_300911283" CREATED="1531359181094" MODIFIED="1531790151922">
+<node TEXT="Security" FOLDED="true" ID="ID_300911283" CREATED="1531359181094" MODIFIED="1531790151922">
 <node TEXT="Verify API Key" FOLDED="true" ID="ID_1417690308" CREATED="1505003435771" MODIFIED="1505003440454">
 <node TEXT="Prerequisites" ID="ID_456635152" CREATED="1534909817030" MODIFIED="1534909822581">
 <node TEXT="API proxy" ID="ID_1769466607" CREATED="1534909840093" MODIFIED="1534909842526"/>
@@ -2437,7 +3192,7 @@
 </node>
 </node>
 <node TEXT="Threat protection" FOLDED="true" ID="ID_431534574" CREATED="1531445466127" MODIFIED="1531445470769">
-<node TEXT="XML" ID="ID_985375181" CREATED="1531445491693" MODIFIED="1531445493562">
+<node TEXT="XML" FOLDED="true" ID="ID_985375181" CREATED="1531445491693" MODIFIED="1531445493562">
 <node TEXT="What?" FOLDED="true" ID="ID_1716999167" CREATED="1531445676764" MODIFIED="1531445681153">
 <node TEXT="Validates request against given Schema" ID="ID_1553262418" CREATED="1531445683029" MODIFIED="1531445692451"/>
 <node TEXT="Prevents parser overloads" ID="ID_1852315372" CREATED="1534911789969" MODIFIED="1534911797201"/>
@@ -2448,7 +3203,7 @@
 <node TEXT="Just checks payload" ID="ID_186299050" CREATED="1531445723050" MODIFIED="1531445728450"/>
 </node>
 </node>
-<node TEXT="JSON" ID="ID_1844984960" CREATED="1531445494148" MODIFIED="1531445496132">
+<node TEXT="JSON" FOLDED="true" ID="ID_1844984960" CREATED="1531445494148" MODIFIED="1531445496132">
 <node TEXT="What?" FOLDED="true" ID="ID_1001545820" CREATED="1534912052163" MODIFIED="1534912054631">
 <node TEXT="Allows to specify limits on JSON structures" FOLDED="true" ID="ID_917191881" CREATED="1534912057894" MODIFIED="1534912083525">
 <node TEXT="E.g." FOLDED="true" ID="ID_1692709043" CREATED="1534912126989" MODIFIED="1534912130218">
@@ -2462,7 +3217,7 @@
 <node TEXT="Watch for errors and calibrate over time" ID="ID_1552206488" CREATED="1534912183375" MODIFIED="1534912191284"/>
 </node>
 </node>
-<node TEXT="RegEx" ID="ID_1413932117" CREATED="1531445496769" MODIFIED="1531445499836">
+<node TEXT="RegEx" FOLDED="true" ID="ID_1413932117" CREATED="1531445496769" MODIFIED="1531445499836">
 <node TEXT="What?" FOLDED="true" ID="ID_1067927598" CREATED="1531445672149" MODIFIED="1531445674726">
 <node TEXT="More generic" ID="ID_786125541" CREATED="1531445702277" MODIFIED="1531445705382"/>
 <node TEXT="Can check request structure (including headers, query params) + payload" FOLDED="true" ID="ID_1153630651" CREATED="1531445838155" MODIFIED="1534911837396">
@@ -2476,21 +3231,21 @@
 </node>
 </node>
 <node TEXT="OAuth v2" FOLDED="true" ID="ID_359470216" CREATED="1531446264525" MODIFIED="1531790151920">
-<node TEXT="Types" ID="ID_379760542" CREATED="1531446302653" MODIFIED="1531446608960">
+<node TEXT="Types" FOLDED="true" ID="ID_379760542" CREATED="1531446302653" MODIFIED="1531446608960">
 <node TEXT="Generate access token" ID="ID_227674732" CREATED="1531446307328" MODIFIED="1531446317295"/>
 <node TEXT="Verify access token" ID="ID_1542381167" CREATED="1531446317864" MODIFIED="1531446322802"/>
 <node TEXT="Generate authorization code" ID="ID_1817084233" CREATED="1531446326726" MODIFIED="1531446332991"/>
 <node TEXT="Refresh access token" ID="ID_614187780" CREATED="1531446336940" MODIFIED="1531446341829"/>
 </node>
-<node TEXT="Types" ID="ID_461910874" CREATED="1531446889987" MODIFIED="1531446893417">
-<node TEXT="Get token" ID="ID_181931798" CREATED="1531446896197" MODIFIED="1531446901640">
+<node TEXT="Types" FOLDED="true" ID="ID_461910874" CREATED="1531446889987" MODIFIED="1531446893417">
+<node TEXT="Get token" FOLDED="true" ID="ID_181931798" CREATED="1531446896197" MODIFIED="1531446901640">
 <node TEXT="Retrieves the attributes of Access Tokens, Refresh Tokens, Authorization Codes &amp; Client app attributes" ID="ID_1311638180" CREATED="1531446640912" MODIFIED="1531446688392"/>
 <node TEXT="Stores these data into flow variables" ID="ID_1632974288" CREATED="1531446664132" MODIFIED="1531446670400"/>
 <node TEXT="Use to" FOLDED="true" ID="ID_790227471" CREATED="1531446692734" MODIFIED="1531446727554">
 <node TEXT="Configure dynamic or conditional behavior based on a customer attribute, and a token, or an authorization code" ID="ID_1996841054" CREATED="1531446729033" MODIFIED="1531446762420"/>
 </node>
 </node>
-<node TEXT="Set token" ID="ID_1855113496" CREATED="1531446902200" MODIFIED="1531446958788">
+<node TEXT="Set token" FOLDED="true" ID="ID_1855113496" CREATED="1531446902200" MODIFIED="1531446958788">
 <node TEXT="Add or update custom attributes associated with an access token" ID="ID_12365772" CREATED="1531446808446" MODIFIED="1531446823782"/>
 </node>
 <node TEXT="Delete token" ID="ID_80507407" CREATED="1531446948751" MODIFIED="1531446952899"/>
@@ -2498,7 +3253,7 @@
 </node>
 <node TEXT="SAML" ID="ID_285084732" CREATED="1531446971883" MODIFIED="1531446987146"/>
 <node TEXT="Access Control" FOLDED="true" ID="ID_1471597921" CREATED="1531446988774" MODIFIED="1531446994354">
-<node TEXT="What?" ID="ID_786470156" CREATED="1531446995832" MODIFIED="1531446997734">
+<node TEXT="What?" FOLDED="true" ID="ID_786470156" CREATED="1531446995832" MODIFIED="1531446997734">
 <node TEXT="Allows IP white/black lists" ID="ID_132710924" CREATED="1531446998770" MODIFIED="1531447009006"/>
 </node>
 </node>
@@ -2581,13 +3336,13 @@
 </node>
 </node>
 <node TEXT="KVM Operations" FOLDED="true" ID="ID_133949659" CREATED="1531444877947" MODIFIED="1531444888559">
-<node TEXT="What?" FOLDED="true" ID="ID_116547326" CREATED="1531444899912" MODIFIED="1531444902389">
+<node TEXT="What?" ID="ID_116547326" CREATED="1531444899912" MODIFIED="1531444902389">
 <node TEXT="Allows runtime access to the KVMs stored in Apigee Edge" ID="ID_1358363050" CREATED="1531444915986" MODIFIED="1531445067838"/>
 <node TEXT="GET, PUT, DELETE" ID="ID_834848936" CREATED="1531445068978" MODIFIED="1531445170533"/>
 <node TEXT="Can be used with encrypted/unencrypted KVMs" ID="ID_814799484" CREATED="1531445118807" MODIFIED="1531445160016"/>
 </node>
 <node TEXT="Nuance" FOLDED="true" ID="ID_1846910805" CREATED="1532478233917" MODIFIED="1532478236598">
-<node ID="ID_840164423" CREATED="1532478237588" MODIFIED="1532478291424"><richcontent TYPE="NODE">
+<node ID="ID_840164423" CREATED="1532478237588" MODIFIED="1534998943140"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -2595,7 +3350,7 @@
   </head>
   <body>
     <p>
-      If the key value map is encrypted, the assignTo name <i><b>must</b></i><b>&#160;</b>with &quot;private.&quot;
+      If the key value map is encrypted, the assignTo name <i><b>must</b></i><b>&#160;</b>be prefixed with &quot;private.&quot;
     </p>
   </body>
 </html>
@@ -2603,25 +3358,9 @@
 </node>
 </node>
 </node>
-<node TEXT="Statistics Collector" FOLDED="true" ID="ID_547947906" CREATED="1533619480578" MODIFIED="1533619487205">
-<node TEXT="What?" FOLDED="true" ID="ID_66496502" CREATED="1533619488874" MODIFIED="1533619490909">
-<node TEXT="Used for reporting on custom parameters" ID="ID_1172102675" CREATED="1533619564917" MODIFIED="1533619577203"/>
-<node TEXT="Stores data from flow variables into the analytics engine" ID="ID_1645984485" CREATED="1533619598875" MODIFIED="1533619614897"/>
-<node TEXT="This data visible from custom reports" ID="ID_400073428" CREATED="1533619652398" MODIFIED="1533619663101"/>
 </node>
-<node TEXT="Limitation" FOLDED="true" ID="ID_571870312" CREATED="1533619684193" MODIFIED="1533619687968">
-<node TEXT="If more than 1 Statistics Collector in request flow, the last one takes precedence" ID="ID_597445336" CREATED="1533619689478" MODIFIED="1533619716160"/>
-</node>
-</node>
-<node TEXT="Syslog" FOLDED="true" ID="ID_1010239033" CREATED="1504808395372" MODIFIED="1504808398469">
-<node TEXT="For logging" ID="ID_1539941502" CREATED="1504808399734" MODIFIED="1504808403396"/>
-<node TEXT="Uses async" ID="ID_1494620037" CREATED="1504808404163" MODIFIED="1504808411205"/>
-</node>
-</node>
-<node TEXT="Extension" FOLDED="true" ID="ID_666993869" CREATED="1533617747073" MODIFIED="1533617751877">
-<node TEXT="What?" ID="ID_1647254688" CREATED="1533617755821" MODIFIED="1533617762387"/>
-<node TEXT="Examples" ID="ID_583035530" CREATED="1533617762671" MODIFIED="1533949071606">
-<node TEXT="Java" FOLDED="true" ID="ID_111624109" CREATED="1533617811531" MODIFIED="1533617813725">
+<node TEXT="Extension" ID="ID_666993869" CREATED="1533617747073" MODIFIED="1533617751877">
+<node TEXT="Java Callout" FOLDED="true" ID="ID_111624109" CREATED="1533617811531" MODIFIED="1534999410409">
 <node TEXT="Capabilities" FOLDED="true" ID="ID_1590327558" CREATED="1533618516227" MODIFIED="1533618522239">
 <node TEXT="Similar to JavaScript callout" ID="ID_1064075329" CREATED="1533618560478" MODIFIED="1533618571590"/>
 </node>
@@ -2651,12 +3390,12 @@
 <node TEXT="Dynamically changing target server" ID="ID_188151536" CREATED="1533618473219" MODIFIED="1533618483683"/>
 </node>
 </node>
-<node TEXT="Python" FOLDED="true" ID="ID_924168065" CREATED="1533617817767" MODIFIED="1533617826641">
+<node TEXT="Python Callout" FOLDED="true" ID="ID_924168065" CREATED="1533617817767" MODIFIED="1534999417890">
 <node TEXT="Capabilities" FOLDED="true" ID="ID_1260155435" CREATED="1533618490991" MODIFIED="1533618497258">
 <node TEXT="Similar to JavaScript policy" ID="ID_188529596" CREATED="1533618498671" MODIFIED="1533618509941"/>
 </node>
 </node>
-<node TEXT="ServiceCallout" ID="ID_850695050" CREATED="1505008435581" MODIFIED="1505008442208">
+<node TEXT="ServiceCallout" FOLDED="true" ID="ID_850695050" CREATED="1505008435581" MODIFIED="1505008442208">
 <node TEXT="What?" ID="ID_340677063" CREATED="1505008756342" MODIFIED="1533619474660">
 <node TEXT="Used to make calls to end-points in-line" ID="ID_1864500144" CREATED="1505008933767" MODIFIED="1533619474660"/>
 <node TEXT="Can be used to make calls to" ID="ID_838881931" CREATED="1533706932271" MODIFIED="1534833706945">
@@ -2778,6 +3517,24 @@
 </node>
 </node>
 </node>
+<node TEXT="Flow Callout" FOLDED="true" ID="ID_1416013494" CREATED="1534999423023" MODIFIED="1534999430959">
+<node TEXT="What?" ID="ID_716485714" CREATED="1533617515916" MODIFIED="1533617523079">
+<node TEXT="Policy to call Shared Flow" ID="ID_1194307902" CREATED="1533617525046" MODIFIED="1533617552984"/>
+</node>
+</node>
+<node TEXT="Statistics Collector" FOLDED="true" ID="ID_547947906" CREATED="1533619480578" MODIFIED="1533619487205">
+<node TEXT="What?" FOLDED="true" ID="ID_66496502" CREATED="1533619488874" MODIFIED="1533619490909">
+<node TEXT="Used for reporting on custom parameters" ID="ID_1172102675" CREATED="1533619564917" MODIFIED="1533619577203"/>
+<node TEXT="Stores data from flow variables into the analytics engine" ID="ID_1645984485" CREATED="1533619598875" MODIFIED="1533619614897"/>
+<node TEXT="This data visible from custom reports" ID="ID_400073428" CREATED="1533619652398" MODIFIED="1533619663101"/>
+</node>
+<node TEXT="Limitation" FOLDED="true" ID="ID_571870312" CREATED="1533619684193" MODIFIED="1533619687968">
+<node TEXT="If more than 1 Statistics Collector in request flow, the last one takes precedence" ID="ID_597445336" CREATED="1533619689478" MODIFIED="1533619716160"/>
+</node>
+</node>
+<node TEXT="Message Logging" FOLDED="true" ID="ID_1010239033" CREATED="1504808395372" MODIFIED="1534999452290">
+<node TEXT="For logging" ID="ID_1539941502" CREATED="1504808399734" MODIFIED="1504808403396"/>
+<node TEXT="Uses async" ID="ID_1494620037" CREATED="1504808404163" MODIFIED="1504808411205"/>
 </node>
 </node>
 </node>
@@ -2816,6 +3573,55 @@
 </node>
 <node TEXT="Security" POSITION="right" ID="ID_1511158720" CREATED="1534909789169" MODIFIED="1534909792282">
 <edge COLOR="#007c00"/>
+</node>
+<node TEXT="Certification topics" POSITION="right" ID="ID_943542652" CREATED="1535556111628" MODIFIED="1535556116580">
+<edge COLOR="#7c007c"/>
+<node TEXT="Questions" ID="ID_1905617226" CREATED="1535556129370" MODIFIED="1535556795425">
+<node TEXT="Are these all multiple choice questions? More than one correct answers?" ID="ID_166927892" CREATED="1535556800903" MODIFIED="1535556819402"/>
+<node TEXT="Questions on coding/debugging?" ID="ID_430328046" CREATED="1535556819903" MODIFIED="1535556867089"/>
+<node TEXT="Questions on proxy structure?" ID="ID_1970661938" CREATED="1535556867679" MODIFIED="1535556932833"/>
+</node>
+<node TEXT="Answers" ID="ID_1575788762" CREATED="1535556795711" MODIFIED="1535556799640">
+<node TEXT="Approach" ID="ID_73032350" CREATED="1535557230456" MODIFIED="1535557282800">
+<node TEXT="Study guide" ID="ID_360868018" CREATED="1535557284240" MODIFIED="1535557290296"/>
+<node TEXT="Coursera course" ID="ID_1447419408" CREATED="1535557290688" MODIFIED="1535557295800"/>
+</node>
+<node TEXT="Topics" ID="ID_826696011" CREATED="1535557356527" MODIFIED="1535557363202">
+<node TEXT="Microgateway" ID="ID_565980049" CREATED="1535557364152" MODIFIED="1535557368489">
+<node TEXT="Install" ID="ID_1928262942" CREATED="1535557418023" MODIFIED="1535557421169"/>
+<node TEXT="Plugins" ID="ID_1126287048" CREATED="1535557421648" MODIFIED="1535557425754"/>
+</node>
+<node TEXT="Policies" ID="ID_1443617301" CREATED="1535557472000" MODIFIED="1535557475129">
+<node TEXT="Mediation" ID="ID_901392857" CREATED="1535557485256" MODIFIED="1535557487778">
+<node TEXT="For SOAP validation what kind of policies?" ID="ID_816009331" CREATED="1535557488783" MODIFIED="1535557499937"/>
+</node>
+<node TEXT="Security policies" ID="ID_1995903520" CREATED="1535557523992" MODIFIED="1535557529561">
+<node TEXT="OAuth 2" ID="ID_1062483305" CREATED="1535557530448" MODIFIED="1535557535249">
+<node TEXT="Grant Types" FOLDED="true" ID="ID_232329958" CREATED="1535557536104" MODIFIED="1535557539617">
+<node TEXT="which is most secure" ID="ID_703746767" CREATED="1535557544976" MODIFIED="1535557549216"/>
+<node TEXT="different scenarios to be used" ID="ID_443141001" CREATED="1535557549784" MODIFIED="1535557565826"/>
+<node TEXT="difference between grant types" ID="ID_1023679440" CREATED="1535557568024" MODIFIED="1535557577410"/>
+</node>
+</node>
+<node TEXT="TLS" ID="ID_601042468" CREATED="1535557586280" MODIFIED="1535557588337">
+<node TEXT="Configure TLS" FOLDED="true" ID="ID_1988682120" CREATED="1535557589193" MODIFIED="1535557592618">
+<node TEXT="Steps" ID="ID_192862434" CREATED="1535557601160" MODIFIED="1535557603193"/>
+<node TEXT="Certificates" ID="ID_1590929124" CREATED="1535557605104" MODIFIED="1535557607809"/>
+</node>
+</node>
+</node>
+<node TEXT="What attributes to set for a particular policies" ID="ID_1738068049" CREATED="1535558227760" MODIFIED="1535558242218"/>
+</node>
+<node TEXT="Exception handler" ID="ID_753335023" CREATED="1535558265248" MODIFIED="1535558276202"/>
+<node TEXT="Extensions" ID="ID_1422587443" CREATED="1535558290361" MODIFIED="1535558294787"/>
+<node TEXT="Node.js" ID="ID_1686372422" CREATED="1535558295041" MODIFIED="1535558297122"/>
+<node TEXT="CI/CD" ID="ID_1592953425" CREATED="1535558007792" MODIFIED="1535558010714">
+<node TEXT="Maven plugin" ID="ID_1723792645" CREATED="1535558013312" MODIFIED="1535558017738"/>
+<node TEXT="API Test strategy" ID="ID_309466230" CREATED="1535558027616" MODIFIED="1535558031986"/>
+<node TEXT="API requirement analysis" ID="ID_489584484" CREATED="1535558032592" MODIFIED="1535558040051"/>
+</node>
+</node>
+</node>
 </node>
 <node TEXT="Apigee Edge Vs Node.js" FOLDED="true" POSITION="left" ID="ID_1133532383" CREATED="1504812626894" MODIFIED="1504812639694">
 <edge COLOR="#7c007c"/>
@@ -2866,7 +3672,7 @@
 <node TEXT="Limitations" ID="ID_1233643907" CREATED="1504813131751" MODIFIED="1504813165294">
 <node TEXT="Hosted environment" ID="ID_1549943293" CREATED="1504813149543" MODIFIED="1504813155887"/>
 <node TEXT="Limited local access" ID="ID_407927804" CREATED="1504813177661" MODIFIED="1504813182118"/>
-<node TEXT="SSL support" FOLDED="true" ID="ID_46938047" CREATED="1504813200079" MODIFIED="1504813205999">
+<node TEXT="SSL support" ID="ID_46938047" CREATED="1504813200079" MODIFIED="1504813205999">
 <node TEXT="Can support .jks files" ID="ID_1432017580" CREATED="1504813206744" MODIFIED="1504813213984"/>
 <node TEXT="Limited support for .pem files" ID="ID_622650946" CREATED="1504813214726" MODIFIED="1504813219887"/>
 </node>
@@ -2874,16 +3680,16 @@
 <node TEXT="Advantages" FOLDED="true" ID="ID_1679812888" CREATED="1504813222662" MODIFIED="1504813237406">
 <node TEXT="Have access to everything on Edge platform like flow variables, vaults, etc." ID="ID_553897357" CREATED="1504813238217" MODIFIED="1504813271526"/>
 </node>
-<node TEXT="How" FOLDED="true" ID="ID_554214839" CREATED="1534396860267" MODIFIED="1534396862451">
-<node TEXT="Proxy changes" FOLDED="true" ID="ID_1717459861" CREATED="1534397034599" MODIFIED="1534397038469">
-<node TEXT="ScriptTarget &amp; ScriptTarget/ResourceURL" FOLDED="true" ID="ID_753421479" CREATED="1534396864570" MODIFIED="1534396941742">
-<node TEXT="Instead of" FOLDED="true" ID="ID_1261954295" CREATED="1534396946069" MODIFIED="1534396950820">
+<node TEXT="How" ID="ID_554214839" CREATED="1534396860267" MODIFIED="1534396862451">
+<node TEXT="Proxy changes" ID="ID_1717459861" CREATED="1534397034599" MODIFIED="1534397038469">
+<node TEXT="ScriptTarget &amp; ScriptTarget/ResourceURL" ID="ID_753421479" CREATED="1534396864570" MODIFIED="1534396941742">
+<node TEXT="Instead of" ID="ID_1261954295" CREATED="1534396946069" MODIFIED="1534396950820">
 <node TEXT="HTTPTargetConnection &amp; HTTPTargetConnection/URL" ID="ID_464745539" CREATED="1534396952012" MODIFIED="1534396972669"/>
 </node>
 </node>
 </node>
 <node TEXT="Accessing Apigee entities" FOLDED="true" ID="ID_697122275" CREATED="1534397533837" MODIFIED="1534397550391">
-<node TEXT="Use apigee-access node module" FOLDED="true" ID="ID_874530213" CREATED="1534397551844" MODIFIED="1534397563980">
+<node TEXT="Use apigee-access npm module" FOLDED="true" ID="ID_874530213" CREATED="1534397551844" MODIFIED="1535401723660">
 <node TEXT="Access/modify flow variables" ID="ID_1537543044" CREATED="1534397608806" MODIFIED="1534397623459"/>
 <node TEXT="Retrieve data from KVM" ID="ID_463279411" CREATED="1534397623814" MODIFIED="1534397631509"/>
 <node TEXT="Use built-in distributed cache" ID="ID_108397036" CREATED="1534397634067" MODIFIED="1534397641881"/>
@@ -2892,18 +3698,18 @@
 </node>
 </node>
 </node>
-<node TEXT="Difference with other Extension Policies" FOLDED="true" ID="ID_1257867951" CREATED="1534397046558" MODIFIED="1534397057559">
+<node TEXT="Difference with other Extension Policies" ID="ID_1257867951" CREATED="1534397046558" MODIFIED="1534397057559">
 <node TEXT="Other extension policies attached as steps" ID="ID_592574461" CREATED="1534397068131" MODIFIED="1534397078999"/>
 <node TEXT="Node.js implemented as target" ID="ID_917040528" CREATED="1534397081165" MODIFIED="1534397092590"/>
 </node>
-<node TEXT="Debugging" FOLDED="true" ID="ID_1827937762" CREATED="1534397717613" MODIFIED="1534397721285">
+<node TEXT="Debugging" ID="ID_1827937762" CREATED="1534397717613" MODIFIED="1534397721285">
 <node TEXT="Apigee Edge trace tool" ID="ID_304485156" CREATED="1534397763287" MODIFIED="1534397769078"/>
 <node TEXT="Node.js logs" ID="ID_1889664476" CREATED="1534397769852" MODIFIED="1534397784710"/>
 <node TEXT="Using console log statements in node.js &amp; view on console" ID="ID_963870518" CREATED="1534397799295" MODIFIED="1534397821212"/>
 </node>
 </node>
 </node>
-<node TEXT="API Design/Dev Best Practices" POSITION="left" ID="ID_769238015" CREATED="1530573032901" MODIFIED="1530598285052" LINK="https://docs.apigee.com/api-platform/fundamentals/best-practices-api-proxy-design-and-development">
+<node TEXT="API Design/Dev Best Practices" FOLDED="true" POSITION="left" ID="ID_769238015" CREATED="1530573032901" MODIFIED="1530598285052" LINK="https://docs.apigee.com/api-platform/fundamentals/best-practices-api-proxy-design-and-development">
 <edge COLOR="#7c0000"/>
 <node TEXT="Development Stds" FOLDED="true" ID="ID_238989078" CREATED="1530573052233" MODIFIED="1530573063187">
 <node TEXT="Comments &amp; Docs" FOLDED="true" ID="ID_34968157" CREATED="1530573073805" MODIFIED="1530573078939">
@@ -3045,7 +3851,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Can be configured for each environment" ID="ID_965657766" CREATED="1531791220240" MODIFIED="1531791229290"/>
