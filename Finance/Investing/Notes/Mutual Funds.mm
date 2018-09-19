@@ -1,0 +1,271 @@
+<map version="freeplane 1.6.0">
+<!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
+<node TEXT="Mutual Funds" FOLDED="false" ID="ID_1593643888" CREATED="1518029878617" MODIFIED="1518029883581" STYLE="oval">
+<font SIZE="18"/>
+<hook NAME="MapStyle">
+    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+
+<map_styles>
+<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
+<font SIZE="24"/>
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="default" ICON_SIZE="12.0 pt" COLOR="#000000" STYLE="fork">
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.details"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.attributes">
+<font SIZE="9"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.note" COLOR="#000000" BACKGROUND_COLOR="#ffffff" TEXT_ALIGN="LEFT"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.floating">
+<edge STYLE="hide_edge"/>
+<cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
+</stylenode>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork">
+<font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.subtopic" COLOR="#cc3300" STYLE="fork">
+<font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.subsubtopic" COLOR="#669900">
+<font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.important">
+<icon BUILTIN="yes"/>
+</stylenode>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10.0 pt" SHAPE_VERTICAL_MARGIN="10.0 pt">
+<font SIZE="18"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,1" COLOR="#0033ff">
+<font SIZE="16"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,2" COLOR="#00b439">
+<font SIZE="14"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,3" COLOR="#990000">
+<font SIZE="12"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,4" COLOR="#111111">
+<font SIZE="10"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,5"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,6"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,7"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,8"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,9"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,10"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,11"/>
+</stylenode>
+</stylenode>
+</map_styles>
+</hook>
+<hook NAME="AutomaticEdgeColor" COUNTER="8" RULE="ON_BRANCH_CREATION"/>
+<node TEXT="Picking Mutual Fund" FOLDED="true" POSITION="right" ID="ID_398044582" CREATED="1518029885983" MODIFIED="1518029926673">
+<edge COLOR="#ff0000"/>
+<node TEXT="Self Strategy" FOLDED="true" ID="ID_1224551484" CREATED="1518030015567" MODIFIED="1518030028576">
+<node TEXT="Identify Goals" ID="ID_1419977543" CREATED="1518029927473" MODIFIED="1518029937161">
+<node TEXT="Long term Capital Gains or Current income?" ID="ID_1775524296" CREATED="1518029940518" MODIFIED="1518029962736"/>
+</node>
+<node TEXT="Identify Timelines" ID="ID_845425614" CREATED="1518030033071" MODIFIED="1518030038953">
+<node TEXT="Long-term or need liquidity" ID="ID_269321588" CREATED="1518030039919" MODIFIED="1518030052962"/>
+</node>
+<node TEXT="Identify Risk Tolerance" ID="ID_808928664" CREATED="1518030054721" MODIFIED="1518030066689"/>
+<node TEXT="Recommendation" FOLDED="true" ID="ID_843078665" CREATED="1518030084544" MODIFIED="1518030089763">
+<node TEXT="5 years investment horizon" ID="ID_858112531" CREATED="1518030090376" MODIFIED="1518030098018"/>
+</node>
+</node>
+<node TEXT="Style &amp; Fund Type" ID="ID_531271262" CREATED="1518030116897" MODIFIED="1518030123418">
+<node TEXT="Long-term Capital Appreciation funds" FOLDED="true" ID="ID_1842310140" CREATED="1518030124442" MODIFIED="1518030159634">
+<node TEXT="Characteristics" FOLDED="true" ID="ID_1587103135" CREATED="1518030178289" MODIFIED="1518030183987">
+<node TEXT="High % in common stocks" ID="ID_1998470679" CREATED="1518030160420" MODIFIED="1518030171810"/>
+</node>
+<node TEXT="Risks" FOLDED="true" ID="ID_754498657" CREATED="1518030184817" MODIFIED="1518030187475">
+<node TEXT="Volatile" ID="ID_1362086693" CREATED="1518030199338" MODIFIED="1518030207123"/>
+</node>
+<node TEXT="Gains" ID="ID_1566441189" CREATED="1518030190146" MODIFIED="1518030193419"/>
+</node>
+<node TEXT="Income fund" ID="ID_753166056" CREATED="1518030214322" MODIFIED="1518030218668">
+<node TEXT="Characteristics" FOLDED="true" ID="ID_1576988433" CREATED="1518030229378" MODIFIED="1518030236395">
+<node TEXT="Govt and Corporate bonds" ID="ID_1746684226" CREATED="1518030237412" MODIFIED="1518030246203"/>
+</node>
+</node>
+<node TEXT="Balanced Fund" ID="ID_66429994" CREATED="1518030260058" MODIFIED="1518030263636">
+<node TEXT="Chars" ID="ID_1153482191" CREATED="1518030264357" MODIFIED="1518030281172">
+<node TEXT="Both bonds &amp; stocks" ID="ID_28842577" CREATED="1518030282155" MODIFIED="1518030289620"/>
+</node>
+</node>
+</node>
+<node TEXT="Charges &amp; Fees" FOLDED="true" ID="ID_216911322" CREATED="1518030292707" MODIFIED="1518030299316">
+<node TEXT="Load Charges" FOLDED="true" ID="ID_1688055827" CREATED="1518650928670" MODIFIED="1518650932511">
+<node TEXT="Commission charges when broker needs to buy the funds for you" ID="ID_1503225018" CREATED="1518650933414" MODIFIED="1518650959375"/>
+<node TEXT="Not typical in retirement accounts, since employer has already bought them for employees" ID="ID_900382559" CREATED="1518650963300" MODIFIED="1518650998695"/>
+<node TEXT="Types" ID="ID_1647479215" CREATED="1518651006206" MODIFIED="1518651008681">
+<node TEXT="Load Funds" FOLDED="true" ID="ID_1952532115" CREATED="1518030300242" MODIFIED="1518030438232">
+<node TEXT="Front-end" FOLDED="true" ID="ID_550505414" CREATED="1518030318748" MODIFIED="1518030323772">
+<node TEXT="On purchase" ID="ID_1483228900" CREATED="1518030329572" MODIFIED="1518030332172"/>
+</node>
+<node TEXT="Back-end" FOLDED="true" ID="ID_1918368977" CREATED="1518030324139" MODIFIED="1518030327740">
+<node TEXT="On redemption" ID="ID_812148071" CREATED="1518030333620" MODIFIED="1518030364036"/>
+<node TEXT="Usually charged only if redeemed before a certain period (like 5 yrs)" ID="ID_362798158" CREATED="1518030365059" MODIFIED="1518030385693"/>
+</node>
+<node TEXT="Typical" ID="ID_1759240147" CREATED="1518030442389" MODIFIED="1518030445758">
+<node TEXT="3-6%" ID="ID_1228789452" CREATED="1518030446798" MODIFIED="1518030459350"/>
+</node>
+</node>
+<node TEXT="No-Load Funds" FOLDED="true" ID="ID_1542290754" CREATED="1518030460901" MODIFIED="1518030465639">
+<node TEXT="Charges other fees like Mngt Expense Ratio &amp; other adiministration fees" ID="ID_577111557" CREATED="1518030466420" MODIFIED="1518030503127"/>
+</node>
+</node>
+</node>
+<node TEXT="12b-1 fees" FOLDED="true" ID="ID_1960293583" CREATED="1518030509757" MODIFIED="1518030515926">
+<node TEXT="Baked into share price" ID="ID_843541565" CREATED="1518030536319" MODIFIED="1518030541014"/>
+<node TEXT="Used for promotions, sales" ID="ID_1294727545" CREATED="1518030542758" MODIFIED="1518030552416"/>
+<node TEXT="Come off the reported share price at a predetermined point in time" ID="ID_939965832" CREATED="1518030553454" MODIFIED="1518030582264"/>
+<node TEXT="Investor may not be aware of the fee at all" ID="ID_704158929" CREATED="1518030582694" MODIFIED="1518030591800"/>
+<node TEXT="Can be as high as 0.75%" ID="ID_1391099894" CREATED="1518030635552" MODIFIED="1518030645472"/>
+</node>
+<node TEXT="Management Expense Ratio" ID="ID_44897314" CREATED="1518030713048" MODIFIED="1518030725297">
+<node TEXT="Total % of fund assets that are charged to cover fund expenses" ID="ID_1847884251" CREATED="1518030726497" MODIFIED="1518030745425"/>
+<node TEXT="Higher the ER, lower the returns" ID="ID_1494025660" CREATED="1518030746929" MODIFIED="1518030758722"/>
+</node>
+<node TEXT="Expense Ratio" ID="ID_1536434628" CREATED="1518650828964" MODIFIED="1518650835850">
+<node TEXT="Gross" ID="ID_409258254" CREATED="1518650836976" MODIFIED="1518650839263">
+<node TEXT="Before waivers &amp; reimbursements" ID="ID_591751951" CREATED="1518650842700" MODIFIED="1518650851999"/>
+</node>
+<node TEXT="Net" ID="ID_1231134809" CREATED="1518650839653" MODIFIED="1518650841239">
+<node TEXT="Net costs to investor" ID="ID_1332848219" CREATED="1518650853550" MODIFIED="1518650861159"/>
+<node TEXT="Includes all other fees like 12b-1, management, etc." ID="ID_742075298" CREATED="1518650861693" MODIFIED="1518650874742"/>
+</node>
+</node>
+</node>
+<node TEXT="Evaluating History" FOLDED="true" ID="ID_1594347871" CREATED="1518030845273" MODIFIED="1518030863346">
+<node TEXT="Portfolio Manager History" FOLDED="true" ID="ID_1173810187" CREATED="1518030864050" MODIFIED="1518030871106">
+<node TEXT="Did the fund manager deliver results that were consistent with general market returns?" ID="ID_446989563" CREATED="1518030871914" MODIFIED="1518030902868"/>
+<node TEXT="Was the fund more volatile than the big indexes (meaning did its returns vary dramatically throughout the year)?" ID="ID_1304623943" CREATED="1518030905034" MODIFIED="1518030922019"/>
+<node TEXT="Was there an unusually high turnover (which can result in larger tax liabilities for the investor)?" ID="ID_590811852" CREATED="1518030922914" MODIFIED="1518030943844"/>
+<node TEXT="Was the PM recently hired/fired? (which might mean things are not going good with the fund)" ID="ID_1961925825" CREATED="1518031521211" MODIFIED="1518031545915"/>
+</node>
+<node TEXT="Fund Size" FOLDED="true" ID="ID_1073196056" CREATED="1518030993547" MODIFIED="1518031000300">
+<node TEXT="Fund size should not be too large &gt;$100B" ID="ID_550097984" CREATED="1518031002459" MODIFIED="1518031022716"/>
+</node>
+<node TEXT="Fund Performance" FOLDED="true" ID="ID_1456384214" CREATED="1518032028432" MODIFIED="1518032034682">
+<node TEXT="Notes" FOLDED="true" ID="ID_258087675" CREATED="1518032036785" MODIFIED="1518032039225">
+<node TEXT="Most abused metric by fund companies" ID="ID_1427283755" CREATED="1518032041976" MODIFIED="1518032050793"/>
+<node TEXT="Costs &amp; fees not included" ID="ID_1101743436" CREATED="1518032051312" MODIFIED="1518032058992"/>
+</node>
+<node TEXT="Relative performance" FOLDED="true" ID="ID_235824673" CREATED="1518031669636" MODIFIED="1518031674140">
+<node TEXT="Indices to compare to" FOLDED="true" ID="ID_875661395" CREATED="1518031679053" MODIFIED="1518031691157">
+<node TEXT="Large Cap" ID="ID_467201256" CREATED="1518031692356" MODIFIED="1518031698284">
+<node TEXT="S&amp;P 500" ID="ID_969972683" CREATED="1518031699276" MODIFIED="1518031707405"/>
+</node>
+<node TEXT="Small-cap" ID="ID_1270364693" CREATED="1518031710692" MODIFIED="1518031715406">
+<node TEXT="Russell 2000" ID="ID_1602304896" CREATED="1518031717429" MODIFIED="1518031722660"/>
+</node>
+</node>
+<node TEXT="Peer group comparison" ID="ID_1229735482" CREATED="1518031768843" MODIFIED="1518031780487"/>
+</node>
+<node TEXT="Performance over time" FOLDED="true" ID="ID_1722700538" CREATED="1518031900478" MODIFIED="1518031904895">
+<node TEXT="Annual Rate of Return" FOLDED="true" ID="ID_1635712178" CREATED="1518651037183" MODIFIED="1518651045721">
+<node TEXT="Actually shows y/y returns" ID="ID_374538934" CREATED="1518651047327" MODIFIED="1518651062889"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Fund Investment Quality Scorecard (FIQS)" FOLDED="true" POSITION="right" ID="ID_274987874" CREATED="1518033242430" MODIFIED="1518033260599">
+<edge COLOR="#00ffff"/>
+<node TEXT="About" ID="ID_1441332741" CREATED="1518033262351" MODIFIED="1518033266584">
+<node TEXT="Defined here" ID="ID_1571366685" CREATED="1518033267486" MODIFIED="1518033316513">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1630002129" STARTINCLINATION="896;0;" ENDINCLINATION="896;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+</node>
+</node>
+<node TEXT="Fund Investment Qualities" ID="ID_1489526283" CREATED="1518032713391" MODIFIED="1518033432313">
+<node TEXT="Investment Style Considerations" ID="ID_1618200834" CREATED="1518032829962" MODIFIED="1518032843050"/>
+<node TEXT="Risk-Return Profile" ID="ID_550357980" CREATED="1518032843577" MODIFIED="1518032849667"/>
+<node TEXT="Fund Size &amp; Style Compatibility" ID="ID_174324316" CREATED="1518032850176" MODIFIED="1518032864659"/>
+<node TEXT="Manager Tenure &amp; Structure" ID="ID_1607489619" CREATED="1518032864953" MODIFIED="1518032872003"/>
+<node TEXT="Portfolio Turnover Ratio" ID="ID_931633130" CREATED="1518032872970" MODIFIED="1518032879794"/>
+<node TEXT="Fees &amp; Expenses" ID="ID_1184797715" CREATED="1518032880257" MODIFIED="1518032886435"/>
+<node TEXT="Comparative Total Returns" ID="ID_503890261" CREATED="1518032887961" MODIFIED="1518032894802"/>
+<node TEXT="Analytics" ID="ID_423236549" CREATED="1518032895802" MODIFIED="1518032898322"/>
+</node>
+<node TEXT="Scorecard" ID="ID_1004181777" CREATED="1518033434897" MODIFIED="1518033439770">
+<node TEXT="Here" ID="ID_1807123488" CREATED="1518033473792" MODIFIED="1518033481730" LINK="../../../../../../Users/116500/Documents/http:/i.investopedia.com/inv/pdf/tutorials/InvestmentQualityScorecard.pdf"/>
+</node>
+<node TEXT="Data source" FOLDED="true" ID="ID_478424725" CREATED="1518033486793" MODIFIED="1518033492707">
+<node TEXT="Morningstar Mutual Funds Report" FOLDED="true" ID="ID_304176776" CREATED="1518033493769" MODIFIED="1518033546747">
+<node TEXT="Most libraries have it" ID="ID_350657705" CREATED="1518033550362" MODIFIED="1518033555468"/>
+<node TEXT="Online Premier Membership" ID="ID_1094651218" CREATED="1518033555922" MODIFIED="1518033568867"/>
+</node>
+<node TEXT="Value Line Mutual Funds Survey" FOLDED="true" ID="ID_1967314670" CREATED="1518033593187" MODIFIED="1518033604228">
+<node TEXT="More expensive" ID="ID_987148914" CREATED="1518033605132" MODIFIED="1518033610148"/>
+<node TEXT="Recommended only when portfolio size &gt;$100K" ID="ID_1042053119" CREATED="1518033610554" MODIFIED="1518033625492"/>
+</node>
+</node>
+</node>
+<node TEXT="Categorization" POSITION="right" ID="ID_655889138" CREATED="1518034382692" MODIFIED="1518034396733">
+<edge COLOR="#00007c"/>
+<node TEXT="Investment Style" ID="ID_1684379038" CREATED="1518034397901" MODIFIED="1518034404445">
+<node TEXT="Stock Funds" ID="ID_491976014" CREATED="1518034329819" MODIFIED="1518034407782">
+<node TEXT="Value" ID="ID_1801382750" CREATED="1518034335924" MODIFIED="1518034340301"/>
+<node TEXT="Blend" ID="ID_608598668" CREATED="1518034343891" MODIFIED="1518034345524"/>
+<node TEXT="Growth" ID="ID_83022340" CREATED="1518034340795" MODIFIED="1518034342628"/>
+<node TEXT="Sector" ID="ID_190718782" CREATED="1518034346220" MODIFIED="1518034349620"/>
+</node>
+<node TEXT="Bond Funds" ID="ID_1845339739" CREATED="1518034409212" MODIFIED="1518034412805">
+<node TEXT="Short Term" ID="ID_547839920" CREATED="1518034423763" MODIFIED="1518034428484"/>
+<node TEXT="Intermediate Term" ID="ID_390890558" CREATED="1518034428853" MODIFIED="1518034432814"/>
+<node TEXT="Long Term" ID="ID_152321449" CREATED="1518034433245" MODIFIED="1518034435966"/>
+</node>
+</node>
+<node TEXT="Investment Size" ID="ID_1837496967" CREATED="1518034811152" MODIFIED="1518034842570">
+<node TEXT="Stock Funds" ID="ID_1542086114" CREATED="1518034844233" MODIFIED="1518034848403">
+<node TEXT="Large Cap" ID="ID_1056908007" CREATED="1518034849355" MODIFIED="1518034851986"/>
+<node TEXT="Mid Cap" ID="ID_1035588329" CREATED="1518034852330" MODIFIED="1518034875050"/>
+<node TEXT="Small Cap" ID="ID_559784299" CREATED="1518034859969" MODIFIED="1518034862522"/>
+</node>
+</node>
+<node TEXT="Investment Risks" FOLDED="true" ID="ID_439125567" CREATED="1518034909651" MODIFIED="1518034914563">
+<node TEXT="Bond Funds" ID="ID_1378017143" CREATED="1524191926446" MODIFIED="1524191931731">
+<node TEXT="Quality" ID="ID_289333560" CREATED="1518034915372" MODIFIED="1524191945062">
+<node TEXT="High Credit" ID="ID_1541460137" CREATED="1518034938130" MODIFIED="1518034941531"/>
+<node TEXT="Mid Credit" ID="ID_1547736134" CREATED="1518034941913" MODIFIED="1518034945899"/>
+<node TEXT="Low Credit" ID="ID_1349330185" CREATED="1518034946259" MODIFIED="1518034948788"/>
+</node>
+<node TEXT="Interest sensitivity" ID="ID_557521009" CREATED="1524191950821" MODIFIED="1524191959021">
+<node TEXT="Limited" ID="ID_1075898735" CREATED="1524191964595" MODIFIED="1524191972638"/>
+<node TEXT="Moderate" ID="ID_711555080" CREATED="1524191973038" MODIFIED="1524191977665"/>
+<node TEXT="Extensive" ID="ID_490799640" CREATED="1524191978131" MODIFIED="1524191980462"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Style Boxes" POSITION="right" ID="ID_91239555" CREATED="1524192995986" MODIFIED="1524193000250">
+<edge COLOR="#007c00"/>
+<node TEXT="Stock style boxes" ID="ID_1208235608" CREATED="1524193004519" MODIFIED="1524193010877"/>
+<node TEXT="Fixed Income style box" ID="ID_921238965" CREATED="1524193011988" MODIFIED="1524193018333">
+<node TEXT="Investopedia" ID="ID_1729788255" CREATED="1524193022877" MODIFIED="1524193055085" LINK="https://www.investopedia.com/terms/f/fixed-incomestylebox.asp"/>
+</node>
+</node>
+<node TEXT="Tips" POSITION="left" ID="ID_532394399" CREATED="1518030683584" MODIFIED="1518030685521">
+<edge COLOR="#0000ff"/>
+<node TEXT="Timeline" ID="ID_1680593359" CREATED="1518030686448" MODIFIED="1518030697378">
+<node TEXT="5 yrs is recommended" ID="ID_1438407099" CREATED="1518030700953" MODIFIED="1518030706106"/>
+</node>
+<node TEXT="Fees" ID="ID_135952080" CREATED="1518030697863" MODIFIED="1518030699744">
+<node TEXT="Lower the Exp Ratio, higher the returns" ID="ID_477290493" CREATED="1518030762528" MODIFIED="1518030775947"/>
+<node TEXT="Exp Ratio should be &lt;1%, more like 0.5%" ID="ID_610989161" CREATED="1518031454113" MODIFIED="1518031472147"/>
+</node>
+</node>
+<node TEXT="References" POSITION="left" ID="ID_1974977869" CREATED="1518031274662" MODIFIED="1518031278073">
+<edge COLOR="#00ff00"/>
+<node TEXT="Choosing Quality MFs" ID="ID_1630002129" CREATED="1518032598839" MODIFIED="1518032609934" LINK="../../../../../../Users/116500/Documents/https:/www.investopedia.com/university/quality-mutual-fund"/>
+<node TEXT="How To Pick a Good Mutual Fund" ID="ID_1433732501" CREATED="1518031280663" MODIFIED="1518031317458" LINK="https:/www.investopedia.com/articles/mutualfund/07/picktherightmutualfund.asp"/>
+<node TEXT="Mutual Funds: Evaluating performance" ID="ID_134175481" CREATED="1518031318840" MODIFIED="1518031938606" LINK="../../../../../../Users/116500/Documents/https:/www.investopedia.com/university/mutualfunds/mutualfunds5.asp"/>
+</node>
+</node>
+</map>
