@@ -3,7 +3,7 @@
 <node TEXT="ExpressJS" FOLDED="false" ID="ID_1329922981" CREATED="1511495266645" MODIFIED="1511495276228" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
+    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -92,25 +92,105 @@
 </node>
 <node TEXT="Components" POSITION="right" ID="ID_1776112915" CREATED="1511495980509" MODIFIED="1511495984886">
 <edge COLOR="#ff00ff"/>
-<node TEXT="Routers" FOLDED="true" ID="ID_961343000" CREATED="1511495986142" MODIFIED="1511495995158">
-<node TEXT="What?" FOLDED="true" ID="ID_255120508" CREATED="1511495997261" MODIFIED="1511496007014">
+<node TEXT="Routers" ID="ID_961343000" CREATED="1511495986142" MODIFIED="1511495995158">
+<node TEXT="What?" ID="ID_255120508" CREATED="1511495997261" MODIFIED="1511496007014">
 <node TEXT="Routes requests to corresponding handlers" ID="ID_413561486" CREATED="1511496008357" MODIFIED="1511496015790"/>
 <node TEXT="Easy way to route RESTful requests" ID="ID_433721868" CREATED="1511496016157" MODIFIED="1511496032910"/>
 <node TEXT="Order matters" ID="ID_1468487756" CREATED="1511503130465" MODIFIED="1511503135929"/>
 </node>
 <node TEXT="Syntax" ID="ID_1630431631" CREATED="1511496038198" MODIFIED="1511496063286">
-<node TEXT="app.&lt;http method&gt;(&quot;/&lt;uri path&gt;&quot;, callback);" ID="ID_1590423792" CREATED="1511496064303" MODIFIED="1511496104759"/>
+<node TEXT="app.&lt;http method&gt;(&quot;/&lt;uri path&gt;&quot;, callback);" ID="ID_1590423792" CREATED="1511496064303" MODIFIED="1538454192884">
+<font NAME="Courier New"/>
+</node>
+</node>
+<node TEXT="Methods" ID="ID_705360598" CREATED="1538454212735" MODIFIED="1538454215089">
+<node TEXT="correspond to all HTTP request methods" ID="ID_107472405" CREATED="1538454251635" MODIFIED="1538454257230"/>
+<node TEXT="Special case" ID="ID_517533714" CREATED="1538454264019" MODIFIED="1538454270354">
+<node TEXT="app.all()" ID="ID_1824366142" CREATED="1538454271499" MODIFIED="1538454313536">
+<font NAME="Courier New"/>
+<node ID="ID_63598374" CREATED="1538454290151" MODIFIED="1538454306274"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      for <i>all </i>HTTP methods
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Paths" FOLDED="true" ID="ID_1175246875" CREATED="1538454353229" MODIFIED="1538454355382">
+<node TEXT="What?" ID="ID_1271907273" CREATED="1538454357395" MODIFIED="1538454366309">
+<node TEXT="Along with method, defines the endpoint at which http requests can be made" ID="ID_1090184304" CREATED="1538454376569" MODIFIED="1538454399592"/>
+</node>
+<node TEXT="can be" ID="ID_540953073" CREATED="1538454406576" MODIFIED="1538454410311">
+<node TEXT="strings" ID="ID_1730313056" CREATED="1538454415893" MODIFIED="1538454418143"/>
+<node TEXT="string patterns" ID="ID_1908270311" CREATED="1538454418632" MODIFIED="1538454421351"/>
+<node TEXT="regular expressions" FOLDED="true" ID="ID_730091942" CREATED="1538454421780" MODIFIED="1538454426006">
+<node TEXT="?, +, *, ()" FOLDED="true" ID="ID_277808735" CREATED="1538454442226" MODIFIED="1538454469253">
+<node TEXT="interpreted as regular expression" ID="ID_1505383489" CREATED="1538454560144" MODIFIED="1538454567691"/>
+</node>
+<node TEXT="- and ." ID="ID_896941085" CREATED="1538454470122" MODIFIED="1538454549408">
+<node TEXT="interpreted literally" ID="ID_786460143" CREATED="1538454552003" MODIFIED="1538454557847"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="parameters" FOLDED="true" ID="ID_1740333549" CREATED="1538454574218" MODIFIED="1538454579744">
+<node TEXT="What?" ID="ID_104326229" CREATED="1538454592571" MODIFIED="1538454594641">
+<node TEXT="named URL segments that are used to capture the values specified at their position in the URL" ID="ID_550876250" CREATED="1538454596321" MODIFIED="1538454607786"/>
+<node TEXT="captured values are populated in the req.params object" FOLDED="true" ID="ID_193700600" CREATED="1538454612561" MODIFIED="1538454650965">
+<node TEXT="name of the route parameter specified in the path as their respective keys" ID="ID_344776983" CREATED="1538454651788" MODIFIED="1538454654407"/>
+</node>
+</node>
+</node>
+<node TEXT="handlers" FOLDED="true" ID="ID_1412578357" CREATED="1538454712416" MODIFIED="1538454716191">
+<node TEXT="can be" FOLDED="true" ID="ID_522821200" CREATED="1538454832859" MODIFIED="1538454835452">
+<node TEXT="a function" ID="ID_1773328646" CREATED="1538454836903" MODIFIED="1538454839174"/>
+<node TEXT="an array of functions" ID="ID_1312832670" CREATED="1538454839841" MODIFIED="1538454848003"/>
+<node TEXT="a combination of both" ID="ID_1105858197" CREATED="1538454848422" MODIFIED="1538454853393"/>
+</node>
+<node TEXT="when more than one function to handle" FOLDED="true" ID="ID_1685019138" CREATED="1538455069267" MODIFIED="1538455095525">
+<node ID="ID_861692801" CREATED="1538455097353" MODIFIED="1538455115335"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      specify the <b>next</b>&#160;object
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="app.route()" ID="ID_1957802910" CREATED="1538455301432" MODIFIED="1538455307193"/>
+<node TEXT="express.Router" ID="ID_762900646" CREATED="1538455307553" MODIFIED="1538455320023">
+<node TEXT="Why?" ID="ID_1096069579" CREATED="1538455322564" MODIFIED="1538455343171">
+<node TEXT="Create modular, mountable route handlers" ID="ID_253039968" CREATED="1538455345448" MODIFIED="1538455367305"/>
+</node>
 </node>
 </node>
 <node TEXT="Middleware" FOLDED="true" ID="ID_1423326966" CREATED="1511496107095" MODIFIED="1511496110679">
-<node TEXT="What?" FOLDED="true" ID="ID_1190022928" CREATED="1511496129447" MODIFIED="1511496132007">
+<node TEXT="What?" ID="ID_1190022928" CREATED="1511496129447" MODIFIED="1511496132007">
 <node TEXT="Allows us to take actions on a request before it hits the router" ID="ID_992699829" CREATED="1511496132663" MODIFIED="1511496152440"/>
 <node TEXT="Can be chained" ID="ID_414188861" CREATED="1511496153183" MODIFIED="1511496168111"/>
 <node TEXT="Order matters" ID="ID_1470873801" CREATED="1511497214298" MODIFIED="1511498716423"/>
 <node TEXT="By default, called for each and every requests" ID="ID_1511438970" CREATED="1511496169015" MODIFIED="1511496186904"/>
 <node TEXT="Declared/called before routes" ID="ID_1183065155" CREATED="1511497687109" MODIFIED="1511497697478"/>
 </node>
-<node TEXT="Important middleware" FOLDED="true" ID="ID_521181812" CREATED="1511496202783" MODIFIED="1511496207904">
+<node TEXT="Important middleware" ID="ID_521181812" CREATED="1511496202783" MODIFIED="1511496207904">
 <node TEXT="body-parser" FOLDED="true" ID="ID_9225354" CREATED="1511496209007" MODIFIED="1511496218088">
 <node TEXT="What?" FOLDED="true" ID="ID_1688628141" CREATED="1511496238305" MODIFIED="1511496240289">
 <node TEXT="Helps read the incoming request body" ID="ID_244681430" CREATED="1511496224800" MODIFIED="1511496237456"/>
