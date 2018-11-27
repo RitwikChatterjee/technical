@@ -1,0 +1,35 @@
+<fulfillmentToken fulfillmentType="loan" auth="user" xmlns="http://ns.adobe.com/adept">
+  <distributor>urn:uuid:ee812ba0-d894-47d4-89e7-0bf3967281aa</distributor>
+  <operatorURL>http://acspdf.contentreserve.com/fulfillment</operatorURL>
+  <transaction>Phoenix~034-967605-00001_9FC8D48A-B04D-4F7A-94BB-5B104D67886C-50</transaction>
+  <expiration>2013-02-25T07:00:10-05:00</expiration>
+  <resourceItemInfo>
+    <resource>urn:uuid:235b2764-9059-4054-bcc8-e0e98061bacd</resource>
+    <resourceItem>1</resourceItem>
+    <metadata>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Accounting for Non-Accountants</dc:title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Wayne Label</dc:creator>
+      <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Sourcebooks, Inc.</dc:publisher>
+      <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/pdf</dc:format>
+      <thumbnailURL>http://images.contentreserve.com/ImageType-200/0174-1/{9FC8D48A-B04D-4F7A-94BB-5B104D67886C}Img200.jpg</thumbnailURL>
+    </metadata>
+    <licenseToken>
+      <resource>urn:uuid:235b2764-9059-4054-bcc8-e0e98061bacd</resource>
+      <permissions>
+        <display>
+          <duration>1209583</duration>
+        </display>
+        <excerpt>
+          <duration>1209583</duration>
+        </excerpt>
+        <print>
+          <duration>1209583</duration>
+        </print>
+        <play>
+          <duration>1209583</duration>
+        </play>
+      </permissions>
+    </licenseToken>
+  </resourceItemInfo>
+  <hmac>bzZTCWXlTFv2C0q7guWQHqTdFcs=</hmac>
+</fulfillmentToken>
