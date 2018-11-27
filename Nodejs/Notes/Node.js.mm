@@ -2,8 +2,8 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Node.js" FOLDED="false" ID="ID_620602464" CREATED="1503450386367" MODIFIED="1503451501485" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="1.5">
-    <properties fit_to_viewport="false;" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true"/>
+<hook NAME="MapStyle">
+    <properties fit_to_viewport="false;" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -81,7 +81,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="19" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="20" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="What?" FOLDED="true" POSITION="left" ID="ID_704267071" CREATED="1503451572935" MODIFIED="1503451575818">
 <edge COLOR="#0000ff"/>
 <node TEXT="JavaScript runtime built on Chrome&apos;s V8 JavaScript Engine" ID="ID_596310725" CREATED="1503451577712" MODIFIED="1503451601636"/>
@@ -148,7 +148,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Concepts (JavaScript)" POSITION="left" ID="ID_18013605" CREATED="1505225708358" MODIFIED="1505225720017">
+<node TEXT="Concepts (JavaScript)" FOLDED="true" POSITION="left" ID="ID_18013605" CREATED="1505225708358" MODIFIED="1505225720017">
 <edge COLOR="#00ffff"/>
 <node TEXT="Node.js code runs continuously till you stop it" ID="ID_527715058" CREATED="1505225907243" MODIFIED="1505225925463"/>
 <node TEXT="Callback Functions" FOLDED="true" ID="ID_632198975" CREATED="1503451993335" MODIFIED="1503452016924">
@@ -156,7 +156,7 @@
 <node TEXT="Higher order functions" ID="ID_1982472140" CREATED="1503452023958" MODIFIED="1503452028023"/>
 </node>
 </node>
-<node TEXT="Arrow Functions" ID="ID_1958975107" CREATED="1540238277477" MODIFIED="1540238282998">
+<node TEXT="Arrow Functions" FOLDED="true" ID="ID_1958975107" CREATED="1540238277477" MODIFIED="1540238282998">
 <node TEXT="Caution" ID="ID_192746376" CREATED="1540238176476" MODIFIED="1540238183730">
 <font BOLD="true"/>
 <node TEXT="You&#x2019;ll see us using =&gt; only when we&#x2019;re using anonymous functions in other contexts." ID="ID_1331127971" CREATED="1540238259877" MODIFIED="1540238348199"/>
@@ -172,7 +172,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_918092573" CREATED="1540238248436" MODIFIED="1540238334351"><richcontent TYPE="NODE">
@@ -187,7 +186,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -211,7 +209,7 @@
 <node TEXT="Give it a code to call back into when the event happens" ID="ID_1887048021" CREATED="1507000367896" MODIFIED="1507000377585"/>
 </node>
 </node>
-<node TEXT="dependencies" POSITION="right" ID="ID_1150991990" CREATED="1536885904196" MODIFIED="1540260826797">
+<node TEXT="dependencies" FOLDED="true" POSITION="right" ID="ID_1150991990" CREATED="1536885904196" MODIFIED="1540260826797">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1298055915" STARTINCLINATION="328;0;" ENDINCLINATION="328;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <edge COLOR="#ff0000"/>
 <node TEXT="managed by" ID="ID_1466687641" CREATED="1536885913348" MODIFIED="1536885918654">
@@ -246,7 +244,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node FOLDED="true" ID="ID_1114065760" CREATED="1540260908638" MODIFIED="1540260921504"><richcontent TYPE="NODE">
@@ -261,7 +258,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Implications" FOLDED="true" ID="ID_1591550723" CREATED="1540260925711" MODIFIED="1540260928791">
 <node TEXT="Dependencies are managed in subfolders vs a central dependency repo" ID="ID_1676827860" CREATED="1540260959269" MODIFIED="1540261092143"/>
@@ -664,7 +660,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <edge COLOR="#00007c"/>
 <node TEXT="Issue" ID="ID_1782892845" CREATED="1540237586426" MODIFIED="1540237589195">
@@ -681,7 +676,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -700,7 +694,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="NOTE">
 
@@ -758,7 +751,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -774,7 +766,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1958975107" STARTINCLINATION="780;0;" ENDINCLINATION="780;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="Arrow functions capture the this value of the enclosing scope" ID="ID_448805099" CREATED="1540237960037" MODIFIED="1540238070616"><richcontent TYPE="NOTE">
@@ -830,16 +821,15 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
 </node>
 </node>
 </node>
-<node TEXT="modules" POSITION="right" ID="ID_1298055915" CREATED="1540258259161" MODIFIED="1540258262547">
+<node TEXT="modules" FOLDED="true" POSITION="right" ID="ID_1298055915" CREATED="1540258259161" MODIFIED="1540258262547">
 <edge COLOR="#007c00"/>
-<node FOLDED="true" ID="ID_835011107" CREATED="1540258265168" MODIFIED="1540258279865"><richcontent TYPE="NODE">
+<node ID="ID_835011107" CREATED="1540258265168" MODIFIED="1540258279865"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -851,7 +841,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Special object created by the Node module system in every file. Every file treated as a module" ID="ID_454280006" CREATED="1540258281000" MODIFIED="1540261425943"/>
 <node ID="ID_253901513" CREATED="1540258306792" MODIFIED="1540258340409"><richcontent TYPE="NODE">
@@ -866,11 +855,10 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
-<node FOLDED="true" ID="ID_987269262" CREATED="1540258579119" MODIFIED="1540258613753"><richcontent TYPE="NODE">
+<node ID="ID_987269262" CREATED="1540258579119" MODIFIED="1540258613753"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -882,7 +870,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="contains information such as the filename, child and parent modules and more" ID="ID_110259252" CREATED="1540258587424" MODIFIED="1540258607552"/>
 </node>
@@ -933,7 +920,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Pros" ID="ID_1016218480" CREATED="1540258989727" MODIFIED="1540258992161">
@@ -949,7 +935,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -994,7 +979,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="To Use" ID="ID_1762213071" CREATED="1540259340553" MODIFIED="1540259410080"><richcontent TYPE="NOTE">
@@ -1009,14 +993,13 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Cons" ID="ID_1007661905" CREATED="1540259459951" MODIFIED="1540259462352"/>
 </node>
 </node>
 </node>
-<node TEXT="Consuming modules" FOLDED="true" ID="ID_1333838130" CREATED="1540259778735" MODIFIED="1540259785041">
+<node TEXT="Consuming modules" FOLDED="true" ID="ID_1333838130" CREATED="1540259778735" MODIFIED="1541451849124">
 <node ID="ID_1274459951" CREATED="1540259795752" MODIFIED="1540259813665"><richcontent TYPE="NODE">
 
 <html>
@@ -1029,10 +1012,9 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
-<node TEXT="Included modules are private" ID="ID_149291708" CREATED="1540259690175" MODIFIED="1540259704649"/>
+<node TEXT="Included modules are private" ID="ID_149291708" CREATED="1540259690175" MODIFIED="1541451849122"/>
 <node TEXT="To consume, assign to a variable" ID="ID_609841743" CREATED="1540259681887" MODIFIED="1540259689777"/>
 </node>
 <node TEXT="Resolving module imports" FOLDED="true" ID="ID_658696009" CREATED="1540259830688" MODIFIED="1540259836912">
@@ -1061,7 +1043,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_47721123" CREATED="1540260461982" MODIFIED="1540260508064"><richcontent TYPE="NODE">
@@ -1076,7 +1057,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1144896735" CREATED="1540260533494" MODIFIED="1540260569135"><richcontent TYPE="NODE">
@@ -1091,7 +1071,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1134,7 +1113,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1155,7 +1133,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_275028965" CREATED="1540261582278" MODIFIED="1540261624864"><richcontent TYPE="NODE">
 
@@ -1169,10 +1146,19 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
+</node>
+</node>
+</node>
+<node TEXT="async calls" POSITION="right" ID="ID_534598634" CREATED="1541715003855" MODIFIED="1541715014456">
+<edge COLOR="#7c007c"/>
+<node TEXT="handling" ID="ID_606447253" CREATED="1541715016017" MODIFIED="1541715033573">
+<node TEXT="callback" ID="ID_237536932" CREATED="1541715052314" MODIFIED="1541715059748"/>
+<node TEXT="promises" ID="ID_34100024" CREATED="1541715060460" MODIFIED="1541715063412"/>
+<node TEXT="async/await" ID="ID_468064328" CREATED="1541715035060" MODIFIED="1541715051416">
+<node TEXT="Ref" ID="ID_634353322" CREATED="1541715072529" MODIFIED="1541715089522" LINK="../../../../../Users/ritwchatterjee/Documents/https:/medium.freecodecamp.org/how-to-write-beautiful-node-js-apis-using-async-await-and-the-firebase-database-befdf3a5ffee"/>
 </node>
 </node>
 </node>

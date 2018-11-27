@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="10" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="12" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="Features" FOLDED="true" POSITION="left" ID="ID_1578403452" CREATED="1537213601786" MODIFIED="1537213605908">
 <edge COLOR="#0000ff"/>
 <node TEXT="Languages" FOLDED="true" ID="ID_264304476" CREATED="1537213629407" MODIFIED="1537213632616">
@@ -320,7 +320,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -446,14 +445,14 @@
 </node>
 </node>
 </node>
-<node TEXT="Runtime" FOLDED="true" ID="ID_1172020621" CREATED="1537214458758" MODIFIED="1537214462632">
-<node TEXT="What?" FOLDED="true" ID="ID_1367818872" CREATED="1537214478502" MODIFIED="1537214480631">
+<node TEXT="Runtime" ID="ID_1172020621" CREATED="1537214458758" MODIFIED="1537214462632">
+<node TEXT="What?" ID="ID_1367818872" CREATED="1537214478502" MODIFIED="1537214480631">
 <node TEXT="underlying WebJobs SDK host that listens for events, gathers and sends data, and ultimately runs the code" ID="ID_1782761265" CREATED="1537214481287" MODIFIED="1537214486383"/>
 </node>
-<node TEXT="aka" FOLDED="true" ID="ID_1507782660" CREATED="1537214495184" MODIFIED="1537214496744">
+<node TEXT="aka" ID="ID_1507782660" CREATED="1537214495184" MODIFIED="1537214496744">
 <node TEXT="script host" ID="ID_1741638048" CREATED="1537214497448" MODIFIED="1537214506224"/>
 </node>
-<node TEXT="Web Host" FOLDED="true" ID="ID_1255002300" CREATED="1537214509535" MODIFIED="1537214518456">
+<node TEXT="Web Host" ID="ID_1255002300" CREATED="1537214509535" MODIFIED="1537214518456">
 <node TEXT="To facilitate HTTP triggers, there is also a web host that is designed to sit in front of the script host in production scenarios." ID="ID_1502532677" CREATED="1537214519168" MODIFIED="1537214537624"/>
 <node TEXT="Helps isolate the script host from the front end traffic" ID="ID_381286940" CREATED="1537214538318" MODIFIED="1537214556448"/>
 </node>
@@ -1156,7 +1155,7 @@
 <node TEXT="Azure Functions JavaScript developer guide" ID="ID_1476928831" CREATED="1538612816927" MODIFIED="1538612828449" LINK="https://docs.microsoft.com/en-us/azure/azure-functions/functions-reference-node"/>
 </node>
 </node>
-<node TEXT="Integrating with CosmosDB" POSITION="right" ID="ID_547783097" CREATED="1539112136093" MODIFIED="1539112197361">
+<node TEXT="Integrating with CosmosDB" FOLDED="true" POSITION="right" ID="ID_547783097" CREATED="1539112136093" MODIFIED="1539112197361">
 <edge COLOR="#7c007c"/>
 <node TEXT="Approaches" ID="ID_374786442" CREATED="1539112413082" MODIFIED="1539112419673">
 <node TEXT="Triggers &amp; Bindings" ID="ID_1214834506" CREATED="1539112421231" MODIFIED="1539114358377" LINK="https://docs.microsoft.com/en-us/azure/azure-functions/functions-triggers-bindings">
@@ -1185,7 +1184,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1152856327" STARTINCLINATION="1328;0;" ENDINCLINATION="1328;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
@@ -1202,6 +1200,96 @@
 <node TEXT="Other references" FOLDED="true" POSITION="left" ID="ID_1420295980" CREATED="1538612841086" MODIFIED="1538612847584">
 <edge COLOR="#007c00"/>
 <node TEXT="Node.js app with Cosmos SQL API" ID="ID_1883786346" CREATED="1538612848415" MODIFIED="1538612891040" LINK="https://docs.microsoft.com/en-us/azure/cosmos-db/sql-api-nodejs-get-started"/>
+</node>
+<node TEXT="Configuration" POSITION="right" ID="ID_1862998287" CREATED="1540849006936" MODIFIED="1540849034009">
+<edge COLOR="#7c7c00"/>
+<node TEXT="Files" FOLDED="true" ID="ID_164706714" CREATED="1540849034865" MODIFIED="1540849042162">
+<node TEXT="host.json" ID="ID_626426093" CREATED="1540849042984" MODIFIED="1540849045745">
+<node TEXT="What?" ID="ID_22448477" CREATED="1540849087208" MODIFIED="1540849134330">
+<node TEXT="Global configuration for all functions for the function app" ID="ID_1936592016" CREATED="1540849135015" MODIFIED="1540849185737"/>
+</node>
+<node TEXT="References" FOLDED="true" ID="ID_1541327514" CREATED="1540849203680" MODIFIED="1540849208322">
+<node TEXT="Schema" ID="ID_1450757532" CREATED="1540849209199" MODIFIED="1540849227752" LINK="http://json.schemastore.org/host"/>
+<node TEXT="Reference" ID="ID_790024201" CREATED="1540849298911" MODIFIED="1540849306347" LINK="https://docs.microsoft.com/en-us/azure/azure-functions/functions-host-json"/>
+</node>
+</node>
+<node TEXT="function.json" ID="ID_1375057447" CREATED="1540849046008" MODIFIED="1540849049761"/>
+<node TEXT="local.settings.json" ID="ID_1366122605" CREATED="1540849260383" MODIFIED="1540849267194">
+<node TEXT="What?" ID="ID_158686928" CREATED="1540849268640" MODIFIED="1540849271467">
+<node TEXT="App settings for local dev environment" ID="ID_758826977" CREATED="1540849272343" MODIFIED="1540849286275"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Security" FOLDED="true" POSITION="right" ID="ID_1442959969" CREATED="1540849356360" MODIFIED="1540849360097">
+<edge COLOR="#ff0000"/>
+<node TEXT="Authentication" ID="ID_1241841236" CREATED="1540849374048" MODIFIED="1540849377120"/>
+<node TEXT="Authorization" FOLDED="true" ID="ID_335794729" CREATED="1540849377512" MODIFIED="1540849380329">
+<node TEXT="Keys" FOLDED="true" ID="ID_363458715" CREATED="1540849381288" MODIFIED="1540849383241">
+<node TEXT="Types" ID="ID_1068784722" CREATED="1540849417129" MODIFIED="1540849419025">
+<node TEXT="Host" FOLDED="true" ID="ID_907902236" CREATED="1540849419744" MODIFIED="1540849422745">
+<node TEXT="What?" FOLDED="true" ID="ID_848119997" CREATED="1540849450199" MODIFIED="1540849451937">
+<node TEXT="shared by all functions within the function app" ID="ID_451763252" CREATED="1540849463585" MODIFIED="1540849465425"/>
+<node TEXT="allow access to any function within the function app" ID="ID_903691715" CREATED="1540849476480" MODIFIED="1540849478241"/>
+</node>
+</node>
+<node TEXT="Function" FOLDED="true" ID="ID_551961641" CREATED="1540849423104" MODIFIED="1540849425138">
+<node TEXT="What?" ID="ID_878263319" CREATED="1540849483856" MODIFIED="1540849485770">
+<node TEXT="apply only to the specific functions under which they are defined" ID="ID_1862217420" CREATED="1540849501745" MODIFIED="1540849503449"/>
+</node>
+</node>
+<node TEXT="Master" ID="ID_503360110" CREATED="1540849432721" MODIFIED="1540849435809">
+<node TEXT="What?" ID="ID_5344377" CREATED="1540849584255" MODIFIED="1540849586353">
+<node TEXT="provides administrative access to the runtime APIs" ID="ID_137106360" CREATED="1540849599833" MODIFIED="1540849613841"/>
+<node TEXT="Host key named _master" ID="ID_1772897480" CREATED="1540849634256" MODIFIED="1540849643202"/>
+</node>
+<node TEXT="CAUTION" ID="ID_671842499" CREATED="1540849617808" MODIFIED="1540849623074">
+<font BOLD="true" ITALIC="true"/>
+<node TEXT="This key cannot be revoked" ID="ID_170272107" CREATED="1540849625553" MODIFIED="1540849632032"/>
+</node>
+<node TEXT="When?" FOLDED="true" ID="ID_872567549" CREATED="1540849658783" MODIFIED="1540849664089">
+<node ID="ID_988122601" CREATED="1540849664720" MODIFIED="1540849713359"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      When authorization level set to <b>admin </b>this key needs to be used
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="Default" ID="ID_1350446118" CREATED="1540849519376" MODIFIED="1540849522257"/>
+</node>
+<node TEXT="Precedence" ID="ID_1554174939" CREATED="1540849542392" MODIFIED="1540849545129">
+<node TEXT="Function key &gt; Host key" ID="ID_1618591933" CREATED="1540849546136" MODIFIED="1540849557019"/>
+</node>
+<node TEXT="Each key is named for reference" ID="ID_169905558" CREATED="1540849523672" MODIFIED="1540849527136"/>
+</node>
+<node TEXT="Enablement" FOLDED="true" ID="ID_1461743164" CREATED="1541015407481" MODIFIED="1541015414847">
+<node ID="ID_855394642" CREATED="1541015415522" MODIFIED="1541015430218"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Through <b><i>function.json</i></b>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
 </node>
 </node>
 </map>
