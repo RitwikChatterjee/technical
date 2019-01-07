@@ -66,7 +66,7 @@
 <hook NAME="AutomaticEdgeColor" COUNTER="2" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="UI" POSITION="right" ID="ID_1772523923" CREATED="1543288708318" MODIFIED="1543288712438">
 <edge COLOR="#ff0000"/>
-<node TEXT="UI designer" ID="ID_750428594" CREATED="1543288725013" MODIFIED="1543288730814">
+<node TEXT="UI designer" ID="ID_750428594" CREATED="1543288725013" MODIFIED="1543289566988" LINK="https://www.slant.co/topics/13/~best-mockup-and-wireframing-tools-for-websites">
 <node TEXT="FluidUI" ID="ID_524960954" CREATED="1543288732285" MODIFIED="1543288803584" LINK="https://www.fluidui.com/"/>
 </node>
 </node>
