@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="12" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="13" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="Features" FOLDED="true" POSITION="left" ID="ID_1578403452" CREATED="1537213601786" MODIFIED="1537213605908">
 <edge COLOR="#0000ff"/>
 <node TEXT="Languages" FOLDED="true" ID="ID_264304476" CREATED="1537213629407" MODIFIED="1537213632616">
@@ -568,12 +568,19 @@
 </node>
 </node>
 </node>
-<node TEXT="Register Binding Extensions" FOLDED="true" ID="ID_844452230" CREATED="1537827645981" MODIFIED="1537827675038">
+<node TEXT="Register Binding Extensions" ID="ID_844452230" CREATED="1537827645981" MODIFIED="1537827675038">
 <node TEXT="In some development environments, you have to explicitly register a binding that you want to use" ID="ID_1465740964" CREATED="1537827685790" MODIFIED="1537827693837"/>
 <node TEXT="Exceptions" FOLDED="true" ID="ID_1623121562" CREATED="1537827694850" MODIFIED="1537827711114">
-<node TEXT="HTTP and timer" FOLDED="true" ID="ID_264614085" CREATED="1537827713606" MODIFIED="1537827720359">
+<node TEXT="HTTP and timer" ID="ID_264614085" CREATED="1537827713606" MODIFIED="1537827720359">
 <node TEXT="Automatically registered in all versions and environments" ID="ID_145758093" CREATED="1537827722148" MODIFIED="1537827742014"/>
 </node>
+</node>
+<node TEXT="Version 2.x" FOLDED="true" ID="ID_1908621375" CREATED="1555027696485" MODIFIED="1555027718970">
+<node TEXT="extensions.csproj" FOLDED="true" ID="ID_228468781" CREATED="1555027719988" MODIFIED="1555027731105">
+<node TEXT="Defines binding extensions required" ID="ID_35838272" CREATED="1555027732030" MODIFIED="1555027743505"/>
+</node>
+<node TEXT="When developing locally, have to register binding extensions" ID="ID_660912868" CREATED="1555027748910" MODIFIED="1555027767240"/>
+<node TEXT="When developing in portal, the registration is done automatically" ID="ID_1512638323" CREATED="1555027768662" MODIFIED="1555027798650"/>
 </node>
 </node>
 <node TEXT="Binding Expressions" FOLDED="true" ID="ID_1034909502" CREATED="1537829602221" MODIFIED="1537829609293">
@@ -636,7 +643,7 @@
 </node>
 <node TEXT="JavaScript Dev Guide" FOLDED="true" POSITION="right" ID="ID_243019185" CREATED="1537215803461" MODIFIED="1537215818543">
 <edge COLOR="#00007c"/>
-<node TEXT="Mechanics" ID="ID_509788580" CREATED="1537215819407" MODIFIED="1537574295410">
+<node TEXT="Mechanics" FOLDED="true" ID="ID_509788580" CREATED="1537215819407" MODIFIED="1537574295410">
 <node ID="ID_811524371" CREATED="1537215845454" MODIFIED="1537215855504"><richcontent TYPE="NODE">
 
 <html>
@@ -1157,7 +1164,7 @@
 </node>
 <node TEXT="Integrating with CosmosDB" FOLDED="true" POSITION="right" ID="ID_547783097" CREATED="1539112136093" MODIFIED="1539112197361">
 <edge COLOR="#7c007c"/>
-<node TEXT="Approaches" ID="ID_374786442" CREATED="1539112413082" MODIFIED="1539112419673">
+<node TEXT="Approaches" FOLDED="true" ID="ID_374786442" CREATED="1539112413082" MODIFIED="1539112419673">
 <node TEXT="Triggers &amp; Bindings" ID="ID_1214834506" CREATED="1539112421231" MODIFIED="1539114358377" LINK="https://docs.microsoft.com/en-us/azure/azure-functions/functions-triggers-bindings">
 <node TEXT="trigger" ID="ID_158198049" CREATED="1539974057770" MODIFIED="1539974066657">
 <node TEXT="What?" ID="ID_1252551944" CREATED="1539974067112" MODIFIED="1539974068993">
@@ -1201,7 +1208,7 @@
 <edge COLOR="#007c00"/>
 <node TEXT="Node.js app with Cosmos SQL API" ID="ID_1883786346" CREATED="1538612848415" MODIFIED="1538612891040" LINK="https://docs.microsoft.com/en-us/azure/cosmos-db/sql-api-nodejs-get-started"/>
 </node>
-<node TEXT="Configuration" POSITION="right" ID="ID_1862998287" CREATED="1540849006936" MODIFIED="1540849034009">
+<node TEXT="Configuration" FOLDED="true" POSITION="right" ID="ID_1862998287" CREATED="1540849006936" MODIFIED="1540849034009">
 <edge COLOR="#7c7c00"/>
 <node TEXT="Files" FOLDED="true" ID="ID_164706714" CREATED="1540849034865" MODIFIED="1540849042162">
 <node TEXT="host.json" ID="ID_626426093" CREATED="1540849042984" MODIFIED="1540849045745">
@@ -1260,7 +1267,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1285,8 +1291,134 @@
     </p>
   </body>
 </html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Continuos Deploy (CD)" FOLDED="true" POSITION="right" ID="ID_1283887551" CREATED="1555026803350" MODIFIED="1555026819647">
+<edge COLOR="#0000ff"/>
+<node TEXT="Note" FOLDED="true" ID="ID_774520025" CREATED="1555026926990" MODIFIED="1555026928959">
+<node TEXT="Configured at per Function App basis" ID="ID_257680002" CREATED="1555026881277" MODIFIED="1555026894759"/>
+<node TEXT="After continuous deployment is enabled - access to code from portal is read-only" ID="ID_225662345" CREATED="1555026900486" MODIFIED="1555026923537"/>
+</node>
+<node TEXT="Requirements" FOLDED="true" ID="ID_1374880237" CREATED="1555026939884" MODIFIED="1555026943582">
+<node TEXT="Deployment source configuration" FOLDED="true" ID="ID_445354950" CREATED="1555026970069" MODIFIED="1555026975328">
+<node TEXT="Source control to be configured and should contain the code" ID="ID_611584885" CREATED="1555026949085" MODIFIED="1555026965710"/>
+</node>
+<node TEXT="Structure" FOLDED="true" ID="ID_1228203566" CREATED="1555026986333" MODIFIED="1555027017727">
+<node TEXT="The code for all the functions in a specific function app is located in a root project folder that contains a host configuration file and one or more subfolders." ID="ID_1277688834" CREATED="1555027061349" MODIFIED="1555027118318"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Courier New">FunctionApp </font>
+    </p>
+    <p>
+      <font face="Courier New">&#160;| - host.json </font>
+    </p>
+    <p>
+      <font face="Courier New">&#160;| - Myfirstfunction </font>
+    </p>
+    <p>
+      <font face="Courier New">&#160;| | - function.json </font>
+    </p>
+    <p>
+      <font face="Courier New">&#160;| | - ...&#160; </font>
+    </p>
+    <p>
+      <font face="Courier New">&#160;| - mysecondfunction </font>
+    </p>
+    <p>
+      <font face="Courier New">&#160;| | - function.json </font>
+    </p>
+    <p>
+      <font face="Courier New">&#160;| | - ...&#160; </font>
+    </p>
+    <p>
+      <font face="Courier New">&#160;| - SharedCode </font>
+    </p>
+    <p>
+      <font face="Courier New">&#160;| - bin</font>
+    </p>
+  </body>
+</html>
 
 </richcontent>
+</node>
+<node TEXT="Each subfolder contains the code for a separate function," ID="ID_166819530" CREATED="1555027072813" MODIFIED="1555027074472"/>
+<node TEXT="Language Specific Structure" FOLDED="true" ID="ID_1096661967" CREATED="1555027355341" MODIFIED="1555027362688">
+<node TEXT="Node.js" ID="ID_415756156" CREATED="1555027364437" MODIFIED="1555027391483"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="Courier New">FunctionsProject </font>
+    </p>
+    <p>
+      <font face="Courier New">&#160;| - MyFirstFunction </font>
+    </p>
+    <p>
+      <font face="Courier New">&#160;| | - index.js </font>
+    </p>
+    <p>
+      <font face="Courier New">&#160;| | - function.json </font>
+    </p>
+    <p>
+      <font face="Courier New">&#160;| - MySecondFunction </font>
+    </p>
+    <p>
+      <font face="Courier New">&#160;| | - index.js </font>
+    </p>
+    <p>
+      <font face="Courier New">&#160;| | - function.json </font>
+    </p>
+    <p>
+      <font face="Courier New">&#160;| - SharedCode </font>
+    </p>
+    <p>
+      <font face="Courier New">&#160;| | - myFirstHelperFunction.js </font>
+    </p>
+    <p>
+      <font face="Courier New">&#160;| | - mySecondHelperFunction.js </font>
+    </p>
+    <p>
+      <font face="Courier New">&#160;| - node_modules </font>
+    </p>
+    <p>
+      <font face="Courier New">&#160;| - host.json </font>
+    </p>
+    <p>
+      <font face="Courier New">&#160;| - package.json </font>
+    </p>
+    <p>
+      <font face="Courier New">&#160;| - extensions.csproj</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Types" ID="ID_1207713003" CREATED="1555028983685" MODIFIED="1555028986112">
+<node TEXT="Pull CD" FOLDED="true" ID="ID_1113593137" CREATED="1555028987238" MODIFIED="1555028993497">
+<node TEXT="What?" FOLDED="true" ID="ID_1604973778" CREATED="1555028998118" MODIFIED="1555029000072">
+<node TEXT="Configured from Function App" ID="ID_240641020" CREATED="1555029001158" MODIFIED="1555029015160"/>
+<node TEXT="It pulls from SCM using webhooks or other mechanism" ID="ID_434713868" CREATED="1555029015430" MODIFIED="1555029033344"/>
+</node>
+</node>
+<node TEXT="Push CD" ID="ID_1388686306" CREATED="1555028993869" MODIFIED="1555028996409">
+<node TEXT="What?" FOLDED="true" ID="ID_347177384" CREATED="1555029037469" MODIFIED="1555029039608">
+<node TEXT="Configured using Zip deployment" ID="ID_1392966243" CREATED="1555029041517" MODIFIED="1555029055148"/>
+<node TEXT="Pushed by pipeline through API calls" ID="ID_202712210" CREATED="1555029055607" MODIFIED="1555029070728"/>
 </node>
 </node>
 </node>

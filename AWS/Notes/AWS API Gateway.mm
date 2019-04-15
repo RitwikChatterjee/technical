@@ -1,0 +1,761 @@
+<map version="freeplane 1.6.0">
+<!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
+<node TEXT="AWS API Gateway" FOLDED="false" ID="ID_1395072342" CREATED="1553787934128" MODIFIED="1553787940856" STYLE="oval">
+<font SIZE="18"/>
+<hook NAME="MapStyle">
+    <properties fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+
+<map_styles>
+<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
+<font SIZE="24"/>
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="default" ICON_SIZE="12.0 pt" COLOR="#000000" STYLE="fork">
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.details"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.attributes">
+<font SIZE="9"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.note" COLOR="#000000" BACKGROUND_COLOR="#ffffff" TEXT_ALIGN="LEFT"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.floating">
+<edge STYLE="hide_edge"/>
+<cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
+</stylenode>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork">
+<font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.subtopic" COLOR="#cc3300" STYLE="fork">
+<font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.subsubtopic" COLOR="#669900">
+<font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.important">
+<icon BUILTIN="yes"/>
+</stylenode>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10.0 pt" SHAPE_VERTICAL_MARGIN="10.0 pt">
+<font SIZE="18"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,1" COLOR="#0033ff">
+<font SIZE="16"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,2" COLOR="#00b439">
+<font SIZE="14"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,3" COLOR="#990000">
+<font SIZE="12"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,4" COLOR="#111111">
+<font SIZE="10"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,5"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,6"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,7"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,8"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,9"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,10"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,11"/>
+</stylenode>
+</stylenode>
+</map_styles>
+</hook>
+<hook NAME="AutomaticEdgeColor" COUNTER="8" RULE="ON_BRANCH_CREATION"/>
+<node TEXT="Steps" FOLDED="true" POSITION="right" ID="ID_512924670" CREATED="1553794326995" MODIFIED="1553794329508">
+<edge COLOR="#ff00ff"/>
+<node TEXT="REST API" ID="ID_1090816477" CREATED="1554223405626" MODIFIED="1554223410445">
+<node TEXT="Development" FOLDED="true" ID="ID_874544451" CREATED="1554922396760" MODIFIED="1554922402466">
+<node TEXT="Proxy" ID="ID_78660813" CREATED="1553794336315" MODIFIED="1554922408073">
+<node ID="ID_64625629" CREATED="1553794351459" MODIFIED="1553794573581"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Create <b><i>RestApi</i></b>&#160;resource to represent an API
+    </p>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_546399118" CREATED="1553794422859" MODIFIED="1553794443101"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Contains a collection of <b><i>Resource </i></b>entities
+    </p>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_8822870" CREATED="1553794443725" MODIFIED="1553794458405"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Contains a collection of <b><i>Method</i></b>&#160;entities
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node ID="ID_1261396137" CREATED="1554921612761" MODIFIED="1554921706455"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Create <b>Resource </b>to represent a REST resource
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1668775848" CREATED="1554921716864" MODIFIED="1554921755011"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Create <b>Method </b>to access the resource
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1834931758" CREATED="1553796173700" MODIFIED="1553796219940"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Create <b><i>Integration </i></b>resource to integrate Method with backend endpoint
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Configuring" ID="ID_112048985" CREATED="1554219612596" MODIFIED="1554221176843">
+<node TEXT="Types" FOLDED="true" ID="ID_972728038" CREATED="1554219617550" MODIFIED="1554221176843">
+<node TEXT="Lambda Function" ID="ID_1869789341" CREATED="1554219622767" MODIFIED="1554219628910">
+<node TEXT="What?" FOLDED="true" ID="ID_924170904" CREATED="1554220888477" MODIFIED="1554220891266">
+<node TEXT="Integrating with Lambda function" ID="ID_1022099083" CREATED="1554220893449" MODIFIED="1554220901259"/>
+</node>
+<node TEXT="Configuring" ID="ID_1498928871" CREATED="1554220903170" MODIFIED="1554220907176">
+<node TEXT="Use Lambda proxy integration" ID="ID_787060355" CREATED="1554220913596" MODIFIED="1554220933411"/>
+<node TEXT="Lambda region" ID="ID_200649470" CREATED="1554220933818" MODIFIED="1554220943189"/>
+<node TEXT="Lambda function name" ID="ID_61595664" CREATED="1554220943450" MODIFIED="1554220950282"/>
+<node TEXT="Timeout" ID="ID_1340660890" CREATED="1554220950597" MODIFIED="1554220955301"/>
+<node TEXT="HTTP Request params" ID="ID_235468073" CREATED="1554221098837" MODIFIED="1554221113289">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1595202444" STARTINCLINATION="198;0;" ENDINCLINATION="198;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+</node>
+</node>
+</node>
+<node TEXT="HTTP" ID="ID_1740210813" CREATED="1554219629243" MODIFIED="1554219632130">
+<node TEXT="What?" FOLDED="true" ID="ID_703687377" CREATED="1554219733574" MODIFIED="1554219736044">
+<node TEXT="Integrating with existing HTTP endpoint" ID="ID_1166257562" CREATED="1554219753791" MODIFIED="1554219763684"/>
+</node>
+<node TEXT="Configuring" ID="ID_945664816" CREATED="1554219736335" MODIFIED="1554219740208">
+<node TEXT="Use HTTP proxy integration" ID="ID_1538941961" CREATED="1554219777598" MODIFIED="1554219784843"/>
+<node TEXT="HTTP method" FOLDED="true" ID="ID_401746366" CREATED="1554219785168" MODIFIED="1554219790275">
+<node TEXT="Backend method" ID="ID_150813399" CREATED="1554219791479" MODIFIED="1554219796844"/>
+</node>
+<node TEXT="Endpoint URL" FOLDED="true" ID="ID_1946343517" CREATED="1554219799467" MODIFIED="1554219805865">
+<node TEXT="Backend endpoint" ID="ID_470939958" CREATED="1554219806888" MODIFIED="1554219813021"/>
+</node>
+<node TEXT="Content handling" FOLDED="true" ID="ID_1920692282" CREATED="1554219817920" MODIFIED="1554219821531">
+<node TEXT="Passthrough" ID="ID_670801668" CREATED="1554219826541" MODIFIED="1554219830011"/>
+<node TEXT="Convert to binary" FOLDED="true" ID="ID_1213899565" CREATED="1554219831211" MODIFIED="1554219842660">
+<node TEXT="Converted to binary if base64 encoded string" ID="ID_905884091" CREATED="1554219877813" MODIFIED="1554219937432"/>
+</node>
+<node TEXT="Convert to text" FOLDED="true" ID="ID_999620982" CREATED="1554219843238" MODIFIED="1554219846744">
+<node TEXT="Converted to base64 encoded if binary passed" ID="ID_1296279447" CREATED="1554219953001" MODIFIED="1554219968316"/>
+</node>
+</node>
+<node TEXT="Timeout" ID="ID_1433523572" CREATED="1554219986746" MODIFIED="1554219992509"/>
+<node TEXT="HTTP Request params" ID="ID_1595202444" CREATED="1554221075942" MODIFIED="1554221082398">
+<node TEXT="URL Path Params" FOLDED="true" ID="ID_1181682167" CREATED="1554220020093" MODIFIED="1554220025498">
+<node TEXT="Add URL path params" ID="ID_1469033831" CREATED="1554220026779" MODIFIED="1554220099868">
+<node TEXT="Value setting options" ID="ID_831830413" CREATED="1554220104149" MODIFIED="1554220110231">
+<node TEXT="Mapped from incoming request" FOLDED="true" ID="ID_699470719" CREATED="1554220112962" MODIFIED="1554220121871">
+<node TEXT="from" FOLDED="true" ID="ID_1675382847" CREATED="1554220203868" MODIFIED="1554220208421">
+<node TEXT="method.request.path.{param_name}" ID="ID_667448989" CREATED="1554220210621" MODIFIED="1554220312416"/>
+<node TEXT="method.request.querystring.{param_name}" ID="ID_765793451" CREATED="1554220218712" MODIFIED="1554220316974"/>
+<node TEXT="method.request.header.{param_name}" ID="ID_656995581" CREATED="1554220227292" MODIFIED="1554220321496"/>
+<node TEXT="method.request.multivaluequerystring.{param_name}" ID="ID_857671259" CREATED="1554220234900" MODIFIED="1554220324078"/>
+<node TEXT="method.request.multivalueheader.{param_name}" ID="ID_1346917208" CREATED="1554220251958" MODIFIED="1554220325947"/>
+</node>
+</node>
+<node TEXT="Static value" ID="ID_913249499" CREATED="1554220122619" MODIFIED="1554220126536">
+<node TEXT="In single quotes" ID="ID_138984025" CREATED="1554220407854" MODIFIED="1554220415392"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Query params" FOLDED="true" ID="ID_125229695" CREATED="1554220133670" MODIFIED="1554220138094">
+<node TEXT="Add Query params" ID="ID_31926481" CREATED="1554220026779" MODIFIED="1554220156658">
+<node TEXT="Value setting options" ID="ID_1342184849" CREATED="1554220104149" MODIFIED="1554220340223">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_831830413" STARTINCLINATION="49;0;" ENDINCLINATION="49;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+</node>
+</node>
+</node>
+<node TEXT="HTTP headers" FOLDED="true" ID="ID_661560692" CREATED="1554220385307" MODIFIED="1554220394388">
+<node TEXT="Add HTTP headers" ID="ID_244220650" CREATED="1554220396527" MODIFIED="1554220402792">
+<node TEXT="Value setting options" ID="ID_912764215" CREATED="1554220104149" MODIFIED="1554220340223">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_831830413" STARTINCLINATION="49;0;" ENDINCLINATION="49;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+</node>
+</node>
+</node>
+<node TEXT="Mapping templates" ID="ID_29197915" CREATED="1554220436195" MODIFIED="1554220440201">
+<node TEXT="What?" ID="ID_1926723945" CREATED="1554220442035" MODIFIED="1554220444130">
+<node TEXT="To transform incoming requests" ID="ID_1208303262" CREATED="1554220445690" MODIFIED="1554220456722"/>
+<node TEXT="Based on mapping templates" ID="ID_1834888987" CREATED="1554220488413" MODIFIED="1554220514265">
+<node TEXT="Mapping templates defined based on incoming &apos;content-type&apos;" ID="ID_207028212" CREATED="1554220516673" MODIFIED="1554220578058"/>
+<node TEXT="Default: content-type=application/json" ID="ID_1435268747" CREATED="1554220542213" MODIFIED="1554220560026"/>
+</node>
+</node>
+<node TEXT="Under the hood" ID="ID_24179817" CREATED="1554220597604" MODIFIED="1554220601160">
+<node TEXT="Apache velocity" ID="ID_474050650" CREATED="1554220602215" MODIFIED="1554220606841"/>
+<node TEXT="Uses JSONPath expressions" ID="ID_1894211846" CREATED="1554929782954" MODIFIED="1554929793516"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Mock" ID="ID_1860053198" CREATED="1554219632377" MODIFIED="1554219634672">
+<node TEXT="What?" FOLDED="true" ID="ID_986448641" CREATED="1554219679843" MODIFIED="1554219683253">
+<node TEXT="Returns response using API gateway mapping and xformations" ID="ID_677471881" CREATED="1554219693671" MODIFIED="1554219726471"/>
+</node>
+<node TEXT="Configuring" ID="ID_62598628" CREATED="1554219684122" MODIFIED="1554219690767">
+<node TEXT="HTTP Request params" ID="ID_1523368653" CREATED="1554221120934" MODIFIED="1554221131958">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1595202444" STARTINCLINATION="44;0;" ENDINCLINATION="44;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+</node>
+</node>
+</node>
+<node TEXT="AWS Service" ID="ID_1275748672" CREATED="1554219635029" MODIFIED="1554219638951"/>
+<node TEXT="VPC Link" ID="ID_372756011" CREATED="1554219639262" MODIFIED="1554219644820"/>
+</node>
+</node>
+</node>
+<node ID="ID_1361825501" CREATED="1553796265180" MODIFIED="1553796306942"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Create <b><i>IntegrationResponse</i></b>&#160;resource to represent the response received from the backend
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node FOLDED="true" ID="ID_268572154" CREATED="1553796238155" MODIFIED="1553796311990"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Create <b><i>MethodResponse </i></b>resource to represent response received by the client
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Configuring" FOLDED="true" ID="ID_736347488" CREATED="1554221181730" MODIFIED="1554221185145">
+<node TEXT="Authorization" FOLDED="true" ID="ID_777395866" CREATED="1554221186925" MODIFIED="1554221204426">
+<node TEXT="None" ID="ID_1450074286" CREATED="1554221205755" MODIFIED="1554221207130"/>
+<node TEXT="AWS_IAM" ID="ID_1622306809" CREATED="1554221207391" MODIFIED="1554221211295"/>
+</node>
+<node TEXT="Request Validator" ID="ID_385379078" CREATED="1554221418470" MODIFIED="1554221423461">
+<node TEXT="What?" ID="ID_651163636" CREATED="1554221436065" MODIFIED="1554221438706">
+<node TEXT="Validate request based on configuration of the selected request validator??" ID="ID_959515531" CREATED="1554221441351" MODIFIED="1554221474670"/>
+</node>
+<node TEXT="Configuring" FOLDED="true" ID="ID_1837356636" CREATED="1554221265954" MODIFIED="1554221430164">
+<node TEXT="None" ID="ID_129479654" CREATED="1554221296207" MODIFIED="1554221301331"/>
+<node TEXT="Validate body" ID="ID_1285452114" CREATED="1554221301595" MODIFIED="1554221319093"/>
+<node TEXT="Validate body, query string &amp; headers" ID="ID_144053475" CREATED="1554221319570" MODIFIED="1554221336674"/>
+<node TEXT="Validate query string &amp; headers" ID="ID_492564569" CREATED="1554221319570" MODIFIED="1554221345886"/>
+</node>
+</node>
+<node TEXT="API Key required" FOLDED="true" ID="ID_996214644" CREATED="1554221275871" MODIFIED="1554221279106">
+<node TEXT="T/F" ID="ID_1183060698" CREATED="1554221288832" MODIFIED="1554221291987"/>
+</node>
+<node TEXT="Query string params" ID="ID_1731233289" CREATED="1554221483966" MODIFIED="1554221499081">
+<node TEXT="What?" FOLDED="true" ID="ID_380105421" CREATED="1554221511090" MODIFIED="1554221512736">
+<node TEXT="Expected query string params" ID="ID_996962558" CREATED="1554221501390" MODIFIED="1554221507334"/>
+</node>
+<node TEXT="Configuring" FOLDED="true" ID="ID_835617897" CREATED="1554221518994" MODIFIED="1554221523475">
+<node TEXT="Name" ID="ID_1125932888" CREATED="1554221880062" MODIFIED="1554221883684"/>
+<node TEXT="Required" ID="ID_1586329016" CREATED="1554221884006" MODIFIED="1554221887361"/>
+<node TEXT="Caching" ID="ID_202374909" CREATED="1554221887765" MODIFIED="1554221892337"/>
+</node>
+</node>
+<node TEXT="HTTP request headers" ID="ID_1178294472" CREATED="1554221483966" MODIFIED="1554222135386">
+<node TEXT="What?" FOLDED="true" ID="ID_1407174382" CREATED="1554221511090" MODIFIED="1554221512736">
+<node TEXT="Expected http headers" ID="ID_1051731226" CREATED="1554221501390" MODIFIED="1554222154692"/>
+</node>
+<node TEXT="Configuring" ID="ID_1966614620" CREATED="1554221518994" MODIFIED="1554222169712">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_835617897" STARTINCLINATION="66;0;" ENDINCLINATION="66;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+</node>
+</node>
+<node TEXT="Request body" FOLDED="true" ID="ID_770811578" CREATED="1554222060139" MODIFIED="1554222064184">
+<node TEXT="What?" FOLDED="true" ID="ID_717420174" CREATED="1554222180448" MODIFIED="1554222182631">
+<node TEXT="Expected Request body" ID="ID_379918203" CREATED="1554222191701" MODIFIED="1554222198733"/>
+<node TEXT="Using JSON schema" ID="ID_1569704948" CREATED="1554222199097" MODIFIED="1554222206586"/>
+</node>
+<node TEXT="Configuring" FOLDED="true" ID="ID_1739567255" CREATED="1554222183586" MODIFIED="1554222189194">
+<node TEXT="content-type" ID="ID_1861468187" CREATED="1554222209666" MODIFIED="1554222293914"/>
+<node TEXT="model name" ID="ID_1190165567" CREATED="1554222294312" MODIFIED="1554222296566"/>
+</node>
+</node>
+<node TEXT="SDK settings" ID="ID_1084020352" CREATED="1554222299906" MODIFIED="1554222305580">
+<node TEXT="What?" ID="ID_1622774439" CREATED="1554222333129" MODIFIED="1554222336069">
+<node TEXT="?" ID="ID_365273575" CREATED="1554222337286" MODIFIED="1554222338469"/>
+</node>
+</node>
+</node>
+</node>
+<node ID="ID_1558727961" CREATED="1553796336660" MODIFIED="1553796353301"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Add a <b><i>DocumentationPart </i></b>resource to document the API
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Mediation" ID="ID_729043853" CREATED="1554922414337" MODIFIED="1554922418602">
+<node TEXT="Request parameter mapping" ID="ID_39266421" CREATED="1554922419865" MODIFIED="1554922442994"/>
+<node TEXT="Response payload mapping" ID="ID_1003379016" CREATED="1554922443328" MODIFIED="1554922454554">
+<node TEXT="Create models" FOLDED="true" ID="ID_298934203" CREATED="1554922474560" MODIFIED="1554922478755">
+<node TEXT="API -&gt; Models" ID="ID_55629138" CREATED="1554922507098" MODIFIED="1554922516394"/>
+</node>
+<node TEXT="Add model to Method Response" ID="ID_1615387303" CREATED="1554928282474" MODIFIED="1554928300532"/>
+<node TEXT="Add mapping template to Integration Response" ID="ID_1756655518" CREATED="1554928301681" MODIFIED="1554928361476"/>
+<node TEXT="Test, deploy" ID="ID_1149969637" CREATED="1554929497745" MODIFIED="1554929503163"/>
+</node>
+</node>
+</node>
+<node TEXT="Deployment" FOLDED="true" ID="ID_1994699500" CREATED="1554223429249" MODIFIED="1554223432154">
+<node TEXT="Steps" ID="ID_909660261" CREATED="1554223515283" MODIFIED="1554223548511">
+<node TEXT="Select API on Method Execution pane" ID="ID_1918103639" CREATED="1554223549789" MODIFIED="1554223557697"/>
+<node TEXT="Actions --&gt; Deploy API" ID="ID_1921432415" CREATED="1554223559141" MODIFIED="1554223569845">
+<node TEXT="Configuring" ID="ID_1098946963" CREATED="1554223583277" MODIFIED="1554223587070">
+<node TEXT="Deployment stage" ID="ID_1492287838" CREATED="1554223589393" MODIFIED="1554224968995"/>
+<node TEXT="Deployment description" ID="ID_619709906" CREATED="1554224980814" MODIFIED="1554224988322"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Console" FOLDED="true" POSITION="right" ID="ID_879771087" CREATED="1554223472481" MODIFIED="1554223475366">
+<edge COLOR="#7c0000"/>
+<node TEXT="API Gateway" ID="ID_150086067" CREATED="1554223478129" MODIFIED="1554223491392">
+<node TEXT="Resource pane" ID="ID_1330282798" CREATED="1554223493329" MODIFIED="1554223504977"/>
+<node TEXT="Method execution pane" ID="ID_1884079109" CREATED="1554223505464" MODIFIED="1554223510239"/>
+</node>
+</node>
+<node TEXT="Monitoring" FOLDED="true" POSITION="right" ID="ID_965476270" CREATED="1554232831601" MODIFIED="1554232834790">
+<edge COLOR="#00007c"/>
+<node TEXT="Tools" ID="ID_1088929926" CREATED="1554232836439" MODIFIED="1554232838262">
+<node TEXT="AWS X-ray" FOLDED="true" ID="ID_1968397726" CREATED="1554232839781" MODIFIED="1554232849636">
+<node TEXT="Performance &amp; latency graphs" ID="ID_1978791343" CREATED="1554232885043" MODIFIED="1554233492919"/>
+</node>
+<node TEXT="AWS CloudTrail" ID="ID_918183422" CREATED="1554232850545" MODIFIED="1554232857396">
+<node TEXT="What?" FOLDED="true" ID="ID_393409869" CREATED="1554233546797" MODIFIED="1554233549225">
+<node TEXT="Logs API Gateway management operations" ID="ID_451222893" CREATED="1554233525423" MODIFIED="1554233545854"/>
+<node TEXT="Troubleshoot API creation/deployment issues" ID="ID_1327397947" CREATED="1554233565847" MODIFIED="1554233576558"/>
+</node>
+</node>
+<node TEXT="AWS CloudWatch" ID="ID_1514025203" CREATED="1554232857763" MODIFIED="1554232862260">
+<node TEXT="What?" FOLDED="true" ID="ID_1779977642" CREATED="1554232914021" MODIFIED="1554232916414">
+<node TEXT="Logs API execution operations" ID="ID_1935568987" CREATED="1554232917812" MODIFIED="1554232930437"/>
+<node TEXT="Metrics for" FOLDED="true" ID="ID_425501145" CREATED="1554233429266" MODIFIED="1554233442124">
+<node TEXT="Caching" ID="ID_1360854824" CREATED="1554233444047" MODIFIED="1554233446477"/>
+<node TEXT="Latency" ID="ID_1585347397" CREATED="1554233448903" MODIFIED="1554233450850"/>
+<node TEXT="Detected errors" ID="ID_951081945" CREATED="1554233451215" MODIFIED="1554233457152"/>
+</node>
+</node>
+<node TEXT="Default settings" FOLDED="true" ID="ID_274104665" CREATED="1554233657089" MODIFIED="1554233662878">
+<node TEXT="API gateway metric data sent in 1 min intervals" ID="ID_1133433671" CREATED="1554233664918" MODIFIED="1554233706645"/>
+<node TEXT="Stored for a period of 2 weeks" ID="ID_386340859" CREATED="1554233764657" MODIFIED="1554233770368"/>
+</node>
+<node TEXT="Enablement" FOLDED="true" ID="ID_300183097" CREATED="1554234322790" MODIFIED="1554234326536">
+<node TEXT="Update API Gateway settings" FOLDED="true" ID="ID_263213111" CREATED="1554234408199" MODIFIED="1554236971256">
+<node TEXT="To assign it a role to write/access CloudWatch logs" ID="ID_717309502" CREATED="1554237166096" MODIFIED="1554237194856"/>
+<node TEXT="API Gateway -&gt; Settings" ID="ID_132776851" CREATED="1554236980787" MODIFIED="1554236992662">
+<node TEXT="CloudWatch log role ARN" ID="ID_3547210" CREATED="1554236994640" MODIFIED="1554237010192">
+<node ID="ID_1367031532" CREATED="1554237015971" MODIFIED="1554237102764"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Prerequisite:</b>&#160;Create an IAM role with built-in policy AmazonAPIGatewayPushToCloudWatchLogs
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Update Stage settings" FOLDED="true" ID="ID_1181707296" CREATED="1554234328569" MODIFIED="1554234345611">
+<node TEXT="To specify what will be captured in CloudWatch logs" ID="ID_640422662" CREATED="1554237222364" MODIFIED="1554237236924"/>
+<node TEXT="Using AWS Console" ID="ID_1130263644" CREATED="1554234346978" MODIFIED="1554234352000">
+<node TEXT="Settings -&gt; Logs/Tracing" ID="ID_1592390494" CREATED="1554234353352" MODIFIED="1554234399728"/>
+</node>
+</node>
+</node>
+<node TEXT="Access" ID="ID_1733230766" CREATED="1554237249358" MODIFIED="1554237252199">
+<node TEXT="Services -&gt; CloudWatch -&gt; Metrics" ID="ID_1921198816" CREATED="1554237254376" MODIFIED="1554237280334"/>
+<node TEXT="Services -&gt; CloudWatch -&gt; Logs" ID="ID_1892349324" CREATED="1554237281608" MODIFIED="1554237299663"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Security" FOLDED="true" POSITION="right" ID="ID_447457831" CREATED="1554237409850" MODIFIED="1554237412732">
+<edge COLOR="#007c00"/>
+<node TEXT="Permission models" FOLDED="true" ID="ID_114377780" CREATED="1554237414862" MODIFIED="1554237420488">
+<node TEXT="API administration" ID="ID_1443996173" CREATED="1554237421730" MODIFIED="1554237430391"/>
+<node TEXT="API execution" FOLDED="true" ID="ID_729003784" CREATED="1554237431052" MODIFIED="1554237436616">
+<node TEXT="AWS_IAM" ID="ID_462778347" CREATED="1554388419972" MODIFIED="1554388429388">
+<node TEXT="Settings" ID="ID_1460437180" CREATED="1554237521038" MODIFIED="1554237533855">
+<node TEXT="IAM identity" FOLDED="true" ID="ID_1682783199" CREATED="1554237768298" MODIFIED="1554237773285">
+<node ID="ID_898963272" CREATED="1554237775340" MODIFIED="1554249335802" LINK="https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-control-access-using-iam-policies-to-invoke-api.html"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Create <b>IAM Policy </b>that permit a specified API caller to invoke the API method for which the IAM user authentication is enabled
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1803099582" CREATED="1554237919191" MODIFIED="1554237969792"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Attach policy to <b>IAM User, IAM Group </b>or<b>&#160;IAM Role</b>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="API settings" FOLDED="true" ID="ID_291587250" CREATED="1554237535328" MODIFIED="1554237539991">
+<node TEXT="Set API Authorization Type" ID="ID_1614940860" CREATED="1554237859670" MODIFIED="1554237884579">
+<node TEXT="{API} -&gt; Resources -&gt; {resource} -&gt; method -&gt;Method Request (Method Exec pane)" ID="ID_884959236" CREATED="1554237541349" MODIFIED="1554237684161"/>
+<node TEXT="Settings -&gt; Authorization -&gt; AWS_IAM" ID="ID_1483510795" CREATED="1554237699647" MODIFIED="1554237716307"/>
+</node>
+</node>
+<node TEXT="API request authentication" FOLDED="true" ID="ID_873554315" CREATED="1554249346550" MODIFIED="1554249354834">
+<node TEXT="Using AWS Signature v4" ID="ID_1114698670" CREATED="1554249356512" MODIFIED="1554249368584"/>
+</node>
+</node>
+</node>
+<node TEXT="Lambda Authorizer" ID="ID_822817810" CREATED="1554388439460" MODIFIED="1554388454279">
+<node TEXT="What?" ID="ID_1941398829" CREATED="1554388456709" MODIFIED="1554388458769">
+<node TEXT="aka custom authorizer" ID="ID_367614100" CREATED="1554388461318" MODIFIED="1554388470590"/>
+<node TEXT="supports" FOLDED="true" ID="ID_531963313" CREATED="1554388471947" MODIFIED="1554388482518">
+<node TEXT="Authentication strategies" FOLDED="true" ID="ID_819974515" CREATED="1554388483896" MODIFIED="1554388789265">
+<node TEXT="bearer token" FOLDED="true" ID="ID_335797683" CREATED="1554388790465" MODIFIED="1554388793919">
+<node TEXT="OAuth" ID="ID_148085978" CREATED="1554388802476" MODIFIED="1554388804609"/>
+<node TEXT="SAML" ID="ID_283580399" CREATED="1554388805463" MODIFIED="1554388807017"/>
+</node>
+</node>
+<node TEXT="request parameter based" ID="ID_1081511893" CREATED="1554388498239" MODIFIED="1554388522846"/>
+<node TEXT="Authorization strategies" ID="ID_352864094" CREATED="1554388693088" MODIFIED="1554388699896">
+<node TEXT="JWT" ID="ID_920640991" CREATED="1554388702227" MODIFIED="1554388704126"/>
+<node TEXT="OAuth provider callout" ID="ID_492165584" CREATED="1554388704495" MODIFIED="1554388718209"/>
+<node TEXT="Custom scheme" FOLDED="true" ID="ID_1214331427" CREATED="1554388725836" MODIFIED="1554388729702">
+<node TEXT="based on incoming request params" ID="ID_1641355669" CREATED="1554388731391" MODIFIED="1554388745048"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Mechanism" FOLDED="true" ID="ID_1682529821" CREATED="1554388814208" MODIFIED="1554388817117">
+<node TEXT="If Lambda Authorizer is configured for API method" ID="ID_662934257" CREATED="1554388818953" MODIFIED="1554388847737">
+<node TEXT="API gateway calls Lambda function with extracted request params" ID="ID_257334104" CREATED="1554388849107" MODIFIED="1554388874002"/>
+<node TEXT="Lambda function returns principal + policy" ID="ID_1817704281" CREATED="1554388889626" MODIFIED="1554388909554"/>
+<node TEXT="If policy" ID="ID_1715615523" CREATED="1554388910397" MODIFIED="1554388916640">
+<node TEXT="Invalid" FOLDED="true" ID="ID_549737255" CREATED="1554388918268" MODIFIED="1554388921413">
+<node TEXT="Error" ID="ID_1163060154" CREATED="1554388922588" MODIFIED="1554388924617"/>
+</node>
+<node TEXT="Valid" ID="ID_1303566917" CREATED="1554388926251" MODIFIED="1554388928220">
+<node TEXT="Cache policy" FOLDED="true" ID="ID_69506166" CREATED="1554388929909" MODIFIED="1554388934376">
+<node TEXT="0 - 3600 secs" ID="ID_578030083" CREATED="1554388948105" MODIFIED="1554388955436"/>
+<node TEXT="default 300 secs" ID="ID_1287163505" CREATED="1554388956565" MODIFIED="1554388962081"/>
+</node>
+<node TEXT="Let API call go through" ID="ID_1941484621" CREATED="1554388934975" MODIFIED="1554388943093"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Types" FOLDED="true" ID="ID_1286276055" CREATED="1554388993497" MODIFIED="1554388995939">
+<node TEXT="TOKEN" ID="ID_1914810510" CREATED="1554388999725" MODIFIED="1554389002025"/>
+<node TEXT="REQUEST" ID="ID_1708489094" CREATED="1554389002608" MODIFIED="1554389008509"/>
+</node>
+<node TEXT="Steps" ID="ID_542147672" CREATED="1554389278392" MODIFIED="1554389281871">
+<node TEXT="Create a Lambda function to authenticate/authorize the caller" FOLDED="true" ID="ID_525260300" CREATED="1554389286047" MODIFIED="1554389412687">
+<node ID="ID_730747180" CREATED="1554389326373" MODIFIED="1554389353311"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Use <i>API Gateway Lambda Authorizer blueprint</i>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Assign an execution role for the Lambda function" FOLDED="true" ID="ID_1440196756" CREATED="1554389389255" MODIFIED="1554390482496">
+<node TEXT="Create a new role or use existing role" ID="ID_1876065608" CREATED="1554390492815" MODIFIED="1554390503942"/>
+<node TEXT="Provide permissions to call other AWS services, if required" ID="ID_698385636" CREATED="1554390530615" MODIFIED="1554390556277"/>
+</node>
+<node TEXT="Test the Lambda function" ID="ID_524481591" CREATED="1554394076515" MODIFIED="1554394084700"/>
+</node>
+<node TEXT="Configure API Gateway Lambda Authorizer" ID="ID_1118839379" CREATED="1554394097977" MODIFIED="1554394114775">
+<node TEXT="API Gateway -&gt; {api} -&gt; Authorizer" ID="ID_1983743556" CREATED="1554394150473" MODIFIED="1554394170814"/>
+<node TEXT="Configuring" FOLDED="true" ID="ID_33258638" CREATED="1554394428061" MODIFIED="1554394431893">
+<node TEXT="Name" ID="ID_131534364" CREATED="1554394445266" MODIFIED="1554394446994"/>
+<node TEXT="Type" FOLDED="true" ID="ID_343974071" CREATED="1554394447330" MODIFIED="1554394450531">
+<node TEXT="Lambda" ID="ID_1775772328" CREATED="1554394452189" MODIFIED="1554394456621"/>
+<node TEXT="Cognito" ID="ID_894313728" CREATED="1554394457106" MODIFIED="1554394459974"/>
+</node>
+<node TEXT="Lambda Function" ID="ID_1692587115" CREATED="1554394463590" MODIFIED="1554394479209">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_525260300" STARTINCLINATION="137;0;" ENDINCLINATION="137;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+</node>
+<node TEXT="Invoke role" FOLDED="true" ID="ID_733293532" CREATED="1554394486779" MODIFIED="1554394490276">
+<node TEXT="Blank" ID="ID_475181715" CREATED="1554394517173" MODIFIED="1554394519858">
+<node TEXT="API Gateway sets a resource based policy" ID="ID_655400563" CREATED="1554394522271" MODIFIED="1554394536324"/>
+<node ID="ID_1925741203" CREATED="1554394560598" MODIFIED="1554394583420"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Add Permission to Lambda Function</b>&#160;dialog is displayed
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="Lambda Event payload" ID="ID_309855629" CREATED="1554394610516" MODIFIED="1554394615139">
+<node TEXT="Token" ID="ID_156372737" CREATED="1554394616112" MODIFIED="1554394617618"/>
+<node TEXT="Request params" ID="ID_1480787450" CREATED="1554394617984" MODIFIED="1554394621095"/>
+</node>
+</node>
+<node TEXT="Test" ID="ID_1577510763" CREATED="1554394918312" MODIFIED="1554394920325"/>
+</node>
+<node TEXT="Configure Method Request resource to use Lambda Authorizer" ID="ID_402962507" CREATED="1554395128865" MODIFIED="1554395149970"/>
+</node>
+</node>
+</node>
+<node TEXT="AWS Service Access" FOLDED="true" ID="ID_948926311" CREATED="1554238098511" MODIFIED="1554238107563">
+<node TEXT="What?" FOLDED="true" ID="ID_798330818" CREATED="1554238109305" MODIFIED="1554238111704">
+<node TEXT="Backend permission when invoking other AWS services e.g. Lambda" ID="ID_1407260513" CREATED="1554238112906" MODIFIED="1554238132325"/>
+</node>
+<node TEXT="Permission models" FOLDED="true" ID="ID_1700091378" CREATED="1554238669624" MODIFIED="1554238676780">
+<node TEXT="Caller-based" FOLDED="true" ID="ID_903947284" CREATED="1554238685323" MODIFIED="1554238688755">
+<node TEXT="Permission attached to a user or group" ID="ID_1333005705" CREATED="1554238723227" MODIFIED="1554238731415"/>
+</node>
+<node TEXT="Role-based" FOLDED="true" ID="ID_1612472358" CREATED="1554238689637" MODIFIED="1554238693474">
+<node TEXT="Permission attached to a role assumed by an entity (e.g. API gateway)" ID="ID_23669419" CREATED="1554238734029" MODIFIED="1554238748153"/>
+</node>
+</node>
+<node TEXT="How? (Role-based)" ID="ID_1337181029" CREATED="1554238166634" MODIFIED="1554238763507">
+<node FOLDED="true" ID="ID_1706631559" CREATED="1554238171638" MODIFIED="1554238220122"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Create <b>IAM Role</b>&#160;of the <b>AWS service for API Gateway type</b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Will contain a trust policy declaring API Gateway as a trusted entity permitted to assume the role" ID="ID_664699534" CREATED="1554238236510" MODIFIED="1554238267850"/>
+</node>
+<node TEXT="Attach to this role appropriate IAM permissions policies for calling integrated AWS services" FOLDED="true" ID="ID_837172025" CREATED="1554238476805" MODIFIED="1554238499293">
+<node TEXT="For e.g." ID="ID_824227786" CREATED="1554238533879" MODIFIED="1554238537830">
+<node TEXT="to call a Lambda function" ID="ID_907574897" CREATED="1554238539920" MODIFIED="1554238566541"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&quot;Version&quot;: &quot;2012-10-17&quot;,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&quot;Statement&quot;: [
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;{
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;Effect&quot;: &quot;Allow&quot;,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;Action&quot;: &quot;lambda:InvokeFunction&quot;,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;Resource&quot;: &quot;*&quot;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;]
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Pricing" FOLDED="true" POSITION="left" ID="ID_572728085" CREATED="1553788012145" MODIFIED="1553788017779">
+<edge COLOR="#ff0000"/>
+<node TEXT="Model" ID="ID_801989531" CREATED="1553788032549" MODIFIED="1553788034900">
+<node TEXT="Tiered pricing model" ID="ID_1804408346" CREATED="1553788035587" MODIFIED="1553788050354"/>
+<node TEXT="Pay for API calls received + Data egress" ID="ID_468544410" CREATED="1553788050698" MODIFIED="1553788078315"/>
+<node TEXT="No minimum or startup costs" ID="ID_1061134799" CREATED="1553788079212" MODIFIED="1553788090210"/>
+</node>
+</node>
+<node TEXT="Features" FOLDED="true" POSITION="left" ID="ID_694201417" CREATED="1553788163930" MODIFIED="1553788287146">
+<edge COLOR="#00ff00"/>
+<node TEXT="Security" FOLDED="true" ID="ID_369918398" CREATED="1553788289130" MODIFIED="1553788291786">
+<node TEXT="Authorization" FOLDED="true" ID="ID_1658501794" CREATED="1553788302675" MODIFIED="1553788314723">
+<node TEXT="AWS IAM" ID="ID_954311137" CREATED="1553788316754" MODIFIED="1553788319298"/>
+<node TEXT="Amazon Cognito User Pool" ID="ID_907225656" CREATED="1553794217994" MODIFIED="1553794225812"/>
+<node TEXT="Others" ID="ID_1126005100" CREATED="1553788319618" MODIFIED="1553788331315">
+<node TEXT="Workaround" ID="ID_1898045470" CREATED="1553788332684" MODIFIED="1553788336274">
+<node TEXT="Using Lambda Authoizer models" ID="ID_680288291" CREATED="1553788337058" MODIFIED="1554920400170"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Threat protection" FOLDED="true" ID="ID_571785291" CREATED="1554920402928" MODIFIED="1554920407395">
+<node TEXT="Using AWS WAF" ID="ID_1999378927" CREATED="1554920411633" MODIFIED="1554920420593"/>
+</node>
+<node TEXT="Traffic Management" FOLDED="true" ID="ID_1315344891" CREATED="1553788292418" MODIFIED="1553788296051">
+<node ID="ID_674532530" CREATED="1553788296762" MODIFIED="1553796386397"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Throttling through <b><i>Usage Plans</i></b>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Support for Stateful APIs" FOLDED="true" ID="ID_1472359224" CREATED="1554920188208" MODIFIED="1554920196537">
+<node TEXT="Websocket APIs" ID="ID_525912166" CREATED="1553788361314" MODIFIED="1554389072886">
+<node TEXT="API gateway maintains persistent connection between clients" ID="ID_246446420" CREATED="1553788385988" MODIFIED="1553788404123"/>
+<node TEXT="Limitations" ID="ID_1789927304" CREATED="1554389074978" MODIFIED="1554389078928">
+<node TEXT="Lambda Authorizer: only REQUEST type supported" ID="ID_644443159" CREATED="1554389080590" MODIFIED="1554389110326">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1708489094" STARTINCLINATION="1474;0;" ENDINCLINATION="1474;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Monitoring" FOLDED="true" ID="ID_479657422" CREATED="1553788479513" MODIFIED="1553788483419">
+<node TEXT="Through AWS CloudWatch" ID="ID_145140688" CREATED="1553788484474" MODIFIED="1553788491747"/>
+<node TEXT="Built-in dashboards" ID="ID_1840657007" CREATED="1553788492386" MODIFIED="1553788497795"/>
+</node>
+<node TEXT="Developer portal" ID="ID_641866242" CREATED="1554920303136" MODIFIED="1554920307370"/>
+<node TEXT="Canary release support" ID="ID_546418931" CREATED="1554920307815" MODIFIED="1554920318706"/>
+<node TEXT="Development using CloudFormation Templates" ID="ID_496325590" CREATED="1554920319128" MODIFIED="1554920353747"/>
+<node TEXT="Support for custom domain name" ID="ID_604722800" CREATED="1554920364896" MODIFIED="1554920372377"/>
+<node TEXT="Support for OAS 2.0 using extensions" ID="ID_1728020908" CREATED="1554920792296" MODIFIED="1554920805363"/>
+</node>
+<node TEXT="Terms" FOLDED="true" POSITION="left" ID="ID_1407444965" CREATED="1553796661123" MODIFIED="1553796671108">
+<edge COLOR="#00ffff"/>
+<node TEXT="API Endpoint" FOLDED="true" ID="ID_957002705" CREATED="1553796672011" MODIFIED="1553796675413">
+<node TEXT="Types" FOLDED="true" ID="ID_1249731694" CREATED="1553796686452" MODIFIED="1553796691205">
+<node TEXT="Edge-optimized" FOLDED="true" ID="ID_372384462" CREATED="1553796697739" MODIFIED="1553796704949">
+<node TEXT="Best for geographically distributed clients" ID="ID_1411725446" CREATED="1553796747484" MODIFIED="1553796756853"/>
+<node TEXT="Requests routed to nearest CloudFront Point of Presence (POP)" ID="ID_1643680325" CREATED="1553796781755" MODIFIED="1553796801005"/>
+<node TEXT="Default settings (Mar, 2019)" ID="ID_515999929" CREATED="1553796757107" MODIFIED="1553796780044"/>
+</node>
+<node TEXT="Regional" FOLDED="true" ID="ID_383449494" CREATED="1553796705331" MODIFIED="1553796707245">
+<node TEXT="Intended for clients in the same region" ID="ID_839395043" CREATED="1553796824443" MODIFIED="1553796835821"/>
+<node TEXT="Reduces connection overhead" ID="ID_1151165105" CREATED="1553796836123" MODIFIED="1553796855364"/>
+</node>
+<node TEXT="Private" FOLDED="true" ID="ID_1635885464" CREATED="1553796707556" MODIFIED="1553796709484">
+<node TEXT="Can only be accessed from AWS VPC using an interface VPC endpoint (endpoint network interface ENI)" ID="ID_1394862719" CREATED="1553796917092" MODIFIED="1553796957606"/>
+</node>
+</node>
+<node TEXT="Basis" FOLDED="true" ID="ID_1613799283" CREATED="1553796712979" MODIFIED="1553796715084">
+<node TEXT="Where majority of the API traffic originates from" ID="ID_1576640180" CREATED="1553796715883" MODIFIED="1553796740461"/>
+</node>
+</node>
+</node>
+</node>
+</map>
