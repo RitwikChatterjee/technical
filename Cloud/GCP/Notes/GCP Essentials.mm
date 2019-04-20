@@ -1,0 +1,372 @@
+<map version="freeplane 1.6.0">
+<!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
+<node TEXT="GCP Essentials" FOLDED="false" ID="ID_396265482" CREATED="1555435241660" MODIFIED="1555435250939" STYLE="oval">
+<font SIZE="18"/>
+<hook NAME="MapStyle">
+    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+
+<map_styles>
+<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
+<font SIZE="24"/>
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="default" ICON_SIZE="12.0 pt" COLOR="#000000" STYLE="fork">
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.details"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.attributes">
+<font SIZE="9"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.note" COLOR="#000000" BACKGROUND_COLOR="#ffffff" TEXT_ALIGN="LEFT"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.floating">
+<edge STYLE="hide_edge"/>
+<cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
+</stylenode>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork">
+<font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.subtopic" COLOR="#cc3300" STYLE="fork">
+<font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.subsubtopic" COLOR="#669900">
+<font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.important">
+<icon BUILTIN="yes"/>
+</stylenode>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10.0 pt" SHAPE_VERTICAL_MARGIN="10.0 pt">
+<font SIZE="18"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,1" COLOR="#0033ff">
+<font SIZE="16"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,2" COLOR="#00b439">
+<font SIZE="14"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,3" COLOR="#990000">
+<font SIZE="12"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,4" COLOR="#111111">
+<font SIZE="10"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,5"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,6"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,7"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,8"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,9"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,10"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,11"/>
+</stylenode>
+</stylenode>
+</map_styles>
+</hook>
+<hook NAME="AutomaticEdgeColor" COUNTER="15" RULE="ON_BRANCH_CREATION"/>
+<node TEXT="Offering" FOLDED="true" POSITION="left" ID="ID_15804432" CREATED="1555625883177" MODIFIED="1555625886333">
+<edge COLOR="#7c7c00"/>
+<node TEXT="LinkedIn training" FOLDED="true" ID="ID_1232031811" CREATED="1555435253783" MODIFIED="1555625953064">
+<node TEXT="Compute Services" FOLDED="true" ID="ID_180680107" CREATED="1555435264312" MODIFIED="1555435270536">
+<node TEXT="Virtual machines" ID="ID_1687156564" CREATED="1555435270921" MODIFIED="1555435276128"/>
+<node TEXT="Container and container management" ID="ID_1424430764" CREATED="1555435276559" MODIFIED="1555435280969"/>
+<node TEXT="Functions and lambdas" ID="ID_1431410676" CREATED="1555435281687" MODIFIED="1555435288537"/>
+</node>
+<node TEXT="Storage services" ID="ID_319725343" CREATED="1555435295808" MODIFIED="1555435305449">
+<node TEXT="Files" ID="ID_688654147" CREATED="1555435306599" MODIFIED="1555435308865"/>
+<node TEXT="Archival file storage" ID="ID_894728482" CREATED="1555435314431" MODIFIED="1555435320064"/>
+<node TEXT="Persistent disks for VMs" ID="ID_570513141" CREATED="1555435320575" MODIFIED="1555435326041"/>
+</node>
+<node TEXT="Data Services" ID="ID_785615167" CREATED="1555435337944" MODIFIED="1555435341817">
+<node TEXT="NoSQL" FOLDED="true" ID="ID_348370291" CREATED="1555435496383" MODIFIED="1555435498912">
+<node TEXT="What?" ID="ID_1163509092" CREATED="1555435343215" MODIFIED="1555435502401">
+<node TEXT="Eventually consistent, highly available" ID="ID_267241627" CREATED="1555435366919" MODIFIED="1555435375497"/>
+<node TEXT="Big differentiator" ID="ID_869091263" CREATED="1555435375848" MODIFIED="1555435381017"/>
+</node>
+</node>
+<node TEXT="RDBMS" ID="ID_610376361" CREATED="1555435383400" MODIFIED="1555435387024"/>
+<node TEXT="Hadoop &amp; Spark" ID="ID_1431394105" CREATED="1555435388632" MODIFIED="1555435396154"/>
+</node>
+<node TEXT="Big Data Services" ID="ID_747238227" CREATED="1555435436607" MODIFIED="1555435442313">
+<node TEXT="Data pipelines" FOLDED="true" ID="ID_1825891228" CREATED="1555435443535" MODIFIED="1555435446921">
+<node TEXT="What?" ID="ID_1471283930" CREATED="1555435486447" MODIFIED="1555435490025"/>
+</node>
+<node TEXT="Data warehouses" FOLDED="true" ID="ID_72104805" CREATED="1555435447368" MODIFIED="1555435451042">
+<node TEXT="What?" ID="ID_1569170576" CREATED="1555435505800" MODIFIED="1555435512241"/>
+</node>
+<node TEXT="Data science notebooks" FOLDED="true" ID="ID_514874886" CREATED="1555435453359" MODIFIED="1555435458137">
+<node TEXT="What?" ID="ID_1860712496" CREATED="1555435513647" MODIFIED="1555435516137">
+<node TEXT="iPython, Jupiter notebooks" ID="ID_138005731" CREATED="1555435516826" MODIFIED="1555435527417"/>
+<node TEXT="Probabilistic" ID="ID_923891319" CREATED="1555435527848" MODIFIED="1555435534201"/>
+</node>
+</node>
+<node TEXT="Machine learning" ID="ID_1994517357" CREATED="1555435535520" MODIFIED="1555435539730"/>
+</node>
+<node TEXT="Other Services" ID="ID_1831402116" CREATED="1555435570799" MODIFIED="1555435578626">
+<node TEXT="Security &amp; Identity" FOLDED="true" ID="ID_921470012" CREATED="1555435606631" MODIFIED="1555435611929">
+<node TEXT="IAM" ID="ID_96409064" CREATED="1555435613344" MODIFIED="1555529885591">
+<node TEXT="What?" ID="ID_165238339" CREATED="1555529850868" MODIFIED="1555529852847">
+<node TEXT="Similar to AWS IAM permissions though not identical" ID="ID_1242329128" CREATED="1555435620391" MODIFIED="1555529868393"/>
+<node TEXT="Roles at both project and at service level" ID="ID_894220151" CREATED="1555530007684" MODIFIED="1555530023167"/>
+<node TEXT="For users" ID="ID_565018324" CREATED="1555530381773" MODIFIED="1555530384423"/>
+</node>
+</node>
+<node TEXT="Quotas" ID="ID_589141053" CREATED="1555529885884" MODIFIED="1555529888911">
+<node TEXT="What?" ID="ID_1396379645" CREATED="1555530138884" MODIFIED="1555530141277">
+<node TEXT="Set quotas at account/service level" ID="ID_1710074304" CREATED="1555530148204" MODIFIED="1555530177111"/>
+</node>
+</node>
+<node TEXT="Service accounts" ID="ID_51624052" CREATED="1555529889252" MODIFIED="1555529892839">
+<node TEXT="What?" ID="ID_924767138" CREATED="1555529904196" MODIFIED="1555529906095">
+<node TEXT="Type of IAM related to a service" ID="ID_1204321010" CREATED="1555529906731" MODIFIED="1555529913222"/>
+<node TEXT="Auth mechanism for services" ID="ID_291587898" CREATED="1555529913972" MODIFIED="1555529919488"/>
+<node TEXT="Managed with keys instead of passwords" ID="ID_1665829200" CREATED="1555530351437" MODIFIED="1555530362863"/>
+</node>
+</node>
+</node>
+<node TEXT="Management and Monitoring" FOLDED="true" ID="ID_404291558" CREATED="1555435637471" MODIFIED="1555435642209">
+<node TEXT="Acquired" FOLDED="true" ID="ID_954736957" CREATED="1555435643047" MODIFIED="1555435646225">
+<node TEXT="StackDriver" ID="ID_735379794" CREATED="1555435646951" MODIFIED="1555435665689"/>
+</node>
+</node>
+<node TEXT="Developer tools" FOLDED="true" ID="ID_1103778396" CREATED="1555435668311" MODIFIED="1555435673130">
+<node TEXT="gCloud" ID="ID_1128306207" CREATED="1555435673919" MODIFIED="1555435678154">
+<node TEXT="What?" FOLDED="true" ID="ID_1634381948" CREATED="1555530444324" MODIFIED="1555530446887">
+<node TEXT="Command line tool" ID="ID_1957596272" CREATED="1555530447580" MODIFIED="1555530453216"/>
+</node>
+<node TEXT="Steps" FOLDED="true" ID="ID_1626027819" CREATED="1555530463900" MODIFIED="1555530465791">
+<node TEXT="Download GCP SDK" ID="ID_1212284096" CREATED="1555530466556" MODIFIED="1555530473622"/>
+<node TEXT="Start gcloud from terminal and project folder" ID="ID_1366075599" CREATED="1555530480045" MODIFIED="1555530491288"/>
+<node TEXT="Authenticate to gcloud" ID="ID_183633597" CREATED="1555530491596" MODIFIED="1555530496407"/>
+<node TEXT="List or set your project" ID="ID_20219688" CREATED="1555530508085" MODIFIED="1555530513271"/>
+</node>
+<node TEXT="Samples" FOLDED="true" ID="ID_1325788158" CREATED="1555530576932" MODIFIED="1555530732385">
+<node TEXT="gcloud version" ID="ID_1103112773" CREATED="1555530582470" MODIFIED="1555530712832">
+<font NAME="Courier New"/>
+<node TEXT="Showing the version" ID="ID_874250737" CREATED="1555530684188" MODIFIED="1555530690119"/>
+</node>
+<node TEXT="gcloud auth login" ID="ID_1364017335" CREATED="1555530599276" MODIFIED="1555530712855">
+<font NAME="Courier New"/>
+</node>
+<node TEXT="gcloud info --show-log" ID="ID_1463694151" CREATED="1555530619876" MODIFIED="1555530712855">
+<font NAME="Courier New"/>
+<node TEXT="Showing the logs" ID="ID_1813167377" CREATED="1555530677372" MODIFIED="1555530681941"/>
+</node>
+<node TEXT="gcloud config set project &lt;my-project-id&gt;" ID="ID_1573504154" CREATED="1555530628652" MODIFIED="1555530712853">
+<font NAME="Courier New"/>
+<node TEXT="To set a project to talk to" ID="ID_1643782633" CREATED="1555530668246" MODIFIED="1555530675463"/>
+</node>
+<node TEXT="gcloud init &lt;my-project&gt;" ID="ID_13289477" CREATED="1555530647909" MODIFIED="1555530712849">
+<font NAME="Courier New"/>
+<node TEXT="to start a new project locally" ID="ID_1550414285" CREATED="1555530660475" MODIFIED="1555530666912"/>
+</node>
+</node>
+<node TEXT="Tips" FOLDED="true" ID="ID_1197133888" CREATED="1555530732764" MODIFIED="1555530734165">
+<node TEXT="Change to the directory where your project is stored locally" ID="ID_1346927914" CREATED="1555530734957" MODIFIED="1555530744031"/>
+</node>
+<node TEXT="Features" ID="ID_491580382" CREATED="1555532960836" MODIFIED="1555532963735">
+<node TEXT="availability" FOLDED="true" ID="ID_301581404" CREATED="1555532911324" MODIFIED="1555532973111">
+<node TEXT="ga" ID="ID_1447059936" CREATED="1555532919772" MODIFIED="1555532977008"/>
+<node TEXT="alpha" ID="ID_1967256321" CREATED="1555532938164" MODIFIED="1555532940464"/>
+<node TEXT="beta" ID="ID_1654554964" CREATED="1555532941308" MODIFIED="1555532943000"/>
+<node TEXT="preview" ID="ID_1595196327" CREATED="1555532944396" MODIFIED="1555532945815"/>
+</node>
+<node TEXT="usage" FOLDED="true" ID="ID_999578947" CREATED="1555532979877" MODIFIED="1555532985479">
+<node ID="ID_797780476" CREATED="1555532986615" MODIFIED="1555533038393"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      need to install non-ga features by <b>gcloud components install</b>&#160;command
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="syntax" FOLDED="true" ID="ID_270218734" CREATED="1555533067180" MODIFIED="1555533070208">
+<node TEXT="gcloud [availability-label] command" ID="ID_1310629069" CREATED="1555533070916" MODIFIED="1555533117948">
+<font NAME="Courier New"/>
+</node>
+<node TEXT="ga has no availability labels" ID="ID_796515239" CREATED="1555533098367" MODIFIED="1555533135193"/>
+</node>
+</node>
+</node>
+<node TEXT="IDE integration" ID="ID_1395717951" CREATED="1555435681047" MODIFIED="1555435686105"/>
+</node>
+</node>
+</node>
+<node TEXT="Coursera course" ID="ID_54197562" CREATED="1555625888070" MODIFIED="1555625892636">
+<node TEXT="Compute services" ID="ID_1575131176" CREATED="1555625894359" MODIFIED="1555625902508"/>
+<node TEXT="Storage services" ID="ID_360226900" CREATED="1555625902838" MODIFIED="1555625907137"/>
+<node TEXT="Big Data Services" ID="ID_859705240" CREATED="1555625907701" MODIFIED="1555625914688"/>
+<node TEXT="Machine Learning" ID="ID_1208630797" CREATED="1555625915190" MODIFIED="1555625924465"/>
+</node>
+</node>
+<node TEXT="Organization" FOLDED="true" POSITION="left" ID="ID_560055036" CREATED="1555627029988" MODIFIED="1555627035102">
+<edge COLOR="#0000ff"/>
+<node TEXT="Zone" FOLDED="true" ID="ID_1267115120" CREATED="1555627039748" MODIFIED="1555627043261">
+<node TEXT="Isolated location within a region/single failure domain" ID="ID_891945278" CREATED="1555437313191" MODIFIED="1555626861982"/>
+<node TEXT="Deployment area for GCP resources within a region" ID="ID_1623261156" CREATED="1555626819644" MODIFIED="1555626843614"/>
+<node TEXT="fully-qualified name for a zone is made up of &lt;region&gt;-&lt;zone&gt;" ID="ID_165051052" CREATED="1555437354480" MODIFIED="1555437356394"/>
+</node>
+<node TEXT="Region" FOLDED="true" ID="ID_38519007" CREATED="1555627124644" MODIFIED="1555627129510">
+<node TEXT="Grouping of zones" ID="ID_658236768" CREATED="1555627130381" MODIFIED="1555627157262"/>
+<node TEXT="specific geographical location where you can run your resources" ID="ID_923494998" CREATED="1555437275817" MODIFIED="1555437277937"/>
+<node TEXT="has one or more zones" ID="ID_1555742873" CREATED="1555437279151" MODIFIED="1555437288953">
+<node TEXT="All zones within a region have fast network connectivity among them" ID="ID_175546013" CREATED="1555627182147" MODIFIED="1555627214926"/>
+</node>
+</node>
+<node TEXT="Multi-region" FOLDED="true" ID="ID_910705451" CREATED="1555627268620" MODIFIED="1555627273191">
+<node TEXT="Multiple geographic location separated by a distance but within a geopolitical region" ID="ID_1883462601" CREATED="1555627275572" MODIFIED="1555627362496"/>
+</node>
+</node>
+<node TEXT="Features" FOLDED="true" POSITION="left" ID="ID_1471814217" CREATED="1555627472940" MODIFIED="1555627578598">
+<edge COLOR="#00ff00"/>
+<node TEXT="Pricing" ID="ID_227931037" CREATED="1555627479069" MODIFIED="1555627582303">
+<node TEXT="Sub-hour billing increments" ID="ID_14820168" CREATED="1555627513501" MODIFIED="1555627520382"/>
+<node TEXT="Automatic discounts for sustained usage" ID="ID_1204323048" CREATED="1555627528636" MODIFIED="1555627539680"/>
+</node>
+<node TEXT="Vendor Lock-in" FOLDED="true" ID="ID_544785396" CREATED="1555631316881" MODIFIED="1555631349187">
+<node TEXT="GCP services compatible with OS products" ID="ID_912561518" CREATED="1555631324410" MODIFIED="1555631430594"/>
+<node TEXT="Google publishes key  elements of technology using open source licenses" ID="ID_329479774" CREATED="1555631452049" MODIFIED="1555631489581"/>
+<node TEXT="Many GCP technologies provide interoperability" ID="ID_1560979699" CREATED="1555631515338" MODIFIED="1555631534589"/>
+</node>
+</node>
+<node TEXT="Security approach" POSITION="left" ID="ID_185201106" CREATED="1555631601513" MODIFIED="1555631608547">
+<edge COLOR="#ff00ff"/>
+</node>
+<node TEXT="Personality of GCP" FOLDED="true" POSITION="left" ID="ID_510626730" CREATED="1555436088256" MODIFIED="1555436093930">
+<edge COLOR="#ff00ff"/>
+<node TEXT="Pros" ID="ID_873910923" CREATED="1555436094784" MODIFIED="1555436101921">
+<node TEXT="Fast &amp; efficient services" ID="ID_1727594684" CREATED="1555436102599" MODIFIED="1555436110930"/>
+<node TEXT="Frequent improvements" ID="ID_528575477" CREATED="1555436111351" MODIFIED="1555436116169"/>
+<node TEXT="Autoscales massively" ID="ID_623768107" CREATED="1555436123232" MODIFIED="1555436128529">
+<node ID="ID_605131010" CREATED="1555435792912" MODIFIED="1555627008691"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b><i>&quot;Autoscale&quot; </i></b>by default
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Good value" ID="ID_442738685" CREATED="1555436161063" MODIFIED="1555436164025"/>
+</node>
+<node TEXT="Cons" ID="ID_1975111515" CREATED="1555436165759" MODIFIED="1555436168025">
+<node TEXT="Not always easy to use" ID="ID_1055387579" CREATED="1555436169007" MODIFIED="1555436187353">
+<node TEXT="Starts with scripting" ID="ID_1473527300" CREATED="1555436221902" MODIFIED="1555436227288"/>
+<node TEXT="documentation is more of after-thought" ID="ID_1279113653" CREATED="1555436227775" MODIFIED="1555436240025"/>
+</node>
+<node TEXT="Documentation challenges" FOLDED="true" ID="ID_1968140284" CREATED="1555436243840" MODIFIED="1555436249209">
+<node TEXT="Join product forum" ID="ID_105124835" CREATED="1555436268311" MODIFIED="1555436275073"/>
+<node TEXT="Google cloud community" ID="ID_1252381909" CREATED="1555436275527" MODIFIED="1555436289313"/>
+</node>
+<node TEXT="Pricing surprises" FOLDED="true" ID="ID_779329508" CREATED="1555436292040" MODIFIED="1555436296297">
+<node TEXT="Autoscaling pricing" ID="ID_1639735571" CREATED="1555436298023" MODIFIED="1555436327602"/>
+</node>
+<node TEXT="Tools" FOLDED="true" ID="ID_1374329434" CREATED="1555436342456" MODIFIED="1555436350361">
+<node TEXT="Partner integration tools low" ID="ID_1502580572" CREATED="1555436351184" MODIFIED="1555436372396"/>
+</node>
+</node>
+</node>
+<node TEXT="Tools &amp; Libraries" FOLDED="true" POSITION="left" ID="ID_1734593807" CREATED="1555436392423" MODIFIED="1555436892323" LINK="https:/cloud.google.com/docs/overview/developer-and-admin-tools">
+<edge COLOR="#00ffff"/>
+<node TEXT="Google Tools" ID="ID_1777618315" CREATED="1555436399296" MODIFIED="1555436403465">
+<node TEXT="GCUtils" ID="ID_1856357354" CREATED="1555436404119" MODIFIED="1555436408576"/>
+</node>
+<node TEXT="3rd Party Tools" ID="ID_1003394277" CREATED="1555436412911" MODIFIED="1555436418866"/>
+<node TEXT="Consoles/GUI" FOLDED="true" ID="ID_1748705627" CREATED="1555436420743" MODIFIED="1555436892321">
+<node TEXT="Works well in Chrome" ID="ID_1519191883" CREATED="1555436432232" MODIFIED="1555436438472"/>
+</node>
+<node TEXT="Command Line" ID="ID_1771816868" CREATED="1555436441560" MODIFIED="1555436445073"/>
+<node TEXT="Google APIs" ID="ID_229621557" CREATED="1555436445583" MODIFIED="1555436448482"/>
+</node>
+<node TEXT="Platform Compliance" POSITION="left" ID="ID_885314714" CREATED="1555435951272" MODIFIED="1555627020606">
+<edge COLOR="#00ff00"/>
+<node TEXT="SoC2 &amp; 3" ID="ID_409122641" CREATED="1555435993375" MODIFIED="1555435999658"/>
+<node TEXT="PCI" ID="ID_199546206" CREATED="1555436000399" MODIFIED="1555436002337"/>
+<node TEXT="HIPAA" ID="ID_1353191800" CREATED="1555436002775" MODIFIED="1555436005640"/>
+<node TEXT="EU Data Protection Directive" ID="ID_1824007728" CREATED="1555436006559" MODIFIED="1555436024544"/>
+</node>
+<node TEXT="References" POSITION="left" ID="ID_6299635" CREATED="1555436630736" MODIFIED="1555436633985">
+<edge COLOR="#7c0000"/>
+<node TEXT="Sample code" ID="ID_1113672214" CREATED="1555533426106" MODIFIED="1555533508806" LINK="../../../../../../Users/ritwchatterjee/Documents/https:/github.com/GoogleCloudPlatform"/>
+<node TEXT="GCP Vs AWS" ID="ID_1513341846" CREATED="1555533960621" MODIFIED="1555533971765" LINK="../../../../../../Users/ritwchatterjee/Documents/https:/cloud.google.com/docs/compare/aws"/>
+</node>
+<node TEXT="Cloud Console" FOLDED="true" POSITION="right" ID="ID_1650366289" CREATED="1555436899080" MODIFIED="1555436909258">
+<edge COLOR="#00007c"/>
+<node TEXT="Data-center region/Location settings" ID="ID_945207818" CREATED="1555436962736" MODIFIED="1555437004522"/>
+</node>
+<node TEXT="Concepts" POSITION="right" ID="ID_606713999" CREATED="1555437204263" MODIFIED="1555437206850">
+<edge COLOR="#7c007c"/>
+<node TEXT="Account Hierarchy" FOLDED="true" ID="ID_1224577475" CREATED="1555437005528" MODIFIED="1555437216008">
+<node TEXT="Projects" ID="ID_1927380949" CREATED="1555437015464" MODIFIED="1555437220201">
+<node TEXT="What?" ID="ID_1679853696" CREATED="1555437488008" MODIFIED="1555437490018"/>
+<node TEXT="Identified with" ID="ID_1955476216" CREATED="1555437490728" MODIFIED="1555437494161">
+<node TEXT="Id" ID="ID_1395079965" CREATED="1555437494865" MODIFIED="1555437496090"/>
+<node TEXT="Name" ID="ID_963637381" CREATED="1555437496968" MODIFIED="1555437497993"/>
+<node TEXT="Number" ID="ID_1981139004" CREATED="1555437498488" MODIFIED="1555437499898"/>
+</node>
+<node TEXT="Tip" FOLDED="true" ID="ID_1588444046" CREATED="1555437570880" MODIFIED="1555437572785">
+<node TEXT="Not all service use the same identifier. Read docs and use correct id" ID="ID_1921129166" CREATED="1555437581928" MODIFIED="1555437626401"/>
+</node>
+</node>
+<node TEXT="Services @ Locations" ID="ID_988747109" CREATED="1555437020359" MODIFIED="1555437178642"/>
+</node>
+<node TEXT="Locations" ID="ID_1575856370" CREATED="1555437223439" MODIFIED="1555437245766" LINK="../../../../../../Users/ritwchatterjee/Documents/https:/cloud.google.com/compute/docs/regions-zones">
+<node TEXT="Regions" ID="ID_1434082767" CREATED="1555437227536" MODIFIED="1555437230746">
+<node TEXT="What?" ID="ID_690250924" CREATED="1555437248136" MODIFIED="1555437250009"/>
+</node>
+<node TEXT="Zones" ID="ID_549346613" CREATED="1555437231216" MODIFIED="1555437232818">
+<node TEXT="What?" ID="ID_1011449298" CREATED="1555437308024" MODIFIED="1555437312442"/>
+</node>
+</node>
+<node TEXT="Billing" ID="ID_490228150" CREATED="1555437645967" MODIFIED="1555437648874">
+<node TEXT="Setup" FOLDED="true" ID="ID_1418374300" CREATED="1555437760335" MODIFIED="1555437769281">
+<node TEXT="Most likely cases you will have a different billing administrator" ID="ID_1446588366" CREATED="1555437770208" MODIFIED="1555437785266"/>
+<node TEXT="Budgets &amp; Alerts" FOLDED="true" ID="ID_1309271546" CREATED="1555437787008" MODIFIED="1555437801593">
+<node TEXT="Can set budget at project level" ID="ID_1404394731" CREATED="1555438985257" MODIFIED="1555438996137"/>
+<node TEXT="Add budget credit" ID="ID_1493111500" CREATED="1555438998320" MODIFIED="1555439007067"/>
+<node TEXT="Budget alerts sends emails" ID="ID_447477710" CREATED="1555439012496" MODIFIED="1555439020131"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="LC Management" FOLDED="true" POSITION="right" ID="ID_1182345678" CREATED="1555439094279" MODIFIED="1555439097970">
+<edge COLOR="#007c7c"/>
+<node TEXT="Create a project" FOLDED="true" ID="ID_385905384" CREATED="1555439098744" MODIFIED="1555439104626">
+<node TEXT="What services" ID="ID_215033589" CREATED="1555439131664" MODIFIED="1555439134722"/>
+<node TEXT="Which region" ID="ID_710489440" CREATED="1555439135000" MODIFIED="1555439137890"/>
+</node>
+<node TEXT="Enable APIs" FOLDED="true" ID="ID_1674591997" CREATED="1555439105040" MODIFIED="1555439108785">
+<node ID="ID_715250243" CREATED="1555439140288" MODIFIED="1555439328801"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      APIs of services needs to be enabled at the <b>project </b>level
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Some speciality APIs have to be turned on explicitly" ID="ID_490567630" CREATED="1555439160336" MODIFIED="1555439314979"/>
+</node>
+<node TEXT="Setup Tools" ID="ID_805490175" CREATED="1555439109376" MODIFIED="1555439112002"/>
+</node>
+</node>
+</map>
