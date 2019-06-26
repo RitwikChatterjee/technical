@@ -3,7 +3,7 @@
 <node TEXT="Cloud Native" FOLDED="false" ID="ID_353677387" CREATED="1557255997849" MODIFIED="1557256002477" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
+    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -64,13 +64,13 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="3" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="What?" POSITION="left" ID="ID_470278496" CREATED="1557256389870" MODIFIED="1557256392495">
+<node TEXT="What?" FOLDED="true" POSITION="left" ID="ID_470278496" CREATED="1557256389870" MODIFIED="1557256392495">
 <edge COLOR="#ff0000"/>
-<node TEXT="Definitions" ID="ID_28887121" CREATED="1557256393341" MODIFIED="1557256441944">
-<node TEXT="Pivotal" ID="ID_1360673773" CREATED="1557256396837" MODIFIED="1557256445775">
+<node TEXT="Definitions" FOLDED="true" ID="ID_28887121" CREATED="1557256393341" MODIFIED="1557256441944">
+<node TEXT="Pivotal" FOLDED="true" ID="ID_1360673773" CREATED="1557256396837" MODIFIED="1557256445775">
 <node TEXT="Cloud-native is an approach to building and running applications that exploits the advantages of the cloud computing delivery model." ID="ID_398771731" CREATED="1557256446829" MODIFIED="1557256491029" LINK="https://pivotal.io/cloud-native"/>
 </node>
-<node TEXT="CNCF" ID="ID_1394360646" CREATED="1557256586133" MODIFIED="1557256596655">
+<node TEXT="CNCF" FOLDED="true" ID="ID_1394360646" CREATED="1557256586133" MODIFIED="1557256596655">
 <node ID="ID_1904102144" CREATED="1557256597630" MODIFIED="1557256708715" LINK="https://github.com/cncf/toc/blob/master/DEFINITION.md"><richcontent TYPE="NODE">
 
 <html>
@@ -95,7 +95,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Combination of existing &amp; new s/w development patterns" ID="ID_1744797261" CREATED="1557256837613" MODIFIED="1557256856248">
@@ -104,7 +103,7 @@
 <node TEXT="API integrations" ID="ID_239648302" CREATED="1557256870256" MODIFIED="1557256874848"/>
 <node TEXT="S/w automation" ID="ID_1553026149" CREATED="1557256875246" MODIFIED="1557256879144"/>
 </node>
-<node TEXT="New" ID="ID_850305869" CREATED="1557256881445" MODIFIED="1557257012847">
+<node TEXT="New" FOLDED="true" ID="ID_850305869" CREATED="1557256881445" MODIFIED="1557257012847">
 <node TEXT="Microservices Architecture" ID="ID_243551121" CREATED="1557257014006" MODIFIED="1557257020328"/>
 <node TEXT="Containerized services" ID="ID_1430007265" CREATED="1557257023094" MODIFIED="1557257028480"/>
 <node TEXT="Distributed management &amp; orchestration" ID="ID_1927452542" CREATED="1557257029213" MODIFIED="1557257045072"/>
