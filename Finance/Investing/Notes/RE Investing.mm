@@ -152,16 +152,16 @@
 </node>
 </node>
 </node>
-<node TEXT="Questions to ask" POSITION="left" ID="ID_1577536517" CREATED="1519184273627" MODIFIED="1519184280237">
+<node TEXT="Questions to ask" FOLDED="true" POSITION="left" ID="ID_1577536517" CREATED="1519184273627" MODIFIED="1519184280237">
 <edge COLOR="#00ff00"/>
-<node TEXT="Evaluating RE Market" ID="ID_1629161045" CREATED="1519184283847" MODIFIED="1519184292660">
+<node TEXT="Evaluating RE Market" FOLDED="true" ID="ID_1629161045" CREATED="1519184283847" MODIFIED="1519184292660">
 <node TEXT="What is avg price? (Now, &amp; 1 yr back)" ID="ID_3034872" CREATED="1523999646448" MODIFIED="1523999670163"/>
 <node TEXT="On avg. the difference between ask and sell price during the past year?" ID="ID_682637387" CREATED="1523999670920" MODIFIED="1523999701291"/>
 <node TEXT="How long are houses staying in the market?" ID="ID_1958412929" CREATED="1523999705281" MODIFIED="1523999718410"/>
 <node TEXT="What is the current inventory of homes for sale?" ID="ID_1571732179" CREATED="1523999719609" MODIFIED="1523999726451"/>
 <node TEXT="What level of building activity is underway?" ID="ID_381571620" CREATED="1523999726881" MODIFIED="1523999737066"/>
 </node>
-<node TEXT="Evaluating Rental Market" ID="ID_835895655" CREATED="1523999747793" MODIFIED="1523999759747">
+<node TEXT="Evaluating Rental Market" FOLDED="true" ID="ID_835895655" CREATED="1523999747793" MODIFIED="1523999759747">
 <node TEXT="Latest vacancy rates?" ID="ID_297127118" CREATED="1523999761881" MODIFIED="1523999769771"/>
 <node TEXT="Avg. rent for each type of rental unit?" ID="ID_862024557" CREATED="1523999770536" MODIFIED="1523999792626"/>
 <node TEXT="Level of construction of new rentals underway?" ID="ID_1428653169" CREATED="1523999793232" MODIFIED="1523999811601"/>

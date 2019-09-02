@@ -82,11 +82,11 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="9" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="When?" POSITION="right" ID="ID_452700332" CREATED="1500595352461" MODIFIED="1500595361527">
+<node TEXT="When?" FOLDED="true" POSITION="right" ID="ID_452700332" CREATED="1500595352461" MODIFIED="1500595361527">
 <edge COLOR="#ff00ff"/>
 <node TEXT="Backend services (not user facing), that have variable load, but does not have a response time requirement" ID="ID_1547043650" CREATED="1560281489625" MODIFIED="1560281555501"/>
 </node>
-<node TEXT="Limitations" POSITION="right" ID="ID_1330679176" CREATED="1560280878577" MODIFIED="1560280883397">
+<node TEXT="Limitations" FOLDED="true" POSITION="right" ID="ID_1330679176" CREATED="1560280878577" MODIFIED="1560280883397">
 <edge COLOR="#00007c"/>
 <node TEXT="Language support" FOLDED="true" ID="ID_361427737" CREATED="1500595387319" MODIFIED="1500595395328">
 <node TEXT="Node.js" ID="ID_80323784" CREATED="1500595397052" MODIFIED="1500595400927"/>
@@ -99,7 +99,7 @@
 <node TEXT="AWS allocates proportional CPU power &amp; other resources" ID="ID_1858377562" CREATED="1560280047536" MODIFIED="1560280078318"/>
 </node>
 </node>
-<node TEXT="Cold starts" ID="ID_801473457" CREATED="1560281444189" MODIFIED="1560281449021">
+<node TEXT="Cold starts" FOLDED="true" ID="ID_801473457" CREATED="1560281444189" MODIFIED="1560281449021">
 <node TEXT="What?" ID="ID_854629185" CREATED="1560281798682" MODIFIED="1560281800869">
 <node TEXT="Time to initialize when a function is not on serverless" ID="ID_1762356486" CREATED="1560281451506" MODIFIED="1560281475790"/>
 <node TEXT="Applicable for each instance being spun up when a request is waiting because existing instances are busy" ID="ID_545180147" CREATED="1560281683858" MODIFIED="1560281708988"/>
@@ -130,7 +130,7 @@
 <node TEXT="There is no way to throw an exception that can be trapped by error alert system" ID="ID_1261416630" CREATED="1560280976176" MODIFIED="1560281003166"/>
 <node TEXT="All logs have to be sent to Cloudwatch and manually look through lambdas which have executed for matching timeout limits" ID="ID_8426461" CREATED="1560281004377" MODIFIED="1560281048156"/>
 </node>
-<node TEXT="Executing a lambda from another lambda is slow" ID="ID_823501445" CREATED="1560281197185" MODIFIED="1560281209645">
+<node TEXT="Executing a lambda from another lambda is slow" FOLDED="true" ID="ID_823501445" CREATED="1560281197185" MODIFIED="1560281209645">
 <node TEXT="Requires external http access" ID="ID_1625563310" CREATED="1560281760377" MODIFIED="1560281776860"/>
 <node TEXT="Note: This is an anti-pattern" ID="ID_1570695496" CREATED="1560282408306" MODIFIED="1560282418105">
 <node TEXT="Post to queues or S3 instead to trigger the next job" ID="ID_50054330" CREATED="1560282418979" MODIFIED="1560282436267"/>
@@ -138,7 +138,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Steps" POSITION="right" ID="ID_1710930973" CREATED="1500595512256" MODIFIED="1500600620866">
+<node TEXT="Steps" FOLDED="true" POSITION="right" ID="ID_1710930973" CREATED="1500595512256" MODIFIED="1500600620866">
 <edge COLOR="#7c0000"/>
 <node TEXT="Write code" ID="ID_978563932" CREATED="1500600713031" MODIFIED="1500600717491"/>
 <node TEXT="Create Lambda Function" FOLDED="true" ID="ID_1439268454" CREATED="1500600624476" MODIFIED="1500600635694">
@@ -433,11 +433,11 @@
 <node TEXT="AWS CodeBuild" ID="ID_1226230583" CREATED="1500595299890" MODIFIED="1500595306190"/>
 <node TEXT="AWS API Gateway" ID="ID_832104253" CREATED="1500595313043" MODIFIED="1500595319181"/>
 </node>
-<node TEXT="Related Technologies" POSITION="left" ID="ID_988115360" CREATED="1560283060499" MODIFIED="1560283065695">
+<node TEXT="Related Technologies" FOLDED="true" POSITION="left" ID="ID_988115360" CREATED="1560283060499" MODIFIED="1560283065695">
 <edge COLOR="#7c007c"/>
 <node TEXT="Zappa framework" ID="ID_690949568" CREATED="1560283066490" MODIFIED="1560283148663" LINK="https://github.com/Miserlou/Zappa"/>
 </node>
-<node TEXT="Reference" POSITION="left" ID="ID_988866248" CREATED="1560280916625" MODIFIED="1560280919477">
+<node TEXT="Reference" FOLDED="true" POSITION="left" ID="ID_988866248" CREATED="1560280916625" MODIFIED="1560280919477">
 <edge COLOR="#007c00"/>
 <node TEXT="Issues encountered on Lambda" ID="ID_286365569" CREATED="1560280920468" MODIFIED="1560280945044" LINK="https://medium.com/@emaildelivery/serverless-pitfalls-issues-you-may-encounter-running-a-start-up-on-aws-lambda-f242b404f41c"/>
 </node>
