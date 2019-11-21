@@ -1,4 +1,4 @@
-<map version="freeplane 1.6.0">
+<map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Raising Private Money" FOLDED="false" ID="ID_940457920" CREATED="1542093413547" MODIFIED="1542093420565" STYLE="oval">
 <font SIZE="18"/>
@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="3" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="7" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="Recommendations" FOLDED="true" POSITION="right" ID="ID_251671658" CREATED="1542093423881" MODIFIED="1542093429297">
 <edge COLOR="#ff0000"/>
 <node TEXT="Have a deal" FOLDED="true" ID="ID_596640031" CREATED="1542093433160" MODIFIED="1542093436651">
@@ -71,11 +71,11 @@
 <node TEXT="Be totally transparent" ID="ID_1656287199" CREATED="1542093444586" MODIFIED="1542093449073"/>
 </node>
 <node TEXT="Show your skin in the game" FOLDED="true" ID="ID_235866616" CREATED="1542093451338" MODIFIED="1542093486082">
-<node TEXT="Show case you are putting in something" ID="ID_1521108112" CREATED="1542093488721" MODIFIED="1542093497084"/>
+<node TEXT="Show case you are ready to take the risk yourself" ID="ID_1521108112" CREATED="1542093488721" MODIFIED="1573773801840"/>
 </node>
 <node TEXT="Bring in the trust of escrow" FOLDED="true" ID="ID_151358234" CREATED="1542093501064" MODIFIED="1542093509095">
 <node TEXT="Let the money from the investor go directly to the escrow" ID="ID_1911410191" CREATED="1542093510177" MODIFIED="1542093543831"/>
-<node TEXT="For e.g." FOLDED="true" ID="ID_1229341999" CREATED="1542093546003" MODIFIED="1542093549439">
+<node TEXT="For e.g." ID="ID_1229341999" CREATED="1542093546003" MODIFIED="1542093549439">
 <node TEXT="Investor pays escrow" ID="ID_564045706" CREATED="1542093550519" MODIFIED="1542093561166"/>
 <node TEXT="You pay rehab (partial" ID="ID_1918741454" CREATED="1542093561546" MODIFIED="1542093573049"/>
 </node>
@@ -93,6 +93,10 @@
 <node TEXT="Note: Make sure you make it clear to the investor that you are paying interest in draws as you are receiving money. Not the entire amount at a time" ID="ID_1337698019" CREATED="1542093675141" MODIFIED="1542093713375"/>
 </node>
 <node TEXT="First offer to split profits" ID="ID_1232881013" CREATED="1542093771713" MODIFIED="1542093781290"/>
+<node TEXT="Give them visuals" FOLDED="true" ID="ID_1996205131" CREATED="1573775092526" MODIFIED="1573775171380">
+<node TEXT="Presentations" ID="ID_625390934" CREATED="1573775119086" MODIFIED="1573775148000"/>
+<node TEXT="Property tours" ID="ID_1396344282" CREATED="1573775148821" MODIFIED="1573775153031"/>
+</node>
 </node>
 <node TEXT="Private Money Structure" FOLDED="true" POSITION="right" ID="ID_1733585941" CREATED="1542166954393" MODIFIED="1542166968850">
 <edge COLOR="#0000ff"/>
@@ -126,19 +130,38 @@
 <node TEXT="Have solid exit strategy and numbers" ID="ID_3032517" CREATED="1542167474121" MODIFIED="1542167489911"/>
 </node>
 </node>
-<node TEXT="Private money lenders" FOLDED="true" ID="ID_790031889" CREATED="1542167083437" MODIFIED="1542167087449">
+<node TEXT="Private lending" ID="ID_790031889" CREATED="1542167083437" MODIFIED="1573775477834">
 <node TEXT="Borrowing from individuals" ID="ID_1131114691" CREATED="1542167493424" MODIFIED="1542167501325"/>
-<node TEXT="Terms" FOLDED="true" ID="ID_938169858" CREATED="1542167507203" MODIFIED="1542167509144">
+<node TEXT="Secured through real-estate deal" ID="ID_1557792210" CREATED="1573775510580" MODIFIED="1573775544305"/>
+<node TEXT="Terms" ID="ID_938169858" CREATED="1542167507203" MODIFIED="1542167509144">
 <node TEXT="Anything negotiated" ID="ID_1353451086" CREATED="1542167510148" MODIFIED="1542167516204"/>
 </node>
 <node TEXT="Typical components" FOLDED="true" ID="ID_1650982787" CREATED="1542167691927" MODIFIED="1542167697813">
-<node TEXT="Borrower receives a loan from lender on terms" FOLDED="true" ID="ID_1983556975" CREATED="1542167698951" MODIFIED="1542167727151">
+<node TEXT="Borrower receives a loan from lender on terms" ID="ID_1983556975" CREATED="1542167698951" MODIFIED="1542167727151">
 <node TEXT="Monthly interest rate x%" ID="ID_294150360" CREATED="1542167728267" MODIFIED="1542167739862"/>
 <node TEXT="A deed of trust or mortgage on the property" ID="ID_379730126" CREATED="1542167740350" MODIFIED="1542167756153"/>
 <node TEXT="A promisory note for the amount of loan promising to repay after period" ID="ID_1700035617" CREATED="1542167761978" MODIFIED="1542167789413"/>
 </node>
 </node>
 </node>
+<node TEXT="Private placement (aka syndication)" ID="ID_1627190516" CREATED="1573775478497" MODIFIED="1573775559010">
+<node TEXT="Borrowing from multiple individuals" ID="ID_183297573" CREATED="1573775564290" MODIFIED="1573775571851"/>
+<node TEXT="Higher regulatory liabilities" ID="ID_952991150" CREATED="1573775572902" MODIFIED="1573775609392"/>
+</node>
+</node>
+<node TEXT="Relationship game" POSITION="left" ID="ID_63792263" CREATED="1573774918804" MODIFIED="1573774922804">
+<edge COLOR="#7c0000"/>
+<node TEXT="Investors are actually investing in you (who owns the relation)" ID="ID_1937914176" CREATED="1573775217713" MODIFIED="1573775240591"/>
+<node TEXT="What is important to your investor/lender" ID="ID_704795732" CREATED="1573774934756" MODIFIED="1573774966392">
+<node TEXT="Security" ID="ID_146181797" CREATED="1573774974532" MODIFIED="1573774977341"/>
+<node TEXT="ROI" ID="ID_1654642133" CREATED="1573774978175" MODIFIED="1573774993404"/>
+</node>
+</node>
+<node TEXT="Dealing with other&apos;s money" POSITION="left" ID="ID_584482563" CREATED="1573775370116" MODIFIED="1573775408471">
+<edge COLOR="#00007c"/>
+</node>
+<node TEXT="Legal/regulatory implications" POSITION="left" ID="ID_609371474" CREATED="1573773712243" MODIFIED="1573773721335">
+<edge COLOR="#ff00ff"/>
 </node>
 </node>
 </map>

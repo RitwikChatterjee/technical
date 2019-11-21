@@ -1,4 +1,4 @@
-<map version="freeplane 1.6.0">
+<map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Multifamily property" FOLDED="false" ID="ID_1679787771" CREATED="1519098587321" MODIFIED="1519098599924" STYLE="oval">
 <font SIZE="18"/>
@@ -118,14 +118,14 @@
 <node TEXT="You are very quick finding deals" ID="ID_371950831" CREATED="1519099834292" MODIFIED="1519099844486"/>
 <node TEXT="You simply analyze the deal and figure out what makes it a good deal****" ID="ID_1870231928" CREATED="1519099846598" MODIFIED="1519099874093"/>
 </node>
-<node TEXT="Tips" POSITION="left" ID="ID_606029011" CREATED="1519099009556" MODIFIED="1519099012174">
+<node TEXT="Tips" FOLDED="true" POSITION="left" ID="ID_606029011" CREATED="1519099009556" MODIFIED="1519099012174">
 <edge COLOR="#00ff00"/>
 <node TEXT="Duplex" FOLDED="true" ID="ID_224125414" CREATED="1519099013570" MODIFIED="1519099017855">
 <node TEXT="Look for lower # of Bedroom and large living area" FOLDED="true" ID="ID_864906209" CREATED="1519099019554" MODIFIED="1519099101208">
 <node TEXT="Convert into additional bedroom" ID="ID_209618429" CREATED="1519099062229" MODIFIED="1519099078954"/>
 </node>
 </node>
-<node TEXT="Recommended Numbers" ID="ID_48524709" CREATED="1519102774739" MODIFIED="1519102785823">
+<node TEXT="Recommended Numbers" FOLDED="true" ID="ID_48524709" CREATED="1519102774739" MODIFIED="1519102785823">
 <node TEXT="Cash-flow" FOLDED="true" ID="ID_901115449" CREATED="1519102787495" MODIFIED="1519102791493">
 <node TEXT="&gt;$100 per unit" ID="ID_530086378" CREATED="1519102793015" MODIFIED="1519102829944"/>
 </node>
