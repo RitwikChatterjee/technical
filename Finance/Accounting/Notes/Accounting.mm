@@ -1,9 +1,9 @@
-<map version="freeplane 1.6.0">
+<map version="freeplane 1.8.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Accounting" FOLDED="false" ID="ID_1263864849" CREATED="1533793383990" MODIFIED="1533793390044" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -97,14 +97,18 @@
 <node TEXT="A/cs payable" ID="ID_1784439086" CREATED="1533794333912" MODIFIED="1533794337992"/>
 <node TEXT="Wages payable" ID="ID_279159092" CREATED="1533794339122" MODIFIED="1533794345740"/>
 </node>
-<node TEXT="Equity (Owner&apos;s)" ID="ID_1815432422" CREATED="1533794348312" MODIFIED="1533794360774">
-<node TEXT="Retained earnings" ID="ID_242987454" CREATED="1533794361921" MODIFIED="1533794366414"/>
+<node TEXT="Equity (Owner&apos;s)" FOLDED="true" ID="ID_1815432422" CREATED="1533794348312" MODIFIED="1533794360774">
+<node TEXT="Retained earnings" FOLDED="true" ID="ID_242987454" CREATED="1533794361921" MODIFIED="1533794366414">
+<node TEXT="What?" FOLDED="true" ID="ID_132933026" CREATED="1586495203812" MODIFIED="1586495206888">
+<node TEXT="amount of net income left over for the business after it has paid out dividends at a particular point in time" ID="ID_697432785" CREATED="1586495207491" MODIFIED="1586495230094"/>
+</node>
+</node>
 </node>
 <node TEXT="Revenue" ID="ID_170313272" CREATED="1533794370624" MODIFIED="1533794379076"/>
 </node>
 <node TEXT="Definitions" FOLDED="true" POSITION="left" ID="ID_398127675" CREATED="1533794431716" MODIFIED="1533794434565">
 <edge COLOR="#00ff00"/>
-<node TEXT="Income Statement" FOLDED="true" ID="ID_728030639" CREATED="1533794436614" MODIFIED="1533794439731">
+<node TEXT="Income Statement" ID="ID_728030639" CREATED="1533794436614" MODIFIED="1533794439731">
 <node TEXT="Expenses + Revenue" ID="ID_256276752" CREATED="1533794441993" MODIFIED="1533794449095"/>
 </node>
 <node TEXT="Investment" ID="ID_916462591" CREATED="1564624804200" MODIFIED="1564624810044">
@@ -117,13 +121,13 @@
 <node TEXT="Precious objects or collectibles for resell" ID="ID_1560876601" CREATED="1564624917089" MODIFIED="1564624938047"/>
 </node>
 </node>
-<node TEXT="Lending" ID="ID_259168009" CREATED="1564624821642" MODIFIED="1564624825908">
+<node TEXT="Lending" FOLDED="true" ID="ID_259168009" CREATED="1564624821642" MODIFIED="1564624825908">
 <node TEXT="e.g." ID="ID_753382020" CREATED="1564624947057" MODIFIED="1564624948962">
 <node TEXT="FDs" ID="ID_1521349581" CREATED="1564624950465" MODIFIED="1564624956926"/>
 </node>
 </node>
-<node TEXT="Cash Equivalent" ID="ID_1980637264" CREATED="1564624826896" MODIFIED="1564624834652">
-<node TEXT="e.g." ID="ID_634313741" CREATED="1564624997753" MODIFIED="1564624999700">
+<node TEXT="Cash Equivalent" FOLDED="true" ID="ID_1980637264" CREATED="1564624826896" MODIFIED="1564624834652">
+<node TEXT="e.g." FOLDED="true" ID="ID_634313741" CREATED="1564624997753" MODIFIED="1564624999700">
 <node TEXT="Savings/checking account" ID="ID_315760394" CREATED="1564625001188" MODIFIED="1564625010959"/>
 </node>
 </node>
