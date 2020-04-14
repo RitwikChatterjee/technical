@@ -1,9 +1,9 @@
 <map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="AWS IAM" FOLDED="false" ID="ID_35766247" CREATED="1554234948111" MODIFIED="1554234950665" STYLE="oval">
+<node TEXT="AWS EKS" FOLDED="false" ID="ID_167751997" CREATED="1579548650650" MODIFIED="1579548654298" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -64,28 +64,19 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="1" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="Entities" FOLDED="true" POSITION="right" ID="ID_1029851266" CREATED="1554234952516" MODIFIED="1554234957543">
+<node TEXT="Getting started" POSITION="right" ID="ID_1539370284" CREATED="1579553063910" MODIFIED="1579553068147">
 <edge COLOR="#ff0000"/>
-<node TEXT="IAM user" FOLDED="true" ID="ID_1506535285" CREATED="1554234958827" MODIFIED="1554234965428">
-<node TEXT="What?" FOLDED="true" ID="ID_592695643" CREATED="1554235147580" MODIFIED="1554235149510">
-<node TEXT="IAM identity that has specific permissions" ID="ID_470206195" CREATED="1554235159923" MODIFIED="1554235168555"/>
-<node TEXT="Access through user credentials and access keys" ID="ID_1516514794" CREATED="1554235185252" MODIFIED="1554235200095"/>
+<node TEXT="eksctl" ID="ID_153036382" CREATED="1579553069209" MODIFIED="1579553163160" LINK="https://docs.aws.amazon.com/eks/latest/userguide/getting-started-eksctl.html">
+<node TEXT="Pre-requisites" FOLDED="true" ID="ID_437349148" CREATED="1579553082002" MODIFIED="1579553092603">
+<node TEXT="Latest AWS CLI" ID="ID_1166623178" CREATED="1579553093505" MODIFIED="1579553106116">
+<node TEXT="installed and configured with AWS CLI credentials" ID="ID_1524159341" CREATED="1579553120864" MODIFIED="1579553133540"/>
 </node>
+<node TEXT="Install eksctl" ID="ID_1038065438" CREATED="1579553173209" MODIFIED="1579553178746"/>
+<node TEXT="Install &amp; configure kubectl for Amazon EKS" ID="ID_514660634" CREATED="1579553192800" MODIFIED="1579553204203"/>
 </node>
-<node TEXT="IAM role" ID="ID_999879549" CREATED="1554234965874" MODIFIED="1554234969114">
-<node TEXT="What?" ID="ID_828084061" CREATED="1554234971296" MODIFIED="1554234973149">
-<node TEXT="IAM identity that has specific permissions" ID="ID_1667301733" CREATED="1554234975271" MODIFIED="1554234998522"/>
-<node TEXT="Like IAM user, but not associated with a specific person" ID="ID_1267762259" CREATED="1554235003371" MODIFIED="1554235014948"/>
-<node TEXT="Enables obtaining temporary access keys" ID="ID_1283520779" CREATED="1554235034031" MODIFIED="1554235045926">
-<node TEXT="Important use-cases" ID="ID_757130867" CREATED="1554235067153" MODIFIED="1554235072760">
-<node TEXT="Federated user access" ID="ID_315999226" CREATED="1554235074576" MODIFIED="1554235084791"/>
-<node TEXT="Cross-account access" ID="ID_843068646" CREATED="1554235085104" MODIFIED="1554235090955"/>
-<node TEXT="AWS service access" ID="ID_1864832791" CREATED="1554235091308" MODIFIED="1554235097460"/>
-<node TEXT="Apps running on EC2" ID="ID_1335209076" CREATED="1554235124872" MODIFIED="1554235142126"/>
+<node TEXT="Create EKS cluster &amp; worker nodes" ID="ID_726551987" CREATED="1579553233930" MODIFIED="1579553247266"/>
 </node>
-</node>
-</node>
-</node>
+<node TEXT="AWS console" ID="ID_1181857644" CREATED="1579553075569" MODIFIED="1579553079946"/>
 </node>
 </node>
 </map>

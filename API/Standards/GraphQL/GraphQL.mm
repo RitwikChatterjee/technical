@@ -1,9 +1,9 @@
 <map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="AWS IAM" FOLDED="false" ID="ID_35766247" CREATED="1554234948111" MODIFIED="1554234950665" STYLE="oval">
+<node TEXT="GraphQL" FOLDED="false" ID="ID_1003764428" CREATED="1581451170969" MODIFIED="1581451174797" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -63,28 +63,20 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="1" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="Entities" FOLDED="true" POSITION="right" ID="ID_1029851266" CREATED="1554234952516" MODIFIED="1554234957543">
-<edge COLOR="#ff0000"/>
-<node TEXT="IAM user" FOLDED="true" ID="ID_1506535285" CREATED="1554234958827" MODIFIED="1554234965428">
-<node TEXT="What?" FOLDED="true" ID="ID_592695643" CREATED="1554235147580" MODIFIED="1554235149510">
-<node TEXT="IAM identity that has specific permissions" ID="ID_470206195" CREATED="1554235159923" MODIFIED="1554235168555"/>
-<node TEXT="Access through user credentials and access keys" ID="ID_1516514794" CREATED="1554235185252" MODIFIED="1554235200095"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="2" RULE="ON_BRANCH_CREATION"/>
+<node TEXT="About" FOLDED="true" POSITION="left" ID="ID_1582052184" CREATED="1581451350057" MODIFIED="1581451352380">
+<edge COLOR="#0000ff"/>
+<node TEXT="What?" ID="ID_676098920" CREATED="1581451175553" MODIFIED="1581451356010">
+<node TEXT="A specification defined by Facebook" ID="ID_1272786127" CREATED="1581451182097" MODIFIED="1581451279986"/>
+<node TEXT="Query language for APIs" ID="ID_1062278096" CREATED="1581451280473" MODIFIED="1581451290180"/>
+<node TEXT="Server-side runtime for executing queries by using a type system defined for data" ID="ID_1744426512" CREATED="1581451291673" MODIFIED="1581451378316"/>
+<node TEXT="Implemented in multiple language libraries" ID="ID_219377336" CREATED="1581451387570" MODIFIED="1581451413339"/>
 </node>
+<node TEXT="Licensing" FOLDED="true" ID="ID_1076328953" CREATED="1581451677377" MODIFIED="1581451680946">
+<node TEXT="Under Open Web Foundation" FOLDED="true" ID="ID_132549785" CREATED="1581451681706" MODIFIED="1581451691877">
+<node TEXT="OWFa 1.0" ID="ID_1246718686" CREATED="1581451692577" MODIFIED="1581451699658"/>
 </node>
-<node TEXT="IAM role" ID="ID_999879549" CREATED="1554234965874" MODIFIED="1554234969114">
-<node TEXT="What?" ID="ID_828084061" CREATED="1554234971296" MODIFIED="1554234973149">
-<node TEXT="IAM identity that has specific permissions" ID="ID_1667301733" CREATED="1554234975271" MODIFIED="1554234998522"/>
-<node TEXT="Like IAM user, but not associated with a specific person" ID="ID_1267762259" CREATED="1554235003371" MODIFIED="1554235014948"/>
-<node TEXT="Enables obtaining temporary access keys" ID="ID_1283520779" CREATED="1554235034031" MODIFIED="1554235045926">
-<node TEXT="Important use-cases" ID="ID_757130867" CREATED="1554235067153" MODIFIED="1554235072760">
-<node TEXT="Federated user access" ID="ID_315999226" CREATED="1554235074576" MODIFIED="1554235084791"/>
-<node TEXT="Cross-account access" ID="ID_843068646" CREATED="1554235085104" MODIFIED="1554235090955"/>
-<node TEXT="AWS service access" ID="ID_1864832791" CREATED="1554235091308" MODIFIED="1554235097460"/>
-<node TEXT="Apps running on EC2" ID="ID_1335209076" CREATED="1554235124872" MODIFIED="1554235142126"/>
-</node>
-</node>
-</node>
+<node TEXT="Transferred from Facebook to GraphQL Foundation in 2019" ID="ID_1947494153" CREATED="1581451701506" MODIFIED="1581451715675"/>
 </node>
 </node>
 </node>

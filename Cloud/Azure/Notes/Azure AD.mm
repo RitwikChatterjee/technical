@@ -1,9 +1,9 @@
-<map version="freeplane 1.6.0">
+<map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Azure AD" FOLDED="false" ID="ID_1849199293" CREATED="1554858894047" MODIFIED="1554858900817" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
+    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -64,7 +64,7 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="1" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="Managed Identities" POSITION="right" ID="ID_1921953384" CREATED="1554858902299" MODIFIED="1554858907197">
+<node TEXT="Managed Identities" FOLDED="true" POSITION="right" ID="ID_1921953384" CREATED="1554858902299" MODIFIED="1554858907197">
 <edge COLOR="#ff0000"/>
 <node TEXT="What?" FOLDED="true" ID="ID_151421914" CREATED="1554858977307" MODIFIED="1554858980076">
 <node TEXT="provides Azure services with an automatically managed identity in Azure AD" ID="ID_827440933" CREATED="1554858981123" MODIFIED="1554859008668"/>

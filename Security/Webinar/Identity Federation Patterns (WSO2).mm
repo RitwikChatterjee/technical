@@ -1,4 +1,4 @@
-<map version="freeplane 1.5.9">
+<map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Identity Federation Patterns (WSO2)" FOLDED="false" ID="ID_524456263" CREATED="1500392066160" MODIFIED="1500393889959" STYLE="oval">
 <font SIZE="18"/>
@@ -82,9 +82,9 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="8" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="About" POSITION="left" ID="ID_818545536" CREATED="1500393895124" MODIFIED="1500393899821">
+<node TEXT="About" FOLDED="true" POSITION="left" ID="ID_818545536" CREATED="1500393895124" MODIFIED="1500393899821">
 <edge COLOR="#00ff00"/>
-<node TEXT="WSO2 Webinar" ID="ID_1193440886" CREATED="1500393914373" MODIFIED="1500393920662">
+<node TEXT="WSO2 Webinar" FOLDED="true" ID="ID_1193440886" CREATED="1500393914373" MODIFIED="1500393920662">
 <node TEXT="July 18, 2017" ID="ID_47192519" CREATED="1500393922387" MODIFIED="1500393940190"/>
 </node>
 </node>
@@ -124,7 +124,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Identity Federation" POSITION="right" ID="ID_1994019267" CREATED="1500394201281" MODIFIED="1500394925923">
+<node TEXT="Identity Federation" FOLDED="true" POSITION="right" ID="ID_1994019267" CREATED="1500394201281" MODIFIED="1500394925923">
 <edge COLOR="#7c0000"/>
 <node TEXT="What?" ID="ID_1219367155" CREATED="1500394868199" MODIFIED="1500394872706">
 <node TEXT="Connecting person&apos;s digital identity and attributes" ID="ID_1435066078" CREATED="1500394874159" MODIFIED="1500394892964"/>
@@ -180,7 +180,7 @@
 <node TEXT="SEIM support" ID="ID_568789169" CREATED="1500395873920" MODIFIED="1500395881522"/>
 </node>
 </node>
-<node TEXT="Federation Problems &amp; Patterns" POSITION="right" ID="ID_1152373980" CREATED="1500394219634" MODIFIED="1500395968313">
+<node TEXT="Federation Problems &amp; Patterns" FOLDED="true" POSITION="right" ID="ID_1152373980" CREATED="1500394219634" MODIFIED="1500395968313">
 <edge COLOR="#007c00"/>
 <node TEXT="Single Identity across heterogeneous SPs" FOLDED="true" ID="ID_1859081525" CREATED="1500395977069" MODIFIED="1500407661147">
 <node TEXT="Basic Identity federation" ID="ID_1911825625" CREATED="1500396026894" MODIFIED="1500396164390">

@@ -1,9 +1,9 @@
-<map version="freeplane 1.6.0">
+<map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="AWS ECS" FOLDED="false" ID="ID_356602040" CREATED="1547067122663" MODIFIED="1547067128414" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
+    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -73,7 +73,7 @@
 <node TEXT="Related" FOLDED="true" POSITION="left" ID="ID_889772630" CREATED="1547067175124" MODIFIED="1547067178469">
 <edge COLOR="#0000ff"/>
 <node TEXT="Amazon ECR (EC2 Container Registry)" FOLDED="true" ID="ID_1636606367" CREATED="1547067179284" MODIFIED="1547067196389">
-<node TEXT="What?" FOLDED="true" ID="ID_578212759" CREATED="1547067215884" MODIFIED="1547067219013">
+<node TEXT="What?" ID="ID_578212759" CREATED="1547067215884" MODIFIED="1547067219013">
 <node TEXT="Private registry to upload docker images to" ID="ID_1819992954" CREATED="1547067219980" MODIFIED="1547067228493"/>
 </node>
 <node TEXT="Features" FOLDED="true" ID="ID_1195682066" CREATED="1547067230821" MODIFIED="1547067236540">
@@ -97,7 +97,7 @@
 <node TEXT="Actively monitor running tasks" ID="ID_1149005061" CREATED="1547073107905" MODIFIED="1547073115128"/>
 <node TEXT="Restart tasks if they fail" ID="ID_1680718608" CREATED="1547073115864" MODIFIED="1547073121585"/>
 </node>
-<node TEXT="Contains" ID="ID_1303378589" CREATED="1547073335696" MODIFIED="1547073338256">
+<node TEXT="Contains" FOLDED="true" ID="ID_1303378589" CREATED="1547073335696" MODIFIED="1547073338256">
 <node TEXT="Task Definition" ID="ID_1447811606" CREATED="1547073338985" MODIFIED="1547073344361"/>
 <node TEXT="Desired count" ID="ID_924614367" CREATED="1547073344751" MODIFIED="1547073348857"/>
 <node TEXT="Task placement strategy" FOLDED="true" ID="ID_257315441" CREATED="1547073349672" MODIFIED="1547073357721">
@@ -166,7 +166,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Docker images for each container" ID="ID_1372516884" CREATED="1547071303860" MODIFIED="1547071311117"/>

@@ -1,4 +1,4 @@
-<map version="freeplane 1.6.0">
+<map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Microservices" FOLDED="false" ID="ID_400900674" CREATED="1501111015944" MODIFIED="1501111022473" STYLE="oval">
 <font SIZE="18"/>
