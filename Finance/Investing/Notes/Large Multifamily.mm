@@ -1,4 +1,4 @@
-<map version="freeplane 1.7.0">
+<map version="freeplane 1.8.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Large Multifamily" FOLDED="false" ID="ID_106946568" CREATED="1574271826569" MODIFIED="1574271842535" STYLE="oval">
 <font SIZE="18"/>
@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="8" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="9" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="Sourcing Deals" FOLDED="true" POSITION="right" ID="ID_441532024" CREATED="1574271863250" MODIFIED="1574271931441">
 <edge COLOR="#ff0000"/>
 <node TEXT="Broker relationship" FOLDED="true" ID="ID_384237223" CREATED="1574271935378" MODIFIED="1574271952851">
@@ -294,13 +294,16 @@
 <node TEXT="MFIN Summit Vol1 May 4 2019 - Working with Multifamily brokers and accurately estimating CapEx Budgets. (Brandon Abbott, Tai Cohen, Danny Randazzo) (Podcast)" ID="ID_696761297" CREATED="1574272021070" MODIFIED="1574272226816"/>
 <node TEXT="MFIN Summit Vol1 May 4 2019 - Finding the best investment markets/submarkets. (John Casmon, Target Market insights) (Podcast)" ID="ID_1534518720" CREATED="1574272021070" MODIFIED="1574276853934"/>
 <node TEXT="Multifamily Underwriting in 7 steps (Break into CRE on youtube)" ID="ID_421216144" CREATED="1583540791730" MODIFIED="1583540837967"/>
+<node TEXT="How to analyze a Passive Investment Opportunity" ID="ID_1807697879" CREATED="1587701764467" MODIFIED="1587701822385" LINK="https://www.youtube.com/watch?v=YkU7QIH4efc"/>
 </node>
 <node TEXT="Deal structure" FOLDED="true" POSITION="left" ID="ID_839309969" CREATED="1574280359895" MODIFIED="1574280367178">
 <edge COLOR="#7c0000"/>
-<node TEXT="Models" FOLDED="true" ID="ID_202277684" CREATED="1574280371802" MODIFIED="1574280392364">
-<node TEXT="Straight" FOLDED="true" ID="ID_1956114848" CREATED="1574280380084" MODIFIED="1574280382964">
+<node TEXT="Models" ID="ID_202277684" CREATED="1574280371802" MODIFIED="1574280392364">
+<node TEXT="Straight Equity split (aka straight)" ID="ID_1956114848" CREATED="1574280380084" MODIFIED="1587890090302">
 <node TEXT="What?" FOLDED="true" ID="ID_6681402" CREATED="1574280417094" MODIFIED="1574280419649">
-<node TEXT="Simple % split on returns between GP/LP" ID="ID_115956258" CREATED="1574280395874" MODIFIED="1574280438423"/>
+<node TEXT="Simple % split on returns between GP/LP" FOLDED="true" ID="ID_115956258" CREATED="1574280395874" MODIFIED="1574280438423">
+<node TEXT="GP gets lesser of the split" ID="ID_1661214888" CREATED="1587890162576" MODIFIED="1587890181446"/>
+</node>
 <node TEXT="Does not have preferred returns" ID="ID_1929125080" CREATED="1574280492249" MODIFIED="1574280498116"/>
 </node>
 <node TEXT="Adv" FOLDED="true" ID="ID_752176355" CREATED="1574280420353" MODIFIED="1574280421515">
@@ -311,11 +314,184 @@
 <node TEXT="No Acq fee, Asset Mngt fee, etc for GP" ID="ID_825953716" CREATED="1574280506802" MODIFIED="1574280524439"/>
 </node>
 </node>
-<node TEXT="Waterfall" FOLDED="true" ID="ID_652434348" CREATED="1574280383678" MODIFIED="1574280387071">
-<node TEXT="What?" FOLDED="true" ID="ID_1434350472" CREATED="1574280537118" MODIFIED="1574280539098">
+<node TEXT="Prefered return w/Equity Split" ID="ID_1999536895" CREATED="1587890189085" MODIFIED="1587890206102">
+<node TEXT="What?" ID="ID_1683236499" CREATED="1587890207772" MODIFIED="1587890210325">
+<node TEXT="Investor receives &quot;prefered return&quot; before the sponsor gets paid" ID="ID_1771092267" CREATED="1587890211440" MODIFIED="1587890238562"/>
+<node TEXT="If investment does not hit this prefered return, remaining balance is accrued until the payout is caught up" ID="ID_1375511074" CREATED="1587890254391" MODIFIED="1587890301644"/>
+<node TEXT="Equity split after that" ID="ID_844868942" CREATED="1587890306739" MODIFIED="1587890315663"/>
+</node>
+</node>
+<node TEXT="Waterfall" ID="ID_652434348" CREATED="1574280383678" MODIFIED="1574280387071">
+<node TEXT="What?" ID="ID_1434350472" CREATED="1574280537118" MODIFIED="1574280539098">
 <node TEXT="Preferred return models" ID="ID_1392324731" CREATED="1574280541493" MODIFIED="1574280553958"/>
 </node>
 </node>
+</node>
+</node>
+<node TEXT="Analyzing Passive Deals" FOLDED="true" POSITION="left" ID="ID_1471988254" CREATED="1587701691310" MODIFIED="1587701702404">
+<edge COLOR="#7c007c"/>
+<node TEXT="Criteria by Michael Blank" ID="ID_986534915" CREATED="1587701705842" MODIFIED="1587701715996">
+<node TEXT="Sponsor &amp; team behind the deal" ID="ID_1561199946" CREATED="1587701718474" MODIFIED="1587701864740"/>
+<node TEXT="Deal itself" ID="ID_1840934193" CREATED="1587701865371" MODIFIED="1587701869111">
+<node TEXT="Should have margins of safety" ID="ID_1168531110" CREATED="1587701870101" MODIFIED="1587702351009">
+<node TEXT="Key indicators in underwriting" ID="ID_1806673518" CREATED="1587701883325" MODIFIED="1587702363348">
+<node TEXT="Reserves/Cash at closing" FOLDED="true" ID="ID_1151270942" CREATED="1587701889421" MODIFIED="1587701921445">
+<node TEXT="Deal should have a fair amount of cash at closing for any eventuality" ID="ID_79718400" CREATED="1587701895870" MODIFIED="1587701911914"/>
+</node>
+<node TEXT="Above the line money out of cashflow" FOLDED="true" ID="ID_877995771" CREATED="1587701923311" MODIFIED="1587701963589">
+<node TEXT="Take cash flow before calculating NOI" ID="ID_476679461" CREATED="1587701979367" MODIFIED="1587701991542"/>
+<node TEXT="This can significantly change return figures" ID="ID_1132107158" CREATED="1587701995872" MODIFIED="1587702008135"/>
+</node>
+<node TEXT="Rent growth" FOLDED="true" ID="ID_45978136" CREATED="1587702047889" MODIFIED="1587702051788">
+<node TEXT="Should have a reasonable rent growth" ID="ID_1132117969" CREATED="1587702052729" MODIFIED="1587702098661"/>
+<node TEXT="Should not accept underwriting with unreasonable rent growth (no matter how below it is from market rent)" ID="ID_1811285792" CREATED="1587702099751" MODIFIED="1587702142507">
+<node TEXT="This is because there is a logistical challenge in assuming sudden jump in rent" ID="ID_1439794612" CREATED="1587702143360" MODIFIED="1587702160832"/>
+</node>
+<node TEXT="Takes 2-3 years to achieve target rent" ID="ID_903157557" CREATED="1587702169768" MODIFIED="1587702200011"/>
+</node>
+<node TEXT="Reversion CAP rate" FOLDED="true" ID="ID_1248342214" CREATED="1587702205381" MODIFIED="1587702210892">
+<node TEXT="Assumption of equal or lower CAP rate at exit is NOT desirable" ID="ID_723799587" CREATED="1587702254874" MODIFIED="1587702284013"/>
+<node TEXT="Project atleast 0.5% higher CAP rate at exit" ID="ID_1846044527" CREATED="1587702301423" MODIFIED="1587702316080"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="By Limitless Estates" ID="ID_853589802" CREATED="1587888419998" MODIFIED="1587888429870">
+<node TEXT="Team" FOLDED="true" ID="ID_846367002" CREATED="1588135997366" MODIFIED="1588136001500">
+<node TEXT="Deal Sponsor" ID="ID_1552363116" CREATED="1587888443545" MODIFIED="1587888448177">
+<node TEXT="Who/What?" FOLDED="true" ID="ID_413070759" CREATED="1587888495515" MODIFIED="1587888501070">
+<node TEXT="Individual/company in charge of finding, acquiring &amp; managing the deal" ID="ID_1494614834" CREATED="1587888501930" MODIFIED="1587888564635"/>
+</node>
+<node TEXT="Considerations" ID="ID_664228288" CREATED="1587888567242" MODIFIED="1587889081788">
+<node TEXT="Track record" FOLDED="true" ID="ID_1263372907" CREATED="1587888577953" MODIFIED="1587888582148">
+<node TEXT="Past investment performance" FOLDED="true" ID="ID_331992763" CREATED="1587888582817" MODIFIED="1587888596647">
+<node TEXT="If cannot provide -&gt; RED flag" ID="ID_1783708205" CREATED="1587888646352" MODIFIED="1587888658737"/>
+</node>
+<node TEXT="If Sponsor&apos;s first deal" FOLDED="true" ID="ID_1448701607" CREATED="1587888675957" MODIFIED="1587888686342">
+<node TEXT="Are there other partners in the Sponsors team that does have Multifamily experience?" FOLDED="true" ID="ID_124027572" CREATED="1587888693528" MODIFIED="1587888724182">
+<node TEXT="Does their experience line up with the current deal and deal challenges?" ID="ID_1560509852" CREATED="1587888912345" MODIFIED="1587888930282"/>
+</node>
+<node TEXT="Less preferable - Does the group have an advisory board that can mentor a newbie?" ID="ID_1741157243" CREATED="1587888948557" MODIFIED="1587888998997"/>
+<node TEXT="What is your level of trust with the person" ID="ID_42798296" CREATED="1587889011763" MODIFIED="1587889030098"/>
+</node>
+</node>
+<node TEXT="Communication" FOLDED="true" ID="ID_351522634" CREATED="1587889250872" MODIFIED="1587889255282">
+<node TEXT="Does the sponsor take several days to get back to you?" ID="ID_1075264411" CREATED="1587889256164" MODIFIED="1587889306218"/>
+<node TEXT="Do they answer your questions with full transparency or are they beating around the bush?" ID="ID_548683183" CREATED="1587889313593" MODIFIED="1587889337048"/>
+<node TEXT="Do they know the answers to the majority of your questions? Does it sound like they know what they are talking about?" ID="ID_1809761725" CREATED="1587889337882" MODIFIED="1587889371860"/>
+</node>
+</node>
+</node>
+<node TEXT="Property Management" ID="ID_1678047356" CREATED="1587889083484" MODIFIED="1587889089407">
+<node TEXT="Are they experienced in that type of property" ID="ID_716449522" CREATED="1587889093001" MODIFIED="1588136033065"/>
+</node>
+<node TEXT="Contractors" ID="ID_322702968" CREATED="1587889099397" MODIFIED="1587889102748">
+<node TEXT="Especially important for rehab work" ID="ID_1789936480" CREATED="1587889117295" MODIFIED="1587889125280"/>
+</node>
+<node TEXT="SEC Attorney" ID="ID_769667327" CREATED="1587889128748" MODIFIED="1587889134015"/>
+<node TEXT="Commercial lender" ID="ID_928378793" CREATED="1587889144295" MODIFIED="1587889148865"/>
+</node>
+<node TEXT="Offering" FOLDED="true" ID="ID_471349657" CREATED="1587888449940" MODIFIED="1587888452466">
+<node TEXT="Components" FOLDED="true" ID="ID_962765076" CREATED="1587889415582" MODIFIED="1587889420868">
+<node TEXT="Fees" FOLDED="true" ID="ID_1446424299" CREATED="1587889421998" MODIFIED="1587889424643">
+<node TEXT="Acquisition fees" FOLDED="true" ID="ID_1223496184" CREATED="1587889425547" MODIFIED="1587889432742">
+<node TEXT="Typically" FOLDED="true" ID="ID_431792941" CREATED="1587889456874" MODIFIED="1587889462392">
+<node TEXT="2-5% of property value" ID="ID_610949225" CREATED="1587889463997" MODIFIED="1587889472929"/>
+</node>
+</node>
+<node TEXT="Asset Mngt fees" ID="ID_639595597" CREATED="1587889536707" MODIFIED="1587889543240">
+<node TEXT="What?" ID="ID_1102863445" CREATED="1587889588485" MODIFIED="1587889590796">
+<node TEXT="Fee to sponsor for managing the company" ID="ID_1052087460" CREATED="1587889591489" MODIFIED="1587889602281"/>
+</node>
+<node TEXT="Formats" FOLDED="true" ID="ID_697251741" CREATED="1587889609847" MODIFIED="1587889614603">
+<node TEXT="% of money raised from investors" ID="ID_30602345" CREATED="1587889615476" MODIFIED="1587889628250"/>
+<node TEXT="Fixed annual dollar amount payable monthly/quarterly" ID="ID_1008649734" CREATED="1587889628956" MODIFIED="1587889658559"/>
+</node>
+</node>
+<node TEXT="Refinance fees" ID="ID_1928090865" CREATED="1587889666503" MODIFIED="1587889673579">
+<node TEXT="What?" ID="ID_174449575" CREATED="1587889674510" MODIFIED="1587889676974">
+<node TEXT="Fee to sponsor from refinancing" ID="ID_1570497342" CREATED="1587889761656" MODIFIED="1587889775950"/>
+</node>
+<node TEXT="Formats" FOLDED="true" ID="ID_1050381445" CREATED="1587889777231" MODIFIED="1587889780144">
+<node TEXT="If refinancing proceeds &gt; investors original investment, split the excess" ID="ID_82895370" CREATED="1587889780959" MODIFIED="1587889813873"/>
+<node TEXT="Split refinancing proceeds irrespective of amount" ID="ID_366113204" CREATED="1587889819113" MODIFIED="1587889838990"/>
+</node>
+</node>
+<node TEXT="Disposition fees" FOLDED="true" ID="ID_1820914825" CREATED="1587889848431" MODIFIED="1587889858459">
+<node TEXT="What?" FOLDED="true" ID="ID_665243091" CREATED="1587889859497" MODIFIED="1587889861793">
+<node TEXT="Charged for investment disposition" ID="ID_25813747" CREATED="1587889878817" MODIFIED="1587889892423"/>
+</node>
+</node>
+</node>
+<node TEXT="Splits" ID="ID_1815238397" CREATED="1587890016725" MODIFIED="1587890398950">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_202277684" STARTINCLINATION="414;0;" ENDINCLINATION="414;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+</node>
+<node TEXT="Business plan" ID="ID_1319048153" CREATED="1588135912434" MODIFIED="1588135917951">
+<node TEXT="Does it make sense?" ID="ID_412111038" CREATED="1588135919245" MODIFIED="1588135925359"/>
+<node TEXT="Is it realistic to get the rent increases and expense savings they claim?" ID="ID_577051058" CREATED="1588135926382" MODIFIED="1588135960697"/>
+</node>
+<node TEXT="Exit strategy" FOLDED="true" ID="ID_322177901" CREATED="1588136137084" MODIFIED="1588136143091">
+<node TEXT="Possible exit strategies" ID="ID_1913600181" CREATED="1588136213692" MODIFIED="1588136221705">
+<node TEXT="Rehab-Refinance-Repay" FOLDED="true" ID="ID_1397165889" CREATED="1588136223005" MODIFIED="1588136290666">
+<node TEXT="Rehab or stabilize the property" ID="ID_509201402" CREATED="1588136291868" MODIFIED="1588136298724"/>
+<node TEXT="Refinance the property at a higher appraisal rate" ID="ID_1328170674" CREATED="1588136299268" MODIFIED="1588136312667"/>
+<node TEXT="Repay the investors and hold" ID="ID_509773502" CREATED="1588136313206" MODIFIED="1588136337710"/>
+</node>
+<node TEXT="Stabilize - sell" FOLDED="true" ID="ID_947773952" CREATED="1588136343952" MODIFIED="1588136354081">
+<node TEXT="Rehab/Stabilize the property" ID="ID_1229408503" CREATED="1588136355018" MODIFIED="1588136363761"/>
+<node TEXT="Sell for a profit" ID="ID_1544405719" CREATED="1588136364376" MODIFIED="1588136371140"/>
+</node>
+<node TEXT="Cashflow - Sell" FOLDED="true" ID="ID_596820651" CREATED="1588136381132" MODIFIED="1588136393145">
+<node TEXT="Hold the property for lucrative cash-flow" ID="ID_1642622312" CREATED="1588136393997" MODIFIED="1588136408060"/>
+<node TEXT="Sell when appropriate" ID="ID_1313053237" CREATED="1588136408791" MODIFIED="1588136417399"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Considerations" FOLDED="true" ID="ID_1258558852" CREATED="1587889929917" MODIFIED="1587889938351">
+<node TEXT="Investment is not backloaded" FOLDED="true" ID="ID_708156267" CREATED="1587890410089" MODIFIED="1587890428158">
+<node TEXT="The returns do not all come at the end" ID="ID_1326962456" CREATED="1588136684841" MODIFIED="1588136694425"/>
+</node>
+<node TEXT="Sponsor has a strong incentive to make the investment perform" FOLDED="true" ID="ID_330466381" CREATED="1587889946783" MODIFIED="1587889999995">
+<node TEXT="Sponsor is paid only when the property performs" ID="ID_1803499497" CREATED="1588136702952" MODIFIED="1588136727497"/>
+</node>
+<node TEXT="Multiple exit strategies" ID="ID_187648417" CREATED="1588136144965" MODIFIED="1588136736195">
+<node TEXT="Atleast 2" ID="ID_731537563" CREATED="1588136737383" MODIFIED="1588136743839"/>
+</node>
+<node TEXT="Reversion CAP rate" FOLDED="true" ID="ID_370236255" CREATED="1588136746544" MODIFIED="1588136752121">
+<node TEXT="Is justified wrt today&apos;s CAP rate" ID="ID_78639088" CREATED="1588136752895" MODIFIED="1588136767627"/>
+<node TEXT="More likely 0.5 basis points higher and still makes sense" ID="ID_1811360239" CREATED="1588136768775" MODIFIED="1588136789133"/>
+</node>
+<node TEXT="Property cash flows" ID="ID_312020128" CREATED="1588136793039" MODIFIED="1588136800793"/>
+<node TEXT="Sponsor has raised sufficient funds" ID="ID_1713330269" CREATED="1588136801333" MODIFIED="1588136812974">
+<node TEXT="Capital expenditures" ID="ID_1402667787" CREATED="1588136813943" MODIFIED="1588136820822"/>
+<node TEXT="Emergency reserves" ID="ID_1376856358" CREATED="1588136821251" MODIFIED="1588136827381"/>
+<node TEXT="Working capital" ID="ID_1778645593" CREATED="1588136828575" MODIFIED="1588136834028"/>
+</node>
+<node TEXT="Sponsor secures long-term debt" ID="ID_1119447395" CREATED="1588136843565" MODIFIED="1588136851870">
+<node TEXT="10+ years" ID="ID_1387077556" CREATED="1588136868591" MODIFIED="1588136872887"/>
+<node TEXT="Else have a fall-back plan" ID="ID_1372116218" CREATED="1588136852655" MODIFIED="1588136865910"/>
+</node>
+</node>
+</node>
+<node TEXT="PPM" FOLDED="true" ID="ID_176330160" CREATED="1588136934160" MODIFIED="1588136937502">
+<node TEXT="Questions to ask" FOLDED="true" ID="ID_1721636465" CREATED="1588136937992" MODIFIED="1588136942143">
+<node TEXT="Can I sell my interest?" FOLDED="true" ID="ID_1109553714" CREATED="1588136942609" MODIFIED="1588136954389">
+<node TEXT="If so, how?" ID="ID_1328344181" CREATED="1588136955022" MODIFIED="1588136960755"/>
+</node>
+<node TEXT="What happens if the project needs more capital?" ID="ID_886301694" CREATED="1588136963680" MODIFIED="1588136972107"/>
+<node TEXT="What happens to my money if the lead sponsor passes away?" ID="ID_719468991" CREATED="1588136976442" MODIFIED="1588136987064"/>
+<node TEXT="What happens to my money if I pass away?" ID="ID_270577334" CREATED="1588136989484" MODIFIED="1588136998780"/>
+<node TEXT="What are the voting rights?" ID="ID_926871498" CREATED="1588137003429" MODIFIED="1588137008553"/>
+<node TEXT="Can the lead sponsor be removed if they are severely underperforming?" ID="ID_264310964" CREATED="1588137014657" MODIFIED="1588137032113"/>
+<node TEXT="What is the compensation structure?" ID="ID_593309451" CREATED="1588137033866" MODIFIED="1588137039645"/>
+<node TEXT="What are the terms of the loan?" ID="ID_1746116465" CREATED="1588137040959" MODIFIED="1588137049734"/>
+<node TEXT="What is the funding and payout schedule?" ID="ID_1322581388" CREATED="1588137050555" MODIFIED="1588137057337"/>
+<node TEXT="How will I be updated on the project after closing?" ID="ID_1304467400" CREATED="1588137057921" MODIFIED="1588137068494"/>
+</node>
+</node>
+<node TEXT="Market Analysis" ID="ID_720762655" CREATED="1587888453298" MODIFIED="1587888457950"/>
 </node>
 </node>
 </node>
