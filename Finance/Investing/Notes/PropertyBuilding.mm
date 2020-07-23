@@ -1,4 +1,4 @@
-<map version="freeplane 1.6.0">
+<map version="freeplane 1.8.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Property/Building" FOLDED="false" ID="ID_39971079" CREATED="1573871967235" MODIFIED="1573872003225" STYLE="oval">
 <font SIZE="18"/>
@@ -63,9 +63,10 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="4" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="Zoning" FOLDED="true" POSITION="right" ID="ID_1399471746" CREATED="1573872004928" MODIFIED="1573872008454">
-<edge COLOR="#ff0000"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="9" RULE="ON_BRANCH_CREATION"/>
+<node TEXT="Zoning" POSITION="right" ID="ID_25712973" CREATED="1593721385094" MODIFIED="1593721390032">
+<edge COLOR="#00ffff"/>
+<node TEXT="Usage Zoning" FOLDED="true" ID="ID_1399471746" CREATED="1573872004928" MODIFIED="1593721406496">
 <node TEXT="Residential" FOLDED="true" ID="ID_341169689" CREATED="1573872012105" MODIFIED="1573872244128" LINK="http://www.otfordeco.com/land-use-zones/general-residential-r1-r2-r3-r4-r5.html">
 <node TEXT="R1 General Residential" ID="ID_1512637894" CREATED="1573872018431" MODIFIED="1573872041819"/>
 <node TEXT="R2 Low Density Residential" ID="ID_577790401" CREATED="1573872042912" MODIFIED="1573872058677"/>
@@ -84,7 +85,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_875564980" CREATED="1573872115268" MODIFIED="1573872115268"><richcontent TYPE="NODE">
@@ -99,7 +99,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1408676449" CREATED="1573872115281" MODIFIED="1573872115281"><richcontent TYPE="NODE">
@@ -114,7 +113,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1805671129" CREATED="1573872115286" MODIFIED="1573872115286"><richcontent TYPE="NODE">
@@ -129,7 +127,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -145,7 +142,6 @@
     Backpackers&#8217; accommodation; Bed and breakfast accommodation;&#160;Boarding houses; Child care centres; Community facilities; Exhibition&#160;homes; Hostels; Multi dwelling housing; Neighbourhood shops; Places&#160;of public worship; Recreation areas; Recreation facilities (indoor);&#160;Residential flat buildings; Roads; Seniors housing; Serviced&#160;apartments; Shop top housing; Signage
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -153,8 +149,7 @@
 <node TEXT="R5 Large Lot Residential" ID="ID_1368205028" CREATED="1573872253685" MODIFIED="1573872264007"/>
 </node>
 </node>
-<node TEXT="Flood Zoning" FOLDED="true" POSITION="right" ID="ID_929564205" CREATED="1573872833761" MODIFIED="1573892548509">
-<edge COLOR="#ff00ff"/>
+<node TEXT="Flood Zoning" FOLDED="true" ID="ID_929564205" CREATED="1573872833761" MODIFIED="1593721399150">
 <node TEXT="Definition" ID="ID_636587183" CREATED="1573872841545" MODIFIED="1573892548506" LINK="https://www.fema.gov/flood-zones">
 <node TEXT="High risk zone" FOLDED="true" ID="ID_1772978683" CREATED="1573872915146" MODIFIED="1573872919562">
 <node TEXT="Zone A, AO, AH, A1-A30, ...." ID="ID_1144698883" CREATED="1573872971251" MODIFIED="1573872994664"/>
@@ -169,10 +164,41 @@
 </node>
 </node>
 </node>
+</node>
+<node TEXT="Year Built Issues" FOLDED="true" POSITION="right" ID="ID_1017763661" CREATED="1593721410800" MODIFIED="1593721433302">
+<edge COLOR="#7c0000"/>
+<node TEXT="Issues with older buildings" ID="ID_710312127" CREATED="1593721480622" MODIFIED="1593721491119">
+<node TEXT="May not comply with latest building standards/city regulations" ID="ID_1421189944" CREATED="1593721491904" MODIFIED="1593721508608"/>
+<node TEXT="Issues by year" ID="ID_859128990" CREATED="1593721517199" MODIFIED="1593721521789">
+<node TEXT="Before 1978" ID="ID_553101654" CREATED="1593721446842" MODIFIED="1593721464502">
+<node TEXT="Lead paint issue" ID="ID_1856376354" CREATED="1593721465310" MODIFIED="1593721474642"/>
+</node>
+<node TEXT="1960s" ID="ID_51145577" CREATED="1593721588419" MODIFIED="1593721615738">
+<node TEXT="Alluminium wiring" ID="ID_1660692186" CREATED="1593721597932" MODIFIED="1593721610267"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Utilities" POSITION="right" ID="ID_777360009" CREATED="1593721942701" MODIFIED="1593721945786">
+<edge COLOR="#00007c"/>
+<node TEXT="Types (Financial)" ID="ID_1747396645" CREATED="1593721947100" MODIFIED="1593721977154">
+<node TEXT="All bills paid" ID="ID_582159249" CREATED="1593721957612" MODIFIED="1593721963385"/>
+<node TEXT="RUBS" ID="ID_450293257" CREATED="1593721978489" MODIFIED="1593721984817"/>
+<node TEXT="Bill back" ID="ID_15981067" CREATED="1593721985308" MODIFIED="1593721991211"/>
+</node>
+</node>
+<node TEXT="Unit mix" POSITION="right" ID="ID_575678226" CREATED="1593722481180" MODIFIED="1593722485438">
+<edge COLOR="#7c007c"/>
+<node TEXT="Preferred" ID="ID_706153870" CREATED="1593722486460" MODIFIED="1593722489418">
+<node TEXT="2:1::2BR:1BR" ID="ID_1664754304" CREATED="1593722490124" MODIFIED="1593722512465">
+<node TEXT="Since 1BRs are more transient" ID="ID_586348165" CREATED="1593722524666" MODIFIED="1593722535671"/>
+</node>
+</node>
+</node>
 <node TEXT="Roof" POSITION="left" ID="ID_719021011" CREATED="1573872348887" MODIFIED="1573872352097">
 <edge COLOR="#0000ff"/>
 </node>
-<node TEXT="Heating/Cooling" FOLDED="true" POSITION="left" ID="ID_860555443" CREATED="1573872352801" MODIFIED="1573872358610">
+<node TEXT="Heating/Cooling" POSITION="left" ID="ID_860555443" CREATED="1573872352801" MODIFIED="1573872358610">
 <edge COLOR="#00ff00"/>
 <node TEXT="Two-pipe System" ID="ID_1577747864" CREATED="1573872360938" MODIFIED="1573872449573" LINK="https://heatinghelp.com/systems-help-center/two-pipe-systems/">
 <node TEXT="What?" ID="ID_1366085723" CREATED="1573872413893" MODIFIED="1573872417768"/>

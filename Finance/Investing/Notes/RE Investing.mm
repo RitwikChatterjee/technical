@@ -1,4 +1,4 @@
-<map version="freeplane 1.7.0">
+<map version="freeplane 1.8.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="RE Investing" FOLDED="false" ID="ID_1714607871" CREATED="1519183063681" MODIFIED="1519183074698" STYLE="oval">
 <font SIZE="18"/>
@@ -645,7 +645,7 @@
 <node TEXT="Lower better" ID="ID_166484361" CREATED="1541569652127" MODIFIED="1541569655883"/>
 </node>
 </node>
-<node TEXT="CAP Rate" FOLDED="true" ID="ID_1754510822" CREATED="1532909804153" MODIFIED="1532909808983">
+<node TEXT="CAP Rate" ID="ID_1754510822" CREATED="1532909804153" MODIFIED="1532909808983">
 <node TEXT="Calculation" ID="ID_337315281" CREATED="1532909811659" MODIFIED="1532909816213">
 <node TEXT="Cap rate = Net Operating Income/Current Market Value" ID="ID_219484884" CREATED="1532909820772" MODIFIED="1532909868887"/>
 </node>

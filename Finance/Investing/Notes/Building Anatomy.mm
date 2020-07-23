@@ -1,9 +1,9 @@
-<map version="freeplane 1.7.0">
+<map version="freeplane 1.8.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Building Anatomy" FOLDED="false" ID="ID_1984332177" CREATED="1575008435444" MODIFIED="1575010468191" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false" show_note_icons="true"/>
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -63,9 +63,16 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="9" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="11" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="Roof" POSITION="left" ID="ID_1314313737" CREATED="1575010471767" MODIFIED="1575010474205">
 <edge COLOR="#0000ff"/>
+<node TEXT="Types" ID="ID_528142783" CREATED="1589948147049" MODIFIED="1589948149788">
+<node TEXT="Pitched" ID="ID_1903486703" CREATED="1589948151618" MODIFIED="1589948154004">
+<node TEXT="Preferred over flat roof, as latter prone to leaks" ID="ID_494049114" CREATED="1593721664291" MODIFIED="1593721682063"/>
+</node>
+<node TEXT="Flat" ID="ID_1593216980" CREATED="1589948155385" MODIFIED="1589948156747"/>
+</node>
+<node TEXT="Material" ID="ID_699249655" CREATED="1590432513922" MODIFIED="1590432517879"/>
 </node>
 <node TEXT="Flooring" FOLDED="true" POSITION="left" ID="ID_1600623427" CREATED="1575008445066" MODIFIED="1575008447945">
 <edge COLOR="#ff0000"/>
@@ -163,7 +170,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Laminate (aka plank flooring)" ID="ID_471069654" CREATED="1575009198556" MODIFIED="1575009260475">
+<node TEXT="Laminate (aka plank flooring)" FOLDED="true" ID="ID_471069654" CREATED="1575009198556" MODIFIED="1575009260475">
 <node TEXT="Advantages" ID="ID_1053375872" CREATED="1575009205493" MODIFIED="1575009273589">
 <node TEXT="Very DIY friendly to install" ID="ID_1472372074" CREATED="1575009274732" MODIFIED="1575009282197">
 <node TEXT="No glues, nails or staples needed" ID="ID_1352421518" CREATED="1575009351364" MODIFIED="1575009359096"/>
@@ -249,7 +256,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Vinyl (aka Renolium, peel-n-stick, resilient, etc.)" ID="ID_139280283" CREATED="1575009978803" MODIFIED="1575010061349">
+<node TEXT="Vinyl (aka Renolium, peel-n-stick, resilient, etc.)" FOLDED="true" ID="ID_139280283" CREATED="1575009978803" MODIFIED="1575010061349">
 <node TEXT="What?" ID="ID_666955419" CREATED="1575010166382" MODIFIED="1575010168908"/>
 <node TEXT="Types" ID="ID_986132292" CREATED="1575010062974" MODIFIED="1575010067378">
 <node TEXT="Tile" ID="ID_1939005055" CREATED="1575010075157" MODIFIED="1575010076533">
@@ -293,6 +300,18 @@
 </node>
 <node TEXT="Boiler" POSITION="left" ID="ID_1565377042" CREATED="1575012155083" MODIFIED="1575012161496">
 <edge COLOR="#7c0000"/>
+</node>
+<node TEXT="Exterior" FOLDED="true" POSITION="left" ID="ID_1692426610" CREATED="1589948213408" MODIFIED="1589948230126">
+<edge COLOR="#007c7c"/>
+<node TEXT="Types" ID="ID_1038852134" CREATED="1589948231192" MODIFIED="1589948235764">
+<node TEXT="Stucco" ID="ID_743872843" CREATED="1589948236554" MODIFIED="1589948239617"/>
+</node>
+</node>
+<node TEXT="Construction" FOLDED="true" POSITION="left" ID="ID_865294504" CREATED="1589948248186" MODIFIED="1589948251654">
+<edge COLOR="#7c7c00"/>
+<node TEXT="Types" ID="ID_1813445138" CREATED="1589948252428" MODIFIED="1589948254636">
+<node TEXT="Block" ID="ID_587034323" CREATED="1589948255347" MODIFIED="1589948257532"/>
+</node>
 </node>
 <node TEXT="Rehab" FOLDED="true" POSITION="right" ID="ID_320361711" CREATED="1575162751263" MODIFIED="1575162754799">
 <edge COLOR="#007c00"/>
@@ -351,9 +370,9 @@
 <node TEXT="Measurement" FOLDED="true" ID="ID_1724095111" CREATED="1575165668961" MODIFIED="1575165674154">
 <node TEXT="Done in roofing &quot;Squares&quot; = 100 sqft" ID="ID_501445404" CREATED="1575165674969" MODIFIED="1575165692951"/>
 <node TEXT="Quick &amp; dirty" FOLDED="true" ID="ID_1994720778" CREATED="1575165709409" MODIFIED="1575165726386">
-<node TEXT="Multiply the length and width of the building, including eaves and overhang. Divide by 100 to find the number of roofing &#x201c;squares.&#x201d; Then add 10 percent for a gable roof, 15 percent for a hip roof and 20 percent for a roof with dormers.  A square is equivalent to 100 square feet." ID="ID_1737983283" CREATED="1575165727203" MODIFIED="1575165748939"/>
+<node TEXT="Multiply the length and width of the building, including eaves and overhang. Divide by 100 to find the number of roofing “squares.” Then add 10 percent for a gable roof, 15 percent for a hip roof and 20 percent for a roof with dormers.  A square is equivalent to 100 square feet." ID="ID_1737983283" CREATED="1575165727203" MODIFIED="1575165748939"/>
 <node TEXT="Multiply the length and width of the building, including eaves and overhang." ID="ID_1958629518" CREATED="1575165751009" MODIFIED="1575165760757"/>
-<node TEXT="Divide by 100 (roofing &#x201c;squares&#x201d;)" ID="ID_1532855463" CREATED="1575165766962" MODIFIED="1575165788232"/>
+<node TEXT="Divide by 100 (roofing “squares”)" ID="ID_1532855463" CREATED="1575165766962" MODIFIED="1575165788232"/>
 <node TEXT="Then add" ID="ID_870348042" CREATED="1575165789329" MODIFIED="1575165804764">
 <node TEXT="10 percent for a gable roof" ID="ID_1916745970" CREATED="1575165805452" MODIFIED="1575165823469"/>
 <node TEXT="15 percent for a hip roof" ID="ID_1593276851" CREATED="1575165824195" MODIFIED="1575165833284"/>
@@ -453,7 +472,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1855104683" CREATED="1575167912179" MODIFIED="1575167912179"><richcontent TYPE="NODE">
@@ -470,7 +488,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1074948211" CREATED="1575167912182" MODIFIED="1575167912182"><richcontent TYPE="NODE">
@@ -487,7 +504,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -509,7 +525,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1094178586" CREATED="1575168112633" MODIFIED="1575168112633"><richcontent TYPE="NODE">
@@ -526,7 +541,6 @@
     </ul>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -552,7 +566,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -633,7 +646,7 @@
 <node TEXT="(3) Homeadvisor.com and porch.com as coming up on bing" ID="ID_1441754962" CREATED="1575175497176" MODIFIED="1575175574298"/>
 <node TEXT="(4) FSI quote on Shamrock, Bryan, TX" ID="ID_1692809593" CREATED="1575177866673" MODIFIED="1575177886765"/>
 </node>
-<node TEXT="Glossary" FOLDED="true" POSITION="right" ID="ID_1295819560" CREATED="1575168183259" MODIFIED="1575168186821">
+<node TEXT="Glossary" POSITION="right" ID="ID_1295819560" CREATED="1575168183259" MODIFIED="1575168186821">
 <edge COLOR="#7c007c"/>
 <node TEXT="LF = Linear foot" ID="ID_821541638" CREATED="1575168188334" MODIFIED="1575168194307"/>
 <node TEXT="CSF = 100 Sq Ft" ID="ID_1884507137" CREATED="1575168196371" MODIFIED="1575168206651"/>

@@ -1,4 +1,4 @@
-<map version="freeplane 1.7.0">
+<map version="freeplane 1.8.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Investors" FOLDED="false" ID="ID_64988714" CREATED="1573775719252" MODIFIED="1573775722895" STYLE="oval">
 <font SIZE="18"/>
@@ -71,7 +71,7 @@
 <node TEXT="Non-accredited" ID="ID_370952502" CREATED="1573775764885" MODIFIED="1573775768882"/>
 </node>
 </node>
-<node TEXT="Finding Investors" FOLDED="true" POSITION="right" ID="ID_1759067325" CREATED="1573776104571" MODIFIED="1573776112438">
+<node TEXT="Finding Investors" POSITION="right" ID="ID_1759067325" CREATED="1573776104571" MODIFIED="1573776112438">
 <edge COLOR="#00ff00"/>
 <node TEXT="Believe" FOLDED="true" ID="ID_1548982832" CREATED="1573776130382" MODIFIED="1573776137356">
 <node TEXT="in Yourself" ID="ID_996639646" CREATED="1573776139904" MODIFIED="1573776147526"/>
