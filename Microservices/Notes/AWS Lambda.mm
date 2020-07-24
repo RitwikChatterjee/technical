@@ -472,7 +472,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Minimize package size to necessities" ID="ID_492660091" CREATED="1583512359486" MODIFIED="1583512840060"><richcontent TYPE="NOTE">
@@ -526,7 +525,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Use Environment Variables to modify optional behavior" ID="ID_1142395144" CREATED="1583512847991" MODIFIED="1583512893559"><richcontent TYPE="NOTE">
@@ -547,7 +545,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Self-contain dependencies in your function package" ID="ID_1044202424" CREATED="1583512898840" MODIFIED="1583512990082"><richcontent TYPE="NOTE">
@@ -598,7 +595,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Leverage &quot;Max Memory Used&quot; to right-size your functions" ID="ID_430082808" CREATED="1583512997447" MODIFIED="1583513018087"/>
@@ -626,6 +622,7 @@
 <edge COLOR="#7c007c"/>
 <node TEXT="Zappa framework" ID="ID_690949568" CREATED="1560283066490" MODIFIED="1560283148663" LINK="https://github.com/Miserlou/Zappa"/>
 <node TEXT="Micronaut" ID="ID_1882174519" CREATED="1581016238589" MODIFIED="1581016269688" LINK="https://micronaut.io/"/>
+<node TEXT="AWS SAM" ID="ID_1775056555" CREATED="1587161407788" MODIFIED="1587161433640" LINK="AWS%20SAM.mm"/>
 </node>
 <node TEXT="Reference" FOLDED="true" POSITION="left" ID="ID_988866248" CREATED="1560280916625" MODIFIED="1560280919477">
 <edge COLOR="#007c00"/>
