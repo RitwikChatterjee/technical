@@ -1,9 +1,9 @@
-<map version="freeplane 1.7.0">
+<map version="freeplane 1.8.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Multifamily property" FOLDED="false" ID="ID_1679787771" CREATED="1519098587321" MODIFIED="1519098599924" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -142,12 +142,12 @@
 </node>
 </node>
 <node TEXT="Spreadsheet" FOLDED="true" ID="ID_909248486" CREATED="1519100138287" MODIFIED="1519100143509">
-<node TEXT="Risks" FOLDED="true" ID="ID_747955505" CREATED="1519100148470" MODIFIED="1519100152759">
+<node TEXT="Risks" ID="ID_747955505" CREATED="1519100148470" MODIFIED="1519100152759">
 <node TEXT="You might make mistakes which might be difficult to identify" ID="ID_360979347" CREATED="1519100154605" MODIFIED="1519100192183"/>
 <node TEXT="Others do not understand" ID="ID_546885633" CREATED="1519100192901" MODIFIED="1519100201813"/>
 </node>
 </node>
-<node TEXT="Online tools" ID="ID_1579784156" CREATED="1519178048403" MODIFIED="1537938649702">
+<node TEXT="Online tools" FOLDED="true" ID="ID_1579784156" CREATED="1519178048403" MODIFIED="1537938649702">
 <font NAME="MS UI Gothic"/>
 <node TEXT="BiggerPockets calc" ID="ID_1604011885" CREATED="1519178059720" MODIFIED="1519178070609"/>
 </node>
