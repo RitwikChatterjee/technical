@@ -1,4 +1,4 @@
-<map version="freeplane 1.8.0">
+<map version="freeplane 1.6.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="RE Investing" FOLDED="false" ID="ID_1714607871" CREATED="1519183063681" MODIFIED="1519183074698" STYLE="oval">
 <font SIZE="18"/>
@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="17" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="18" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="RE Team" FOLDED="true" POSITION="right" ID="ID_1191554427" CREATED="1519950447490" MODIFIED="1519950616048">
 <edge COLOR="#ff00ff"/>
 <node TEXT="Spouse" FOLDED="true" ID="ID_256486327" CREATED="1519950617378" MODIFIED="1519950619957">
@@ -742,6 +742,17 @@
 <node TEXT="Types" ID="ID_1575532302" CREATED="1533789798675" MODIFIED="1533789802303">
 <node TEXT="Debt" ID="ID_944591571" CREATED="1533789803967" MODIFIED="1533789806582"/>
 <node TEXT="Equity" ID="ID_1511991338" CREATED="1533789807547" MODIFIED="1533789810008"/>
+</node>
+</node>
+<node TEXT="Factors affecting rental market" FOLDED="true" POSITION="right" ID="ID_929099961" CREATED="1600127361692" MODIFIED="1600197086800">
+<edge COLOR="#00007c"/>
+<node TEXT="What makes market the &quot;best place&quot;?" ID="ID_140909062" CREATED="1600127478983" MODIFIED="1600127500501" LINK="https://www.fool.com/millionacres/real-estate-investing/rental-properties/10-best-places-buy-rental-property-2020/">
+<node TEXT="Affordable housing" ID="ID_470791677" CREATED="1600127564074" MODIFIED="1600127605399"/>
+<node TEXT="Wage growth" ID="ID_1084220960" CREATED="1600127743224" MODIFIED="1600127756533"/>
+<node TEXT="Unemployment rate" ID="ID_902738407" CREATED="1600127760152" MODIFIED="1600127782124"/>
+<node TEXT="Population growth" ID="ID_1389602067" CREATED="1600127782697" MODIFIED="1600127807461"/>
+<node TEXT="Increase in property value" ID="ID_1475941799" CREATED="1600127808627" MODIFIED="1600127851944"/>
+<node TEXT="Rental yield" ID="ID_1106613839" CREATED="1600127852707" MODIFIED="1600127868303"/>
 </node>
 </node>
 </node>
