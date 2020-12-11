@@ -1,4 +1,4 @@
-<map version="freeplane 1.6.0">
+<map version="freeplane 1.8.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="RE Investing" FOLDED="false" ID="ID_1714607871" CREATED="1519183063681" MODIFIED="1519183074698" STYLE="oval">
 <font SIZE="18"/>
@@ -736,6 +736,7 @@
 <edge COLOR="#ff00ff"/>
 <node TEXT="Turner, Brandon, Rental Property Investing" ID="ID_236394154" CREATED="1524000003153" MODIFIED="1524000038883"/>
 <node TEXT="Thomsett, Michael C., &quot;Rental Property Profits - A financial Toolkit for landlords&quot;" ID="ID_932373591" CREATED="1524000041657" MODIFIED="1524000107219"/>
+<node TEXT="Value Hound Academy" ID="ID_1651334273" CREATED="1601419982936" MODIFIED="1601420005495" LINK="https://www.valuehoundacademy.com/"/>
 </node>
 <node TEXT="Raising private money" FOLDED="true" POSITION="right" ID="ID_1938439055" CREATED="1533789789353" MODIFIED="1533789796877">
 <edge COLOR="#00ffff"/>
