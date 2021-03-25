@@ -1,9 +1,9 @@
-<map version="freeplane 1.6.0">
+<map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="SpringBoot" FOLDED="false" ID="ID_571502326" CREATED="1546973012918" MODIFIED="1546973081976" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
+    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -64,13 +64,13 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="1" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="About" POSITION="left" ID="ID_1535094898" CREATED="1546973086073" MODIFIED="1546974989566">
+<node TEXT="About" FOLDED="true" POSITION="left" ID="ID_1535094898" CREATED="1546973086073" MODIFIED="1546974989566">
 <edge COLOR="#ff0000"/>
 <node TEXT="Spring Framework Vs Spring MVC Vs Spring Boot" FOLDED="true" ID="ID_1153515626" CREATED="1546973094281" MODIFIED="1546973119241">
-<node TEXT="Spring Framework" ID="ID_1319428886" CREATED="1546973120658" MODIFIED="1546973125587">
+<node TEXT="Spring Framework" FOLDED="true" ID="ID_1319428886" CREATED="1546973120658" MODIFIED="1546973125587">
 <node TEXT="Problem" FOLDED="true" ID="ID_62117160" CREATED="1546973126410" MODIFIED="1546973162697">
 <node TEXT="Can easily develop loosely coupled application using DI" ID="ID_1975600413" CREATED="1546973189065" MODIFIED="1546973435705"/>
-<node TEXT="Reduce plumbing code/duplication" ID="ID_1111481709" CREATED="1546973685583" MODIFIED="1546973699225">
+<node TEXT="Reduce plumbing code/duplication" FOLDED="true" ID="ID_1111481709" CREATED="1546973685583" MODIFIED="1546973699225">
 <node TEXT="Brings in other modules like Spring JDBC and Spring JMS" ID="ID_261883702" CREATED="1546973700007" MODIFIED="1546973712281"/>
 <node TEXT="They provide abstraction and are easy to code with" ID="ID_436583333" CREATED="1546973733272" MODIFIED="1546973747304"/>
 </node>
@@ -83,7 +83,7 @@
 </node>
 </node>
 <node TEXT="Spring MVC" FOLDED="true" ID="ID_225548602" CREATED="1546973867879" MODIFIED="1546973873645">
-<node TEXT="Feature" ID="ID_1121699388" CREATED="1546973874723" MODIFIED="1546973894992">
+<node TEXT="Feature" FOLDED="true" ID="ID_1121699388" CREATED="1546973874723" MODIFIED="1546973894992">
 <node TEXT="Provides decoupled way to develop web applications" ID="ID_1772241780" CREATED="1546973903616" MODIFIED="1546973919384"/>
 </node>
 </node>

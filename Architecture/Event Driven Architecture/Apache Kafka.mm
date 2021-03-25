@@ -1,4 +1,4 @@
-<map version="freeplane 1.5.9">
+<map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Apache Kafka" FOLDED="false" ID="ID_74900992" CREATED="1502913527417" MODIFIED="1502913533305" STYLE="oval">
 <font SIZE="18"/>
@@ -82,7 +82,7 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="14" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="What" POSITION="right" ID="ID_1209918710" CREATED="1502914730601" MODIFIED="1502914733379">
+<node TEXT="What" FOLDED="true" POSITION="right" ID="ID_1209918710" CREATED="1502914730601" MODIFIED="1502914733379">
 <edge COLOR="#7c0000"/>
 <node TEXT="A distributed commit log" FOLDED="true" ID="ID_1361017978" CREATED="1502914757539" MODIFIED="1502914783538">
 <node TEXT="Event ledger" FOLDED="true" ID="ID_1726154276" CREATED="1502914734627" MODIFIED="1502914740114">
@@ -93,7 +93,7 @@
 <node TEXT="Redundant" ID="ID_1829250881" CREATED="1502914745426" MODIFIED="1502914755299"/>
 </node>
 </node>
-<node TEXT="What" POSITION="right" ID="ID_657116788" CREATED="1502915372418" MODIFIED="1502915374931">
+<node TEXT="What" FOLDED="true" POSITION="right" ID="ID_657116788" CREATED="1502915372418" MODIFIED="1502915374931">
 <edge COLOR="#7c7c00"/>
 <node TEXT="Distributed streaming platform" FOLDED="true" ID="ID_490981834" CREATED="1502915376123" MODIFIED="1502915385147">
 <node TEXT="Allows publish/subscribe to streams of record" ID="ID_853890815" CREATED="1502915386346" MODIFIED="1502915406307"/>
@@ -125,7 +125,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_24490009" CREATED="1502915582418" MODIFIED="1502915609207"><richcontent TYPE="NODE">
@@ -140,7 +139,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -177,17 +175,16 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
-<node TEXT="Multiple consumer instances within a group" FOLDED="true" ID="ID_621957933" CREATED="1502916837124" MODIFIED="1502916846692">
+<node TEXT="Multiple consumer instances within a group" ID="ID_621957933" CREATED="1502916837124" MODIFIED="1502916846692">
 <node TEXT="Separate processes or separate machines" ID="ID_426919280" CREATED="1502916993099" MODIFIED="1502917007956"/>
 <node TEXT="Scalability &amp; tolerance" ID="ID_602496526" CREATED="1502917400083" MODIFIED="1502917414884"/>
 </node>
 </node>
 <node TEXT="Mechanics" ID="ID_1497297436" CREATED="1502916851163" MODIFIED="1502916854212"/>
 </node>
-<node TEXT="Messages" FOLDED="true" ID="ID_1497562416" CREATED="1502913898257" MODIFIED="1502913901211">
+<node TEXT="Messages" ID="ID_1497562416" CREATED="1502913898257" MODIFIED="1502913901211">
 <node TEXT="Stay on disk when consumed" ID="ID_1488608946" CREATED="1502913902202" MODIFIED="1502913909779"/>
 <node TEXT="Deletes on TTL or compaction" ID="ID_40116572" CREATED="1502913910185" MODIFIED="1502913923187"/>
 </node>
@@ -199,8 +196,8 @@
 <node TEXT="Kafka cluster maintains a partitioned log for each topic" ID="ID_1394872045" CREATED="1502915935066" MODIFIED="1502916233603"/>
 <node TEXT="Can have many partitions" ID="ID_166151718" CREATED="1502916236234" MODIFIED="1502916247375"/>
 </node>
-<node TEXT="Mechanics" ID="ID_1752333499" CREATED="1502916912915" MODIFIED="1502916916348">
-<node TEXT="Distribution" ID="ID_1328360676" CREATED="1502916917715" MODIFIED="1502916922251">
+<node TEXT="Mechanics" FOLDED="true" ID="ID_1752333499" CREATED="1502916912915" MODIFIED="1502916916348">
+<node TEXT="Distribution" FOLDED="true" ID="ID_1328360676" CREATED="1502916917715" MODIFIED="1502916922251">
 <node TEXT="Each record published is deliverd to 1 consumer instance within each subscribing consumer group" FOLDED="true" ID="ID_650226243" CREATED="1502916923547" MODIFIED="1502916960606">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_718106142" STARTINCLINATION="306;0;" ENDINCLINATION="306;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="Apache Kafka_709110612227074601.png" ID="ID_425060679" CREATED="1502917089827" MODIFIED="1502917089827">
@@ -228,7 +225,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -236,6 +232,9 @@
 <node TEXT="Helps scaling" ID="ID_1069225779" CREATED="1502916190850" MODIFIED="1502916194676"/>
 <node TEXT="Must fit on host" ID="ID_481900891" CREATED="1502916195346" MODIFIED="1502916214220"/>
 <node TEXT="Acts as unit of parallelism" ID="ID_1390571451" CREATED="1502916249387" MODIFIED="1502916256027"/>
+</node>
+<node TEXT="When?" ID="ID_601652472" CREATED="1614614045268" MODIFIED="1614614047760">
+<node TEXT="Can be set at topic creation time or later" ID="ID_1987034338" CREATED="1614614048508" MODIFIED="1614614065370"/>
 </node>
 <node TEXT="Mechanics" FOLDED="true" ID="ID_520929106" CREATED="1502916447658" MODIFIED="1502916471884">
 <node TEXT="Distributed over servers in the cluster" ID="ID_1200689878" CREATED="1502916473298" MODIFIED="1502916495931"/>
@@ -247,11 +246,56 @@
 </node>
 <node TEXT="Each server leader for some, follower for some partitions for load balancing" ID="ID_766524333" CREATED="1502916604274" MODIFIED="1502916624796"/>
 </node>
+<node TEXT="Determining number of partitions" ID="ID_1019426361" CREATED="1614361736910" MODIFIED="1614361759889">
+<node TEXT="Considerations" ID="ID_251634059" CREATED="1614361764717" MODIFIED="1614361776925">
+<node TEXT="As # of partitions increases" ID="ID_243786849" CREATED="1614361777401" MODIFIED="1614362751966" LINK="https://www.confluent.io/blog/how-choose-number-topics-partitions-kafka-cluster/">
+<node TEXT="Throughput increases" ID="ID_888506463" CREATED="1614361833605" MODIFIED="1614361841091"/>
+<node TEXT="# of open file handles increases" FOLDED="true" ID="ID_1372368824" CREATED="1614361841510" MODIFIED="1614361897504">
+<node TEXT="Though not always a big issue" ID="ID_1732000161" CREATED="1614361899860" MODIFIED="1614361906895"/>
+</node>
+<node TEXT="May increase unavailability" FOLDED="true" ID="ID_1708228334" CREATED="1614361992660" MODIFIED="1614362001072">
+<node TEXT="When a broker (host) fails, kafka moves the leader of those unavailable partitions to other replicas" ID="ID_999263982" CREATED="1614362002216" MODIFIED="1614362097080"/>
+<node TEXT="This requires updating some metadata for affected partitions in Zookeeper - done serially in controller" ID="ID_979459505" CREATED="1614362097669" MODIFIED="1614362149503"/>
+<node TEXT="As # of partitions increaase, the number of leaders on a broker will increase" ID="ID_1372327103" CREATED="1614362235988" MODIFIED="1614362269536"/>
+<node TEXT="The situation aggravates when a broker is shut down uncleanly as it takes additional time to detect those" ID="ID_954260500" CREATED="1614362201653" MODIFIED="1614362394730"/>
+</node>
+<node TEXT="May increase end-to-end latency" FOLDED="true" ID="ID_280759400" CREATED="1614362414750" MODIFIED="1614362427830">
+<node TEXT="By default, Kafka broker uses a single thread to replicate data from another broker for all partitions that share replicas between the 2 brokers" ID="ID_203630033" CREATED="1614362780677" MODIFIED="1614362833488"/>
+<node TEXT="As # of partitions increase, so does the time to replicate the data across" ID="ID_1767375602" CREATED="1614362834682" MODIFIED="1614362860823"/>
+<node TEXT="Data made available to consumers only after it is committed, ie.when the message replicated to all in-sync replicas" ID="ID_958507025" CREATED="1614362861369" MODIFIED="1614362920903"/>
+</node>
+<node TEXT="May require more memory in the producers/consumers" FOLDED="true" ID="ID_1540473430" CREATED="1614362932258" MODIFIED="1614614211343">
+<node TEXT="They need to keep track of more partitions" ID="ID_1840091585" CREATED="1614614211923" MODIFIED="1614614238440"/>
+<node TEXT="Buffer data for all partitions" ID="ID_1989666800" CREATED="1614614238843" MODIFIED="1614614246519"/>
+</node>
+<node TEXT="Reassigning partitions can be very expensive. Better to over-provision" ID="ID_506478221" CREATED="1614614082684" MODIFIED="1614614098464"/>
+<node TEXT="Changing the # of partitions that are based on keys is challenging &amp; involves manual copy" ID="ID_1516848413" CREATED="1614614107492" MODIFIED="1614614126789"/>
+<node TEXT="Reducing the # of partitions is not currently supported" FOLDED="true" ID="ID_1644556399" CREATED="1614614132819" MODIFIED="1614614146672">
+<node TEXT="May need to create a new topic with fewer partition and copy over existing data" ID="ID_738828692" CREATED="1614614147611" MODIFIED="1614614169183"/>
+</node>
+</node>
+</node>
+<node TEXT="Formula" FOLDED="true" ID="ID_225630252" CREATED="1614613812685" MODIFIED="1614615134661" LINK="https://docs.cloudera.com/runtime/7.2.0/kafka-performance-tuning/topics/kafka-tune-sizing-partition-number.html">
+<node TEXT="# of Partitions = Max (N(p), N(c))" FOLDED="true" ID="ID_154354027" CREATED="1614613824852" MODIFIED="1614613853962">
+<node TEXT="N(p) = # of required producers = T(t)/T(p)" FOLDED="true" ID="ID_1743058320" CREATED="1614613857244" MODIFIED="1614613900292">
+<node TEXT="T(t) = Total expected throughput" ID="ID_497050341" CREATED="1614613932684" MODIFIED="1614613948873"/>
+<node TEXT="T(p) = Max throughput of a single producer to a single partition" ID="ID_691670926" CREATED="1614613952100" MODIFIED="1614614006592"/>
+</node>
+<node TEXT="N(c) = # of required consumers = T(t)/T(c)" FOLDED="true" ID="ID_573067395" CREATED="1614613902491" MODIFIED="1614613926460">
+<node TEXT="T(c) = Max throughput of a single consumer from a single partition" ID="ID_1820149297" CREATED="1614613952100" MODIFIED="1614614000631"/>
+</node>
+</node>
+</node>
+<node TEXT="Guidelines" ID="ID_1892990070" CREATED="1614615064843" MODIFIED="1614615068103">
+<node TEXT="&lt; 4000 partitions per broker" ID="ID_1972746280" CREATED="1614615072332" MODIFIED="1614615089283"/>
+<node TEXT="&lt;200,000 partitions per cluster" ID="ID_1290273545" CREATED="1614615090177" MODIFIED="1614615107812"/>
+</node>
+</node>
 </node>
 </node>
 <node TEXT="Guarantees" FOLDED="true" POSITION="left" ID="ID_439092133" CREATED="1502913704194" MODIFIED="1502913708155">
 <edge COLOR="#00ff00"/>
-<node TEXT="Ordering on a partition" ID="ID_1785029827" CREATED="1502913709938" MODIFIED="1502913729475">
+<node TEXT="Ordering on a partition" FOLDED="true" ID="ID_1785029827" CREATED="1502913709938" MODIFIED="1502913729475">
 <node TEXT="Not between partitions of a topic" ID="ID_202468588" CREATED="1502917483588" MODIFIED="1502917497852"/>
 </node>
 <node TEXT="Durability" FOLDED="true" ID="ID_980351038" CREATED="1502915030529" MODIFIED="1502915033748">
@@ -276,10 +320,10 @@
 <node TEXT="Wire protocol" ID="ID_1424887419" CREATED="1502914031169" MODIFIED="1502914035779"/>
 </node>
 </node>
-<node TEXT="Kafka roles" POSITION="left" ID="ID_1197368434" CREATED="1502921496452" MODIFIED="1502921501606">
+<node TEXT="Kafka roles" FOLDED="true" POSITION="left" ID="ID_1197368434" CREATED="1502921496452" MODIFIED="1502921501606">
 <edge COLOR="#0000ff"/>
-<node TEXT="As Messaging System" FOLDED="true" ID="ID_155513823" CREATED="1502914540641" MODIFIED="1502921512866">
-<node TEXT="Model" FOLDED="true" ID="ID_1956273404" CREATED="1502921069756" MODIFIED="1502921072469">
+<node TEXT="As Messaging System" ID="ID_155513823" CREATED="1502914540641" MODIFIED="1502921512866">
+<node TEXT="Model" ID="ID_1956273404" CREATED="1502921069756" MODIFIED="1502921072469">
 <node TEXT="Messaging systems have 2 models to choose from" ID="ID_369277278" CREATED="1502921090917" MODIFIED="1502921101021">
 <node TEXT="Queueing" ID="ID_332946488" CREATED="1502921102094" MODIFIED="1502921111142">
 <node TEXT="Supports consumer scalability (multi-consumer instances)" ID="ID_1504928852" CREATED="1502921136966" MODIFIED="1502921153462"/>
@@ -290,13 +334,13 @@
 <node TEXT="Does not support consumer scalability" ID="ID_1165561732" CREATED="1502921188933" MODIFIED="1502921198878"/>
 </node>
 </node>
-<node TEXT="Kafka is a combination" FOLDED="true" ID="ID_180900314" CREATED="1502921204125" MODIFIED="1502921209965">
+<node TEXT="Kafka is a combination" ID="ID_180900314" CREATED="1502921204125" MODIFIED="1502921209965">
 <node TEXT="Supports multi-subscriber" ID="ID_938196987" CREATED="1502921211341" MODIFIED="1502921219614"/>
 <node TEXT="Supports multi-consumer" ID="ID_1822325170" CREATED="1502921220124" MODIFIED="1502921229542"/>
 </node>
 </node>
 <node TEXT="Ordering" ID="ID_521040986" CREATED="1502914555121" MODIFIED="1502914557931">
-<node TEXT="Messaging System" FOLDED="true" ID="ID_724890245" CREATED="1502921280605" MODIFIED="1502921285685">
+<node TEXT="Messaging System" ID="ID_724890245" CREATED="1502921280605" MODIFIED="1502921285685">
 <node TEXT="Retains records in order" ID="ID_1840430779" CREATED="1502921290702" MODIFIED="1502921314150"/>
 <node TEXT="Delivers record asynch to consumers" ID="ID_523457441" CREATED="1502921314492" MODIFIED="1502921325510"/>
 <node TEXT="Workaround" ID="ID_1563383377" CREATED="1502921333188" MODIFIED="1502921340142">
@@ -306,7 +350,7 @@
 </node>
 </node>
 <node TEXT="Kafka" ID="ID_567478318" CREATED="1502921286965" MODIFIED="1502921289350">
-<node TEXT="Achieves ordering through partitioning" FOLDED="true" ID="ID_572463168" CREATED="1502921366030" MODIFIED="1502921378510">
+<node TEXT="Achieves ordering through partitioning" ID="ID_572463168" CREATED="1502921366030" MODIFIED="1502921378510">
 <node TEXT="Each partition read by only 1 consumer instance in a consumer group" ID="ID_1629067126" CREATED="1502921385878" MODIFIED="1502921408942"/>
 </node>
 </node>
@@ -347,7 +391,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Consumes an inputs stream from topic(s)" ID="ID_948216245" CREATED="1502915748683" MODIFIED="1502915772939"/>
 <node TEXT="transform" ID="ID_968872384" CREATED="1502915773971" MODIFIED="1502915781747"/>
@@ -356,9 +399,9 @@
 </node>
 <node TEXT="Connector API" ID="ID_1895159236" CREATED="1502915800362" MODIFIED="1502915803779"/>
 </node>
-<node TEXT="Development" POSITION="right" ID="ID_386923512" CREATED="1502922825261" MODIFIED="1502922838382">
+<node TEXT="Development" FOLDED="true" POSITION="right" ID="ID_386923512" CREATED="1502922825261" MODIFIED="1502922838382">
 <edge COLOR="#00ff00"/>
-<node TEXT="Running Kafka locally" ID="ID_1324655583" CREATED="1502922839638" MODIFIED="1502922846049">
+<node TEXT="Running Kafka locally" FOLDED="true" ID="ID_1324655583" CREATED="1502922839638" MODIFIED="1502922846049">
 <node TEXT="Steps" ID="ID_309262094" CREATED="1502922847237" MODIFIED="1502922850270">
 <node TEXT="1. Start Zookeeper" ID="ID_490624724" CREATED="1502922851717" MODIFIED="1502922881281"/>
 <node TEXT="2. Start Kafka server(s)" ID="ID_1645281322" CREATED="1502922969357" MODIFIED="1502922980615"/>

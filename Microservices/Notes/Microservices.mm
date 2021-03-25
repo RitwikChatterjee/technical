@@ -185,14 +185,14 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="Conceptual (Gartner)" FOLDED="true" ID="ID_946235947" CREATED="1506368990267" MODIFIED="1506369026179">
-<node TEXT="Inner Architecture" FOLDED="true" ID="ID_1917764418" CREATED="1506369009803" MODIFIED="1506369033827">
+<node TEXT="Conceptual (Gartner)" ID="ID_946235947" CREATED="1506368990267" MODIFIED="1506369026179">
+<node TEXT="Inner Architecture" ID="ID_1917764418" CREATED="1506369009803" MODIFIED="1506369033827">
 <node TEXT="Service boundaries" ID="ID_1367458700" CREATED="1506369038925" MODIFIED="1506369044332"/>
 <node TEXT="Data management" ID="ID_1956231525" CREATED="1506369044715" MODIFIED="1506369047916"/>
 <node TEXT="Transaction support" ID="ID_679217395" CREATED="1506369048603" MODIFIED="1506369051787"/>
 <node TEXT="Units of deployment" ID="ID_129556788" CREATED="1506369052435" MODIFIED="1506369083819"/>
 </node>
-<node TEXT="Outer Architecture" FOLDED="true" ID="ID_1044087225" CREATED="1506369034475" MODIFIED="1506369037940">
+<node TEXT="Outer Architecture" ID="ID_1044087225" CREATED="1506369034475" MODIFIED="1506369037940">
 <node TEXT="Service discovery" ID="ID_987072645" CREATED="1506369087661" MODIFIED="1506369093236"/>
 <node TEXT="Service communication" FOLDED="true" ID="ID_1419617573" CREATED="1506369093795" MODIFIED="1506369098660">
 <node TEXT="Mechanism" FOLDED="true" ID="ID_497649051" CREATED="1528129161193" MODIFIED="1528129166084">
@@ -221,9 +221,9 @@
 <node TEXT="Deployment" ID="ID_1060869809" CREATED="1506369115612" MODIFIED="1506369119540"/>
 </node>
 </node>
-<node TEXT="Implementation" FOLDED="true" ID="ID_874384197" CREATED="1501542862678" MODIFIED="1506369002300">
+<node TEXT="Implementation" ID="ID_874384197" CREATED="1501542862678" MODIFIED="1506369002300">
 <node TEXT="Container Architecture" FOLDED="true" ID="ID_1666252240" CREATED="1501544546195" MODIFIED="1501544556541">
-<node TEXT="What?" FOLDED="true" ID="ID_325446786" CREATED="1507076403504" MODIFIED="1507076410558">
+<node TEXT="What?" ID="ID_325446786" CREATED="1507076403504" MODIFIED="1507076410558">
 <node TEXT="Uses the kernel on host&apos;s OS to run multiple guest instances" FOLDED="true" ID="ID_291717523" CREATED="1507076411414" MODIFIED="1507076428504">
 <node TEXT="Uses certain features of the kernel to create isolated environments for each container" ID="ID_1451504528" CREATED="1507076545689" MODIFIED="1507303881443"/>
 </node>
@@ -253,10 +253,10 @@
 <node TEXT="12 Factor app principles are useful, but should not be over-applied" ID="ID_717035303" CREATED="1501644746837" MODIFIED="1507304028059"/>
 <node TEXT="Use intelligent defaults (if config files or environment variables are unavailable)" ID="ID_293831405" CREATED="1507304039058" MODIFIED="1532644730370"/>
 <node TEXT="Manage working directories and temp files" ID="ID_811663423" CREATED="1507304076380" MODIFIED="1507304110876"/>
-<node TEXT="Avoid race conditions and orchestrated startups." FOLDED="true" ID="ID_1706374201" CREATED="1507304127675" MODIFIED="1507304146100">
+<node TEXT="Avoid race conditions and orchestrated startups." ID="ID_1706374201" CREATED="1507304127675" MODIFIED="1507304146100">
 <node TEXT="Instead of erroring if a connection is unavailable, startup anyway and try to reconnect on a backing-off timeout" ID="ID_618708033" CREATED="1507304148043" MODIFIED="1507304194596"/>
 </node>
-<node TEXT="Make bootstrap bulletproof" FOLDED="true" ID="ID_563469344" CREATED="1507304197372" MODIFIED="1507304212245">
+<node TEXT="Make bootstrap bulletproof" ID="ID_563469344" CREATED="1507304197372" MODIFIED="1507304212245">
 <node TEXT="Goal to ensure components can start without error and over time seek to reach an ideal state" ID="ID_1665364907" CREATED="1507304213500" MODIFIED="1507304245733"/>
 </node>
 <node TEXT="Use circuit breaker patterns" ID="ID_1287121655" CREATED="1507304252405" MODIFIED="1507304265053"/>
@@ -267,7 +267,7 @@
 </node>
 <node TEXT="Use HealthZ patterns" ID="ID_589242288" CREATED="1507311332843" MODIFIED="1507311348779"/>
 <node TEXT="Use data and storage patterns to support high scale" FOLDED="true" ID="ID_1419364918" CREATED="1507312180468" MODIFIED="1507312215877">
-<node TEXT="For e.g." ID="ID_1100325455" CREATED="1507312217125" MODIFIED="1507312219741">
+<node TEXT="For e.g." FOLDED="true" ID="ID_1100325455" CREATED="1507312217125" MODIFIED="1507312219741">
 <node TEXT="Eventual consistency" ID="ID_443265576" CREATED="1507312220533" MODIFIED="1507312225990"/>
 </node>
 </node>
@@ -371,12 +371,12 @@
 </node>
 </node>
 <node TEXT="Event Driven" FOLDED="true" ID="ID_1531490374" CREATED="1507147703810" MODIFIED="1507147709882">
-<node TEXT="What?" ID="ID_1529859503" CREATED="1507169152587" MODIFIED="1507169155652">
+<node TEXT="What?" FOLDED="true" ID="ID_1529859503" CREATED="1507169152587" MODIFIED="1507169155652">
 <node TEXT="Similar to Message Oriented, but" ID="ID_734845872" CREATED="1507169157576" MODIFIED="1507169170411"/>
 <node TEXT="enforces standard around the design and behavior of the what is passed over the queue" ID="ID_246568921" CREATED="1507169171134" MODIFIED="1507169225967"/>
 <node TEXT="Works well if consistent standard is maintained" ID="ID_425876371" CREATED="1507169333540" MODIFIED="1507169392644"/>
 </node>
-<node TEXT="Problem" ID="ID_331622509" CREATED="1507168405215" MODIFIED="1507168409654">
+<node TEXT="Problem" FOLDED="true" ID="ID_331622509" CREATED="1507168405215" MODIFIED="1507168409654">
 <node TEXT="To ensure data integrity, there is a need to replicate the state of key business data between microservices or data stores" ID="ID_1805218069" CREATED="1507168412357" MODIFIED="1507168454678"/>
 </node>
 <node TEXT="Solution" FOLDED="true" ID="ID_1578022089" CREATED="1507169476256" MODIFIED="1507169480580">
@@ -385,12 +385,12 @@
 <node TEXT="Application" FOLDED="true" ID="ID_892937654" CREATED="1507169504500" MODIFIED="1507169511152">
 <node TEXT="When something changes in the business, an event encapsulating it in the past tense is sent to interested parties" ID="ID_856335927" CREATED="1507169583062" MODIFIED="1507169583062"/>
 </node>
-<node TEXT="Impacts" ID="ID_323836286" CREATED="1507168587854" MODIFIED="1507168614274">
+<node TEXT="Impacts" FOLDED="true" ID="ID_323836286" CREATED="1507168587854" MODIFIED="1507168614274">
 <node TEXT="Increases complexity (new way to change state)" ID="ID_1798047446" CREATED="1507168616277" MODIFIED="1507168636526"/>
 <node TEXT="No standard patterns (esp. passing events vs commands). Hence inconsistencies may arise" ID="ID_1241619432" CREATED="1507168636903" MODIFIED="1507169704417"/>
 <node TEXT="No specific opinions wrt data conflicts or rebuilding data state while recovering from failures" ID="ID_444320650" CREATED="1507168671683" MODIFIED="1507168729213"/>
 </node>
-<node TEXT="Goals" ID="ID_472382221" CREATED="1507169734144" MODIFIED="1507169736685">
+<node TEXT="Goals" FOLDED="true" ID="ID_472382221" CREATED="1507169734144" MODIFIED="1507169736685">
 <node TEXT="Cohesion" ID="ID_1089195246" CREATED="1507169738407" MODIFIED="1507169741665">
 <node TEXT="Standardized nature" ID="ID_509427683" CREATED="1507169769454" MODIFIED="1507169778269"/>
 <node TEXT="Easy to work with" ID="ID_1944246564" CREATED="1507169757817" MODIFIED="1507169769062"/>
@@ -419,7 +419,7 @@
 </node>
 </node>
 <node TEXT="Replicating state" FOLDED="true" ID="ID_419093710" CREATED="1507170923577" MODIFIED="1507170930874">
-<node TEXT="What?" ID="ID_1851374866" CREATED="1507170932378" MODIFIED="1507170935798">
+<node TEXT="What?" FOLDED="true" ID="ID_1851374866" CREATED="1507170932378" MODIFIED="1507170935798">
 <node TEXT="Provide a single place to store all state mutations that each isolated microservice can rebuild its state from" FOLDED="true" ID="ID_120104977" CREATED="1507171466765" MODIFIED="1507171547850">
 <node TEXT="png_5401163749683044657.png" ID="ID_1247851331" CREATED="1507171897686" MODIFIED="1507171917121" TEXT_SHORTENED="true">
 <hook URI="Microservices_files/png_5401163749683044657.png" SIZE="0.6141249" NAME="ExternalObject"/>
@@ -433,7 +433,7 @@
 <node TEXT="Solution" FOLDED="true" ID="ID_1984692285" CREATED="1507171786656" MODIFIED="1507171789592">
 <node TEXT="Keep a single source of truth of all changes to data, and replicate the data in materialized views as needed." ID="ID_433678711" CREATED="1507171993559" MODIFIED="1507172032267"/>
 </node>
-<node TEXT="Application" ID="ID_1799234321" CREATED="1507171790007" MODIFIED="1507171792293">
+<node TEXT="Application" FOLDED="true" ID="ID_1799234321" CREATED="1507171790007" MODIFIED="1507171792293">
 <node TEXT="Send all changes as events to a permanent Event Log." ID="ID_146771472" CREATED="1507172055272" MODIFIED="1507172089122"/>
 <node TEXT="When needing to query data, build a &#x201c;materialized view&#x201d; by computing all the changes from the event log." ID="ID_725984506" CREATED="1507172090010" MODIFIED="1507172097469"/>
 <node TEXT="Create snapshots along the way of the views so that full recomputation is not required every time." ID="ID_1709234824" CREATED="1507172072102" MODIFIED="1507172133462"/>
@@ -475,13 +475,13 @@
 <node TEXT="MicroService Architecture (CA/Oreily)" FOLDED="true" POSITION="right" ID="ID_84014540" CREATED="1507864602998" MODIFIED="1507864642903">
 <edge COLOR="#ff0000"/>
 <node TEXT="Understanding microservices" ID="ID_1238393244" CREATED="1507864645222" MODIFIED="1507864665616"/>
-<node TEXT="Microservice design principles" FOLDED="true" ID="ID_1796994048" CREATED="1507864666079" MODIFIED="1507864685605">
-<node TEXT="Designing Microservice systems" FOLDED="true" ID="ID_915505587" CREATED="1507864695062" MODIFIED="1507864704515">
-<node TEXT="Notes" FOLDED="true" ID="ID_1406390431" CREATED="1507864852821" MODIFIED="1507864858114">
+<node TEXT="Microservice design principles" ID="ID_1796994048" CREATED="1507864666079" MODIFIED="1507864685605">
+<node TEXT="Designing Microservice systems" ID="ID_915505587" CREATED="1507864695062" MODIFIED="1507864704515">
+<node TEXT="Notes" ID="ID_1406390431" CREATED="1507864852821" MODIFIED="1507864858114">
 <node TEXT="Lot of moving parts" ID="ID_621292554" CREATED="1507864859691" MODIFIED="1507864866109"/>
 <node TEXT="Focus is on building apps that balance speed &amp; safety at scale, primarily through replaceability" ID="ID_762273557" CREATED="1507864866647" MODIFIED="1507864917819"/>
 </node>
-<node TEXT="Systems approach to microservices" FOLDED="true" ID="ID_1105224237" CREATED="1507864920739" MODIFIED="1507864931254">
+<node TEXT="Systems approach to microservices" ID="ID_1105224237" CREATED="1507864920739" MODIFIED="1507864931254">
 <node TEXT="Need to think how all aspects of system can work together to form an emergent behavior" ID="ID_1277884671" CREATED="1507865094519" MODIFIED="1507865151649"/>
 <node TEXT="Microservices system encompasses" FOLDED="true" ID="ID_1474245269" CREATED="1507865528204" MODIFIED="1507865562701">
 <node TEXT="Structure of organization" ID="ID_1464379557" CREATED="1507865563894" MODIFIED="1507865579686"/>
@@ -571,9 +571,9 @@
 </node>
 </node>
 </node>
-<node TEXT="Establishing foundation" FOLDED="true" ID="ID_277561691" CREATED="1507928512252" MODIFIED="1507928522108">
-<node TEXT="Goals &amp; Principles" FOLDED="true" ID="ID_530673535" CREATED="1507928532688" MODIFIED="1507928540215">
-<node TEXT="Overarching goal" FOLDED="true" ID="ID_545862633" CREATED="1507928603328" MODIFIED="1507928611925">
+<node TEXT="Establishing foundation" ID="ID_277561691" CREATED="1507928512252" MODIFIED="1507928522108">
+<node TEXT="Goals &amp; Principles" ID="ID_530673535" CREATED="1507928532688" MODIFIED="1507928540215">
+<node TEXT="Overarching goal" ID="ID_545862633" CREATED="1507928603328" MODIFIED="1507928611925">
 <node ID="ID_1189561889" CREATED="1507928612676" MODIFIED="1507928653043"><richcontent TYPE="NODE">
 
 <html>
@@ -589,7 +589,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="Directional goals" FOLDED="true" ID="ID_1972219721" CREATED="1507928656231" MODIFIED="1507928697033">
+<node TEXT="Directional goals" ID="ID_1972219721" CREATED="1507928656231" MODIFIED="1507928697033">
 <node TEXT="Reduce cost" ID="ID_1330841024" CREATED="1507928698240" MODIFIED="1507928726357"/>
 <node TEXT="Increase release speed" ID="ID_1004922436" CREATED="1507928715679" MODIFIED="1507928722069"/>
 <node TEXT="Improve resilience" ID="ID_1741284904" CREATED="1507928727644" MODIFIED="1507928733569"/>
