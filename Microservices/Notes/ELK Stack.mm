@@ -3,7 +3,7 @@
 <node TEXT="ELK Stack" FOLDED="false" ID="ID_1663561910" CREATED="1612973948352" MODIFIED="1612973951491" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
+    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -64,7 +64,7 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="1" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="About" POSITION="left" ID="ID_1273433875" CREATED="1612973953264" MODIFIED="1612973956174">
+<node TEXT="About" FOLDED="true" POSITION="left" ID="ID_1273433875" CREATED="1612973953264" MODIFIED="1612973956174">
 <edge COLOR="#ff0000"/>
 <node TEXT="Components" ID="ID_1756234925" CREATED="1612973957685" MODIFIED="1612973960465">
 <node TEXT="Elastic Search" ID="ID_806588927" CREATED="1612973961093" MODIFIED="1612973968087">

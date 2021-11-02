@@ -1,9 +1,9 @@
-<map version="freeplane 1.6.0">
+<map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Data processing" FOLDED="false" ID="ID_145005797" CREATED="1562612132159" MODIFIED="1562612178214" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
+    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -88,7 +88,7 @@
 <node TEXT="Typically not at rest, stored in multiple temporary, yet durable stores" ID="ID_603157657" CREATED="1562612486210" MODIFIED="1562612514303"/>
 </node>
 </node>
-<node TEXT="Time dimension of data" ID="ID_725632773" CREATED="1562612541571" MODIFIED="1562612550733">
+<node TEXT="Time dimension of data" FOLDED="true" ID="ID_725632773" CREATED="1562612541571" MODIFIED="1562612550733">
 <node TEXT="Event time" FOLDED="true" ID="ID_1953118697" CREATED="1562612551562" MODIFIED="1562612554580">
 <node TEXT="Bound to the source of the event" ID="ID_1137519220" CREATED="1562612571034" MODIFIED="1562612580212"/>
 <node TEXT="Explicit to the event, tied to the source" ID="ID_615148445" CREATED="1562612658834" MODIFIED="1562613819574"/>
@@ -119,7 +119,7 @@
 </node>
 <node TEXT="Watermark" ID="ID_955339238" CREATED="1562614104508" MODIFIED="1562614108062"/>
 </node>
-<node TEXT="Streaming" ID="ID_1281201962" CREATED="1562614280060" MODIFIED="1562614283428">
+<node TEXT="Streaming" FOLDED="true" ID="ID_1281201962" CREATED="1562614280060" MODIFIED="1562614283428">
 <node TEXT="What?" FOLDED="true" ID="ID_198153232" CREATED="1562614284252" MODIFIED="1562614290342">
 <node TEXT="Execution engine (system/service/runner), capable of processing unbounded data" ID="ID_1828331650" CREATED="1562614300341" MODIFIED="1562614324358"/>
 </node>

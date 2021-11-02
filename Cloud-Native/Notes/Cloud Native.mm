@@ -1,4 +1,4 @@
-<map version="freeplane 1.6.0">
+<map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Cloud Native" FOLDED="false" ID="ID_353677387" CREATED="1557255997849" MODIFIED="1557256002477" STYLE="oval">
 <font SIZE="18"/>

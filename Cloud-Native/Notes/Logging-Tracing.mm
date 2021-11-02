@@ -3,7 +3,7 @@
 <node TEXT="Instrumentation" FOLDED="false" ID="ID_1536360636" CREATED="1614615957391" MODIFIED="1614616181119" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
+    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -63,9 +63,14 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="1" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="3" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="What?" POSITION="right" ID="ID_673585337" CREATED="1614616212416" MODIFIED="1614616216369">
 <edge COLOR="#ff0000"/>
+</node>
+<node TEXT="Reference" POSITION="right" ID="ID_828563154" CREATED="1617891403959" MODIFIED="1617891410720">
+<edge COLOR="#0000ff"/>
+<node TEXT="Useful links" ID="ID_213484148" CREATED="1617891431094" MODIFIED="1617891464282" LINK="https://docs.google.com/document/d/1N19FPi4VGmypG22nl4MDYTIoJvGDfBKxYa_j4vI-HTs/edit"/>
+<node TEXT="SRE" ID="ID_716509137" CREATED="1617891439040" MODIFIED="1617891444988" LINK="https://sre.google/books/"/>
 </node>
 </node>
 </map>

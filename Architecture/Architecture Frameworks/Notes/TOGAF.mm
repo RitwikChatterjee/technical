@@ -3,7 +3,7 @@
 <node TEXT="TOGAF" FOLDED="false" ID="ID_1753253045" CREATED="1598296566959" MODIFIED="1598296570354" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
+    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -81,7 +81,7 @@
 <node TEXT="9.2 - April 2018" ID="ID_1456797870" CREATED="1598296620587" MODIFIED="1598296631926"/>
 </node>
 </node>
-<node TEXT="Parts" POSITION="right" ID="ID_17533527" CREATED="1598297104987" MODIFIED="1598297107151">
+<node TEXT="Parts" FOLDED="true" POSITION="right" ID="ID_17533527" CREATED="1598297104987" MODIFIED="1598297107151">
 <edge COLOR="#0000ff"/>
 <node TEXT="Architecture Domains" ID="ID_969960599" CREATED="1598297107858" MODIFIED="1598297111743">
 <node TEXT="Business" ID="ID_1200543159" CREATED="1598297202002" MODIFIED="1598297205996">

@@ -3,7 +3,7 @@
 <node TEXT="Grafana" FOLDED="false" ID="ID_113078712" CREATED="1612304096763" MODIFIED="1612304099752" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
+    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -64,7 +64,7 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="1" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="About" POSITION="right" ID="ID_329951897" CREATED="1612304101051" MODIFIED="1612304103288">
+<node TEXT="About" FOLDED="true" POSITION="right" ID="ID_329951897" CREATED="1612304101051" MODIFIED="1612304103288">
 <edge COLOR="#ff0000"/>
 <node TEXT="What?" ID="ID_1021493245" CREATED="1612304104003" MODIFIED="1612304105862">
 <node TEXT="Open source - metrics visualization tool" ID="ID_198956171" CREATED="1612304111035" MODIFIED="1612304124759"/>

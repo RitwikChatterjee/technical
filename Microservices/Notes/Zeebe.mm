@@ -3,7 +3,7 @@
 <node TEXT="Zeebe" FOLDED="false" ID="ID_176585441" CREATED="1610652627384" MODIFIED="1610652632061" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
+    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -64,12 +64,12 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="4" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="What?" POSITION="left" ID="ID_1864775514" CREATED="1610652663277" MODIFIED="1610652665230">
+<node TEXT="What?" FOLDED="true" POSITION="left" ID="ID_1864775514" CREATED="1610652663277" MODIFIED="1610652665230">
 <edge COLOR="#ff0000"/>
 <node TEXT="Workflow engine for microservices orchestration" ID="ID_1718868671" CREATED="1610652665996" MODIFIED="1610652677095"/>
 <node TEXT="Free and source-available" ID="ID_133765858" CREATED="1610652696860" MODIFIED="1610652712095"/>
 </node>
-<node TEXT="Functionality" POSITION="left" ID="ID_1153266117" CREATED="1610652752964" MODIFIED="1610652773598">
+<node TEXT="Functionality" FOLDED="true" POSITION="left" ID="ID_1153266117" CREATED="1610652752964" MODIFIED="1610652773598">
 <edge COLOR="#0000ff"/>
 <node TEXT="Visibility" ID="ID_1520814407" CREATED="1610652774781" MODIFIED="1610652778071"/>
 <node TEXT="Workflow orchestration" ID="ID_236041617" CREATED="1610652778613" MODIFIED="1610652784374"/>
@@ -90,7 +90,7 @@
 <node TEXT="Visual workflow modelled in ISO-standard BPMN 2.0" ID="ID_459139496" CREATED="1610652842340" MODIFIED="1610652860119"/>
 <node TEXT="Language-agnostic client model" ID="ID_379731574" CREATED="1610652862076" MODIFIED="1610652870608"/>
 </node>
-<node TEXT="Architecture" POSITION="right" ID="ID_816232566" CREATED="1610654461232" MODIFIED="1610654467386">
+<node TEXT="Architecture" FOLDED="true" POSITION="right" ID="ID_816232566" CREATED="1610654461232" MODIFIED="1610654467386">
 <edge COLOR="#ff00ff"/>
 <node TEXT="Components" ID="ID_565220516" CREATED="1610654468056" MODIFIED="1610655198863">
 <hook URI="images/zeebe-architecture.png" SIZE="0.31512606" NAME="ExternalObject"/>
