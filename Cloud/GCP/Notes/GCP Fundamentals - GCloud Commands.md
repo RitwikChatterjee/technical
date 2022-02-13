@@ -1,14 +1,44 @@
-GCP Fundamentals
+**GCP Fundamentals**
 
 ## GCloud commands 
 
 ### GCloud Configuration Management Commands
+
+Initializing gcloud
+
+`gcloud init`
+
+Note: If you are facing a network connection error due to ssl validation try disabling SSL validation
+
+`gcloud config set  auth/disable_ssl_validation true`
+
+
+
+Error faced:
+
+```
+ERROR: Reachability Check failed.
+  Cannot reach https://accounts.google.com (SSLCertVerificationError)
+  Cannot reach https://cloudresourcemanager.googleapis.com/v1beta1/projects (SSLCertVerificationError)
+  Cannot reach https://www.googleapis.com/auth/cloud-platform (SSLCertVerificationError)
+Network connection problems may be due to proxy or firewall settings.
+```
+
+
+
+
+
+
 
 #### Check project to which gcloud is configured
 
 `gcloud config list project`
 
 
+
+#### List the active account name
+
+`gcloud auth list`
 
 
 
