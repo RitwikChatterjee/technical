@@ -3,7 +3,7 @@
 <node TEXT="Axway API Manager" FOLDED="false" ID="ID_1047748454" CREATED="1635461393365" MODIFIED="1635461398664" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
+    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -73,6 +73,20 @@
 </node>
 <node TEXT="API Manager" ID="ID_1491883965" CREATED="1635462370218" MODIFIED="1635462375405">
 <node TEXT="Enables API registration and LC management" ID="ID_210704962" CREATED="1635464344725" MODIFIED="1635464352824"/>
+<node TEXT="Tools" ID="ID_289578912" CREATED="1636567130850" MODIFIED="1636567134100">
+<node TEXT="APIM web console" ID="ID_1694877833" CREATED="1636567134830" MODIFIED="1636567148570"/>
+<node TEXT="API Gateway runtime" ID="ID_293053610" CREATED="1636567149317" MODIFIED="1636567156073"/>
+<node TEXT="API Catalog" ID="ID_1663083319" CREATED="1636567157049" MODIFIED="1636567161744"/>
+<node TEXT="Client Registry" ID="ID_1823303753" CREATED="1636567162541" MODIFIED="1636567166402">
+<node TEXT="What?" ID="ID_1186223201" CREATED="1636567167286" MODIFIED="1636567174513">
+<node TEXT="Repo of organizations &amp; partners, API consumers, &amp; client applications" ID="ID_1039259750" CREATED="1636567175238" MODIFIED="1636567200490"/>
+<node TEXT="Contains aut credentials of client apps, authorization &amp; quota policies" ID="ID_501603030" CREATED="1636567201134" MODIFIED="1636567234948"/>
+</node>
+<node TEXT="Dependency" ID="ID_498665723" CREATED="1636567241919" MODIFIED="1636567248723">
+<node TEXT="Persisted in Apache Cassandra" ID="ID_1127932714" CREATED="1636567249487" MODIFIED="1636567262707"/>
+</node>
+</node>
+</node>
 </node>
 <node TEXT="API Gateway Analytics" ID="ID_1945374860" CREATED="1635462343955" MODIFIED="1635462351238"/>
 <node TEXT="API Portal" ID="ID_1634448774" CREATED="1635464403229" MODIFIED="1635464406041">
@@ -90,7 +104,7 @@
 <node TEXT="Software" ID="ID_1886545032" CREATED="1635461504977" MODIFIED="1635461513597"/>
 </node>
 </node>
-<node TEXT="Concepts" POSITION="right" ID="ID_1655240450" CREATED="1635461932634" MODIFIED="1635462565640" LINK="https://docs.axway.com/bundle/APIGateway_762_ConceptsGuide_allOS_en_HTML5/page/Content/ConceptsGuideTopics/4_architecture.htm">
+<node TEXT="Concepts" FOLDED="true" POSITION="right" ID="ID_1655240450" CREATED="1635461932634" MODIFIED="1635462565640" LINK="https://docs.axway.com/bundle/APIGateway_762_ConceptsGuide_allOS_en_HTML5/page/Content/ConceptsGuideTopics/4_architecture.htm">
 <edge COLOR="#00ff00"/>
 <node TEXT="API Gateway Groups" ID="ID_1717338790" CREATED="1635461935860" MODIFIED="1635461942829">
 <node TEXT="One or more API gateway instances that are mangaed as a single unit" ID="ID_971986737" CREATED="1635461943577" MODIFIED="1635462077295"/>
@@ -105,10 +119,10 @@
 <node TEXT="" ID="ID_1476735835" CREATED="1635462449588" MODIFIED="1635462449588"/>
 </node>
 </node>
-<node TEXT="Amplify" POSITION="left" ID="ID_185928245" CREATED="1635866411555" MODIFIED="1635866437471">
+<node TEXT="Amplify" FOLDED="true" POSITION="left" ID="ID_185928245" CREATED="1635866411555" MODIFIED="1635866437471">
 <edge COLOR="#ff00ff"/>
 <node TEXT="What?" ID="ID_518730641" CREATED="1635866440628" MODIFIED="1635866446293">
-<node TEXT="Central management plan to manage and govern APIs and integration assets across all environments, clouds and API gateways (Axway and non-Axway)" ID="ID_1821683316" CREATED="1635866455166" MODIFIED="1635866487064"/>
+<node TEXT="s" ID="ID_1821683316" CREATED="1635866455166" MODIFIED="1635964850769"/>
 </node>
 </node>
 </node>

@@ -75,7 +75,7 @@
 <node TEXT="Google publishes key  elements of technology using open source licenses" ID="ID_329479774" CREATED="1555631452049" MODIFIED="1555631489581"/>
 <node TEXT="Many GCP technologies provide interoperability" ID="ID_1560979699" CREATED="1555631515338" MODIFIED="1555631534589"/>
 </node>
-<node TEXT="Offering" ID="ID_15804432" CREATED="1555625883177" MODIFIED="1597423490018">
+<node TEXT="Offering" FOLDED="true" ID="ID_15804432" CREATED="1555625883177" MODIFIED="1597423490018">
 <node TEXT="LinkedIn training" FOLDED="true" ID="ID_1232031811" CREATED="1555435253783" MODIFIED="1555625953064">
 <node TEXT="Compute Services" FOLDED="true" ID="ID_180680107" CREATED="1555435264312" MODIFIED="1555435270536">
 <node TEXT="Virtual machines" ID="ID_1687156564" CREATED="1555435270921" MODIFIED="1555435276128"/>
@@ -2969,7 +2969,7 @@
 <node TEXT="Under the hood" ID="ID_1083785798" CREATED="1562191666345" MODIFIED="1562191671280">
 <node TEXT="Based on Apache Beam SDK" ID="ID_469209681" CREATED="1562191673945" MODIFIED="1562191681203"/>
 </node>
-<node TEXT="When?" FOLDED="true" ID="ID_192036813" CREATED="1557794797081" MODIFIED="1557794799699">
+<node TEXT="When?" ID="ID_192036813" CREATED="1557794797081" MODIFIED="1557794799699">
 <node TEXT="Dataset size or availability is unpredictable" ID="ID_260137443" CREATED="1557794800465" MODIFIED="1557794821870"/>
 <node TEXT="General purpose ETL tool" ID="ID_1014121913" CREATED="1559837904417" MODIFIED="1559837914478"/>
 <node TEXT="Streaming analysis" FOLDED="true" ID="ID_1367888718" CREATED="1559837915466" MODIFIED="1559837927375">
@@ -3002,24 +3002,24 @@
 </node>
 <node TEXT="Monitored" ID="ID_929916501" CREATED="1557795122170" MODIFIED="1557795128949"/>
 </node>
-<node TEXT="Programming concepts" FOLDED="true" ID="ID_1356841190" CREATED="1559673498838" MODIFIED="1559673503818">
-<node TEXT="Pipelines" FOLDED="true" ID="ID_218785727" CREATED="1559673506415" MODIFIED="1559673509043">
+<node TEXT="Programming concepts" ID="ID_1356841190" CREATED="1559673498838" MODIFIED="1559673503818">
+<node TEXT="Pipelines" ID="ID_218785727" CREATED="1559673506415" MODIFIED="1559673509043">
 <node TEXT="Series of computation that accepts data and transforms it" ID="ID_568675737" CREATED="1559673528967" MODIFIED="1559673545438"/>
 <node TEXT="Boomi flow/process" ID="ID_1851670305" CREATED="1559673576639" MODIFIED="1559673583266"/>
 </node>
-<node TEXT="PCollections" FOLDED="true" ID="ID_289881641" CREATED="1559673509647" MODIFIED="1559673513073">
+<node TEXT="PCollections" ID="ID_289881641" CREATED="1559673509647" MODIFIED="1559673513073">
 <node TEXT="A specialized container that represents a set of data in pipeline" ID="ID_1135178703" CREATED="1559673548954" MODIFIED="1559673569673"/>
 <node TEXT="Boomi document" ID="ID_55821193" CREATED="1559673584984" MODIFIED="1559673589187"/>
 </node>
-<node TEXT="Transforms" FOLDED="true" ID="ID_1078193792" CREATED="1559673513455" MODIFIED="1559673516459">
+<node TEXT="Transforms" ID="ID_1078193792" CREATED="1559673513455" MODIFIED="1559673516459">
 <node TEXT="A data processing operation" ID="ID_1940727383" CREATED="1559673590592" MODIFIED="1559673597227"/>
 <node TEXT="Boomi process" ID="ID_268032882" CREATED="1562185707960" MODIFIED="1562185712556"/>
 </node>
-<node TEXT="I/O Sources &amp; Sinks" FOLDED="true" ID="ID_1372706213" CREATED="1559673517142" MODIFIED="1559673527490">
-<node TEXT="Sources" FOLDED="true" ID="ID_1684860089" CREATED="1562185727904" MODIFIED="1562185738325">
-<node TEXT="Apache Kafka" FOLDED="true" ID="ID_1778248602" CREATED="1562185739535" MODIFIED="1562185750770">
-<node TEXT="KafkaIO connector" FOLDED="true" ID="ID_304293981" CREATED="1562185751848" MODIFIED="1562185769338">
-<node TEXT="Features" FOLDED="true" ID="ID_349134942" CREATED="1562185921175" MODIFIED="1562185927404">
+<node TEXT="I/O Sources &amp; Sinks" ID="ID_1372706213" CREATED="1559673517142" MODIFIED="1559673527490">
+<node TEXT="Sources" ID="ID_1684860089" CREATED="1562185727904" MODIFIED="1562185738325">
+<node TEXT="Apache Kafka" ID="ID_1778248602" CREATED="1562185739535" MODIFIED="1562185750770">
+<node TEXT="KafkaIO connector" ID="ID_304293981" CREATED="1562185751848" MODIFIED="1562185769338">
+<node TEXT="Features" ID="ID_349134942" CREATED="1562185921175" MODIFIED="1562185927404">
 <node TEXT="Due (as of Sep &apos;16)" ID="ID_823496530" CREATED="1562185928297" MODIFIED="1562185946780">
 <node TEXT="Autoscaling" ID="ID_679995411" CREATED="1562185947297" MODIFIED="1562185950866"/>
 <node TEXT="Update" ID="ID_1162921163" CREATED="1562185951543" MODIFIED="1562185952747"/>
@@ -3037,10 +3037,10 @@
 <node TEXT="Fully managed DWH" ID="ID_1824920517" CREATED="1556085214014" MODIFIED="1557795236661"/>
 <node TEXT="Interactive SQL querying" ID="ID_1935699211" CREATED="1559239475386" MODIFIED="1559239496619"/>
 </node>
-<node TEXT="When?" FOLDED="true" ID="ID_337959398" CREATED="1559836591536" MODIFIED="1559836595084">
+<node TEXT="When?" ID="ID_337959398" CREATED="1559836591536" MODIFIED="1559836595084">
 <node TEXT="Adhoc SQL queries on massive dataset" ID="ID_6594596" CREATED="1559836601496" MODIFIED="1559836615310"/>
 </node>
-<node TEXT="Features" FOLDED="true" ID="ID_1023570383" CREATED="1557795247938" MODIFIED="1557795250476">
+<node TEXT="Features" ID="ID_1023570383" CREATED="1557795247938" MODIFIED="1557795250476">
 <node TEXT="Near real-time interactive analysis of massive datasets (petabyte scale)" ID="ID_1615270119" CREATED="1557795251148" MODIFIED="1557795323847"/>
 <node TEXT="NoOps - No infra to manage/managed service" ID="ID_1054531245" CREATED="1559836640465" MODIFIED="1559836669604"/>
 <node TEXT="Global availability" ID="ID_975662065" CREATED="1559836751393" MODIFIED="1559836766716"/>
@@ -3062,7 +3062,7 @@
 <node TEXT="Free monthly quotas for small orgs" ID="ID_1813724141" CREATED="1557795456395" MODIFIED="1557795476327"/>
 <node TEXT="Configurable cost caps" ID="ID_1395477365" CREATED="1557795476602" MODIFIED="1557795483692"/>
 </node>
-<node TEXT="CRUD capabilities" FOLDED="true" ID="ID_78186201" CREATED="1559837106216" MODIFIED="1559837115196">
+<node TEXT="CRUD capabilities" ID="ID_78186201" CREATED="1559837106216" MODIFIED="1559837115196">
 <node TEXT="With certain limitations and known issues" ID="ID_154556639" CREATED="1559837115681" MODIFIED="1559837126268"/>
 </node>
 </node>
@@ -3086,12 +3086,12 @@
 <node TEXT="Leverage Cloud Dataflow to create aggregations for common datasets" ID="ID_391338046" CREATED="1562617546848" MODIFIED="1562617559674"/>
 </node>
 <node TEXT="Concepts" FOLDED="true" ID="ID_147268608" CREATED="1564101940203" MODIFIED="1564101942788">
-<node TEXT="Datasets" FOLDED="true" ID="ID_790280652" CREATED="1564101956050" MODIFIED="1596481964724">
+<node TEXT="Datasets" ID="ID_790280652" CREATED="1564101956050" MODIFIED="1596481964724">
 <node TEXT="What?" FOLDED="true" ID="ID_1598348594" CREATED="1564101963597" MODIFIED="1564101965646">
 <node TEXT="Datasets are top-level containers that are used to organize and control access to your tables and views." ID="ID_979454850" CREATED="1564101967770" MODIFIED="1564101983965"/>
 <node TEXT="Equivalent of database" ID="ID_798326281" CREATED="1564102012546" MODIFIED="1564102017830"/>
 </node>
-<node TEXT="Limitations" FOLDED="true" ID="ID_1413742084" CREATED="1564102037907" MODIFIED="1596481964722">
+<node TEXT="Limitations" ID="ID_1413742084" CREATED="1564102037907" MODIFIED="1596481964722">
 <node TEXT="Geographic location set at creation and not changeable" ID="ID_680000286" CREATED="1564102041082" MODIFIED="1564102058590"/>
 <node TEXT="All tables referenced in a query must be stored in datasets in the same location" ID="ID_812643125" CREATED="1564102066730" MODIFIED="1564102087201"/>
 <node ID="ID_1274484562" CREATED="1564102194693" MODIFIED="1564102221065"><richcontent TYPE="NODE">
@@ -3149,23 +3149,23 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="Pricing" FOLDED="true" ID="ID_1900755072" CREATED="1564102247538" MODIFIED="1564102250469">
+<node TEXT="Pricing" ID="ID_1900755072" CREATED="1564102247538" MODIFIED="1564102250469">
 <node TEXT="No charges for creating, updating or deleting a dataset" ID="ID_1195682981" CREATED="1564102252740" MODIFIED="1564102263703"/>
 </node>
 </node>
-<node TEXT="Table" FOLDED="true" ID="ID_1115642562" CREATED="1564101989539" MODIFIED="1564101998455">
+<node TEXT="Table" ID="ID_1115642562" CREATED="1564101989539" MODIFIED="1564101998455">
 <node TEXT="What?" ID="ID_1186934885" CREATED="1564101999267" MODIFIED="1564102001125">
 <node TEXT="Should belong to a dataset" ID="ID_1367110389" CREATED="1564102001810" MODIFIED="1564102008022"/>
 </node>
 </node>
 </node>
 </node>
-<node TEXT="Cloud Pub/Sub" FOLDED="true" ID="ID_421189967" CREATED="1556085155294" MODIFIED="1627328161868">
+<node TEXT="Cloud Pub/Sub" FOLDED="true" ID="ID_421189967" CREATED="1556085155294" MODIFIED="1650304501672">
 <node TEXT="What?" ID="ID_1871887687" CREATED="1556085227062" MODIFIED="1556085229522">
 <node TEXT="Fully managed, Enterprise real-time messaging service" ID="ID_220398112" CREATED="1556085230453" MODIFIED="1559586911154"/>
 <node TEXT="Aysnc communication" ID="ID_85872208" CREATED="1559586919071" MODIFIED="1559586928459"/>
 </node>
-<node TEXT="Features" ID="ID_510558371" CREATED="1557795578403" MODIFIED="1557795581623">
+<node TEXT="Features" FOLDED="true" ID="ID_510558371" CREATED="1557795578403" MODIFIED="1557795581623">
 <node TEXT="Scales globally" ID="ID_728466183" CREATED="1559586945023" MODIFIED="1559586951538"/>
 <node TEXT="Can act as a shock absorber in cases of traffic spikes" ID="ID_691204269" CREATED="1559782105306" MODIFIED="1559782148790"/>
 <node TEXT="Dynamic rate limiting" ID="ID_1979815687" CREATED="1559586959039" MODIFIED="1559586964794"/>
@@ -3175,7 +3175,7 @@
 <node TEXT="Supports push/pull models" ID="ID_1696934577" CREATED="1557795672803" MODIFIED="1562614507799"/>
 <node TEXT="Built-in encryption" ID="ID_1070980521" CREATED="1557795678834" MODIFIED="1557795687756"/>
 </node>
-<node TEXT="Limits" ID="ID_551409155" CREATED="1562614550830" MODIFIED="1562614554622">
+<node TEXT="Limits" FOLDED="true" ID="ID_551409155" CREATED="1562614550830" MODIFIED="1562614554622">
 <node TEXT="Message size" ID="ID_1907099167" CREATED="1562614602044" MODIFIED="1562614606048"/>
 <node TEXT="Ingestion rate" ID="ID_1790333721" CREATED="1562614606509" MODIFIED="1562614614352"/>
 <node TEXT="Protocols" ID="ID_353277197" CREATED="1562614642004" MODIFIED="1562614645703">
@@ -3183,7 +3183,7 @@
 <node TEXT="GRPC" ID="ID_1272518335" CREATED="1562614648725" MODIFIED="1562614650160"/>
 </node>
 </node>
-<node TEXT="How?" ID="ID_1050847918" CREATED="1559587127289" MODIFIED="1627328244188" TEXT_SHORTENED="true"><richcontent TYPE="NOTE">
+<node TEXT="How?" ID="ID_1050847918" CREATED="1559587127289" MODIFIED="1650304501670" TEXT_SHORTENED="true"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3227,7 +3227,209 @@
 </richcontent>
 <hook URI="Images/GCP-Cloud%20PubSub%20basics.JPG" SIZE="1.0" NAME="ExternalObject"/>
 <node TEXT="Publishing Messages" ID="ID_1646574054" CREATED="1627328264603" MODIFIED="1627328272564"/>
-<node TEXT="Receiving Messages" ID="ID_1985374339" CREATED="1627328273545" MODIFIED="1627328278811"/>
+<node TEXT="Receiving Messages" ID="ID_1985374339" CREATED="1627328273545" MODIFIED="1627328278811">
+<node TEXT="Subscription" ID="ID_435868293" CREATED="1650305809137" MODIFIED="1650306934593">
+<node TEXT="Types" ID="ID_1489489397" CREATED="1650306947322" MODIFIED="1650306949664">
+<node TEXT="Pull Subscription" ID="ID_207332947" CREATED="1650306951986" MODIFIED="1650306957042">
+<node TEXT="What?" ID="ID_499546207" CREATED="1650307010415" MODIFIED="1650307012685">
+<node TEXT="Initiated by application" ID="ID_208346210" CREATED="1650307013406" MODIFIED="1650307022964"/>
+</node>
+</node>
+<node TEXT="Push Subscription" ID="ID_662219991" CREATED="1650306957603" MODIFIED="1650306963484">
+<node TEXT="What?" ID="ID_679894753" CREATED="1650307024941" MODIFIED="1650307029460">
+<node TEXT="Pub/sub server calls a preconfigured HTTPS endpoint" ID="ID_1815757913" CREATED="1650307030277" MODIFIED="1650307073359"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Pricing" ID="ID_1465859526" CREATED="1650304522139" MODIFIED="1650304524639">
+<node TEXT="Components" FOLDED="true" ID="ID_941162993" CREATED="1650304561198" MODIFIED="1650304564575">
+<node TEXT="Throughput" ID="ID_908453367" CREATED="1650304565544" MODIFIED="1650304570765">
+<node TEXT="What?" ID="ID_45360595" CREATED="1650304582100" MODIFIED="1650304587112">
+<node TEXT="Total # of bytes written (publish througput) or read (subscribe throughput) over an interval of time" ID="ID_1196816427" CREATED="1650304639531" MODIFIED="1650304688475"/>
+</node>
+<node TEXT="Volume calculation" ID="ID_1958686523" CREATED="1650304698206" MODIFIED="1650304704221">
+<node TEXT="Sum of the following" FOLDED="true" ID="ID_1404882848" CREATED="1650304722499" MODIFIED="1650304734738">
+<node ID="ID_1490185827" CREATED="1650304744215" MODIFIED="1650304744215"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-left: 40px; list-style: outside disc; color: rgb(32, 33, 36); font-family: Roboto, Noto Sans, Noto Sans JP, Noto Sans KR, Noto Naskh Arabic, Noto Sans Thai, Noto Sans Hebrew, Noto Sans Bengali, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <li style="margin-top: 12px; margin-bottom: 12px; margin-right: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+        The number of bytes in the encoded message body string
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1899999236" CREATED="1650304744219" MODIFIED="1650304744219"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-left: 40px; list-style: outside disc; color: rgb(32, 33, 36); font-family: Roboto, Noto Sans, Noto Sans JP, Noto Sans KR, Noto Naskh Arabic, Noto Sans Thai, Noto Sans Hebrew, Noto Sans Bengali, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <li style="margin-top: 12px; margin-bottom: 12px; margin-right: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+        For each attribute, the size of the key and its value
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_20054779" CREATED="1650304744233" MODIFIED="1650304744233"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-left: 40px; list-style: outside disc; color: rgb(32, 33, 36); font-family: Roboto, Noto Sans, Noto Sans JP, Noto Sans KR, Noto Naskh Arabic, Noto Sans Thai, Noto Sans Hebrew, Noto Sans Bengali, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <li style="margin-top: 12px; margin-bottom: 12px; margin-right: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+        20 bytes for the timestamp
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1814318152" CREATED="1650304744238" MODIFIED="1650304744238"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-left: 40px; list-style: outside disc; color: rgb(32, 33, 36); font-family: Roboto, Noto Sans, Noto Sans JP, Noto Sans KR, Noto Naskh Arabic, Noto Sans Thai, Noto Sans Hebrew, Noto Sans Bengali, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <li style="margin-top: 12px; margin-bottom: 12px; margin-right: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+        The size of the<span>&#160;</span><code translate="no" dir="ltr" style="font-weight: 500; font-style: normal; font-variant: normal; font-size: 90%; line-height: 1; font-family: var(--devsite-code-font-family); background-image: null; background-repeat: repeat; background-attachment: scroll; background-position: null; color: black; padding-top: 0; padding-bottom: 0; padding-right: 0; padding-left: 0; text-align: left !important"><b><font size="90%" face="var(--devsite-code-font-family)" color="black">message_id</font></b></code><span>&#160;</span>string
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1182735722" CREATED="1650304744242" MODIFIED="1650304744242"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-left: 40px; list-style: outside disc; color: rgb(32, 33, 36); font-family: Roboto, Noto Sans, Noto Sans JP, Noto Sans KR, Noto Naskh Arabic, Noto Sans Thai, Noto Sans Hebrew, Noto Sans Bengali, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <li style="margin-top: 12px; margin-bottom: 12px; margin-right: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+        The size of additional optional fields, such as those associated with early access and other restricted-access APIs.
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Minimum assessed" FOLDED="true" ID="ID_717034706" CREATED="1650304763963" MODIFIED="1650304773984">
+<node TEXT="1 KB" ID="ID_1127214477" CREATED="1650304774747" MODIFIED="1650304780239"/>
+</node>
+</node>
+</node>
+<node TEXT="Egress" ID="ID_1333519429" CREATED="1650304571389" MODIFIED="1650304572968">
+<node TEXT="What?" ID="ID_1143926415" CREATED="1650305014419" MODIFIED="1650305016549">
+<node TEXT="fees for internet egress and message delivery between Google Cloud regions" ID="ID_1390298074" CREATED="1650305047131" MODIFIED="1650305063084"/>
+</node>
+<node TEXT="Model" ID="ID_887637655" CREATED="1650305066387" MODIFIED="1650305076225">
+<node TEXT="Consistent with VPC network rates" ID="ID_92258893" CREATED="1650305077155" MODIFIED="1650305083937"/>
+<node TEXT="Exceptions" ID="ID_1852194666" CREATED="1650305085547" MODIFIED="1650305089144">
+<node TEXT="No zone egress fees" ID="ID_844546874" CREATED="1650305090722" MODIFIED="1650305099965"/>
+<node TEXT="Egress to Google products not exempt" ID="ID_1572591386" CREATED="1650305100563" MODIFIED="1650305113286"/>
+<node TEXT="No exemption for ingress" ID="ID_1639896271" CREATED="1650305559109" MODIFIED="1650305564236"/>
+</node>
+<node TEXT="Egress charged every time a message crosses a region boundary" FOLDED="true" ID="ID_1039743481" CREATED="1650305618657" MODIFIED="1650305643024">
+<node TEXT="If there are several subscribers in a region different from the region where the messages are stored, egress charged independently for delivery to each subscriber" ID="ID_1386276965" CREATED="1650305643987" MODIFIED="1650305705810"/>
+</node>
+</node>
+</node>
+<node TEXT="Storage" ID="ID_982340032" CREATED="1650304574323" MODIFIED="1650304580369">
+<node TEXT="What?" ID="ID_1811070336" CREATED="1650304792304" MODIFIED="1650304794523"/>
+<node TEXT="Cases" ID="ID_708839717" CREATED="1650304839996" MODIFIED="1650304850802">
+<node TEXT="Free" ID="ID_969588330" CREATED="1650304853403" MODIFIED="1650304855452">
+<node TEXT="Storage of unacknowledged message free for 7 days" ID="ID_319913964" CREATED="1650304803971" MODIFIED="1650304821257"/>
+</node>
+<node TEXT="Not free" FOLDED="true" ID="ID_201407614" CREATED="1650304862043" MODIFIED="1650304864756">
+<node FOLDED="true" ID="ID_117218225" CREATED="1650304906227" MODIFIED="1650304906227"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-left: 40px; list-style: outside disc; color: rgb(32, 33, 36); font-family: Roboto, Noto Sans, Noto Sans JP, Noto Sans KR, Noto Naskh Arabic, Noto Sans Thai, Noto Sans Hebrew, Noto Sans Bengali, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <li style="margin-top: 12px; margin-bottom: 12px; margin-right: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+        A topic is configured to retain all messages. In this case, message storage fees are charged for storing all messages published to the topic.
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Least expensive" ID="ID_1949380176" CREATED="1650304956827" MODIFIED="1650304966766"/>
+</node>
+<node FOLDED="true" ID="ID_1552791574" CREATED="1650304906228" MODIFIED="1650304906228"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-left: 40px; list-style: outside disc; color: rgb(32, 33, 36); font-family: Roboto, Noto Sans, Noto Sans JP, Noto Sans KR, Noto Naskh Arabic, Noto Sans Thai, Noto Sans Hebrew, Noto Sans Bengali, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <li style="margin-top: 12px; margin-bottom: 12px; margin-right: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+        A subscription is configured to retain acknowledged messages. In this case, storage fees are charged for retained acknowledged messages.
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Most flexible" ID="ID_1791018983" CREATED="1650304973108" MODIFIED="1650304979365"/>
+</node>
+<node FOLDED="true" ID="ID_95702173" CREATED="1650304906231" MODIFIED="1650304906231"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-left: 40px; list-style: outside disc; color: rgb(32, 33, 36); font-family: Roboto, Noto Sans, Noto Sans JP, Noto Sans KR, Noto Naskh Arabic, Noto Sans Thai, Noto Sans Hebrew, Noto Sans Bengali, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      <li style="margin-top: 12px; margin-bottom: 12px; margin-right: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px">
+        A snapshot of a subscription is created. In this case, message storage fees are charged for storing the snapshot's unacknowledged messages.
+      </li>
+    </ul>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Can also be an economical option" ID="ID_31779137" CREATED="1650304991931" MODIFIED="1650305001023"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Filtering" ID="ID_1515546935" CREATED="1650306016849" MODIFIED="1650306020396">
+<node TEXT="For filtered messages" ID="ID_855793311" CREATED="1650306051082" MODIFIED="1650306055634">
+<node TEXT="No egress fees" ID="ID_367567322" CREATED="1650306056393" MODIFIED="1650306061032"/>
+<node TEXT="Throughput fees incurred" ID="ID_1352582067" CREATED="1650306062440" MODIFIED="1650306079267"/>
+</node>
+</node>
 </node>
 </node>
 <node TEXT="Cloud Datalab" FOLDED="true" ID="ID_1074677535" CREATED="1556085160390" MODIFIED="1556085164186">
