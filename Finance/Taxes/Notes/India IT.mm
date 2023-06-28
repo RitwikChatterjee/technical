@@ -3,7 +3,7 @@
 <node TEXT="India IT" FOLDED="false" ID="ID_376851141" CREATED="1600650154547" MODIFIED="1600650160786" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
+    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="2" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="3" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="IT Return Forms" FOLDED="true" POSITION="right" ID="ID_1078622622" CREATED="1600650203779" MODIFIED="1600650226927">
 <edge COLOR="#ff0000"/>
 <node TEXT="ITR 1" ID="ID_375548008" CREATED="1600650228122" MODIFIED="1600650234441">
@@ -102,17 +102,350 @@
 </node>
 </node>
 </node>
-<node TEXT="Concerns" FOLDED="true" POSITION="right" ID="ID_327330853" CREATED="1600650720384" MODIFIED="1600650729841">
+<node TEXT="Sale of Immovable Properties" FOLDED="true" POSITION="right" ID="ID_1630630764" CREATED="1687890545496" MODIFIED="1687892601011">
+<edge COLOR="#00ff00"/>
+<node TEXT="Capital Gains Tax" ID="ID_477381723" CREATED="1687890591040" MODIFIED="1687893247737">
+<node TEXT="What?" ID="ID_1563687259" CREATED="1687890596791" MODIFIED="1687890599129">
+<node TEXT="Any gain arising from sale or transfer of any capital assets" ID="ID_385396934" CREATED="1687890599847" MODIFIED="1687890614729">
+<node TEXT="Movable capital assets" ID="ID_579438593" CREATED="1687890621479" MODIFIED="1687890635929"/>
+<node TEXT="Immovable capital assets" ID="ID_660006766" CREATED="1687890636703" MODIFIED="1687890642231">
+<node TEXT="see Exemptions" ID="ID_541332258" CREATED="1687890956366" MODIFIED="1687890964991">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_890359454" STARTINCLINATION="618;0;" ENDINCLINATION="618;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+</node>
+</node>
+</node>
+<node TEXT="Part of income tax" ID="ID_1876326822" CREATED="1687890653792" MODIFIED="1687890658208"/>
+</node>
+<node TEXT="Types" ID="ID_280612872" CREATED="1687890659535" MODIFIED="1687890661801">
+<node TEXT="Long term" ID="ID_1338510113" CREATED="1687890684511" MODIFIED="1687890690472">
+<node TEXT="Hold period &gt; 24 months" ID="ID_147444192" CREATED="1687890708503" MODIFIED="1687890738400"/>
+</node>
+<node TEXT="Short term" ID="ID_1161250562" CREATED="1687890702344" MODIFIED="1687890705873">
+<node TEXT="Hold period &lt; 24 months" ID="ID_1581711502" CREATED="1687890708503" MODIFIED="1687890716824"/>
+</node>
+<node TEXT="For Gifts/inheritance" ID="ID_602868936" CREATED="1687890787119" MODIFIED="1687890878096">
+<node TEXT="No relevance on date of gift/inheritance." ID="ID_1447661520" CREATED="1687890804463" MODIFIED="1687890832696"/>
+<node TEXT="Hold period - total hold by predecessor + successor" ID="ID_1798387340" CREATED="1687890833438" MODIFIED="1687890870680"/>
+</node>
+</node>
+<node TEXT="Exemptions" ID="ID_890359454" CREATED="1687890916823" MODIFIED="1687890922880">
+<node ID="ID_1661188259" CREATED="1687890926887" MODIFIED="1687890983003"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <i>Agricultural </i>land in <i>rural</i>&nbsp;area
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="If sold, no capital gains tax" ID="ID_1069522183" CREATED="1687890937494" MODIFIED="1687890945344"/>
+<node TEXT="Definition of Rural area" ID="ID_1600757103" CREATED="1687891064639" MODIFIED="1687891073991">
+<node TEXT="Outside municipal area" ID="ID_1482646223" CREATED="1687891075374" MODIFIED="1687892105154"/>
+<node ID="ID_1157988058" CREATED="1687892108516" MODIFIED="1687892321315" LINK="https://www.youtube.com/watch?v=-uovMuW9T0U"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Primarily depends on population (<font color="#000000">see details</font>)
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Deductions" ID="ID_1989267320" CREATED="1687917835697" MODIFIED="1687917860844">
+<node TEXT="Expenses (applicable for all)" FOLDED="true" ID="ID_791409636" CREATED="1687893258167" MODIFIED="1687921519367">
+<node TEXT="Expenses pertaining to sales &amp; purchase" ID="ID_1774375436" CREATED="1687893265479" MODIFIED="1687893279344">
+<node TEXT="Eligible expenses" ID="ID_117044867" CREATED="1687893656382" MODIFIED="1687893665896">
+<node TEXT="Purchase value" ID="ID_1986202051" CREATED="1687893668614" MODIFIED="1687894076694"/>
+<node TEXT="Purchase expenses like brokerage, govt taxes, legal expenses" ID="ID_1645421529" CREATED="1687894167949" MODIFIED="1687894218726"/>
+</node>
+<node TEXT="Ineligible expenses" ID="ID_1364653848" CREATED="1687894096860" MODIFIED="1687894102814">
+<node TEXT="Loan interest" ID="ID_1554321486" CREATED="1687894103861" MODIFIED="1687894114615"/>
+</node>
+</node>
+<node TEXT="Cost of improvement" ID="ID_156974118" CREATED="1687893279967" MODIFIED="1687893285256"/>
+<node TEXT="Documentary evidence required" ID="ID_1184577614" CREATED="1687893290583" MODIFIED="1687893300762">
+<node TEXT="Everything needs to be paid through banking channels" ID="ID_1399623304" CREATED="1687893679815" MODIFIED="1687893707975"/>
+</node>
+<node TEXT="For long term - indexed cost of acquisition &amp; improvement to be considered" ID="ID_334161680" CREATED="1687893327608" MODIFIED="1687893404433"/>
+</node>
+<node TEXT="Long-term CG specific" ID="ID_1727041486" CREATED="1687917869953" MODIFIED="1687921745934">
+<node TEXT="Sec 54EC" FOLDED="true" ID="ID_895541689" CREATED="1687917884690" MODIFIED="1687917894892">
+<node TEXT="Investment in specified bonds" FOLDED="true" ID="ID_1287347793" CREATED="1687918082097" MODIFIED="1687918086635">
+<node TEXT="Types" FOLDED="true" ID="ID_57495630" CREATED="1687917896658" MODIFIED="1687918096075">
+<node TEXT="NHAI" ID="ID_532551895" CREATED="1687917942770" MODIFIED="1687917946468"/>
+<node TEXT="REC" ID="ID_1815802999" CREATED="1687917947962" MODIFIED="1687917958349"/>
+<node TEXT="PFC" ID="ID_1210883939" CREATED="1687917959667" MODIFIED="1687918001210"/>
+<node TEXT=" IRFC" ID="ID_1134318977" CREATED="1687918001937" MODIFIED="1687918004584"/>
+</node>
+<node TEXT="Period" FOLDED="true" ID="ID_98712799" CREATED="1687921033232" MODIFIED="1687921035993">
+<node TEXT="within 6 months from the date of sale" ID="ID_165170581" CREATED="1687921037096" MODIFIED="1687921051218"/>
+<node TEXT="or within the due date of filing the return" ID="ID_692662872" CREATED="1687921083103" MODIFIED="1687921092609"/>
+</node>
+<node TEXT="Lock-in 5 yrs" ID="ID_221004324" CREATED="1687918097825" MODIFIED="1687918107618"/>
+<node TEXT="Retunrs @5%, credited to bank account" ID="ID_1336015649" CREATED="1687918110977" MODIFIED="1687918185066"/>
+<node TEXT="Interest taxable, but principle tax free" ID="ID_202462249" CREATED="1687918156217" MODIFIED="1687918165658"/>
+</node>
+<node TEXT="Upto Rs 50L p.FY can be claimed" ID="ID_1589496476" CREATED="1687917919298" MODIFIED="1687918075990"/>
+</node>
+<node TEXT="Sec 54 (sale of residential property)" FOLDED="true" ID="ID_972624868" CREATED="1687918262152" MODIFIED="1687919286455">
+<node TEXT="Buy one or more residential properties in India with the sale consideration (more or part thereof) in lieu of the sold property" FOLDED="true" ID="ID_1833009759" CREATED="1687918303584" MODIFIED="1687922043480">
+<node TEXT="Period" FOLDED="true" ID="ID_668942602" CREATED="1687919665139" MODIFIED="1687919668126">
+<node TEXT="Purchase" ID="ID_171068398" CREATED="1687918348512" MODIFIED="1687919678469">
+<node TEXT="Between" FOLDED="true" ID="ID_87696745" CREATED="1687918352800" MODIFIED="1687918366210">
+<node TEXT="1 year before sale" ID="ID_1360006895" CREATED="1687918367553" MODIFIED="1687918376562"/>
+<node TEXT="2 years after sale" ID="ID_203679893" CREATED="1687918377209" MODIFIED="1687918386873"/>
+</node>
+</node>
+<node TEXT="Construct" ID="ID_110718539" CREATED="1687918395839" MODIFIED="1687918408577">
+<node ID="ID_984522799" CREATED="1687918410944" MODIFIED="1687919427709"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      within 3 years <i>after</i>&nbsp;sale
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="Deductions Limitations" FOLDED="true" ID="ID_616277420" CREATED="1687919095534" MODIFIED="1687919784605">
+<node TEXT="can be claimed only on 1 of the properties" ID="ID_15080661" CREATED="1687919773108" MODIFIED="1687919776181">
+<node TEXT="May be enough to offset the entire Capital gains" FOLDED="true" ID="ID_1023317423" CREATED="1687919124174" MODIFIED="1687919135487">
+<node TEXT="For e.g." FOLDED="true" ID="ID_1426265010" CREATED="1687919137677" MODIFIED="1687919140839">
+<node TEXT="Sold a residential property at Rs 1 Cr., with Capital Gains of Rs 50 lacs" ID="ID_1326028579" CREATED="1687919142597" MODIFIED="1687919176224"/>
+<node TEXT="Bought 1 property for 60 lacs and another for 40 lacs" ID="ID_10016557" CREATED="1687919177077" MODIFIED="1687919194111"/>
+<node TEXT="Use the 60 lac property to claim Rs 50 lac deduction to capital gains. Now capital gains = 0" ID="ID_228649372" CREATED="1687919195445" MODIFIED="1687919229687"/>
+</node>
+</node>
+</node>
+<node TEXT="upto the 100% of capital gain tax liability" ID="ID_67375882" CREATED="1687919786228" MODIFIED="1687919797277"/>
+</node>
+<node TEXT="Show casing intention" FOLDED="true" ID="ID_1329442904" CREATED="1687921149991" MODIFIED="1687921165080">
+<node TEXT="Hold funds in Capital gains scheme" FOLDED="true" ID="ID_979956153" CREATED="1687921167344" MODIFIED="1687921181928">
+<node TEXT="Available with many banks" ID="ID_301187222" CREATED="1687921183031" MODIFIED="1687921187505"/>
+<node TEXT="Utilize for property purchase" ID="ID_1088954655" CREATED="1687921221191" MODIFIED="1687921228401"/>
+<node TEXT="Use before due date" ID="ID_75964655" CREATED="1687921188327" MODIFIED="1687921191809"/>
+<node TEXT="Unutilized funds become taxable" FOLDED="true" ID="ID_1621056075" CREATED="1687921192920" MODIFIED="1687921199904">
+<node TEXT="Interest liable only after due date if not paid by that date" ID="ID_688607831" CREATED="1687921305943" MODIFIED="1687921345129"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Buy 2 residential properties with sale consideration (more or part thereof) in lieu of the sold property - ONCE IN A LIFETIME" FOLDED="true" ID="ID_927051433" CREATED="1687918741903" MODIFIED="1687921640136">
+<node TEXT="Conditions" FOLDED="true" ID="ID_885328595" CREATED="1687918797630" MODIFIED="1687918804272">
+<node TEXT="Once in a life time" ID="ID_48172409" CREATED="1687918807023" MODIFIED="1687918811809"/>
+<node TEXT="Capital gains &lt; 2 Crores" ID="ID_1302288287" CREATED="1687918812806" MODIFIED="1687918837584"/>
+</node>
+</node>
+</node>
+<node TEXT="Sec 54F (sale of non-residential property)" FOLDED="true" ID="ID_663219166" CREATED="1687919261101" MODIFIED="1687919292807">
+<node TEXT="Purchase 1 residential property in India with the sale consideration (more or part thereof)" FOLDED="true" ID="ID_386814174" CREATED="1687919308476" MODIFIED="1687922057319">
+<node TEXT="Period" ID="ID_1227435162" CREATED="1687919652445" MODIFIED="1687919686685">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_668942602" STARTINCLINATION="157;0;" ENDINCLINATION="157;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+</node>
+<node TEXT="Deduction limitations" FOLDED="true" ID="ID_1002465530" CREATED="1687919808523" MODIFIED="1687919814046">
+<node TEXT="Proportionate to the capital gains earned to the sale consideration" FOLDED="true" ID="ID_912427743" CREATED="1687919815516" MODIFIED="1687919851164">
+<node TEXT="for e.g." FOLDED="true" ID="ID_644536216" CREATED="1687919876123" MODIFIED="1687919879997">
+<node TEXT="Sold plot for Rs 3 Cr., C.G. = 1 Cr." ID="ID_1447448169" CREATED="1687919881084" MODIFIED="1687919902685"/>
+<node TEXT="CG:Sale consideration = 33%" ID="ID_1348549501" CREATED="1687919903227" MODIFIED="1687919926724"/>
+<node TEXT="Purchased a residential property for Rs 2 Cr." ID="ID_1777338570" CREATED="1687919928363" MODIFIED="1687919968110"/>
+<node TEXT="Deductions that can be claimed = 33% of Rs 2 Cr. = Rs 66L" ID="ID_18901555" CREATED="1687919970819" MODIFIED="1687919998364"/>
+<node TEXT="CG residual Tax liability = 1 cr - Rs 66L = Rs 33 L" ID="ID_1601543834" CREATED="1687919999162" MODIFIED="1687920028325"/>
+</node>
+</node>
+</node>
+<node TEXT="Other Conditions" FOLDED="true" ID="ID_882277170" CREATED="1687920147057" MODIFIED="1687920152475">
+<node TEXT="At the time of sale of the non-residential property the individual should not have more than 1 residential unit" FOLDED="true" ID="ID_528548801" CREATED="1687920203290" MODIFIED="1687920231420">
+<node TEXT="So claim can be made if the seller is purchasing his/her first or second residential unit with these proceeds" ID="ID_82481973" CREATED="1687920268147" MODIFIED="1687920297595"/>
+</node>
+<node TEXT="After purchasing the new residential property, you cannot" FOLDED="true" ID="ID_1824412852" CREATED="1687920317779" MODIFIED="1687920341819">
+<node TEXT="purchase another residential property within 1 year of that purchase" ID="ID_259126876" CREATED="1687920342897" MODIFIED="1687920371242"/>
+<node TEXT="Construct another residential property within 3 years of that purchase" ID="ID_264616558" CREATED="1687920371890" MODIFIED="1687920383451"/>
+<node TEXT="Sell the purchased property for another 3 years" ID="ID_435257818" CREATED="1687920384442" MODIFIED="1687920399451"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Chapter VI-A deductions (regular income deductions) are not applicable for long-term capital gains" ID="ID_233178949" CREATED="1687921780245" MODIFIED="1687921814918"/>
+</node>
+<node TEXT="Short-term CG Specific" FOLDED="true" ID="ID_1337866874" CREATED="1687921817438" MODIFIED="1687921823679">
+<node TEXT="Treated as regular income and can leverage Chapter VI-A deductions" ID="ID_1812276012" CREATED="1687921825125" MODIFIED="1687921843311"/>
+</node>
+</node>
+<node TEXT="Multiple properties sold" ID="ID_1044957560" CREATED="1687921436087" MODIFIED="1687921440944">
+<node TEXT="CG" ID="ID_582517644" CREATED="1687921443768" MODIFIED="1687921449975">
+<node TEXT="Can be pooled" ID="ID_1186798752" CREATED="1687921450910" MODIFIED="1687921455496"/>
+</node>
+<node TEXT="Deductions" ID="ID_52779373" CREATED="1687921486318" MODIFIED="1687921490192">
+<node TEXT="Multiple investment possible" ID="ID_1801330489" CREATED="1687921456343" MODIFIED="1687921461783"/>
+<node TEXT="Aggregate limit apply for bonds" ID="ID_1013046518" CREATED="1687921465726" MODIFIED="1687921471888"/>
+<node TEXT="All other conditions apply" ID="ID_97520176" CREATED="1687921472454" MODIFIED="1687921478240"/>
+</node>
+</node>
+</node>
+<node TEXT="Capital Gains Calculation" FOLDED="true" ID="ID_601428006" CREATED="1687893726013" MODIFIED="1687893737343">
+<node TEXT="Indexation" FOLDED="true" ID="ID_286635673" CREATED="1687893738117" MODIFIED="1687893741943">
+<node TEXT="Govt. published indexation tables from 2001-02 FY" ID="ID_1324469888" CREATED="1687893761261" MODIFIED="1687893815335"/>
+<node TEXT="If property purchased before 01-Apr-2001" FOLDED="true" ID="ID_287667121" CREATED="1687893820365" MODIFIED="1687893855223">
+<node TEXT="Get circle rate for the property in 2001 from Sub-register&apos;s office/registration authority" ID="ID_1648294454" CREATED="1687893856213" MODIFIED="1687893999462"/>
+<node TEXT="Either the purchase value or Govt. rate in 2001 needs to be considered (whichever is beneficial to individual)" ID="ID_877593900" CREATED="1687893917925" MODIFIED="1687893959007"/>
+</node>
+</node>
+<node TEXT="Joint property" FOLDED="true" ID="ID_1138857931" CREATED="1687894249131" MODIFIED="1687894255197">
+<node TEXT="Computed separately, proportional to ownership" ID="ID_1370901953" CREATED="1687894283284" MODIFIED="1687894297558"/>
+<node TEXT="Deductions - can be claimed as per current deduction rules individual capacity" ID="ID_832314273" CREATED="1687921663950" MODIFIED="1687921685559"/>
+</node>
+</node>
+<node TEXT="CG Tax Liability" ID="ID_629280383" CREATED="1687922174845" MODIFIED="1687922184774">
+<node TEXT="Short term" ID="ID_1032888521" CREATED="1687922185924" MODIFIED="1687922204446">
+<node TEXT="Slab of Income Tax applies based on total income" ID="ID_184216289" CREATED="1687922107292" MODIFIED="1687922119406"/>
+</node>
+<node TEXT="Long term" ID="ID_479404945" CREATED="1687922209925" MODIFIED="1687922213853">
+<node TEXT="Flat rate 20% of CG" ID="ID_1191381524" CREATED="1687922216924" MODIFIED="1687922432572"/>
+<node TEXT="Additional surcharge + cess" ID="ID_1448334274" CREATED="1687922231980" MODIFIED="1687922240525"/>
+<node TEXT="Effective tax rates (currently)" ID="ID_137254543" CREATED="1687922277516" MODIFIED="1687922285214">
+<node TEXT="Total sale consideration/income &lt; 50 lacs" FOLDED="true" ID="ID_779092014" CREATED="1687922286452" MODIFIED="1687922827587">
+<node TEXT="20.8%" ID="ID_614118538" CREATED="1687922310532" MODIFIED="1687922318917"/>
+</node>
+<node TEXT="Income &lt; 1cr" FOLDED="true" ID="ID_1899703659" CREATED="1687922320491" MODIFIED="1687922329269">
+<node TEXT="22.88%" ID="ID_666533619" CREATED="1687922331196" MODIFIED="1687922334437"/>
+</node>
+<node TEXT="Income &gt; 1 Cr" FOLDED="true" ID="ID_588985595" CREATED="1687922336099" MODIFIED="1687922342757">
+<node TEXT="23.92%" ID="ID_1454829071" CREATED="1687922343587" MODIFIED="1687922347405"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="TDS Obligation" ID="ID_1546066129" CREATED="1687922538507" MODIFIED="1687922544364">
+<node TEXT="Seller (income earner) is NRI" ID="ID_126795234" CREATED="1687922558067" MODIFIED="1687922571364">
+<node TEXT="Higher TDS rate" ID="ID_1209801909" CREATED="1687922575971" MODIFIED="1687922587820">
+<node TEXT="TDS amount" FOLDED="true" ID="ID_726998771" CREATED="1687922923794" MODIFIED="1687922927683">
+<node TEXT="For NRI seller" ID="ID_1102689363" CREATED="1687922661243" MODIFIED="1687922917612">
+<node TEXT="Long-term CG" FOLDED="true" ID="ID_413684992" CREATED="1687923120456" MODIFIED="1687923127507">
+<node ID="ID_828208664" CREATED="1687922947058" MODIFIED="1687923369707"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Effective Tax rate on entire <b>sale consideration </b>not on the CG, or the circle rate
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Short-term CG" FOLDED="true" ID="ID_397673270" CREATED="1687923131680" MODIFIED="1687923135331">
+<node TEXT="30% + surcharge + cess" ID="ID_152369969" CREATED="1687923137137" MODIFIED="1687923151387"/>
+</node>
+</node>
+</node>
+<node TEXT="Reduced TDS" FOLDED="true" ID="ID_1732822022" CREATED="1687923760575" MODIFIED="1687923966056">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_716472075" STARTINCLINATION="123;0;" ENDINCLINATION="123;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<node TEXT="Based on lower tax certificate issued by IT Dept" ID="ID_38388944" CREATED="1687923773478" MODIFIED="1687923902008"/>
+<node TEXT="Need to check online to ensure authenticity of the certificate" ID="ID_1097849947" CREATED="1687923937990" MODIFIED="1687923953009"/>
+</node>
+</node>
+</node>
+<node TEXT="Buyer" ID="ID_273727448" CREATED="1687924145846" MODIFIED="1687924149592">
+<node TEXT="Obligation" ID="ID_490827243" CREATED="1687922591642" MODIFIED="1687924162312">
+<node TEXT="Obtain TAN (if seller is NRI)" ID="ID_1600668470" CREATED="1687923904719" MODIFIED="1687924279239"/>
+<node TEXT="Deduct TDS" ID="ID_1547882790" CREATED="1687922600618" MODIFIED="1687924730837">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1209801909" STARTINCLINATION="91;0;" ENDINCLINATION="91;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+</node>
+<node TEXT="Produce TDS payment certificate before the registration authority during registration" ID="ID_665468581" CREATED="1687924108126" MODIFIED="1687924321215"/>
+<node TEXT="File TDS return Form 27Q at same Qtr end" FOLDED="true" ID="ID_1471986502" CREATED="1687924328661" MODIFIED="1687924400854">
+<node TEXT="Gets reflected in Form 26AS of seller" ID="ID_402689187" CREATED="1687924436974" MODIFIED="1687924451415"/>
+<node TEXT="Gets reflected in Form 26AIS of seller" ID="ID_626291392" CREATED="1687924452301" MODIFIED="1687924464967"/>
+</node>
+<node TEXT="Download the newly generated Form 16 and provide to the seller" ID="ID_1025336337" CREATED="1687924470117" MODIFIED="1687924525782"/>
+</node>
+<node TEXT="Joint buyers" FOLDED="true" ID="ID_931292329" CREATED="1687924624701" MODIFIED="1687924665654">
+<node TEXT="Tax obligations to be treated individually based on the applicable share (each buyer responsible for their own share)" ID="ID_1360554719" CREATED="1687924630829" MODIFIED="1687924691293"/>
+</node>
+</node>
+</node>
+<node TEXT="TDS Deduction Remediation" ID="ID_716472075" CREATED="1687923589799" MODIFIED="1687923593713">
+<node TEXT="Process" ID="ID_1305494160" CREATED="1687923465089" MODIFIED="1687923604802">
+<node TEXT="Apply to IT Dept Online" ID="ID_572513311" CREATED="1687923479745" MODIFIED="1687923487568">
+<node TEXT="Form 13" ID="ID_929120120" CREATED="1687923489695" MODIFIED="1687923492930"/>
+</node>
+<node TEXT="Assess Tax payable before sale deed" ID="ID_358159277" CREATED="1687923495384" MODIFIED="1687923508577"/>
+<node TEXT="Obtain lower/nil tax certificate (issued online)" ID="ID_980636744" CREATED="1687923561881" MODIFIED="1687923621361"/>
+<node TEXT="Certificate mapped to PAN of seller and TAN of buyer" ID="ID_896947178" CREATED="1687923627383" MODIFIED="1687923639921"/>
+</node>
+<node TEXT="Timeline" ID="ID_1235183451" CREATED="1687923646847" MODIFIED="1687923650730">
+<node TEXT="Around 30 days" ID="ID_1744370401" CREATED="1687923653489" MODIFIED="1687923658025"/>
+<node TEXT="Assuming ALL documents are ready" ID="ID_388084111" CREATED="1687923665679" MODIFIED="1687923676321"/>
+</node>
+</node>
+<node TEXT="Whom you can&apos;t sell to?" FOLDED="true" ID="ID_347178519" CREATED="1687892469977" MODIFIED="1687892498372">
+<node TEXT="OCIs and foreign nationals of border nations" ID="ID_400121583" CREATED="1687892500650" MODIFIED="1687892520595"/>
+<node TEXT="OCIs and foreign nationals of specific countries (about 11 countries)" ID="ID_1564527998" CREATED="1687892521473" MODIFIED="1687892552403"/>
+<node TEXT="Agricultural land cannot be sold to NRIs" ID="ID_722749432" CREATED="1687892554554" MODIFIED="1687892570427"/>
+</node>
+<node TEXT="Sale consideration of properties" FOLDED="true" ID="ID_1625418583" CREATED="1687892668761" MODIFIED="1687892677378">
+<node TEXT="Any amount negotiated between buyer and seller" ID="ID_1908700476" CREATED="1687892685537" MODIFIED="1687892704274"/>
+<node TEXT="Cannot be less than 10% of guidance value notified by Govt" ID="ID_421272231" CREATED="1687892705305" MODIFIED="1687892782762"/>
+</node>
+<node TEXT="Consideration paid in cash" FOLDED="true" ID="ID_850434826" CREATED="1687892927784" MODIFIED="1687892936234">
+<node TEXT="Only acceptable up to Rs 20K" ID="ID_151210762" CREATED="1687892937137" MODIFIED="1687892949170"/>
+<node TEXT="Excess cash paid attracts 100% penalty" ID="ID_1349160610" CREATED="1687892950304" MODIFIED="1687892964162"/>
+</node>
+<node TEXT="Consideration paid into bank" FOLDED="true" ID="ID_525152461" CREATED="1687893042176" MODIFIED="1687893071089">
+<node ID="ID_151561545" CREATED="1687893074816" MODIFIED="1687893164627"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      FEMA <u>requires</u>&nbsp;consideration to be paid into the seller's NRO account (even though the buyer might be NRI themselves) and NOT the NRE account
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="References" FOLDED="true" ID="ID_866545962" CREATED="1687892271050" MODIFIED="1687892274372">
+<node TEXT="Sale of Immovable Properties - Part 1 (NRI money clinic)" ID="ID_1234930572" CREATED="1687892335322" MODIFIED="1687892360147" LINK="https://www.youtube.com/watch?v=-uovMuW9T0U"/>
+</node>
+</node>
+<node TEXT="Concerns" FOLDED="true" POSITION="left" ID="ID_327330853" CREATED="1600650720384" MODIFIED="1600650729841">
 <edge COLOR="#0000ff"/>
-<node TEXT="Mapping income &amp; taxes" ID="ID_1758467848" CREATED="1600650731008" MODIFIED="1600650866031">
+<node TEXT="Mapping income &amp; taxes" FOLDED="true" ID="ID_1758467848" CREATED="1600650731008" MODIFIED="1600650866031">
 <node TEXT="It is important to match income reported to the tax department" ID="ID_1523338795" CREATED="1600650761441" MODIFIED="1600650866030">
 <node TEXT="Download Form 26AS from income tax portal" ID="ID_1738907049" CREATED="1600650779257" MODIFIED="1600650805361"/>
 </node>
 </node>
-<node TEXT="Interchangeability of PAN and Aadhaar" ID="ID_1320849756" CREATED="1600650869580" MODIFIED="1600650885730">
+<node TEXT="Interchangeability of PAN and Aadhaar" FOLDED="true" ID="ID_1320849756" CREATED="1600650869580" MODIFIED="1600650885730">
 <node TEXT="Can use Aadhaar instead of PAN" ID="ID_1553852182" CREATED="1600650905452" MODIFIED="1600650914985"/>
 </node>
-<node TEXT="Asset and liabilities disclosure" ID="ID_803409136" CREATED="1600650964969" MODIFIED="1600650974585">
+<node TEXT="Asset and liabilities disclosure" FOLDED="true" ID="ID_803409136" CREATED="1600650964969" MODIFIED="1600650974585">
 <node TEXT="If taxpayer income &gt; 50 lacs" ID="ID_1158390134" CREATED="1600650975401" MODIFIED="1600650990507">
 <node TEXT="Taxpayer need to use the proper ITR form (2 or 3)" ID="ID_1243768606" CREATED="1600650991154" MODIFIED="1600651014199"/>
 <node TEXT="Report the list of assets held in India as at 31st March, along with associated liabilities" FOLDED="true" ID="ID_1137561935" CREATED="1600651014580" MODIFIED="1600651051659">
