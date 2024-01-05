@@ -449,7 +449,7 @@
 <node TEXT="FHIR Connector" ID="ID_872189181" CREATED="1667423242407" MODIFIED="1667423248802"/>
 </node>
 </node>
-<node TEXT="FHIR" POSITION="left" ID="ID_561222862" CREATED="1620934621342" MODIFIED="1620934623512">
+<node TEXT="FHIR" FOLDED="true" POSITION="left" ID="ID_561222862" CREATED="1620934621342" MODIFIED="1620934623512">
 <edge COLOR="#0000ff"/>
 <node TEXT="About" ID="ID_1826261907" CREATED="1620934625805" MODIFIED="1620934630005"/>
 <node TEXT="Search" ID="ID_1206259945" CREATED="1620934630652" MODIFIED="1620934632622">
@@ -526,7 +526,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Google Consent-based Access" POSITION="right" ID="ID_1467353123" CREATED="1683137552274" MODIFIED="1683229204556" LINK="https://cloud.google.com/healthcare-api/private/docs/how-tos/fhir-consent">
+<node TEXT="Google Consent-based Access" FOLDED="true" POSITION="right" ID="ID_1467353123" CREATED="1683137552274" MODIFIED="1683229204556" LINK="https://cloud.google.com/healthcare-api/private/docs/how-tos/fhir-consent">
 <edge COLOR="#ff00ff"/>
 <node TEXT="Feature Status" ID="ID_1213050639" CREATED="1683137588806" MODIFIED="1683137595913">
 <node TEXT="Preview/Pre-GA as of May&apos;23" ID="ID_1900476263" CREATED="1683137599638" MODIFIED="1683137610833"/>
@@ -546,7 +546,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1359816942" CREATED="1683137811380" MODIFIED="1683137840429"><richcontent TYPE="NODE">
@@ -561,7 +560,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -657,7 +655,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_127340073" CREATED="1683140543517" MODIFIED="1683227926151"><richcontent TYPE="NODE">
@@ -672,7 +669,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="X-Consent-Scope" ID="ID_881306832" CREATED="1683228393710" MODIFIED="1683228957827">
 <arrowlink DESTINATION="ID_1305423751"/>
@@ -702,7 +698,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -730,7 +725,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="A consent scope may match more than 1 consent directive" ID="ID_442308782" CREATED="1683228310991" MODIFIED="1683228331240"/>
 </node>
@@ -786,7 +780,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Enforcement will not come into effect until ApplyConsent completes" ID="ID_1499003460" CREATED="1683229800673" MODIFIED="1683229833098"/>
 </node>
