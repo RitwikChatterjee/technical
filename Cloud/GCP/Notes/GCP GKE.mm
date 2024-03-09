@@ -1,15 +1,16 @@
-<map version="freeplane 1.7.0">
-<!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
+<map version="freeplane 1.9.13">
+<!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="GKE" FOLDED="false" ID="ID_252021013" CREATED="1597172490593" MODIFIED="1597172492598" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
-<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
+<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
-<stylenode LOCALIZED_TEXT="default" ICON_SIZE="12.0 pt" COLOR="#000000" STYLE="fork">
+<stylenode LOCALIZED_TEXT="default" ID="ID_1658413162" ICON_SIZE="12 pt" COLOR="#000000" STYLE="fork">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1658413162" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.details"/>
@@ -21,6 +22,7 @@
 <edge STYLE="hide_edge"/>
 <cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
 </stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.selection" BACKGROUND_COLOR="#4e85f8" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#4e85f8"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork">
@@ -37,7 +39,7 @@
 </stylenode>
 </stylenode>
 <stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10.0 pt" SHAPE_VERTICAL_MARGIN="10.0 pt">
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="10 pt">
 <font SIZE="18"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="AutomaticLayout.level,1" COLOR="#0033ff">
@@ -107,7 +109,7 @@
 <node TEXT="Displays workloads deployed to clusters in your current project" ID="ID_165536947" CREATED="1597173428064" MODIFIED="1597173501436">
 <node TEXT="Deployments" ID="ID_1932051026" CREATED="1597173470555" MODIFIED="1597173473885"/>
 <node TEXT="StatefulSets" ID="ID_1564722457" CREATED="1597173474336" MODIFIED="1597175274743">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_848510693" STARTINCLINATION="715;0;" ENDINCLINATION="715;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_848510693" STARTINCLINATION="536.24998 pt;0 pt;" ENDINCLINATION="536.24998 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node TEXT="DaemonSets" ID="ID_1277720407" CREATED="1597173477442" MODIFIED="1597173481260"/>
 <node TEXT="Jobs" ID="ID_1914106702" CREATED="1597173482016" MODIFIED="1597173483498"/>
@@ -586,7 +588,7 @@
 </node>
 <node TEXT="ClusterIP" ID="ID_268290820" CREATED="1597341503097" MODIFIED="1597341508139">
 <node TEXT="For container native load balancing" ID="ID_1313485665" CREATED="1597364311586" MODIFIED="1597364330636">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_274792865" STARTINCLINATION="1262;0;" ENDINCLINATION="1262;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_274792865" STARTINCLINATION="946.49997 pt;0 pt;" ENDINCLINATION="946.49997 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 </node>
@@ -630,8 +632,7 @@
   </body>
 </html>
 </richcontent>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -639,13 +640,11 @@
   <body>
     <pre is-upgraded="" class="clear-for-copy"><span class="kwd">apiVersion: </span><span class="pln">networking.k8s.io/v1beta1<br/></span><span class="kwd">kind: </span><span class="pln">Ingress<br/></span><span class="kwd">metadata:<br/></span><span class="pln">&#160; </span><span class="kwd">name: </span><span class="pln">demo<br/></span><span class="kwd">spec:<br/></span><span class="pln">&#160; </span><span class="kwd">rules:<br/></span><span class="pln">&#160; </span><span class="pun">-</span><span class="pln"> </span><span class="kwd">host: </span><span class="pln">demo.example.com<br/>&#160; &#160; </span><span class="kwd">http:<br/></span><span class="pln">&#160; &#160; &#160; </span><span class="kwd">paths:<br/></span><span class="pln">&#160; &#160; &#160; </span><span class="pun">-</span><span class="pln"> </span><span class="kwd">backend:<br/></span><span class="pln">&#160; &#160; &#160; &#160; &#160; </span><span class="kwd">serviceName: </span><span class="pln">frontend<br/>&#160; &#160; &#160; &#160; &#160; </span><span class="kwd">servicePort: </span><span class="pln">80<br/>&#160; </span><span class="pun">-</span><span class="pln"> </span><span class="kwd">host: </span><span class="pln">demo</span><span class="pun">-</span><span class="pln">backend.example.com<br/>&#160; &#160; </span><span class="kwd">http:<br/></span><span class="pln">&#160; &#160; &#160; </span><span class="kwd">paths:<br/></span><span class="pln">&#160; &#160; &#160; </span><span class="pun">-</span><span class="pln"> </span><span class="kwd">backend:<br/></span><span class="pln">&#160; &#160; &#160; &#160; &#160; </span><span class="kwd">serviceName: </span><span class="pln">users<br/>&#160; &#160; &#160; &#160; &#160; </span><span class="kwd">servicePort: </span><span class="pln">8080<br/></span></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="Single ingress, multiple services, single host" ID="ID_1232216459" CREATED="1597363657356" MODIFIED="1597363669002">
-<node TEXT="your-store.example mapped to my-products service while your-store.example/discounted mapped to my-disc-products svc" ID="ID_850926602" CREATED="1597363691476" MODIFIED="1597363751372"><richcontent TYPE="NOTE">
-
+<node TEXT="your-store.example mapped to my-products service while your-store.example/discounted mapped to my-disc-products svc" ID="ID_850926602" CREATED="1597363691476" MODIFIED="1597363751372"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -653,8 +652,7 @@
   <body>
     <pre is-upgraded="" class="clear-for-copy"><span class="kwd">apiVersion: </span><span class="pln">networking.k8s.io/v1beta1<br/></span><span class="kwd">kind: </span><span class="pln">Ingress<br/></span><span class="kwd">metadata:<br/></span><span class="pln">&#160; </span><span class="kwd">name: </span><span class="pln">my</span><span class="pun">-</span><span class="pln">ingress<br/></span><span class="kwd">spec:<br/></span><span class="pln">&#160; </span><span class="kwd">rules:<br/></span><span class="pln">&#160; </span><span class="pun">-</span><span class="pln"> </span><span class="kwd">http:<br/></span><span class="pln">&#160; &#160; &#160; </span><span class="kwd">paths:<br/></span><span class="pln">&#160; &#160; &#160; </span><span class="pun">-</span><span class="pln"> </span><span class="kwd">path: </span><span class="pln">/*<br/>&#160; &#160; &#160; &#160; </span><span class="kwd">backend:<br/></span><span class="pln">&#160; &#160; &#160; &#160; &#160; </span><span class="kwd">serviceName: </span><span class="pln">my</span><span class="pun">-</span><span class="pln">products<br/>&#160; &#160; &#160; &#160; &#160; </span><span class="kwd">servicePort: </span><span class="pln">60000<br/>&#160; &#160; &#160; </span><span class="pun">-</span><span class="pln"> </span><span class="kwd">path: </span><span class="pln">/discounted<br/>&#160; &#160; &#160; &#160; </span><span class="kwd">backend:<br/></span><span class="pln">&#160; &#160; &#160; &#160; &#160; </span><span class="kwd">serviceName: </span><span class="pln">my</span><span class="pun">-</span><span class="pln">discounted</span><span class="pun">-</span><span class="pln">products<br/>&#160; &#160; &#160; &#160; &#160; </span><span class="kwd">servicePort: </span><span class="pln">80<br/></span></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -681,8 +679,7 @@
 <node TEXT="Config" FOLDED="true" ID="ID_732294294" CREATED="1597340374587" MODIFIED="1597340404718">
 <node TEXT="externalTrafficPolicy: Local" ID="ID_1594303415" CREATED="1597340405155" MODIFIED="1597340444872">
 <font NAME="Courier New"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -690,8 +687,7 @@
   <body>
     <pre is-upgraded="" class="clear-for-copy"><span class="kwd">apiVersion: </span><span class="pln">v1<br/></span><span class="kwd">kind: </span><span class="pln">Service<br/></span><span class="kwd">metadata:<br/></span><span class="pln">&#160; </span><span class="kwd">name: </span><span class="pln">my</span><span class="pun">-</span><span class="pln">lb</span><span class="pun">-</span><span class="pln">service<br/></span><span class="kwd">spec:<br/></span><span class="pln">&#160; </span><span class="kwd">type: </span><span class="pln">LoadBalancer<br/>&#160; </span><span class="kwd">externalTrafficPolicy: </span><span class="pln">Local<br/>&#160; </span><span class="kwd">selector:<br/></span><span class="pln">&#160; &#160; </span><span class="kwd">app: </span><span class="pln">demo<br/>&#160; &#160; </span><span class="kwd">component: </span><span class="pln">users<br/>&#160; </span><span class="kwd">ports:<br/></span><span class="pln">&#160; </span><span class="pun">-</span><span class="pln"> </span><span class="kwd">protocol: </span><span class="pln">TCP<br/>&#160; &#160; </span><span class="kwd">port: </span><span class="pln">80<br/>&#160; &#160; </span><span class="kwd">targetPort: </span><span class="pln">8080<br/></span></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="In the service manifest" ID="ID_651951426" CREATED="1597340407852" MODIFIED="1597340421246"/>
 </node>
@@ -759,7 +755,7 @@
 </node>
 <node TEXT="Health Checks" ID="ID_1059365218" CREATED="1597364653137" MODIFIED="1597364704761" LINK="https://cloud.google.com/kubernetes-engine/docs/concepts/ingress#health_checks"/>
 </node>
-<node TEXT="About" FOLDED="true" POSITION="left" ID="ID_685738647" CREATED="1597172551351" MODIFIED="1597172554679">
+<node TEXT="About" POSITION="left" ID="ID_685738647" CREATED="1597172551351" MODIFIED="1597172554679">
 <edge COLOR="#ff0000"/>
 <node TEXT="What?" FOLDED="true" ID="ID_912871588" CREATED="1597172555490" MODIFIED="1597172557319">
 <node TEXT="Managed environment for deploying, managing and scalling containerized application using GCP" ID="ID_468998269" CREATED="1597172558274" MODIFIED="1597172590253"/>
@@ -803,7 +799,7 @@
   </body>
 </html>
 </richcontent>
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_353917197" STARTINCLINATION="387;0;" ENDINCLINATION="387;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_353917197" STARTINCLINATION="290.24999 pt;0 pt;" ENDINCLINATION="290.24999 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 <node TEXT="Workloads" FOLDED="true" ID="ID_1118194149" CREATED="1597172982178" MODIFIED="1597172993712">
@@ -819,6 +815,38 @@
 <node TEXT="Containerd on UBuntu" ID="ID_1350973383" CREATED="1597173069691" MODIFIED="1597173083292"/>
 </node>
 </node>
+</node>
+<node TEXT="Available modes" ID="ID_1619252168" CREATED="1681326392463" MODIFIED="1681326397597">
+<node TEXT="Standard" ID="ID_316558160" CREATED="1681326402121" MODIFIED="1681326408347">
+<node TEXT="Pricing model" ID="ID_1623463115" CREATED="1681330496292" MODIFIED="1681330500422">
+<node TEXT="Flat cluster mngt fee per cluster, plus" ID="ID_1197078588" CREATED="1681330503756" MODIFIED="1681330524870"/>
+<node TEXT="GCE instances for worker nodes" ID="ID_1641929808" CREATED="1681330526188" MODIFIED="1681330555488"/>
+</node>
+</node>
+<node TEXT="Autopilot" ID="ID_114660913" CREATED="1681326409354" MODIFIED="1681326414017">
+<node TEXT="What?" ID="ID_988964676" CREATED="1681326421009" MODIFIED="1681326423377">
+<node TEXT="Fully managed service" ID="ID_677560828" CREATED="1681326435362" MODIFIED="1681326444418">
+<node TEXT="Google manages cluster config, nodes, scaling, security, etc." ID="ID_108495833" CREATED="1681326448625" MODIFIED="1681326473066"/>
+</node>
+</node>
+<node TEXT="Pricing model" ID="ID_44039518" CREATED="1681326521339" MODIFIED="1681326525386">
+<node TEXT="Flat cluster management fee per cluster, plus" ID="ID_1480075776" CREATED="1681330434332" MODIFIED="1681330491653"/>
+<node TEXT="Currently scheduled workload consumption based" ID="ID_422801800" CREATED="1681326533113" MODIFIED="1681330486158">
+<node TEXT="CPU" ID="ID_237155858" CREATED="1681326541722" MODIFIED="1681326543836"/>
+<node TEXT="Memory" ID="ID_1704740494" CREATED="1681326546377" MODIFIED="1681326549805"/>
+<node TEXT="Storage" ID="ID_1147755188" CREATED="1681326550395" MODIFIED="1681326551995"/>
+</node>
+<node TEXT="Not charged for" ID="ID_139333510" CREATED="1681326581811" MODIFIED="1681326593660">
+<node TEXT="System pods" ID="ID_1980637569" CREATED="1681326596699" MODIFIED="1681326599677"/>
+<node TEXT="OS costs" ID="ID_903167683" CREATED="1681326601124" MODIFIED="1681326604405"/>
+<node TEXT="Unscheduled workloads" ID="ID_1051859967" CREATED="1681326607092" MODIFIED="1681326615781"/>
+</node>
+</node>
+<node TEXT="Cluster scaling" FOLDED="true" ID="ID_413021530" CREATED="1681326802911" MODIFIED="1681326810216">
+<node TEXT="Preconfigured to use Cluster-Autoscaler (which in turn uses node auto-provisioning)" ID="ID_1001684832" CREATED="1681326812856" MODIFIED="1681326863306"/>
+</node>
+</node>
+<node TEXT="Comparison" ID="ID_1650566997" CREATED="1681326660580" MODIFIED="1681326678091" LINK="https://cloud.google.com/kubernetes-engine/docs/resources/autopilot-standard-feature-comparison"/>
 </node>
 </node>
 <node TEXT="To research" FOLDED="true" POSITION="left" ID="ID_1469493295" CREATED="1597174353798" MODIFIED="1597174358787">
