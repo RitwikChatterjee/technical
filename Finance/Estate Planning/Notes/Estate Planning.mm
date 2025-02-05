@@ -1,15 +1,16 @@
-<map version="freeplane 1.8.0">
-<!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
+<map version="freeplane 1.9.8">
+<!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="Estate Planning" FOLDED="false" ID="ID_1703292058" CREATED="1586925801191" MODIFIED="1586925806047" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
-<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
+<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
-<stylenode LOCALIZED_TEXT="default" ICON_SIZE="12.0 pt" COLOR="#000000" STYLE="fork">
+<stylenode LOCALIZED_TEXT="default" ID="ID_570994731" ICON_SIZE="12 pt" COLOR="#000000" STYLE="fork">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_570994731" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.details"/>
@@ -21,6 +22,7 @@
 <edge STYLE="hide_edge"/>
 <cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
 </stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.selection" BACKGROUND_COLOR="#4e85f8" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#4e85f8"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork">
@@ -37,7 +39,7 @@
 </stylenode>
 </stylenode>
 <stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10.0 pt" SHAPE_VERTICAL_MARGIN="10.0 pt">
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="10 pt">
 <font SIZE="18"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="AutomaticLayout.level,1" COLOR="#0033ff">
@@ -63,10 +65,10 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="4" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="5" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="India" FOLDED="true" POSITION="right" ID="ID_580320446" CREATED="1586925822949" MODIFIED="1586925825259">
 <edge COLOR="#00ff00"/>
-<node TEXT="Facts" ID="ID_1456393575" CREATED="1586925920298" MODIFIED="1586925924612">
+<node TEXT="Facts" FOLDED="true" ID="ID_1456393575" CREATED="1586925920298" MODIFIED="1586925924612">
 <node TEXT="a Will does NOT have to be Registered, does NOT need to be on a Stamp Paper or even the green legal paper and does NOT need to be Notarized" ID="ID_1394872913" CREATED="1586925926000" MODIFIED="1586925964551"/>
 <node TEXT="you may register the Will to make it difficult for people to claim that it is not genuine." ID="ID_1970502117" CREATED="1586926041496" MODIFIED="1586926051906"/>
 <node TEXT="You can change or withdraw your Will at any time. The latest Will is applicable even though an earlier one may be registered (although it is then better to register the latest)." ID="ID_163780259" CREATED="1586926070538" MODIFIED="1586926101584"/>
@@ -80,14 +82,14 @@
 <node TEXT="Your share of other assets" ID="ID_1446704848" CREATED="1586926191764" MODIFIED="1586926196514"/>
 </node>
 </node>
-<node TEXT="Good practices" FOLDED="true" ID="ID_457251910" CREATED="1586926218708" MODIFIED="1586926228620">
+<node TEXT="Good practices" FOLDED="true" ID="ID_457251910" CREATED="1586926218708" MODIFIED="1648706921257">
 <node TEXT="After making your Will, if there is any addition to the family or a key legatee or Executor or Guardian or Witness has expired, you should change your Will." ID="ID_298996010" CREATED="1586926440305" MODIFIED="1586926471710"/>
-<node TEXT="Drafting" FOLDED="true" ID="ID_1315445880" CREATED="1587012229718" MODIFIED="1587012233477">
+<node TEXT="Drafting" FOLDED="true" ID="ID_1315445880" CREATED="1587012229718" MODIFIED="1648706921256">
 <node TEXT="Keep will simple" ID="ID_1420859648" CREATED="1586926246058" MODIFIED="1586926249287"/>
 <node TEXT="A will must always be dated" ID="ID_1839404499" CREATED="1587011929808" MODIFIED="1587011956348"/>
 <node TEXT="The pages should be numbered to avoid fraud" ID="ID_315668220" CREATED="1587011957015" MODIFIED="1587011968753"/>
 </node>
-<node TEXT="Language" ID="ID_626779578" CREATED="1587012259713" MODIFIED="1587012286527">
+<node TEXT="Language" FOLDED="true" ID="ID_626779578" CREATED="1587012259713" MODIFIED="1587012286527">
 <node TEXT="In general, the order of preference to distribute  asset to legatees and their alternates is :" FOLDED="true" ID="ID_106965399" CREATED="1586926249648" MODIFIED="1586926281016">
 <node TEXT="(1) Spouse" ID="ID_1475898877" CREATED="1586926282657" MODIFIED="1586926303181"/>
 <node TEXT="(2) Children" ID="ID_1274709859" CREATED="1586926304007" MODIFIED="1586926310541"/>
@@ -103,7 +105,7 @@
 <node TEXT="Value of assets often fluctuate, so it is better to mention how much each beneficiary will receive in % terms" ID="ID_915243856" CREATED="1587012721798" MODIFIED="1587012799384"/>
 <node TEXT="Always select alternates to replace legatees. This is because death can come at any time and it&apos;s possible that a legatee has died before or along with you." ID="ID_244370598" CREATED="1586926401484" MODIFIED="1586926558024"/>
 </node>
-<node TEXT="Choosing Stakeholders" ID="ID_1964094586" CREATED="1587012317332" MODIFIED="1587013847080">
+<node TEXT="Choosing Stakeholders" FOLDED="true" ID="ID_1964094586" CREATED="1587012317332" MODIFIED="1587013847080">
 <node TEXT="Certain persons are required to implement your Will after your death, such as Executors, Guardians, Witnesses etc. These people should preferably be younger than you" ID="ID_143211031" CREATED="1586926418920" MODIFIED="1586926580658"/>
 <node TEXT="Any legatee should not be made a Witness or an Executor" ID="ID_134055209" CREATED="1586926472496" MODIFIED="1587013831772"/>
 <node TEXT="Good witnesses" ID="ID_1686307527" CREATED="1587012131546" MODIFIED="1587012137906">
@@ -115,7 +117,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Storage &amp; Confidentiality" ID="ID_1845530177" CREATED="1587012369022" MODIFIED="1587012404874">
+<node TEXT="Storage &amp; Confidentiality" FOLDED="true" ID="ID_1845530177" CREATED="1587012369022" MODIFIED="1587012404874">
 <node TEXT="Keep the Will confidential. Nobody needs to read your Will, including Witnesses. They only witness your signature." ID="ID_1868133149" CREATED="1586926480695" MODIFIED="1586926483520"/>
 <node TEXT="Store will in a safe and secure way (e.g. bank safe)" ID="ID_477549045" CREATED="1587012416218" MODIFIED="1587012445765">
 <node TEXT="Work with bank to figure out how to grant access to safe deposit box in your absence" ID="ID_1643847999" CREATED="1587012459091" MODIFIED="1587012492441"/>
@@ -124,8 +126,8 @@
 </node>
 </node>
 <node TEXT="Process" ID="ID_1145728551" CREATED="1587014388814" MODIFIED="1587014393050"/>
-<node TEXT="Terms" ID="ID_1052246840" CREATED="1587014395715" MODIFIED="1587014398552">
-<node TEXT="Probation" ID="ID_1597731112" CREATED="1587014400012" MODIFIED="1587014404166">
+<node TEXT="Terms" FOLDED="true" ID="ID_1052246840" CREATED="1587014395715" MODIFIED="1587014398552">
+<node TEXT="Probation" FOLDED="true" ID="ID_1597731112" CREATED="1587014400012" MODIFIED="1587014404166">
 <node TEXT="What?" ID="ID_1299430343" CREATED="1587014412442" MODIFIED="1587014416031">
 <node TEXT="Probate order certifies the validity of the will" ID="ID_1394303909" CREATED="1587014422210" MODIFIED="1587014461374"/>
 <node TEXT="Issued by court after listening to all witnesses/legal heirs" ID="ID_1429950990" CREATED="1587014494571" MODIFIED="1587014511295"/>
@@ -145,7 +147,7 @@
 </node>
 <node TEXT="Registration" ID="ID_1109506201" CREATED="1587014406278" MODIFIED="1587014409592"/>
 </node>
-<node TEXT="Reference" ID="ID_4541515" CREATED="1586925985428" MODIFIED="1586925988792">
+<node TEXT="Reference" FOLDED="true" ID="ID_4541515" CREATED="1586925985428" MODIFIED="1586925988792">
 <node TEXT="How to make your will" ID="ID_1204994463" CREATED="1586925990503" MODIFIED="1586926007053" LINK="https://indianwillmaker.com/pages/how_to_make_will"/>
 </node>
 </node>
@@ -161,10 +163,10 @@
 </node>
 </node>
 <node TEXT="Terms" FOLDED="true" ID="ID_1846985234" CREATED="1587015140623" MODIFIED="1587015143561">
-<node TEXT="Net worth" FOLDED="true" ID="ID_1367419065" CREATED="1587015149465" MODIFIED="1587015154410">
+<node TEXT="Net worth" ID="ID_1367419065" CREATED="1587015149465" MODIFIED="1587015154410">
 <node TEXT="What?" FOLDED="true" ID="ID_954998574" CREATED="1587015155122" MODIFIED="1587015157773">
 <node TEXT="Market value of the property, less any amounts owed on it" ID="ID_295955163" CREATED="1587015161314" MODIFIED="1587015179203"/>
-<node TEXT="Assets" FOLDED="true" ID="ID_1999210966" CREATED="1587015181762" MODIFIED="1587015189610">
+<node TEXT="Assets" ID="ID_1999210966" CREATED="1587015181762" MODIFIED="1587015189610">
 <node TEXT="Residence &amp; other real estate" ID="ID_587430236" CREATED="1587015192807" MODIFIED="1587015203492"/>
 <node TEXT="Savings (bank, CDs, money markets)" ID="ID_674920393" CREATED="1587015204147" MODIFIED="1587015230430"/>
 <node TEXT="Investments" ID="ID_1071947824" CREATED="1587015231172" MODIFIED="1587015236152"/>
@@ -180,9 +182,60 @@
 </node>
 </node>
 </node>
-<node TEXT="Generic" FOLDED="true" POSITION="left" ID="ID_1134946466" CREATED="1586925819129" MODIFIED="1586925822423">
+<node TEXT="Possibility" FOLDED="true" POSITION="right" ID="ID_1905289002" CREATED="1648431070621" MODIFIED="1648431079345">
+<edge COLOR="#00ffff"/>
+<node TEXT="Intestate" ID="ID_1070049085" CREATED="1648431080385" MODIFIED="1648431084506">
+<node TEXT="No will/trust established. Without will" ID="ID_1625664599" CREATED="1648431085266" MODIFIED="1648431097087"/>
+<node ID="ID_65758090" CREATED="1648431100842" MODIFIED="1648431220747"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Gets straight into <b>probate</b>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Probate will happen in each state" ID="ID_726069529" CREATED="1648431124218" MODIFIED="1648431137644"/>
+<node TEXT="Court will take up around about 20% of the asset value" ID="ID_1273622923" CREATED="1648431138813" MODIFIED="1648431156056"/>
+<node TEXT="Court puts it on their own timelines" ID="ID_1411381619" CREATED="1648431171248" MODIFIED="1648431180723">
+<node TEXT="Notify all creditor" ID="ID_604955828" CREATED="1648431181494" MODIFIED="1648431188370"/>
+<node TEXT="Notify all beneficiary" ID="ID_617161178" CREATED="1648431188900" MODIFIED="1648431208053"/>
+</node>
+</node>
+</node>
+<node TEXT="Will" ID="ID_501740617" CREATED="1648431225038" MODIFIED="1648431229188">
+<node TEXT="Guarantees probate" ID="ID_1939627045" CREATED="1648431234480" MODIFIED="1648431245699">
+<node TEXT="Still goes through the same route through court" ID="ID_559501577" CREATED="1648431255856" MODIFIED="1648431295475"/>
+<node TEXT="Court opens it up to all creditors and beneficiaries" ID="ID_1720695099" CREATED="1648431300651" MODIFIED="1648431358310"/>
+</node>
+<node TEXT="Issue" ID="ID_1632075856" CREATED="1648431412572" MODIFIED="1648431414928">
+<node TEXT="Short sighted" ID="ID_624724023" CREATED="1648431415668" MODIFIED="1648431420821"/>
+</node>
+</node>
+<node TEXT="Living Trust" FOLDED="true" ID="ID_1941889037" CREATED="1648431229725" MODIFIED="1648431469143" LINK="../../Investing/Notes/Trusts.mm">
+<node TEXT="No probate" ID="ID_13758603" CREATED="1648431440333" MODIFIED="1648431444024"/>
+<node TEXT="It is a private (no public document)" ID="ID_1546779956" CREATED="1648431501127" MODIFIED="1648431519171"/>
+<node TEXT="Everything is in my living trust" ID="ID_1358779194" CREATED="1648431519614" MODIFIED="1648431527153">
+<node TEXT="You got to fund it" ID="ID_636785874" CREATED="1648431528001" MODIFIED="1648431534182"/>
+</node>
+<node TEXT="Pros &amp; Cons" ID="ID_250873003" CREATED="1648432114529" MODIFIED="1648432124804">
+<node TEXT="Cons" ID="ID_1571666455" CREATED="1648432126001" MODIFIED="1648432128338">
+<node TEXT="More expensive" ID="ID_1776721576" CREATED="1648432129313" MODIFIED="1648432132707"/>
+</node>
+</node>
+</node>
+<node TEXT="Pour-over Will" ID="ID_1919280606" CREATED="1648433368154" MODIFIED="1648433373675">
+<node TEXT="Whatever is not in the trust (not funded in the trust) uses this" ID="ID_1792122912" CREATED="1648433374490" MODIFIED="1648433399503"/>
+</node>
+</node>
+<node TEXT="Generic" FOLDED="true" POSITION="left" ID="ID_1134946466" CREATED="1586925819129" MODIFIED="1648706889122">
 <edge COLOR="#0000ff"/>
-<node TEXT="Roles" ID="ID_1766474878" CREATED="1586925866328" MODIFIED="1586925869515">
+<node TEXT="Roles" FOLDED="true" ID="ID_1766474878" CREATED="1586925866328" MODIFIED="1648706889122">
 <node TEXT="Executor" ID="ID_487443677" CREATED="1586925870807" MODIFIED="1586925873951">
 <node TEXT="Role" ID="ID_286942364" CREATED="1587016385880" MODIFIED="1587016388077">
 <node TEXT="Who will implement the will" ID="ID_853874954" CREATED="1586925875843" MODIFIED="1586925881727"/>
