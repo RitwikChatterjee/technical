@@ -1,21 +1,25 @@
-<map version="freeplane 1.9.13">
+<map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="Generative AI" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1724268941726" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" associatedTemplateLocation="template:/standard-1.6.mm" fit_to_viewport="false"/>
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" associatedTemplateLocation="template:/standard-1.6.mm" fit_to_viewport="false" show_icons="BESIDE_NODES" show_tags="UNDER_NODES" showTagCategories="false" show_icon_for_attributes="true" show_note_icons="true"/>
+    <tags category_separator="::"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
 <font SIZE="24"/>
-<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="default" ID="ID_271890427" ICON_SIZE="12 pt" COLOR="#000000" STYLE="fork">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_271890427" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
-<richcontent CONTENT-TYPE="plain/auto" TYPE="DETAILS"/>
+<richcontent TYPE="DETAILS" CONTENT-TYPE="plain/auto"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="plain/auto"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.details"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.tags">
+<font SIZE="10"/>
+</stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.attributes">
 <font SIZE="9"/>
 </stylenode>
@@ -26,7 +30,7 @@
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.selection" BACKGROUND_COLOR="#afd3f7" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#afd3f7"/>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork">
 <font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
 </stylenode>
@@ -41,7 +45,7 @@
 <arrowlink COLOR="#003399" TRANSPARENCY="255" DESTINATION="ID_67550811"/>
 </stylenode>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="10 pt">
 <font SIZE="18"/>
 </stylenode>
@@ -68,8 +72,8 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="12" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="What?" FOLDED="true" POSITION="right" ID="ID_1727312250" CREATED="1724860173271" MODIFIED="1724860176960">
+<hook NAME="AutomaticEdgeColor" COUNTER="13" RULE="ON_BRANCH_CREATION"/>
+<node TEXT="What?" FOLDED="true" POSITION="bottom_or_right" ID="ID_1727312250" CREATED="1724860173271" MODIFIED="1724860176960">
 <edge COLOR="#7c0000"/>
 <node TEXT="Generates new content based on a given set of data and rules" ID="ID_328920629" CREATED="1724860202349" MODIFIED="1724860232067"/>
 <node TEXT="Powered by foundational models" ID="ID_509321758" CREATED="1724860257510" MODIFIED="1724860264785"/>
@@ -88,7 +92,7 @@
 <node TEXT="Responsiveness" FOLDED="true" ID="ID_1105838660" CREATED="1726064039856" MODIFIED="1726064049082">
 <node TEXT="Generates content in real-time" ID="ID_155411515" CREATED="1726064146032" MODIFIED="1726064217979"/>
 </node>
-<node TEXT="Simplicity" ID="ID_1542065522" CREATED="1726064049640" MODIFIED="1726064052933">
+<node TEXT="Simplicity" FOLDED="true" ID="ID_1542065522" CREATED="1726064049640" MODIFIED="1726064052933">
 <node TEXT="Simplify complex tasks by automating content generation" ID="ID_1910188698" CREATED="1726064230511" MODIFIED="1726064271481"/>
 </node>
 <node TEXT="Creativity and exploration" FOLDED="true" ID="ID_681258647" CREATED="1726064060281" MODIFIED="1726064066107">
@@ -176,7 +180,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Components" FOLDED="true" POSITION="right" ID="ID_1562954994" CREATED="1724861010823" MODIFIED="1724861017413">
+<node TEXT="Components" FOLDED="true" POSITION="bottom_or_right" ID="ID_1562954994" CREATED="1724861010823" MODIFIED="1724861017413">
 <edge COLOR="#00007c"/>
 <node TEXT="Foundational models" FOLDED="true" ID="ID_1973350564" CREATED="1724861017824" MODIFIED="1725392674691">
 <arrowlink DESTINATION="ID_1867300161"/>
@@ -184,8 +188,11 @@
 <node TEXT="Building blocks" ID="ID_639479955" CREATED="1724861053544" MODIFIED="1724861062237"/>
 </node>
 <node TEXT="Types" ID="ID_587182266" CREATED="1724861281742" MODIFIED="1724861285394">
-<node TEXT="Source code classification" FOLDED="true" ID="ID_1014194464" CREATED="1724861291670" MODIFIED="1724861303111">
-<node TEXT="Open source" ID="ID_488811455" CREATED="1724861303621" MODIFIED="1724861308368"/>
+<node TEXT="Source code classification" ID="ID_1014194464" CREATED="1724861291670" MODIFIED="1724861303111">
+<node TEXT="Open source" ID="ID_488811455" CREATED="1724861303621" MODIFIED="1724861308368">
+<node TEXT="Meta&apos;s LLaMA series" ID="ID_1334455128" CREATED="1750307434313" MODIFIED="1750307448427"/>
+<node TEXT="Mistral" ID="ID_291740980" CREATED="1750307448954" MODIFIED="1750307467317"/>
+</node>
 <node TEXT="Proprietary" ID="ID_977300240" CREATED="1724861308784" MODIFIED="1724861316594"/>
 </node>
 <node TEXT="Content based classification" FOLDED="true" ID="ID_1557899398" CREATED="1724861251709" MODIFIED="1724861345218">
@@ -193,7 +200,7 @@
 </node>
 </node>
 <node TEXT="From Prominent Players" FOLDED="true" ID="ID_1338989673" CREATED="1724861389592" MODIFIED="1724861406612">
-<node TEXT="Alphabet" FOLDED="true" ID="ID_419740177" CREATED="1724861407129" MODIFIED="1724861413923">
+<node TEXT="Alphabet" ID="ID_419740177" CREATED="1724861407129" MODIFIED="1724861413923">
 <node TEXT="LaMDA" FOLDED="true" ID="ID_1172414386" CREATED="1724861415204" MODIFIED="1724861428436">
 <node TEXT="What?" FOLDED="true" ID="ID_500060868" CREATED="1724861429346" MODIFIED="1724861446452">
 <node TEXT="Language Model for Dialogue Applications" ID="ID_389292921" CREATED="1724861446874" MODIFIED="1724861460156"/>
@@ -201,8 +208,8 @@
 <node TEXT="Trained on dialogue to be flexible and effective for a wide variety of natural language applications" ID="ID_1650070832" CREATED="1724861487523" MODIFIED="1724861517637"/>
 </node>
 </node>
-<node TEXT="PaLM2" FOLDED="true" ID="ID_1095352988" CREATED="1724861523572" MODIFIED="1724861527686">
-<node TEXT="What?" FOLDED="true" ID="ID_618681701" CREATED="1724861528011" MODIFIED="1724861532406">
+<node TEXT="PaLM2" ID="ID_1095352988" CREATED="1724861523572" MODIFIED="1724861527686">
+<node TEXT="What?" ID="ID_618681701" CREATED="1724861528011" MODIFIED="1724861532406">
 <node TEXT="Pathways Language Model" ID="ID_229372620" CREATED="1724861532964" MODIFIED="1724861551054"/>
 <node TEXT="LLM with 540 billion parameters" ID="ID_214249183" CREATED="1724861552852" MODIFIED="1724861562567"/>
 <node TEXT="Architected to be efficient across heavy workloads" ID="ID_290071012" CREATED="1724861563598" MODIFIED="1724861596424"/>
@@ -217,7 +224,7 @@
 </node>
 </node>
 <node TEXT="Anthropic" FOLDED="true" ID="ID_349832906" CREATED="1724861720086" MODIFIED="1724861730975">
-<node TEXT="Claude" ID="ID_349772414" CREATED="1724861731686" MODIFIED="1724861739431">
+<node TEXT="Claude" FOLDED="true" ID="ID_349772414" CREATED="1724861731686" MODIFIED="1724861739431">
 <node TEXT="What?" FOLDED="true" ID="ID_53970864" CREATED="1724861739943" MODIFIED="1724861741952">
 <node TEXT="Family of LLMs available in multiple languages" ID="ID_1862545087" CREATED="1724861742270" MODIFIED="1724861755751"/>
 <node TEXT="Apps can be built on top of Anthropic&apos;s infra via APIs" ID="ID_605029098" CREATED="1724861760469" MODIFIED="1724861778126"/>
@@ -242,7 +249,7 @@
 </node>
 </node>
 <node TEXT="Meta" FOLDED="true" ID="ID_1756605206" CREATED="1724861853114" MODIFIED="1724861855660">
-<node TEXT="LLaMA2" FOLDED="true" ID="ID_65466330" CREATED="1724861856594" MODIFIED="1724861864539">
+<node TEXT="LLaMA2/3" FOLDED="true" ID="ID_65466330" CREATED="1724861856594" MODIFIED="1750195075593">
 <node TEXT="What?" FOLDED="true" ID="ID_1184800196" CREATED="1724861865467" MODIFIED="1724861870595">
 <node TEXT="Large Language Model Meta AI2" ID="ID_896068858" CREATED="1724861871369" MODIFIED="1724861891251"/>
 <node TEXT="Open Source" ID="ID_758079944" CREATED="1724861916296" MODIFIED="1724861919818"/>
@@ -300,7 +307,7 @@
 </node>
 <node TEXT="OpenAI" FOLDED="true" ID="ID_1317903975" CREATED="1724862492363" MODIFIED="1724862495021">
 <node TEXT="GPT-4" FOLDED="true" ID="ID_480680474" CREATED="1724862495508" MODIFIED="1724862505093">
-<node TEXT="What?" ID="ID_1328843054" CREATED="1724862516972" MODIFIED="1724862521853">
+<node TEXT="What?" FOLDED="true" ID="ID_1328843054" CREATED="1724862516972" MODIFIED="1724862521853">
 <node TEXT="Emotion recognition" ID="ID_481081139" CREATED="1724862539435" MODIFIED="1724862547277"/>
 </node>
 </node>
@@ -352,7 +359,7 @@
 <node TEXT="Allows clients to build their own Generative AI solutions" ID="ID_1379860576" CREATED="1724861091123" MODIFIED="1724861115763"/>
 </node>
 <node TEXT="Market Players" FOLDED="true" ID="ID_605860159" CREATED="1724867132649" MODIFIED="1724867146387">
-<node TEXT="Amazon" ID="ID_122859189" CREATED="1724867147026" MODIFIED="1724867149547">
+<node TEXT="Amazon" FOLDED="true" ID="ID_122859189" CREATED="1724867147026" MODIFIED="1724867149547">
 <node TEXT="SageMaker JumpStart" FOLDED="true" ID="ID_508777134" CREATED="1724867150642" MODIFIED="1724867157548">
 <node TEXT="Enables full control over the infra and deployment of foundational models" ID="ID_1364162221" CREATED="1724867192572" MODIFIED="1724867207471"/>
 <node TEXT="Offers pretrained models, built-in content algorithms, and solution templates" ID="ID_1407871029" CREATED="1724867208187" MODIFIED="1724867241582"/>
@@ -394,12 +401,12 @@
 </node>
 </node>
 <node TEXT="Applications" FOLDED="true" ID="ID_1351110445" CREATED="1724861031472" MODIFIED="1724861034465">
-<node TEXT="What?" ID="ID_220663591" CREATED="1724861124041" MODIFIED="1724861127724">
+<node TEXT="What?" FOLDED="true" ID="ID_220663591" CREATED="1724861124041" MODIFIED="1724861127724">
 <node TEXT="Use-case specific solution for end user interaction" ID="ID_1133113280" CREATED="1724861128138" MODIFIED="1724861141646"/>
 </node>
 </node>
 </node>
-<node TEXT="AI Models" FOLDED="true" POSITION="right" ID="ID_1082772117" CREATED="1724270172622" MODIFIED="1725390856042">
+<node TEXT="AI Models" FOLDED="true" POSITION="bottom_or_right" ID="ID_1082772117" CREATED="1724270172622" MODIFIED="1725390856042">
 <edge COLOR="#0000ff"/>
 <node TEXT="Alogorithm" FOLDED="true" ID="ID_80436686" CREATED="1724270977677" MODIFIED="1724786310135">
 <node TEXT="What?" FOLDED="true" ID="ID_1757436892" CREATED="1724339480285" MODIFIED="1724786310133">
@@ -427,13 +434,13 @@
 <node TEXT="Gradually transform a random noise starting image into a target image, through a series of small, randomly determined steps" ID="ID_191454389" CREATED="1724340554214" MODIFIED="1724340595281"/>
 </node>
 <node TEXT="How?" FOLDED="true" ID="ID_993055961" CREATED="1725392322668" MODIFIED="1725392327133">
-<node TEXT="Learns through a 2-step process" FOLDED="true" ID="ID_1345511912" CREATED="1725392327549" MODIFIED="1725392337150">
-<node TEXT="Forward diffusion" ID="ID_731241511" CREATED="1725392339053" MODIFIED="1725392563754" TEXT_SHORTENED="true">
-<hook URI="file:///C:/Ritwik/technical/AI/Notes/Images/Forward%20Diffusion.png" SIZE="0.8450704" NAME="ExternalObject"/>
+<node TEXT="Learns through a 2-step process" FOLDED="true" ID="ID_1345511912" CREATED="1725392327549" MODIFIED="1750192801511">
+<node TEXT="Forward diffusion" FOLDED="true" ID="ID_731241511" CREATED="1725392339053" MODIFIED="1750192842836">
+<hook URI="Images/Forward%20Diffusion.png" SIZE="0.8450704" NAME="ExternalObject"/>
 <node TEXT="System gradually introduces small amount of noise to an input image until only the noise is left over" ID="ID_728351683" CREATED="1725392367533" MODIFIED="1725392396191"/>
 </node>
-<node TEXT="Backward diffusion" ID="ID_1761866972" CREATED="1725392345653" MODIFIED="1725392545562" TEXT_SHORTENED="true">
-<hook URI="file:///C:/Ritwik/technical/AI/Notes/Images/Reverse%20diffusion.png" SIZE="0.8486563" NAME="ExternalObject"/>
+<node TEXT="Backward diffusion" FOLDED="true" ID="ID_1761866972" CREATED="1725392345653" MODIFIED="1750192868240">
+<hook URI="Images/Reverse%20diffusion.png" SIZE="0.8486563" NAME="ExternalObject"/>
 <node TEXT="The noisy image is gradually introduced to denoising until a new image is generated" ID="ID_1702709393" CREATED="1725392407286" MODIFIED="1725392436903"/>
 </node>
 </node>
@@ -444,7 +451,7 @@
 <node TEXT="Data selection" FOLDED="true" ID="ID_1608955888" CREATED="1725390899962" MODIFIED="1725390907291">
 <node TEXT="Unlabelled training data (as cheaper to obtain)" ID="ID_239536404" CREATED="1725390936754" MODIFIED="1725390962355"/>
 </node>
-<node TEXT="Pre-training" ID="ID_1746002516" CREATED="1725390981970" MODIFIED="1725390986043">
+<node TEXT="Pre-training" FOLDED="true" ID="ID_1746002516" CREATED="1725390981970" MODIFIED="1725390986043">
 <node TEXT="Self-supervised learning" ID="ID_1866588147" CREATED="1725390987777" MODIFIED="1725391115626">
 <arrowlink DESTINATION="ID_369757074"/>
 </node>
@@ -557,7 +564,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Questions" FOLDED="true" ID="ID_1440793211" CREATED="1727895304384" MODIFIED="1727895307224">
 <node TEXT="List of questions is used to create a benchmark dataset" ID="ID_106042528" CREATED="1727895307582" MODIFIED="1727895318683"/>
@@ -594,7 +600,7 @@
 </node>
 </node>
 <node TEXT="Types" FOLDED="true" ID="ID_1713604838" CREATED="1725391617219" MODIFIED="1725391620492">
-<node TEXT="Large Language Models (LLMs)" FOLDED="true" ID="ID_992707123" CREATED="1725391621788" MODIFIED="1725391630084">
+<node TEXT="Large Language Models (LLMs)" ID="ID_992707123" CREATED="1725391621788" MODIFIED="1725391630084">
 <node TEXT="What?" FOLDED="true" ID="ID_718275640" CREATED="1725391810381" MODIFIED="1725391812350">
 <node TEXT="Can understand and generate human like text" ID="ID_495617669" CREATED="1725391813188" MODIFIED="1725391827070"/>
 <node TEXT="Trained to understand patterns and relationships between words and phrases" ID="ID_590479855" CREATED="1725391846397" MODIFIED="1725391863038"/>
@@ -608,22 +614,22 @@
 </node>
 </node>
 <node TEXT="How" FOLDED="true" ID="ID_463106487" CREATED="1725391747196" MODIFIED="1725391781269">
-<node TEXT="Tokens" ID="ID_1019494609" CREATED="1725391781828" MODIFIED="1725391789054">
-<node TEXT="What?" ID="ID_1560067089" CREATED="1725391876494" MODIFIED="1725391878447">
+<node TEXT="Tokens" FOLDED="true" ID="ID_1019494609" CREATED="1725391781828" MODIFIED="1725391789054">
+<node TEXT="What?" FOLDED="true" ID="ID_1560067089" CREATED="1725391876494" MODIFIED="1725391878447">
 <node TEXT="Basic units of text" FOLDED="true" ID="ID_1683693728" CREATED="1725391878606" MODIFIED="1725391894151">
 <node TEXT="Words, phrases, individual characters (e.g. &quot;.&quot;)" ID="ID_1006539620" CREATED="1725391895591" MODIFIED="1725391921295"/>
 </node>
 <node TEXT="provides standardization of input data" ID="ID_1690256940" CREATED="1725391933166" MODIFIED="1725391945496"/>
 </node>
 </node>
-<node TEXT="Embeddings &amp; Vectors" ID="ID_1352663180" CREATED="1725391789708" MODIFIED="1727888040097" TEXT_SHORTENED="true">
-<hook URI="file:///C:/Ritwik/technical/AI/Notes/Images/Vector%20embeddings.png" SIZE="0.63224447" NAME="ExternalObject"/>
-<node TEXT="Embeddings" ID="ID_742728346" CREATED="1725391975559" MODIFIED="1727888305202">
-<node TEXT="What?" ID="ID_1876552458" CREATED="1725391978230" MODIFIED="1727888308395">
+<node TEXT="Embeddings &amp; Vectors" FOLDED="true" ID="ID_1352663180" CREATED="1725391789708" MODIFIED="1750193332093" TEXT_SHORTENED="true">
+<hook URI="Images/Vector%20embeddings.png" SIZE="0.63224447" NAME="ExternalObject"/>
+<node TEXT="Embeddings" FOLDED="true" ID="ID_742728346" CREATED="1725391975559" MODIFIED="1727888305202">
+<node TEXT="What?" FOLDED="true" ID="ID_1876552458" CREATED="1725391978230" MODIFIED="1727888308395">
 <node TEXT="Process by which text, images and audio are given numerical representation in a vector space" FOLDED="true" ID="ID_1303150200" CREATED="1727888188430" MODIFIED="1727888194380">
 <node TEXT="Example" FOLDED="true" ID="ID_303539889" CREATED="1727809862257" MODIFIED="1727888200498">
-<node TEXT="Two words that relate to each other (say sea and ocean) will have similar embeddings" ID="ID_169607480" CREATED="1727888084300" MODIFIED="1727888223002" TEXT_SHORTENED="true">
-<hook URI="file:///C:/Ritwik/technical/AI/Notes/Images/Embedding%20Example.png" SIZE="0.62305295" NAME="ExternalObject"/>
+<node TEXT="Two words that relate to each other (say sea and ocean) will have similar embeddings" ID="ID_169607480" CREATED="1727888084300" MODIFIED="1750193173613" TEXT_SHORTENED="true">
+<hook URI="Images/Embedding%20Example.png" SIZE="0.62305295" NAME="ExternalObject"/>
 </node>
 <node TEXT="They are randomly initialized and their early embeddings are diverse." ID="ID_469159366" CREATED="1727888088699" MODIFIED="1727888104217"/>
 <node TEXT="As the training progresses, their embeddings become more similar because they often appear close to each other and in similar context" ID="ID_1177531625" CREATED="1727888125389" MODIFIED="1727888141658"/>
@@ -634,23 +640,23 @@
 <node TEXT="each token assigned a vector" ID="ID_325359799" CREATED="1725392041568" MODIFIED="1725392063906"/>
 </node>
 </node>
-<node TEXT="Vectors" ID="ID_894365334" CREATED="1727888268386" MODIFIED="1727888282658">
+<node TEXT="Vectors" FOLDED="true" ID="ID_894365334" CREATED="1727888268386" MODIFIED="1727888282658">
 <node TEXT="What?" FOLDED="true" ID="ID_15622456" CREATED="1725392022040" MODIFIED="1727888292338">
 <node TEXT="a list of numbers" ID="ID_897838655" CREATED="1725392025424" MODIFIED="1725392039161"/>
 <node TEXT="Captures the meaning of the token and relationship with other tokens" ID="ID_168801352" CREATED="1725392066504" MODIFIED="1725392086954"/>
 <node TEXT="Learned during the training process" ID="ID_589096193" CREATED="1725392111552" MODIFIED="1725392118049"/>
 </node>
-<node TEXT="Storing" ID="ID_979446803" CREATED="1727888314810" MODIFIED="1727888317155">
-<node TEXT="Vector Database" ID="ID_902931402" CREATED="1727888322535" MODIFIED="1727888326780">
+<node TEXT="Storing" FOLDED="true" ID="ID_979446803" CREATED="1727888314810" MODIFIED="1727888317155">
+<node TEXT="Vector Database" FOLDED="true" ID="ID_902931402" CREATED="1727888322535" MODIFIED="1727888326780">
 <node TEXT="Features" FOLDED="true" ID="ID_1937389980" CREATED="1727888327246" MODIFIED="1727888334356">
 <node TEXT="compactly store billions of high-dimensional vectors representing words and entities." ID="ID_784864038" CREATED="1727888336235" MODIFIED="1727888349245"/>
 <node TEXT="ultra-fast similarity searches across these billions of vectors in real time" ID="ID_285647416" CREATED="1727888349979" MODIFIED="1727888362006"/>
 </node>
-<node TEXT="Search alogorithms" ID="ID_1907688127" CREATED="1727888376532" MODIFIED="1727888386982">
+<node TEXT="Search alogorithms" FOLDED="true" ID="ID_1907688127" CREATED="1727888376532" MODIFIED="1727888386982">
 <node TEXT="K-nearest neighbors (k-NN)" ID="ID_1842665094" CREATED="1727888387357" MODIFIED="1727888404582"/>
 <node TEXT="Cosine similarity" ID="ID_1217867826" CREATED="1727888405172" MODIFIED="1727888412212"/>
 </node>
-<node TEXT="AWS Options" ID="ID_202239628" CREATED="1727888436054" MODIFIED="1727888440295">
+<node TEXT="AWS Options" FOLDED="true" ID="ID_202239628" CREATED="1727888436054" MODIFIED="1727888440295">
 <node TEXT="Amazon OpenSearch Service" ID="ID_1246677145" CREATED="1727888497186" MODIFIED="1727888506649"/>
 <node TEXT="Amazon OpenSearch Serverless" ID="ID_1090421558" CREATED="1727888507152" MODIFIED="1727888513681"/>
 <node TEXT="pgvector extension in Amazon RDS for PostgreSQL" ID="ID_1317106269" CREATED="1727888515962" MODIFIED="1727888535179"/>
@@ -687,8 +693,127 @@
 <node TEXT="Deep learning" ID="ID_142130080" CREATED="1724339657767" MODIFIED="1724339660525"/>
 <node TEXT="Tranformers &amp; GPT" ID="ID_491094211" CREATED="1724339661519" MODIFIED="1724339680547"/>
 </node>
+<node TEXT="Enhancing Techniques" FOLDED="true" ID="ID_1578276608" CREATED="1750215360941" MODIFIED="1750215437180">
+<node TEXT="Performance" FOLDED="true" ID="ID_741556749" CREATED="1750215367429" MODIFIED="1750215385927">
+<node TEXT="Retrieval-Augmented Generation (RAG)" FOLDED="true" ID="ID_1996485160" CREATED="1750215386163" MODIFIED="1750215400901">
+<node TEXT="What?" ID="ID_1619648622" CREATED="1750215412339" MODIFIED="1750215419389">
+<node TEXT="Performance enhancing technique for LLMs" ID="ID_327612628" CREATED="1750215422027" MODIFIED="1750215458213"/>
+<node TEXT="Combines" ID="ID_1664872069" CREATED="1750215461729" MODIFIED="1750215466013">
+<node TEXT="Retrieval" FOLDED="true" ID="ID_782279590" CREATED="1750215466610" MODIFIED="1750215470924">
+<node ID="ID_131007677" CREATED="1750215491072" MODIFIED="1750215545116"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="font-weight: bold;">Fetch relevant documents </span>or facts from an external knowledge base (like a vector database or document store)
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
-<node TEXT="As a Business Leaders" FOLDED="true" POSITION="left" ID="ID_343232991" CREATED="1724269305069" MODIFIED="1724269350847">
+</node>
+<node TEXT="Augmented Generation" FOLDED="true" ID="ID_1655800553" CREATED="1750215472243" MODIFIED="1750215481099">
+<node ID="ID_1227284680" CREATED="1750215509905" MODIFIED="1750215537128"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="font-weight: bold;">Feed the retrieved information </span>into an LLM <span style="font-weight: bold;">to generate more accurate</span>, factual, and context-aware <span style="font-weight: bold;">responses</span>.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Why?" FOLDED="true" ID="ID_424901517" CREATED="1750215745017" MODIFIED="1750215747387">
+<node TEXT="Grounds output, reducing halucination" ID="ID_1424676308" CREATED="1750215748185" MODIFIED="1750215759995"/>
+</node>
+<node TEXT="How?" FOLDED="true" ID="ID_847923194" CREATED="1750215459428" MODIFIED="1750215564992">
+<node TEXT="User Query → [Retriever] → Top-K relevant docs → [LLM] → Answer using retrieved context" ID="ID_1961067033" CREATED="1750215641460" MODIFIED="1750215671822">
+<font NAME="Courier New"/>
+</node>
+</node>
+<node TEXT="Security Implications" FOLDED="true" ID="ID_29225077" CREATED="1750215676548" MODIFIED="1750215735794">
+<node FOLDED="true" ID="ID_1026735573" CREATED="1750215782749" MODIFIED="1750215801076"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    introduces <strong data-start="1663" data-end="1686">new attack surfaces, <span style="font-weight: normal;">including</span></strong>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_475324205" CREATED="1750215808598" MODIFIED="1750215808598"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li data-start="1701" data-end="1763">
+        <p data-start="1703" data-end="1763">
+          <strong data-start="1703" data-end="1721">Data poisoning</strong>&#xa0;(malicious docs embedded in retriever DB)
+        </p>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_389600242" CREATED="1750215808599" MODIFIED="1750215808599"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li data-start="1766" data-end="1812">
+        <p data-start="1768" data-end="1812">
+          <strong data-start="1768" data-end="1788">Prompt injection</strong>&#xa0;via retrieved documents
+        </p>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1714684099" CREATED="1750215808604" MODIFIED="1750215808604"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li data-start="1815" data-end="1890">
+        <p data-start="1817" data-end="1890">
+          <strong data-start="1817" data-end="1841">Access control leaks</strong>&#xa0;(e.g., sensitive docs unintentionally retrieved)
+        </p>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="As a Business Leaders" FOLDED="true" POSITION="top_or_left" ID="ID_343232991" CREATED="1724269305069" MODIFIED="1724269350847">
 <edge COLOR="#ff0000"/>
 <node TEXT="Where do you start?" FOLDED="true" ID="ID_574039257" CREATED="1724269335308" MODIFIED="1724269355663">
 <node TEXT="Define the objectives" FOLDED="true" ID="ID_660031295" CREATED="1724269356788" MODIFIED="1724269363158">
@@ -713,7 +838,7 @@
 <node TEXT="Efficiency" ID="ID_1124299033" CREATED="1726070388467" MODIFIED="1726070395109"/>
 </node>
 </node>
-<node TEXT="Training" FOLDED="true" POSITION="right" ID="ID_249363090" CREATED="1724872685129" MODIFIED="1727809140008" LINK="Machine%20Learning.mm">
+<node TEXT="Training" FOLDED="true" POSITION="bottom_or_right" ID="ID_249363090" CREATED="1724872685129" MODIFIED="1727809140008" LINK="Machine%20Learning.mm">
 <edge COLOR="#007c00"/>
 <node TEXT="Self-supervised learning" FOLDED="true" ID="ID_369757074" CREATED="1724872695938" MODIFIED="1724874067600" TEXT_SHORTENED="true">
 <hook URI="file:///C:/Ritwik/technical/AI/Notes/Images/Self-supervised%20learning.png" SIZE="0.6557377" NAME="ExternalObject"/>
@@ -724,15 +849,15 @@
 <node TEXT="Update parameters and try again" ID="ID_215241679" CREATED="1724874020135" MODIFIED="1724874026816"/>
 </node>
 </node>
-<node TEXT="Selecting a model" FOLDED="true" POSITION="right" ID="ID_359073142" CREATED="1726066438457" MODIFIED="1726066474916">
+<node TEXT="Selecting a model" FOLDED="true" POSITION="bottom_or_right" ID="ID_359073142" CREATED="1726066438457" MODIFIED="1726066474916">
 <edge COLOR="#7c007c"/>
-<node TEXT="Factors" ID="ID_285968808" CREATED="1726066482050" MODIFIED="1726066493148">
-<node TEXT="Model types" ID="ID_1360171027" CREATED="1726066493978" MODIFIED="1726067685563">
+<node TEXT="Factors" FOLDED="true" ID="ID_285968808" CREATED="1726066482050" MODIFIED="1726066493148">
+<node TEXT="Model types" ID="ID_1360171027" CREATED="1726066493978" MODIFIED="1750194284262">
 <arrowlink DESTINATION="ID_1973350564"/>
 </node>
 <node TEXT="Performance requirements" ID="ID_200280296" CREATED="1726066498978" MODIFIED="1726066503821"/>
 <node TEXT="Capabilities" ID="ID_1071696325" CREATED="1726066504299" MODIFIED="1726066507100"/>
-<node TEXT="Constraints" ID="ID_1289793519" CREATED="1726066507843" MODIFIED="1726066511428">
+<node TEXT="Constraints" FOLDED="true" ID="ID_1289793519" CREATED="1726066507843" MODIFIED="1726066511428">
 <node TEXT="Computational resources" FOLDED="true" ID="ID_574734389" CREATED="1726067916995" MODIFIED="1726067925674">
 <node TEXT="GPU power" ID="ID_101854150" CREATED="1726067926383" MODIFIED="1726067931954"/>
 <node TEXT="Memory" ID="ID_1178059135" CREATED="1726067932544" MODIFIED="1726067934337"/>
@@ -748,8 +873,8 @@
 <node TEXT="Compliance" FOLDED="true" ID="ID_1282664913" CREATED="1726066512035" MODIFIED="1726066513845">
 <node TEXT="Selected models should adhere to relevant regulations and guidelines" ID="ID_404730979" CREATED="1726070216224" MODIFIED="1726070242961"/>
 </node>
-<node TEXT="Costs" ID="ID_344916851" CREATED="1726070265883" MODIFIED="1726070268550">
-<node TEXT="Larger models" ID="ID_1435944118" CREATED="1726070269874" MODIFIED="1726070274932">
+<node TEXT="Costs" FOLDED="true" ID="ID_344916851" CREATED="1726070265883" MODIFIED="1726070268550">
+<node TEXT="Larger models" FOLDED="true" ID="ID_1435944118" CREATED="1726070269874" MODIFIED="1726070274932">
 <node TEXT="More precise" ID="ID_445028430" CREATED="1726070276778" MODIFIED="1726070279197"/>
 <node TEXT="More expensive" ID="ID_1233452796" CREATED="1726070279562" MODIFIED="1726070282140"/>
 <node TEXT="Fewer deployment options" ID="ID_1410106753" CREATED="1726070284554" MODIFIED="1726070291445"/>
@@ -757,7 +882,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Prompt Engineering" FOLDED="true" POSITION="left" ID="ID_1003115842" CREATED="1724341461155" MODIFIED="1724344307715">
+<node TEXT="Prompt Engineering" FOLDED="true" POSITION="top_or_left" ID="ID_1003115842" CREATED="1724341461155" MODIFIED="1724344307715">
 <edge COLOR="#00ff00"/>
 <node TEXT="What?" FOLDED="true" ID="ID_620493635" CREATED="1724342012150" MODIFIED="1724342014929">
 <node TEXT="Process of designing how to ask AI to generate the desired output (by controlling the generation through prompts)" ID="ID_178711305" CREATED="1724342084088" MODIFIED="1724342166681"/>
@@ -800,11 +925,11 @@
 </node>
 </node>
 </node>
-<node TEXT="Security" FOLDED="true" POSITION="left" ID="ID_118941677" CREATED="1726153127134" MODIFIED="1726154316560">
+<node TEXT="Security" FOLDED="true" POSITION="top_or_left" ID="ID_118941677" CREATED="1726153127134" MODIFIED="1726154316560">
 <edge COLOR="#00ffff"/>
-<node TEXT="Defense in depth" FOLDED="true" ID="ID_1011381516" CREATED="1726153181178" MODIFIED="1726153499691" TEXT_SHORTENED="true">
-<hook URI="file:///C:/Ritwik/technical/AI/Notes/Images/Defense%20in%20depth.png" SIZE="0.5469462" NAME="ExternalObject"/>
-<node TEXT="What?" ID="ID_520603131" CREATED="1726153207730" MODIFIED="1726153210760">
+<node TEXT="Defense in depth" FOLDED="true" ID="ID_1011381516" CREATED="1726153181178" MODIFIED="1750211746565" TEXT_SHORTENED="true">
+<hook URI="Images/Defense%20in%20depth.png" SIZE="0.5469462" NAME="ExternalObject"/>
+<node TEXT="What?" FOLDED="true" ID="ID_520603131" CREATED="1726153207730" MODIFIED="1726153210760">
 <node TEXT="A security strategy" ID="ID_742188404" CREATED="1726153211022" MODIFIED="1726153231493"/>
 </node>
 <node TEXT="Features" FOLDED="true" ID="ID_1648344625" CREATED="1726153234851" MODIFIED="1726153237780">
@@ -875,8 +1000,8 @@
 </node>
 </node>
 </node>
-<node TEXT="Gen AI Security Scoping Matrix" FOLDED="true" ID="ID_1955215067" CREATED="1726598182750" MODIFIED="1727711779379">
-<hook URI="file:///C:/Ritwik/technical/AI/Notes/Images/Gen%20AI%20Security%20scoping%20matrix.png" SIZE="0.5405405" NAME="ExternalObject"/>
+<node TEXT="Gen AI Security Scoping Matrix" FOLDED="true" ID="ID_1955215067" CREATED="1726598182750" MODIFIED="1750195124589">
+<hook URI="Images/Gen%20AI%20Security%20scoping%20matrix.png" SIZE="0.5405405" NAME="ExternalObject"/>
 <node TEXT="Scope 1: Consumer App" FOLDED="true" ID="ID_573028323" CREATED="1727715551129" MODIFIED="1727715563530">
 <node TEXT="You consume a public 3rd party generative AI service" ID="ID_1672274674" CREATED="1727715583105" MODIFIED="1727715807174"/>
 <node TEXT="You invoke APIs or directly use the application according to the terms of service of the provider" ID="ID_1840028512" CREATED="1727715618209" MODIFIED="1727715634258"/>
@@ -922,7 +1047,7 @@
 </node>
 </node>
 <node TEXT="Controls &amp; resilience" FOLDED="true" ID="ID_1586891285" CREATED="1726598262638" MODIFIED="1726598270759">
-<node TEXT="Controls" ID="ID_19753741" CREATED="1726598895437" MODIFIED="1726598939151">
+<node TEXT="Controls" FOLDED="true" ID="ID_19753741" CREATED="1726598895437" MODIFIED="1726598939151">
 <node TEXT="What?" FOLDED="true" ID="ID_579574285" CREATED="1726598939422" MODIFIED="1726598941159">
 <node TEXT="Implementation of security controls that are used to mitigate risks" ID="ID_76672663" CREATED="1726598941397" MODIFIED="1726598954552"/>
 </node>
@@ -950,6 +1075,7 @@
 <node TEXT="Generating fake content" ID="ID_1874822828" CREATED="1727188465628" MODIFIED="1727188471901"/>
 <node TEXT="Manipulating data" ID="ID_610905044" CREATED="1727188478811" MODIFIED="1727188486341"/>
 <node TEXT="Automating attacks" ID="ID_1325108661" CREATED="1727188486755" MODIFIED="1727188492485"/>
+<node TEXT="LLMJacking/Shadow AI" ID="ID_693373314" CREATED="1750214090280" MODIFIED="1750214198591"/>
 </node>
 <node TEXT="Mitigation" FOLDED="true" ID="ID_1181101135" CREATED="1727188525500" MODIFIED="1727188530134">
 <node TEXT="Identify &amp; monitor for potential threats" FOLDED="true" ID="ID_1035298764" CREATED="1727188347177" MODIFIED="1727188458615">
@@ -958,12 +1084,12 @@
 <node TEXT="Continue to track input data for user sessions to detect and mitigate threats that could impact availability and misuse" ID="ID_1301503423" CREATED="1727188852908" MODIFIED="1727188877775"/>
 </node>
 <node TEXT="Model" FOLDED="true" ID="ID_597919122" CREATED="1727188890172" MODIFIED="1727188894823">
-<node TEXT="Conduct exercises to detect and mitigate threats" ID="ID_928058555" CREATED="1727188942062" MODIFIED="1727188971856">
+<node TEXT="Conduct exercises to detect and mitigate threats" FOLDED="true" ID="ID_928058555" CREATED="1727188942062" MODIFIED="1727188971856">
 <node TEXT="Threat modeling specific to AI systems" ID="ID_667266447" CREATED="1727188975110" MODIFIED="1727188985376"/>
 <node TEXT="Threat hunting" ID="ID_1113390246" CREATED="1727188985679" MODIFIED="1727188991689"/>
 </node>
 <node TEXT="Update threat models and monitoring" FOLDED="true" ID="ID_1508209722" CREATED="1727189005846" MODIFIED="1727189019633">
-<node TEXT="Include AI threat concepts" ID="ID_687292920" CREATED="1727189076806" MODIFIED="1727189101686">
+<node TEXT="Include AI threat concepts" FOLDED="true" ID="ID_687292920" CREATED="1727189076806" MODIFIED="1727189101686">
 <node TEXT="Training models with unexpected user inputs" ID="ID_1970271269" CREATED="1727189103566" MODIFIED="1727189117631"/>
 <node TEXT="Poisoning of data sets used for content or training" ID="ID_1145364013" CREATED="1727189118196" MODIFIED="1727189134248"/>
 <node TEXT="Privacy breaches" ID="ID_1677572992" CREATED="1727189134644" MODIFIED="1727189144174"/>
@@ -1009,7 +1135,7 @@
 </node>
 </node>
 </node>
-<node TEXT="OWASP top 10" FOLDED="true" ID="ID_698232967" CREATED="1727190550673" MODIFIED="1727190555867">
+<node TEXT="OWASP top 10" ID="ID_698232967" CREATED="1727190550673" MODIFIED="1727190555867">
 <node TEXT="Prompt injection" FOLDED="true" ID="ID_1107176687" CREATED="1727190563252" MODIFIED="1727190567195">
 <node TEXT="What?" FOLDED="true" ID="ID_1792443576" CREATED="1727190338477" MODIFIED="1727190340543">
 <node TEXT="adversaries attempt to manipulate the input prompts to generate malicious or undesirable content" ID="ID_1744335773" CREATED="1727190343165" MODIFIED="1727190384594"/>
@@ -1034,8 +1160,8 @@
 <node TEXT="Granting a model too much autonomy or capability, leading to unintended and potentially harmful actions" ID="ID_1643781723" CREATED="1727190767664" MODIFIED="1727190771624"/>
 </node>
 </node>
-<node TEXT="Overreliance" FOLDED="true" ID="ID_153428907" CREATED="1727190739574" MODIFIED="1727190743192">
-<node TEXT="What?" FOLDED="true" ID="ID_1059962285" CREATED="1727190791072" MODIFIED="1727190793192">
+<node TEXT="Overreliance" ID="ID_153428907" CREATED="1727190739574" MODIFIED="1727190743192">
+<node TEXT="What?" ID="ID_1059962285" CREATED="1727190791072" MODIFIED="1727190793192">
 <node TEXT="Over-dependence on a model&apos;s capabilities, leading to over-trust and failure to properly audit its outputs" ID="ID_1917309355" CREATED="1727190793376" MODIFIED="1727190796722"/>
 </node>
 </node>
@@ -1045,8 +1171,12 @@
 </node>
 </node>
 </node>
+<node TEXT="Trending AI Security Risks" ID="ID_1167612671" CREATED="1750214588945" MODIFIED="1750214601762">
+<node TEXT="Shadow AI" ID="ID_1815814341" CREATED="1750214604192" MODIFIED="1750214608167"/>
+<node TEXT="LLMjacking" ID="ID_1362984670" CREATED="1750214609096" MODIFIED="1750214632299"/>
 </node>
-<node TEXT="Governance &amp; Compliance" FOLDED="true" POSITION="left" ID="ID_1774757647" CREATED="1726154317182" MODIFIED="1726154339218">
+</node>
+<node TEXT="Governance &amp; Compliance" FOLDED="true" POSITION="top_or_left" ID="ID_1774757647" CREATED="1726154317182" MODIFIED="1726154339218">
 <edge COLOR="#007c00"/>
 <node TEXT="Develop a high level governance &amp; compliance strategy" FOLDED="true" ID="ID_1241347786" CREATED="1726154340535" MODIFIED="1726154362896">
 <node TEXT="Establish an AI governance framework" ID="ID_1951074705" CREATED="1726154363215" MODIFIED="1726154373240">
@@ -1396,7 +1526,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Best Practices" FOLDED="true" POSITION="left" ID="ID_272306276" CREATED="1727711711504" MODIFIED="1727711717443">
+<node TEXT="Best Practices" FOLDED="true" POSITION="top_or_left" ID="ID_272306276" CREATED="1727711711504" MODIFIED="1727711717443">
 <edge COLOR="#ff0000"/>
 <node TEXT="Secure Data Engineering" FOLDED="true" ID="ID_411840575" CREATED="1727711719316" MODIFIED="1727711725174">
 <node TEXT="Common Data Usage" FOLDED="true" ID="ID_1565234729" CREATED="1727290794324" MODIFIED="1727711768574">
@@ -1523,7 +1653,7 @@
 <node TEXT="Regularly review and update access rights" ID="ID_968087750" CREATED="1727714416554" MODIFIED="1727714506382"/>
 </node>
 <node TEXT="Data integrity" FOLDED="true" ID="ID_390102580" CREATED="1727714510541" MODIFIED="1727714521086">
-<node TEXT="Implement data validation and integrity checks at various stages of the data pipeline" ID="ID_1360311960" CREATED="1727714566278" MODIFIED="1727714612545">
+<node TEXT="Implement data validation and integrity checks at various stages of the data pipeline" FOLDED="true" ID="ID_1360311960" CREATED="1727714566278" MODIFIED="1727714612545">
 <node TEXT="Examples" ID="ID_1823034715" CREATED="1727714582040" MODIFIED="1727714584033">
 <node TEXT="Schema validation" ID="ID_216101991" CREATED="1727714584790" MODIFIED="1727714588151"/>
 <node TEXT="Referential integrity checks" ID="ID_1460828145" CREATED="1727714589110" MODIFIED="1727714597113"/>
@@ -1536,10 +1666,10 @@
 <node TEXT="Regularly monitor and test the data integrity controls and make necessary adjustments." ID="ID_744308138" CREATED="1727714566281" MODIFIED="1727714674595"/>
 </node>
 </node>
-<node TEXT="Monitoring" FOLDED="true" POSITION="left" ID="ID_141467047" CREATED="1726593383089" MODIFIED="1726593387006">
+<node TEXT="Monitoring" FOLDED="true" POSITION="top_or_left" ID="ID_141467047" CREATED="1726593383089" MODIFIED="1726593387006">
 <edge COLOR="#7c007c"/>
 <node TEXT="Key aspects" ID="ID_213326960" CREATED="1726593400219" MODIFIED="1726593404987">
-<node TEXT="Performance metrics" FOLDED="true" ID="ID_566305425" CREATED="1726593406737" MODIFIED="1726593411045">
+<node TEXT="Performance metrics" ID="ID_566305425" CREATED="1726593406737" MODIFIED="1726593411045">
 <node TEXT="Accuracy" FOLDED="true" ID="ID_897418127" CREATED="1726593483668" MODIFIED="1726593490616">
 <node TEXT="Proportion of correct predictions made by the model" ID="ID_470596550" CREATED="1726593491188" MODIFIED="1726593504599"/>
 </node>
@@ -1560,6 +1690,400 @@
 <node TEXT="Infra monitoring" ID="ID_1017936125" CREATED="1726593412186" MODIFIED="1726593417432"/>
 <node TEXT="Monitoring for bias and fairness" ID="ID_553466007" CREATED="1726593417865" MODIFIED="1726593426099"/>
 <node TEXT="Monitoring for compliance &amp; Responsible AI" ID="ID_168833192" CREATED="1726593436738" MODIFIED="1726593447204"/>
+</node>
+</node>
+<node TEXT="Industry Standards" FOLDED="true" POSITION="bottom_or_right" ID="ID_1566311177" CREATED="1750298619605" MODIFIED="1750298624565">
+<edge COLOR="#0000ff"/>
+<node TEXT="NIST AI Risk Management Framework (AI RMF 1.0)" FOLDED="true" ID="ID_1457067380" CREATED="1750298625528" MODIFIED="1750298659188">
+<node TEXT="What?" FOLDED="true" ID="ID_1251281631" CREATED="1750299025819" MODIFIED="1750299028757">
+<node TEXT="A voluntary, consensus driven framework, collaboratively developed" ID="ID_594127663" CREATED="1750299034427" MODIFIED="1750299065524"/>
+<node ID="ID_229436362" CREATED="1750299066061" MODIFIED="1750299102836"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Aimed at <span style="font-weight: bold;">enhancing trustworthiness </span>in AI
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="How" FOLDED="true" ID="ID_392126099" CREATED="1750299105867" MODIFIED="1750299108045">
+<node TEXT="Embedding risk management across design, development, deployment and operations" ID="ID_225587331" CREATED="1750299108211" MODIFIED="1750299125885"/>
+</node>
+<node TEXT="Structure" FOLDED="true" ID="ID_294471469" CREATED="1750299152396" MODIFIED="1750299162231">
+<node TEXT="Part 1 Foundations" FOLDED="true" ID="ID_373176374" CREATED="1750299163451" MODIFIED="1750299172768">
+<node TEXT="Key Trustworthiness Attributes" FOLDED="true" ID="ID_866836690" CREATED="1750299186620" MODIFIED="1750299205544">
+<node TEXT="Valid &amp; Reliable" ID="ID_1332051949" CREATED="1750299207773" MODIFIED="1750299216134"/>
+<node TEXT="Safe" ID="ID_205744107" CREATED="1750299216532" MODIFIED="1750299218992"/>
+<node TEXT="Secure &amp; Resilient" ID="ID_525298804" CREATED="1750299219413" MODIFIED="1750299223903"/>
+<node TEXT="Accountable &amp; Transparent" ID="ID_805191579" CREATED="1750299224381" MODIFIED="1750299231623"/>
+<node TEXT="Explainable &amp; Interpretable" ID="ID_948826905" CREATED="1750299232100" MODIFIED="1750299240200"/>
+<node TEXT="Privacy-Enhanced" ID="ID_1374719243" CREATED="1750299242628" MODIFIED="1750299247703"/>
+<node TEXT="Fair (bias-managed)" ID="ID_1357622937" CREATED="1750299257269" MODIFIED="1750299264886"/>
+</node>
+</node>
+<node TEXT="Part 2 Core + Profiles" FOLDED="true" ID="ID_101267957" CREATED="1750299173356" MODIFIED="1750299184519">
+<node TEXT="Core" FOLDED="true" ID="ID_1971792945" CREATED="1750299276445" MODIFIED="1750299321897">
+<node TEXT="What?" FOLDED="true" ID="ID_903890475" CREATED="1750299323582" MODIFIED="1750299327778">
+<node TEXT="Essential Functions that provide a cyclic, iterative path for managing AI risks" FOLDED="true" ID="ID_144123981" CREATED="1750299328429" MODIFIED="1750299354031">
+<node TEXT="Govern" FOLDED="true" ID="ID_94768522" CREATED="1750299355334" MODIFIED="1750299358795">
+<node ID="ID_1971663681" CREATED="1750299761465" MODIFIED="1750299761465"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="MsoNormal">
+      Set up <b>governance structures</b>, roles, and policies.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1795805357" CREATED="1750299761465" MODIFIED="1750299761465"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="MsoNormal">
+      Embed <b>oversight, accountability, and stakeholder engagement</b>, including supply-chain oversight and risk-tolerance decisions
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Map" FOLDED="true" ID="ID_420037894" CREATED="1750299359728" MODIFIED="1750299361248">
+<node ID="ID_108890247" CREATED="1750299723287" MODIFIED="1750299723287"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="MsoNormal">
+      Define the <b>system’s context</b>, use-cases, stakeholders.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_899329784" CREATED="1750299723289" MODIFIED="1750299723289"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="MsoNormal">
+      Identify <b>potential harms</b>, use intentions vs misuse, and risk-relevant boundaries
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Measure" FOLDED="true" ID="ID_57345266" CREATED="1750299362350" MODIFIED="1750299363894">
+<node ID="ID_412691838" CREATED="1750299824162" MODIFIED="1750299824162"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="MsoNormal">
+      Choose <b>metrics</b>&#xa0;and evaluations for performance, bias, security, accuracy, fairness, etc.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_935638634" CREATED="1750299824163" MODIFIED="1750299824163"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="MsoNormal">
+      Assess identified risks using both quantitative and qualitative approaches
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Manage" FOLDED="true" ID="ID_645644262" CREATED="1750299364621" MODIFIED="1750299366946">
+<node ID="ID_1140786086" CREATED="1750299875962" MODIFIED="1750299875962"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="MsoNormal">
+      Implement <b>mitigation strategies</b>: technical, procedural.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1154589244" CREATED="1750299875962" MODIFIED="1750299875962"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="MsoNormal">
+      Monitor performance over time, revalidate, and adjust.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_914941774" CREATED="1750299875963" MODIFIED="1750299875963"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="MsoNormal">
+      Define <b>incident response</b>&#xa0;and corrective plans
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Profile" FOLDED="true" ID="ID_1081887658" CREATED="1750299969379" MODIFIED="1750299974819">
+<node TEXT="Tailor the 4 functions (Core) to specific sectors" ID="ID_1076176674" CREATED="1750299976235" MODIFIED="1750300007774"/>
+</node>
+</node>
+</node>
+<node TEXT="Focus" FOLDED="true" ID="ID_414151138" CREATED="1750298876474" MODIFIED="1750298882931">
+<node TEXT="AI trustworthiness" ID="ID_1470930705" CREATED="1750298883395" MODIFIED="1750298891153"/>
+<node TEXT="Risk identification" ID="ID_1499793797" CREATED="1750298891649" MODIFIED="1750298896498"/>
+<node TEXT="Governance" ID="ID_1373498180" CREATED="1750298897033" MODIFIED="1750298900836"/>
+<node TEXT="Mitigation" ID="ID_1422679081" CREATED="1750298901514" MODIFIED="1750298908818"/>
+</node>
+<node TEXT="Published" ID="ID_1551576829" CREATED="1750298863442" MODIFIED="1750298871154">
+<node TEXT="2023" OBJECT="java.lang.Long|2023" ID="ID_29713059" CREATED="1750298871769" MODIFIED="1750298874693"/>
+</node>
+<node TEXT="Core Functions" FOLDED="true" ID="ID_711943307" CREATED="1750298911002" MODIFIED="1750298917514">
+<node TEXT="Map" ID="ID_144907973" CREATED="1750298917754" MODIFIED="1750298921114"/>
+<node TEXT="Measure" ID="ID_1413723420" CREATED="1750298923386" MODIFIED="1750298927162"/>
+<node TEXT="Manage" ID="ID_1517632045" CREATED="1750298927714" MODIFIED="1750298931004"/>
+<node TEXT="Govern" ID="ID_894908615" CREATED="1750298931602" MODIFIED="1750298933381"/>
+</node>
+</node>
+<node TEXT="ISO/IEC 42001:2023 Artificial Intelligence Management System (AIMS)" FOLDED="true" ID="ID_1405351929" CREATED="1750298677912" MODIFIED="1750311405487">
+<node TEXT="What?" FOLDED="true" ID="ID_622590658" CREATED="1750310960343" MODIFIED="1750310962529">
+<node TEXT="International standard for managing AI in an organization-wide manner" ID="ID_1375548355" CREATED="1750310962943" MODIFIED="1750310987057"/>
+<node TEXT="Covers" FOLDED="true" ID="ID_1142972104" CREATED="1750310994656" MODIFIED="1750310996921">
+<node TEXT="Risk controls" ID="ID_645337185" CREATED="1750310997152" MODIFIED="1750311000841"/>
+<node TEXT="Transparency" ID="ID_1835934412" CREATED="1750311001266" MODIFIED="1750311005626"/>
+<node TEXT="Roles" ID="ID_1222791732" CREATED="1750311006408" MODIFIED="1750311007852"/>
+<node TEXT="Impact assessments" ID="ID_324195244" CREATED="1750311008776" MODIFIED="1750311016257"/>
+</node>
+</node>
+<node TEXT="-&gt; Purpose" FOLDED="true" ID="ID_752126025" CREATED="1750311613473" MODIFIED="1750311613473">
+<node TEXT="-&gt; Governance of AI systems" ID="ID_1825964872" CREATED="1750311613474" MODIFIED="1750311613474"/>
+<node TEXT="-&gt; Ethical and responsible AI use" ID="ID_1331010170" CREATED="1750311613474" MODIFIED="1750311613474"/>
+<node TEXT="-&gt; Risk and lifecycle management" ID="ID_1550179769" CREATED="1750311613474" MODIFIED="1750311613474"/>
+<node TEXT="-&gt; Integrates with ISO frameworks (e.g., 27001, 9001)" ID="ID_1490140610" CREATED="1750311613474" MODIFIED="1750311613474"/>
+</node>
+<node TEXT="-&gt; Structure (PDCA Cycle)" FOLDED="true" ID="ID_858681924" CREATED="1750311613474" MODIFIED="1750311613474">
+<node TEXT="-&gt; 1. Scope and Context" FOLDED="true" ID="ID_1362102023" CREATED="1750311613474" MODIFIED="1750311613474">
+<node TEXT="-&gt; Define objectives and use cases" ID="ID_1945274795" CREATED="1750311613474" MODIFIED="1750311613474"/>
+<node TEXT="-&gt; Identify stakeholders" ID="ID_83673215" CREATED="1750311613474" MODIFIED="1750311613474"/>
+<node TEXT="-&gt; Understand internal/external environment" ID="ID_195363102" CREATED="1750311613474" MODIFIED="1750311613474"/>
+</node>
+<node TEXT="-&gt; 2. Leadership and Governance" FOLDED="true" ID="ID_514942731" CREATED="1750311613474" MODIFIED="1750311613474">
+<node TEXT="-&gt; Assign AI accountability" ID="ID_1695222135" CREATED="1750311613474" MODIFIED="1750311613474"/>
+<node TEXT="-&gt; Ensure leadership commitment" ID="ID_1039376316" CREATED="1750311613474" MODIFIED="1750311613474"/>
+<node TEXT="-&gt; Promote AI ethics and values" ID="ID_96447355" CREATED="1750311613474" MODIFIED="1750311613474"/>
+<node TEXT="-&gt; Define governance structure" ID="ID_1088242400" CREATED="1750311613474" MODIFIED="1750311613474"/>
+</node>
+<node TEXT="-&gt; 3. Planning" FOLDED="true" ID="ID_1211254956" CREATED="1750311613474" MODIFIED="1750311613474">
+<node TEXT="-&gt; Risk assessment for AI-specific threats" ID="ID_671236570" CREATED="1750311613474" MODIFIED="1750311613474"/>
+<node TEXT="-&gt; Set AI policies and objectives" ID="ID_1958989910" CREATED="1750311613474" MODIFIED="1750311613474"/>
+<node TEXT="-&gt; Establish AI KPIs and metrics" ID="ID_1680112131" CREATED="1750311613474" MODIFIED="1750311613474"/>
+<node TEXT="-&gt; Address fairness, bias, and explainability" FOLDED="true" ID="ID_67758719" CREATED="1750311613474" MODIFIED="1750311613474">
+<node TEXT="How?" FOLDED="true" ID="ID_366761854" CREATED="1750312908201" MODIFIED="1750312910763">
+<node TEXT="-&gt; Fairness" FOLDED="true" ID="ID_911477041" CREATED="1750313034823" MODIFIED="1750313034823">
+<node TEXT="-&gt; Define fairness objectives specific to context" ID="ID_270000079" CREATED="1750313034824" MODIFIED="1750313034824"/>
+<node TEXT="-&gt; Use diverse and representative training data" ID="ID_98558594" CREATED="1750313034824" MODIFIED="1750313034824"/>
+<node TEXT="-&gt; Apply fairness metrics (demographic parity, equal opportunity)" ID="ID_332413089" CREATED="1750313034824" MODIFIED="1750313034824"/>
+<node TEXT="-&gt; Implement bias mitigation techniques (reweighting, adversarial debiasing)" ID="ID_1645511987" CREATED="1750313034824" MODIFIED="1750313034824"/>
+<node TEXT="-&gt; Monitor fairness continuously (model drift, population changes)" ID="ID_324091097" CREATED="1750313034824" MODIFIED="1750313034824"/>
+<node TEXT="-&gt; Engage stakeholders (clinicians, patients, ethicists) for validation" ID="ID_143173596" CREATED="1750313034824" MODIFIED="1750313034824"/>
+</node>
+<node TEXT="-&gt; Bias" FOLDED="true" ID="ID_1260974758" CREATED="1750313034824" MODIFIED="1750313034824">
+<node TEXT="-&gt; Conduct bias risk assessments (data, labels, model, deployment)" ID="ID_1407582894" CREATED="1750313034824" MODIFIED="1750313034824"/>
+<node TEXT="-&gt; Develop bias mitigation plans (data augmentation, human-in-loop)" ID="ID_325599898" CREATED="1750313034824" MODIFIED="1750313034824"/>
+<node TEXT="-&gt; Document bias risks and mitigations" ID="ID_256737113" CREATED="1750313034824" MODIFIED="1750313034824"/>
+<node TEXT="-&gt; Test models for subgroup performance and adversarial scenarios" ID="ID_1057773370" CREATED="1750313034824" MODIFIED="1750313034824"/>
+<node TEXT="-&gt; Maintain transparency on residual risks" ID="ID_1126068671" CREATED="1750313034824" MODIFIED="1750313034824"/>
+</node>
+<node TEXT="-&gt; Explainability" FOLDED="true" ID="ID_1429316727" CREATED="1750313034824" MODIFIED="1750313034824">
+<node TEXT="-&gt; Prefer interpretable models or augment complex models with explainability" ID="ID_1633246226" CREATED="1750313034825" MODIFIED="1750313034825"/>
+<node TEXT="-&gt; Enable output traceability to input data and logic" ID="ID_1832739902" CREATED="1750313034825" MODIFIED="1750313034825"/>
+<node TEXT="-&gt; Use explainability tools (SHAP, LIME, attention visualization)" ID="ID_1219139105" CREATED="1750313034825" MODIFIED="1750313034825"/>
+<node TEXT="-&gt; Incorporate human review workflows for AI outputs" ID="ID_1603639910" CREATED="1750313034825" MODIFIED="1750313034825"/>
+<node TEXT="-&gt; Document model decisions and reasoning for audits" ID="ID_1274462213" CREATED="1750313034825" MODIFIED="1750313034825"/>
+<node TEXT="-&gt; Provide clear communication to end users and stakeholders" ID="ID_122979485" CREATED="1750313034825" MODIFIED="1750313034825"/>
+</node>
+<node TEXT="-&gt; Alignment with ISO 42001 Clauses" FOLDED="true" ID="ID_949508439" CREATED="1750313034825" MODIFIED="1750313034825">
+<node TEXT="-&gt; Planning" FOLDED="true" ID="ID_1399402050" CREATED="1750313034825" MODIFIED="1750313034825">
+<node TEXT="-&gt; Set policies, KPIs on fairness, bias, explainability" ID="ID_830295115" CREATED="1750313034825" MODIFIED="1750313034825"/>
+</node>
+<node TEXT="-&gt; Operation" FOLDED="true" ID="ID_569949007" CREATED="1750313034825" MODIFIED="1750313034825">
+<node TEXT="-&gt; Implement testing, mitigation, and review processes" ID="ID_1729759850" CREATED="1750313034825" MODIFIED="1750313034825"/>
+</node>
+<node TEXT="-&gt; Performance Evaluation" FOLDED="true" ID="ID_882973367" CREATED="1750313034825" MODIFIED="1750313034825">
+<node TEXT="-&gt; Monitor fairness and explainability metrics regularly" ID="ID_1209373775" CREATED="1750313034825" MODIFIED="1750313034825"/>
+</node>
+<node TEXT="-&gt; Improvement" FOLDED="true" ID="ID_1374420580" CREATED="1750313034825" MODIFIED="1750313034825">
+<node TEXT="-&gt; Use feedback to refine models and governance practices" ID="ID_1878728383" CREATED="1750313034825" MODIFIED="1750313034825"/>
+</node>
+</node>
+</node>
+<node TEXT="Tools" FOLDED="true" ID="ID_1556287290" CREATED="1750312918818" MODIFIED="1750312922019">
+<node TEXT="Bias Detection" FOLDED="true" ID="ID_318537303" CREATED="1750313205724" MODIFIED="1750313212432">
+<node TEXT="Capabilities" FOLDED="true" ID="ID_756174816" CREATED="1750313217595" MODIFIED="1750313221342">
+<node TEXT="-&gt; Bias Metrics" FOLDED="true" ID="ID_1644179394" CREATED="1750313224945" MODIFIED="1750313224945">
+<node TEXT="-&gt; Demographic Parity" ID="ID_1838310574" CREATED="1750313224946" MODIFIED="1750313224946"/>
+<node TEXT="-&gt; Equal Opportunity Difference" ID="ID_293236851" CREATED="1750313224946" MODIFIED="1750313224946"/>
+<node TEXT="-&gt; Disparate Impact" ID="ID_879575777" CREATED="1750313224946" MODIFIED="1750313224946"/>
+<node TEXT="-&gt; Statistical Parity" ID="ID_1850877120" CREATED="1750313224946" MODIFIED="1750313224946"/>
+<node TEXT="-&gt; Predictive Parity" ID="ID_395562134" CREATED="1750313224946" MODIFIED="1750313224946"/>
+</node>
+<node TEXT="-&gt; Subgroup Analysis" FOLDED="true" ID="ID_1556971144" CREATED="1750313224946" MODIFIED="1750313224946">
+<node TEXT="-&gt; Performance across demographic groups" ID="ID_1766015088" CREATED="1750313224946" MODIFIED="1750313224946"/>
+<node TEXT="-&gt; Intersectional group evaluation" ID="ID_881271123" CREATED="1750313224946" MODIFIED="1750313224946"/>
+<node TEXT="-&gt; Outcome disparity detection" ID="ID_1768526854" CREATED="1750313224946" MODIFIED="1750313224946"/>
+</node>
+<node TEXT="-&gt; Visualization" FOLDED="true" ID="ID_1190735728" CREATED="1750313224946" MODIFIED="1750313224946">
+<node TEXT="-&gt; Interactive dashboards" ID="ID_55956008" CREATED="1750313224946" MODIFIED="1750313224946"/>
+<node TEXT="-&gt; Trend analysis over time" ID="ID_45938352" CREATED="1750313224946" MODIFIED="1750313224946"/>
+<node TEXT="-&gt; Fairness gap heatmaps" ID="ID_963100629" CREATED="1750313224946" MODIFIED="1750313224946"/>
+</node>
+<node TEXT="-&gt; Mitigation Techniques" FOLDED="true" ID="ID_1378001897" CREATED="1750313224946" MODIFIED="1750313224946">
+<node TEXT="-&gt; Pre-processing (data balancing, augmentation)" ID="ID_629780619" CREATED="1750313224946" MODIFIED="1750313224946"/>
+<node TEXT="-&gt; In-processing (fairness-aware algorithms)" ID="ID_1227417634" CREATED="1750313224947" MODIFIED="1750313224947"/>
+<node TEXT="-&gt; Post-processing (output adjustment)" ID="ID_1359946598" CREATED="1750313224947" MODIFIED="1750313224947"/>
+</node>
+<node TEXT="-&gt; Explainability Integration" FOLDED="true" ID="ID_407457670" CREATED="1750313224947" MODIFIED="1750313224947">
+<node TEXT="-&gt; Feature importance (SHAP, LIME)" ID="ID_298659112" CREATED="1750313224947" MODIFIED="1750313224947"/>
+<node TEXT="-&gt; Attention visualization" ID="ID_1784130529" CREATED="1750313224947" MODIFIED="1750313224947"/>
+<node TEXT="-&gt; Root cause analysis" ID="ID_1021098578" CREATED="1750313224947" MODIFIED="1750313224947"/>
+</node>
+<node TEXT="-&gt; Continuous Monitoring" FOLDED="true" ID="ID_172634339" CREATED="1750313224947" MODIFIED="1750313224947">
+<node TEXT="-&gt; Drift detection in data and model" ID="ID_1797896604" CREATED="1750313224947" MODIFIED="1750313224947"/>
+<node TEXT="-&gt; Alerts on fairness threshold breaches" ID="ID_1083093886" CREATED="1750313224947" MODIFIED="1750313224947"/>
+<node TEXT="-&gt; Automated reporting" ID="ID_71267539" CREATED="1750313224947" MODIFIED="1750313224947"/>
+</node>
+<node TEXT="-&gt; Compliance &amp; Documentation" FOLDED="true" ID="ID_1245295488" CREATED="1750313224947" MODIFIED="1750313224947">
+<node TEXT="-&gt; Audit trails" ID="ID_363051824" CREATED="1750313224948" MODIFIED="1750313224948"/>
+<node TEXT="-&gt; Risk assessment reports" ID="ID_137435390" CREATED="1750313224948" MODIFIED="1750313224948"/>
+<node TEXT="-&gt; Regulatory alignment support (e.g., ISO, NIST, EU AI Act)" ID="ID_1254053254" CREATED="1750313224948" MODIFIED="1750313224948"/>
+</node>
+</node>
+<node TEXT="Examples" FOLDED="true" POSITION="bottom_or_right" ID="ID_1229357860" CREATED="1750312922777" MODIFIED="1750313237231">
+<node TEXT="Fiddler AI" ID="ID_228236985" CREATED="1750312928569" MODIFIED="1750312933827"/>
+<node TEXT="Google Vertex AI Model Monitor" ID="ID_622734474" CREATED="1750312935665" MODIFIED="1750312950020"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="-&gt; 4. Support" FOLDED="true" ID="ID_1395649378" CREATED="1750311613474" MODIFIED="1750311613474">
+<node TEXT="-&gt; Ensure skilled personnel and training" ID="ID_1462708496" CREATED="1750311613474" MODIFIED="1750311613474"/>
+<node TEXT="-&gt; Documentation and record-keeping" ID="ID_553539633" CREATED="1750311613474" MODIFIED="1750311613474"/>
+<node TEXT="-&gt; Communication protocols" ID="ID_132682506" CREATED="1750311613474" MODIFIED="1750311613474"/>
+<node TEXT="-&gt; Provide necessary infrastructure and resources" ID="ID_1974263104" CREATED="1750311613474" MODIFIED="1750311613474"/>
+</node>
+<node TEXT="-&gt; 5. Operation" FOLDED="true" ID="ID_52550223" CREATED="1750311613474" MODIFIED="1750311613474">
+<node TEXT="-&gt; Manage AI lifecycle (design → deploy → retire)" ID="ID_1454990191" CREATED="1750311613476" MODIFIED="1750311613476"/>
+<node TEXT="-&gt; Ensure data quality and integrity" ID="ID_900688428" CREATED="1750311613476" MODIFIED="1750311613476"/>
+<node TEXT="-&gt; Control third-party model use" ID="ID_1070441311" CREATED="1750311613476" MODIFIED="1750311613476"/>
+<node TEXT="-&gt; Version control and change management" ID="ID_103008291" CREATED="1750311613476" MODIFIED="1750311613476"/>
+</node>
+<node TEXT="-&gt; 6. Performance Evaluation" FOLDED="true" ID="ID_1113790349" CREATED="1750311613476" MODIFIED="1750311613476">
+<node TEXT="-&gt; Monitor KPIs and controls" ID="ID_615012931" CREATED="1750311613476" MODIFIED="1750311613476"/>
+<node TEXT="-&gt; Conduct internal audits" ID="ID_984819040" CREATED="1750311613476" MODIFIED="1750311613476"/>
+<node TEXT="-&gt; Collect user/stakeholder feedback" ID="ID_1384319724" CREATED="1750311613476" MODIFIED="1750311613476"/>
+<node TEXT="-&gt; Management reviews" ID="ID_1110643374" CREATED="1750311613476" MODIFIED="1750311613476"/>
+</node>
+<node TEXT="-&gt; 7. Improvement" FOLDED="true" ID="ID_528866908" CREATED="1750311613476" MODIFIED="1750311613476">
+<node TEXT="-&gt; Corrective actions for incidents or failures" ID="ID_340630335" CREATED="1750311613476" MODIFIED="1750311613476"/>
+<node TEXT="-&gt; Continuous improvement mechanisms" ID="ID_1842651000" CREATED="1750311613476" MODIFIED="1750311613476"/>
+<node TEXT="-&gt; Feedback loops to refine AIMS" ID="ID_1062457548" CREATED="1750311613476" MODIFIED="1750311613476"/>
+</node>
+</node>
+<node TEXT="-&gt; Unique Features" FOLDED="true" ID="ID_949373877" CREATED="1750311613476" MODIFIED="1750311613476">
+<node TEXT="-&gt; Focused on AI risks: hallucination, bias, adversarial attacks" ID="ID_282205544" CREATED="1750311613476" MODIFIED="1750311613476"/>
+<node TEXT="-&gt; Lifecycle-wide: from training to retirement" ID="ID_746262919" CREATED="1750311613476" MODIFIED="1750311613476"/>
+<node TEXT="-&gt; Aligns with ethics: transparency, accountability, non-discrimination" ID="ID_465864571" CREATED="1750311613476" MODIFIED="1750311613476"/>
+<node TEXT="-&gt; Works with other ISO standards (27001, 9001)" ID="ID_570939625" CREATED="1750311613476" MODIFIED="1750311613476"/>
+</node>
+<node TEXT="-&gt; Relevance to Healthcare / Pre-Auth Use Case" FOLDED="true" ID="ID_555494320" CREATED="1750311613476" MODIFIED="1750311613476">
+<node TEXT="-&gt; Ensures human review of AI output" ID="ID_649896806" CREATED="1750311613477" MODIFIED="1750311613477"/>
+<node TEXT="-&gt; Supports auditability for payer/provider compliance" ID="ID_1080014971" CREATED="1750311613477" MODIFIED="1750311613477"/>
+<node TEXT="-&gt; Reduces clinical and operational risk" ID="ID_1029204401" CREATED="1750311613477" MODIFIED="1750311613477"/>
+<node TEXT="-&gt; Enables continuous model monitoring and improvement" ID="ID_76330590" CREATED="1750311613477" MODIFIED="1750311613477"/>
+<node TEXT="-&gt; Encourages secure and private handling of PHI" ID="ID_1864201543" CREATED="1750311613477" MODIFIED="1750311613477"/>
+</node>
+</node>
+<node TEXT="EU AI Act (2024-2026)" FOLDED="true" ID="ID_614885598" CREATED="1750298699288" MODIFIED="1750298711905">
+<node TEXT="What?" FOLDED="true" ID="ID_34926156" CREATED="1750311036336" MODIFIED="1750311038996">
+<node TEXT="AI regulation by EU - risk based classification" FOLDED="true" ID="ID_1866556330" CREATED="1750311039185" MODIFIED="1750311056068">
+<node TEXT="Unacceptable" ID="ID_709700177" CREATED="1750311056608" MODIFIED="1750311062346"/>
+<node TEXT="High-risk" ID="ID_1343359064" CREATED="1750311063017" MODIFIED="1750311067363"/>
+<node TEXT="Limited risk" ID="ID_1656882052" CREATED="1750311068169" MODIFIED="1750311072470"/>
+<node TEXT="Minimal risk" ID="ID_443373361" CREATED="1750311074394" MODIFIED="1750311079932"/>
+</node>
+</node>
+</node>
+<node TEXT="OECD AI Principles" ID="ID_1879218737" CREATED="1750298731417" MODIFIED="1750298739523">
+<node TEXT="What?" FOLDED="true" ID="ID_1532588952" CREATED="1750311100672" MODIFIED="1750311106821">
+<node TEXT="high-level guidance for trustworthy AI" ID="ID_1652636972" CREATED="1750311107144" MODIFIED="1750311129228"/>
+<node TEXT="5 Principles" FOLDED="true" ID="ID_686004292" CREATED="1750311133873" MODIFIED="1750311148315">
+<node TEXT="Inclusive growth" ID="ID_65898826" CREATED="1750311148666" MODIFIED="1750311156563"/>
+<node TEXT="Human-centered values" ID="ID_1369200352" CREATED="1750311156881" MODIFIED="1750311162740"/>
+<node TEXT="Transparency" ID="ID_1622431715" CREATED="1750311163169" MODIFIED="1750311168828"/>
+<node TEXT="Robustness" ID="ID_100766101" CREATED="1750311170338" MODIFIED="1750311173612"/>
+<node TEXT="Accountability" ID="ID_1663680261" CREATED="1750311175019" MODIFIED="1750311179139"/>
+</node>
+</node>
+</node>
+<node TEXT="AI Security Guidelines" FOLDED="true" ID="ID_1885166042" CREATED="1750298739953" MODIFIED="1750298748196">
+<node TEXT="ENISA (EU)" FOLDED="true" ID="ID_1849894871" CREATED="1750298748664" MODIFIED="1750298755169">
+<node TEXT="What?" FOLDED="true" ID="ID_1354636114" CREATED="1750311229970" MODIFIED="1750311231987">
+<node TEXT="Security of AI systems in LC" ID="ID_1041315468" CREATED="1750311232394" MODIFIED="1750311237980"/>
+</node>
+</node>
+<node TEXT="OWASP Top 10 for LLMs (2023)" ID="ID_1848701055" CREATED="1750298755595" MODIFIED="1750311283048">
+<arrowlink DESTINATION="ID_698232967"/>
+</node>
+<node TEXT="MITRE ATLAS" FOLDED="true" ID="ID_1347340928" CREATED="1750298776016" MODIFIED="1750298787364">
+<node TEXT="What?" FOLDED="true" ID="ID_1537877249" CREATED="1750311301467" MODIFIED="1750311303893">
+<node TEXT="Adversarial threats against ML (attack matrix for AI)" ID="ID_893386495" CREATED="1750311304267" MODIFIED="1750311328229"/>
+</node>
+</node>
 </node>
 </node>
 </node>

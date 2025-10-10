@@ -1,28 +1,34 @@
-<map version="freeplane 1.7.0">
-<!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
+<map version="freeplane 1.12.1">
+<!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="TOGAF" FOLDED="false" ID="ID_1753253045" CREATED="1598296566959" MODIFIED="1598296570354" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false" show_icons="BESIDE_NODES" show_tags="UNDER_NODES"/>
+    <tags category_separator="::"/>
 
 <map_styles>
-<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
+<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
 <font SIZE="24"/>
-<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
-<stylenode LOCALIZED_TEXT="default" ICON_SIZE="12.0 pt" COLOR="#000000" STYLE="fork">
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="default" ID="ID_1572379424" ICON_SIZE="12 pt" COLOR="#000000" STYLE="fork">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1572379424" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.details"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.tags">
+<font SIZE="10"/>
+</stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.attributes">
 <font SIZE="9"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.note" COLOR="#000000" BACKGROUND_COLOR="#ffffff" TEXT_ALIGN="LEFT"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.selection" BACKGROUND_COLOR="#4e85f8" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#4e85f8"/>
 <stylenode LOCALIZED_TEXT="defaultstyle.floating">
 <edge STYLE="hide_edge"/>
 <cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
 </stylenode>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork">
 <font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
 </stylenode>
@@ -36,8 +42,8 @@
 <icon BUILTIN="yes"/>
 </stylenode>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10.0 pt" SHAPE_VERTICAL_MARGIN="10.0 pt">
+<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="bottom_or_right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="10 pt">
 <font SIZE="18"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="AutomaticLayout.level,1" COLOR="#0033ff">
@@ -64,9 +70,9 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="2" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="About" FOLDED="true" POSITION="left" ID="ID_1947057127" CREATED="1598296570829" MODIFIED="1598296573639">
+<node TEXT="About" FOLDED="true" POSITION="top_or_left" ID="ID_1947057127" CREATED="1598296570829" MODIFIED="1598296573639">
 <edge COLOR="#ff0000"/>
-<node TEXT="What?" ID="ID_1461994899" CREATED="1598296574251" MODIFIED="1598296577175">
+<node TEXT="What?" FOLDED="true" ID="ID_1461994899" CREATED="1598296574251" MODIFIED="1598296577175">
 <node TEXT="The Open Group Architecture Framework" ID="ID_101807155" CREATED="1598296578012" MODIFIED="1598296589063"/>
 <node TEXT="Framework for developing enterprise architectures" ID="ID_1460984052" CREATED="1598296589533" MODIFIED="1598296610401"/>
 <node TEXT="Methodology" ID="ID_1691597744" CREATED="1598296649157" MODIFIED="1598296653272">
@@ -77,11 +83,11 @@
 </node>
 </node>
 <node TEXT="History" ID="ID_377897874" CREATED="1598296614171" MODIFIED="1598296616429"/>
-<node TEXT="Version" ID="ID_1595968863" CREATED="1598296617172" MODIFIED="1598296619846">
+<node TEXT="Version" FOLDED="true" ID="ID_1595968863" CREATED="1598296617172" MODIFIED="1598296619846">
 <node TEXT="9.2 - April 2018" ID="ID_1456797870" CREATED="1598296620587" MODIFIED="1598296631926"/>
 </node>
 </node>
-<node TEXT="Parts" FOLDED="true" POSITION="right" ID="ID_17533527" CREATED="1598297104987" MODIFIED="1598297107151">
+<node TEXT="Parts" FOLDED="true" POSITION="bottom_or_right" ID="ID_17533527" CREATED="1598297104987" MODIFIED="1598297107151">
 <edge COLOR="#0000ff"/>
 <node TEXT="Architecture Domains" ID="ID_969960599" CREATED="1598297107858" MODIFIED="1598297111743">
 <node TEXT="Business" ID="ID_1200543159" CREATED="1598297202002" MODIFIED="1598297205996">
