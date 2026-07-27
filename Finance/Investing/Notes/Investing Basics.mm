@@ -1,28 +1,34 @@
-<map version="freeplane 1.8.0">
-<!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
+<map version="freeplane 1.12.1">
+<!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="Investing Basics" FOLDED="false" ID="ID_661812043" CREATED="1508340895630" MODIFIED="1508342243153" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES"/>
+    <tags category_separator="::"/>
 
 <map_styles>
-<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
+<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
 <font SIZE="24"/>
-<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
-<stylenode LOCALIZED_TEXT="default" ICON_SIZE="12.0 pt" COLOR="#000000" STYLE="fork">
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="default" ID="ID_1025942268" ICON_SIZE="12 pt" COLOR="#000000" STYLE="fork">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1025942268" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.details"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.tags">
+<font SIZE="10"/>
+</stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.attributes">
 <font SIZE="9"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.note" COLOR="#000000" BACKGROUND_COLOR="#ffffff" TEXT_ALIGN="LEFT"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.selection" BACKGROUND_COLOR="#4e85f8" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#4e85f8"/>
 <stylenode LOCALIZED_TEXT="defaultstyle.floating">
 <edge STYLE="hide_edge"/>
 <cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
 </stylenode>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork">
 <font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
 </stylenode>
@@ -36,8 +42,8 @@
 <icon BUILTIN="yes"/>
 </stylenode>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10.0 pt" SHAPE_VERTICAL_MARGIN="10.0 pt">
+<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="bottom_or_right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="10 pt">
 <font SIZE="18"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="AutomaticLayout.level,1" COLOR="#0033ff">
@@ -63,11 +69,14 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="4" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="Mutual Funds" POSITION="right" ID="ID_340470151" CREATED="1508341094137" MODIFIED="1518562434794" LINK="Mutual%20Funds.mm">
+<hook NAME="AutomaticEdgeColor" COUNTER="6" RULE="ON_BRANCH_CREATION"/>
+<node TEXT="Retirement" POSITION="top_or_left" ID="ID_409713875" CREATED="1518562489023" MODIFIED="1518562508887" LINK="Retirement.mm">
+<edge COLOR="#ff00ff"/>
+</node>
+<node TEXT="Mutual Funds" POSITION="top_or_left" ID="ID_340470151" CREATED="1508341094137" MODIFIED="1518562434794" LINK="Mutual%20Funds.mm">
 <edge COLOR="#0000ff"/>
 </node>
-<node TEXT="ETFs" FOLDED="true" POSITION="right" ID="ID_1659545392" CREATED="1508340907881" MODIFIED="1508340912059">
+<node TEXT="ETFs" FOLDED="true" POSITION="top_or_left" ID="ID_1659545392" CREATED="1508340907881" MODIFIED="1508340912059">
 <edge COLOR="#ff0000"/>
 <node TEXT="What?" ID="ID_1469297925" CREATED="1508341163427" MODIFIED="1508341165955">
 <node TEXT="Exchange traded MF" ID="ID_739982511" CREATED="1508341167067" MODIFIED="1508341174748"/>
@@ -100,7 +109,7 @@
 </node>
 </node>
 </node>
-<node TEXT="ETN" FOLDED="true" POSITION="right" ID="ID_1248884398" CREATED="1508341331780" MODIFIED="1508341335485">
+<node TEXT="ETN" FOLDED="true" POSITION="top_or_left" ID="ID_1248884398" CREATED="1508341331780" MODIFIED="1508341335485">
 <edge COLOR="#00ff00"/>
 <node TEXT="What?" FOLDED="true" ID="ID_359459370" CREATED="1508341341301" MODIFIED="1700762608009">
 <node TEXT="Debt notes issued by a bank" ID="ID_445042151" CREATED="1508341345005" MODIFIED="1508341355174"/>
@@ -117,8 +126,14 @@
 <node TEXT="If the issuing/underlying bank goes bankrupt, you lose all money" ID="ID_551343115" CREATED="1508341506287" MODIFIED="1508341527799"/>
 </node>
 </node>
-<node TEXT="Retirement" POSITION="left" ID="ID_409713875" CREATED="1518562489023" MODIFIED="1518562508887" LINK="Retirement.mm">
-<edge COLOR="#ff00ff"/>
+<node TEXT="Tax Deductions" POSITION="bottom_or_right" ID="ID_1643050518" CREATED="1749242953594" MODIFIED="1749243042740">
+<edge COLOR="#00ffff"/>
+<node TEXT="IRA" ID="ID_1040559350" CREATED="1749242981914" MODIFIED="1749243001861"/>
+<node TEXT="Traditional 401K" ID="ID_672086398" CREATED="1749243002842" MODIFIED="1749243009756"/>
+<node TEXT="HSA" ID="ID_935206296" CREATED="1749243010651" MODIFIED="1749243012564"/>
+</node>
+<node TEXT="Tax Smart" POSITION="bottom_or_right" ID="ID_1669135451" CREATED="1749243023811" MODIFIED="1749243026796">
+<edge COLOR="#7c0000"/>
 </node>
 </node>
 </map>

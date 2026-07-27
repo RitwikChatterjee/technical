@@ -88,7 +88,7 @@
 </node>
 <node TEXT="Strategies" FOLDED="true" POSITION="bottom_or_right" ID="ID_1658523724" CREATED="1724889407170" MODIFIED="1724891059248">
 <edge COLOR="#00ffff"/>
-<node TEXT="Seller Finance" ID="ID_1214359438" CREATED="1724889885556" MODIFIED="1724889891516">
+<node TEXT="Seller Finance" FOLDED="true" ID="ID_1214359438" CREATED="1724889885556" MODIFIED="1724889891516">
 <node TEXT="aka" FOLDED="true" ID="ID_876466501" CREATED="1724890545191" MODIFIED="1724890547397">
 <node TEXT="Seller carryback" ID="ID_186330418" CREATED="1724889906907" MODIFIED="1724890553543"/>
 <node TEXT="Owner carry" ID="ID_495982932" CREATED="1724890557439" MODIFIED="1724890561426"/>
@@ -127,12 +127,44 @@
 <node TEXT="" ID="ID_273207228" CREATED="1727396611448" MODIFIED="1727396611448"/>
 </node>
 </node>
-<node TEXT="Structuring" ID="ID_496366054" CREATED="1727402946837" MODIFIED="1727402956827">
+<node TEXT="Structuring" FOLDED="true" ID="ID_496366054" CREATED="1727402946837" MODIFIED="1727402956827">
 <node TEXT="DO NOT sign Seller financing note personally" ID="ID_1144423685" CREATED="1727403012044" MODIFIED="1727403026214"/>
-<node TEXT="Put seller financing in the 1st position" ID="ID_1540743975" CREATED="1727403255788" MODIFIED="1727403343351">
+<node TEXT="Put seller financing in the 1st position" FOLDED="true" ID="ID_1540743975" CREATED="1727403255788" MODIFIED="1727403343351">
 <node TEXT="Prevents other unknown mortgages on the property" ID="ID_434068688" CREATED="1727403343948" MODIFIED="1727403364871"/>
 </node>
 <node TEXT="Always make 2nd mortgage co-term with the first" ID="ID_7642366" CREATED="1727403389085" MODIFIED="1727404582156"/>
+</node>
+<node TEXT="Special Considerations" FOLDED="true" ID="ID_1657515287" CREATED="1752691066917" MODIFIED="1752691072537">
+<node TEXT="VA Loans" FOLDED="true" ID="ID_1847591204" CREATED="1752691083189" MODIFIED="1752691086607">
+<node TEXT="Need to do a &quot;Mirror Wrap&quot;" ID="ID_560007004" CREATED="1752691461037" MODIFIED="1752691469374"/>
+<node ID="ID_493792767" CREATED="1752691410301" MODIFIED="1752691581341"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      In the loan documents, VA loans allow lender (Veteran) to sell on an &quot;agreement for sale&quot; or a &quot;land contract&quot;. So in essence the <span style="font-weight: bold;">va loan never comes due</span>.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Seller will only be able to take a 2nd VA loan for the balance credit" FOLDED="true" ID="ID_862801015" CREATED="1752691087317" MODIFIED="1752691120399">
+<node TEXT="E.g." FOLDED="true" ID="ID_36082005" CREATED="1752691121316" MODIFIED="1752691123678">
+<node TEXT="If the seller has been approved for $500K and has already taken $250K for the house he is selling, he is still eligible for another VA loan for the balance $250K" ID="ID_1908623060" CREATED="1752691124108" MODIFIED="1752691170942"/>
+</node>
+</node>
+<node TEXT="If you are planning on keeping it" ID="ID_88601551" CREATED="1752691215333" MODIFIED="1752691267246">
+<node TEXT="Use a servicing company" FOLDED="true" ID="ID_1308081728" CREATED="1752691270558" MODIFIED="1752691273013">
+<node TEXT="Why?" FOLDED="true" ID="ID_96852113" CREATED="1752691274805" MODIFIED="1752691296293">
+<node TEXT="When the new VA loan is getting documented, VA lender will ask the seller &quot;Prove to us that you are no longer responsible for this payment&quot;" ID="ID_1502103696" CREATED="1752691297356" MODIFIED="1752691335495"/>
+<node TEXT="Only document that they will accept is from a servicing company" ID="ID_194099002" CREATED="1752691338349" MODIFIED="1752691361685"/>
+</node>
+</node>
+</node>
+</node>
 </node>
 </node>
 <node TEXT="SubTo" FOLDED="true" ID="ID_1630067572" CREATED="1723822460294" MODIFIED="1724890780476">
@@ -494,6 +526,9 @@
 </node>
 <node TEXT="Reaching out" FOLDED="true" POSITION="bottom_or_right" ID="ID_712267518" CREATED="1725675046782" MODIFIED="1725675064287">
 <node TEXT="loiblaster.com" ID="ID_941668594" CREATED="1725675064717" MODIFIED="1725675078559"/>
+</node>
+<node TEXT="Transaction Coordinator" FOLDED="true" POSITION="bottom_or_right" ID="ID_581980792" CREATED="1752692088318" MODIFIED="1752692096568">
+<node TEXT="Rashell Jarvis" ID="ID_1110305933" CREATED="1752692096852" MODIFIED="1752692185199"/>
 </node>
 </node>
 </node>

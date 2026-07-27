@@ -1,21 +1,25 @@
-<map version="freeplane 1.9.13">
+<map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="Machine Learning" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1724773271150" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" associatedTemplateLocation="template:/standard-1.6.mm" fit_to_viewport="false"/>
+    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" associatedTemplateLocation="template:/standard-1.6.mm" show_tags="UNDER_NODES"/>
+    <tags category_separator="::"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
 <font SIZE="24"/>
-<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="default" ID="ID_271890427" ICON_SIZE="12 pt" COLOR="#000000" STYLE="fork">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_271890427" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
-<richcontent CONTENT-TYPE="plain/auto" TYPE="DETAILS"/>
+<richcontent TYPE="DETAILS" CONTENT-TYPE="plain/auto"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="plain/auto"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.details"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.tags">
+<font SIZE="10"/>
+</stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.attributes">
 <font SIZE="9"/>
 </stylenode>
@@ -26,7 +30,7 @@
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.selection" BACKGROUND_COLOR="#afd3f7" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#afd3f7"/>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork">
 <font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
 </stylenode>
@@ -41,7 +45,7 @@
 <arrowlink COLOR="#003399" TRANSPARENCY="255" DESTINATION="ID_67550811"/>
 </stylenode>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="10 pt">
 <font SIZE="18"/>
 </stylenode>
@@ -69,16 +73,16 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="12" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="What?" FOLDED="true" POSITION="right" ID="ID_1949437577" CREATED="1725387455529" MODIFIED="1725389625547">
+<node TEXT="What?" FOLDED="true" POSITION="bottom_or_right" ID="ID_1949437577" CREATED="1725387455529" MODIFIED="1725389625547">
 <edge COLOR="#7c007c"/>
 <node TEXT="Building methods that make it possible for machines to learn" ID="ID_1793140837" CREATED="1725387459466" MODIFIED="1725387473670"/>
-<node TEXT="Identification of patterns of data, predictions" ID="ID_189954730" CREATED="1724871274563" MODIFIED="1724871283891">
-<node TEXT="Conceptually" ID="ID_1995402303" CREATED="1724871416053" MODIFIED="1724871421520">
-<node TEXT="Start with input and output and use ML to get to rules" ID="ID_157082655" CREATED="1724871421933" MODIFIED="1724871552929" TEXT_SHORTENED="true">
+<node TEXT="Identification of patterns of data, predictions" FOLDED="true" ID="ID_189954730" CREATED="1724871274563" MODIFIED="1724871283891">
+<node TEXT="Conceptually" FOLDED="true" ID="ID_1995402303" CREATED="1724871416053" MODIFIED="1724871421520">
+<node TEXT="Start with input and output and use ML to get to rules" ID="ID_157082655" CREATED="1724871421933" MODIFIED="1738800321965" TEXT_SHORTENED="true">
 <hook URI="file:///C:/Ritwik/technical/AI/Notes/Images/ML%20concept.png" SIZE="0.63897765" NAME="ExternalObject"/>
 </node>
 </node>
-<node TEXT="Vs GenAI" ID="ID_1001664042" CREATED="1724871776420" MODIFIED="1724871898151" TEXT_SHORTENED="true">
+<node TEXT="Vs GenAI" FOLDED="true" ID="ID_1001664042" CREATED="1724871776420" MODIFIED="1738800512533" TEXT_SHORTENED="true">
 <hook URI="file:///C:/Ritwik/technical/AI/Notes/Images/ML%20vs%20GenAI.png" SIZE="0.65717417" NAME="ExternalObject"/>
 <node TEXT="Transparency &amp; Interpretability" FOLDED="true" ID="ID_1896471311" CREATED="1724871780357" MODIFIED="1724871795614">
 <node TEXT="Traditional ML is deterministic while GenAI is probabilistic" ID="ID_588070862" CREATED="1724871797734" MODIFIED="1724871922344"/>
@@ -100,7 +104,7 @@
 </node>
 </node>
 </node>
-<node TEXT="When? (Vs Traditional Programming)" FOLDED="true" POSITION="right" ID="ID_279256294" CREATED="1724871555280" MODIFIED="1725389625548">
+<node TEXT="When? (Vs Traditional Programming)" FOLDED="true" POSITION="bottom_or_right" ID="ID_279256294" CREATED="1724871555280" MODIFIED="1725389625548">
 <edge COLOR="#007c7c"/>
 <node TEXT="You can&apos;t code it" FOLDED="true" ID="ID_631346167" CREATED="1724871558871" MODIFIED="1724871575802">
 <node TEXT="Complex tasks where deterministic solutions don&apos;t suffice" ID="ID_1162491574" CREATED="1724871577208" MODIFIED="1724871596313"/>
@@ -117,10 +121,10 @@
 <node TEXT="e.g. Automated driving" ID="ID_885641988" CREATED="1724871697099" MODIFIED="1724871702723"/>
 </node>
 </node>
-<node TEXT="Use Cases" FOLDED="true" POSITION="right" ID="ID_1335075384" CREATED="1724874589450" MODIFIED="1725389625577">
+<node TEXT="Use Cases" FOLDED="true" POSITION="bottom_or_right" ID="ID_1335075384" CREATED="1724874589450" MODIFIED="1725389625577">
 <arrowlink DESTINATION="ID_1001664042"/>
 <edge COLOR="#7c7c00"/>
-<node TEXT="Vs GenAI" ID="ID_911188169" CREATED="1724874721868" MODIFIED="1724874730047">
+<node TEXT="Vs GenAI" FOLDED="true" ID="ID_911188169" CREATED="1724874721868" MODIFIED="1724874730047">
 <node TEXT="Excels at tasks involving NLP, open ended reasoning, generation of creative content" ID="ID_26736441" CREATED="1724874830102" MODIFIED="1724874857343"/>
 </node>
 <node TEXT="Fraud detection" FOLDED="true" ID="ID_807433387" CREATED="1724874595355" MODIFIED="1724874604012">
@@ -131,12 +135,12 @@
 <node TEXT="Since accuracy is critical" ID="ID_1459671198" CREATED="1724874652084" MODIFIED="1724874778670"/>
 </node>
 </node>
-<node TEXT="Training Types" POSITION="right" ID="ID_591935430" CREATED="1724773273348" MODIFIED="1727809156699" LINK="Generative%20AI.mm">
+<node TEXT="Training Types" FOLDED="true" POSITION="bottom_or_right" ID="ID_591935430" CREATED="1724773273348" MODIFIED="1727809156699" LINK="Generative%20AI.mm">
 <edge COLOR="#ff0000"/>
 <node TEXT="Supervised" FOLDED="true" ID="ID_1858916597" CREATED="1724773276781" MODIFIED="1724773281678">
 <node TEXT="What?" FOLDED="true" ID="ID_1826812356" CREATED="1724773357513" MODIFIED="1724773365624">
 <node TEXT="Learning by example" ID="ID_1150817700" CREATED="1724773380358" MODIFIED="1724773386744"/>
-<node TEXT="Agent given pairs of information" ID="ID_577310029" CREATED="1724773389670" MODIFIED="1724773399048">
+<node TEXT="Agent given pairs of information" FOLDED="true" ID="ID_577310029" CREATED="1724773389670" MODIFIED="1724773399048">
 <node TEXT="An input plus a label" ID="ID_1644095907" CREATED="1724773402174" MODIFIED="1724872359089"/>
 <node TEXT="Example of corresponding output" ID="ID_499511987" CREATED="1724773405503" MODIFIED="1724773412704"/>
 </node>
@@ -146,7 +150,7 @@
 <node TEXT="Learn a mapping function that can predict the output for new, unseen input data" ID="ID_956866465" CREATED="1725568594512" MODIFIED="1725568624533"/>
 </node>
 <node TEXT="Applications" FOLDED="true" ID="ID_1502798921" CREATED="1724773705256" MODIFIED="1724776138441">
-<node TEXT="Classification" ID="ID_930383591" CREATED="1724773724120" MODIFIED="1724773727986">
+<node TEXT="Classification" FOLDED="true" ID="ID_930383591" CREATED="1724773724120" MODIFIED="1724773727986">
 <node TEXT="Output is one of a set of discreet values" FOLDED="true" ID="ID_1354042804" CREATED="1724773744416" MODIFIED="1724773754154">
 <node TEXT="Binary" ID="ID_790739957" CREATED="1724872578665" MODIFIED="1724872581434"/>
 <node TEXT="Multiclass" ID="ID_298442389" CREATED="1724872581784" MODIFIED="1724872584417"/>
@@ -158,7 +162,7 @@
 <node TEXT="Diagnostics" ID="ID_1112376187" CREATED="1725568905721" MODIFIED="1725568909955"/>
 </node>
 </node>
-<node TEXT="Regression" ID="ID_1799259150" CREATED="1724773728848" MODIFIED="1724773731178">
+<node TEXT="Regression" FOLDED="true" ID="ID_1799259150" CREATED="1724773728848" MODIFIED="1724773731178">
 <node TEXT="Output is a number (calculated)" ID="ID_727355940" CREATED="1724773765230" MODIFIED="1724773781481"/>
 <node TEXT="Examples" FOLDED="true" ID="ID_89213688" CREATED="1724773787087" MODIFIED="1724776131856">
 <node TEXT="Sales forecasting" ID="ID_1942769039" CREATED="1724773790943" MODIFIED="1724773797472"/>
@@ -168,22 +172,22 @@
 </node>
 <node TEXT="Challenges" FOLDED="true" ID="ID_1835707231" CREATED="1724773833302" MODIFIED="1724773836818">
 <node TEXT="Acquiring and labeling training data" ID="ID_214394994" CREATED="1724773852537" MODIFIED="1724773874860"/>
-<node TEXT="Costly  to create large training data set" ID="ID_858858387" CREATED="1724773898311" MODIFIED="1724773907290"/>
+<node TEXT="Costly to create large training data set" ID="ID_858858387" CREATED="1724773898311" MODIFIED="1738801335948"/>
 </node>
 <node TEXT="Good for" FOLDED="true" ID="ID_281259639" CREATED="1724773955104" MODIFIED="1724773958253">
 <node TEXT="Data-rich domains such as healthcare and finances" ID="ID_1150776555" CREATED="1724773958636" MODIFIED="1724773996573"/>
 </node>
 </node>
 <node TEXT="Unsupervised" FOLDED="true" ID="ID_26493476" CREATED="1724773282060" MODIFIED="1724773285142">
-<node TEXT="What?" FOLDED="true" ID="ID_992823944" CREATED="1724775656139" MODIFIED="1724775663062">
+<node TEXT="What?" ID="ID_992823944" CREATED="1724775656139" MODIFIED="1724775663062">
 <node TEXT="Learning by discovering patterns" ID="ID_1039148946" CREATED="1724776150486" MODIFIED="1724776158281"/>
 <node TEXT="Discovers patterns in data even though no explicit feedback or label provided" ID="ID_81888088" CREATED="1724775663638" MODIFIED="1724775692191"/>
 </node>
-<node TEXT="Objective" FOLDED="true" ID="ID_366421056" CREATED="1725568662696" MODIFIED="1725568667642">
+<node TEXT="Objective" ID="ID_366421056" CREATED="1725568662696" MODIFIED="1725568667642">
 <node TEXT="Discover inherent patterns, structures or relationships within the input data" ID="ID_590633870" CREATED="1725568668203" MODIFIED="1725568692353"/>
 </node>
-<node TEXT="Applications" FOLDED="true" ID="ID_234685060" CREATED="1724776140479" MODIFIED="1724776149168">
-<node TEXT="Clustering" FOLDED="true" ID="ID_837090132" CREATED="1724776175895" MODIFIED="1724776179529">
+<node TEXT="Applications" ID="ID_234685060" CREATED="1724776140479" MODIFIED="1724776149168">
+<node TEXT="Clustering" ID="ID_837090132" CREATED="1724776175895" MODIFIED="1724776179529">
 <node TEXT="Grouping similar items within a large group into subsets" ID="ID_506541500" CREATED="1724776179822" MODIFIED="1724776198585"/>
 <node TEXT="Examples" ID="ID_105671861" CREATED="1724776228927" MODIFIED="1724776235913">
 <node TEXT="Customer segmentation" ID="ID_3866855" CREATED="1724776430933" MODIFIED="1724776436614">
@@ -195,7 +199,7 @@
 <node TEXT="Anomaly detection" ID="ID_1551973932" CREATED="1724776477469" MODIFIED="1724776486602"/>
 </node>
 </node>
-<node TEXT="Dimensionality reduction" FOLDED="true" ID="ID_526377809" CREATED="1725569056427" MODIFIED="1725569066277">
+<node TEXT="Dimensionality reduction" ID="ID_526377809" CREATED="1725569056427" MODIFIED="1725569066277">
 <node TEXT="Reduce the number of features or dimensions, while preserving most important info/patterns" ID="ID_1839414173" CREATED="1725569066819" MODIFIED="1725569105077"/>
 <node TEXT="Examples" ID="ID_527053188" CREATED="1725569123396" MODIFIED="1725569125991">
 <node TEXT="Big data visualization" ID="ID_34402835" CREATED="1725569146531" MODIFIED="1725569146531"/>
@@ -205,10 +209,9 @@
 </node>
 </node>
 </node>
-<node TEXT="Challenges" FOLDED="true" ID="ID_1251278101" CREATED="1724776309866" MODIFIED="1724776313323">
+<node TEXT="Challenges" ID="ID_1251278101" CREATED="1724776309866" MODIFIED="1724776313323">
 <node TEXT="Feature Engineering" ID="ID_546888539" CREATED="1724776315450" MODIFIED="1724776323595">
-<node TEXT="Algo has to chhose which feature should be used for clustering" ID="ID_1942919442" CREATED="1724776355287" MODIFIED="1724776371180"/>
-<node TEXT="" ID="ID_75020023" CREATED="1724776372066" MODIFIED="1724776372066"/>
+<node TEXT="Algo has to choose which feature should be used for clustering" ID="ID_1942919442" CREATED="1724776355287" MODIFIED="1738801457863"/>
 </node>
 <node TEXT="Usefulness" ID="ID_567577832" CREATED="1724776504541" MODIFIED="1724776508511">
 <node TEXT="Clustering may be the first level of analysis" ID="ID_644786786" CREATED="1724776509487" MODIFIED="1724776539024"/>
@@ -232,7 +235,7 @@
 <node TEXT="How?" FOLDED="true" ID="ID_1847578082" CREATED="1724777029784" MODIFIED="1724777033058">
 <node TEXT="At any point in time there is a set of actions that the agent can take" ID="ID_50692006" CREATED="1724777033457" MODIFIED="1724777048243"/>
 <node TEXT="It tries one and notes feedback" ID="ID_1253289071" CREATED="1724777059240" MODIFIED="1724777067122"/>
-<node TEXT="If feedback provided only after a set of actions, it notes those series of steps" ID="ID_149758279" CREATED="1724777103674" MODIFIED="1724777171708">
+<node TEXT="If feedback provided only after a set of actions, it notes those series of steps" FOLDED="true" ID="ID_149758279" CREATED="1724777103674" MODIFIED="1724777171708">
 <node TEXT="Introduces more complexities" ID="ID_1274352069" CREATED="1724777119753" MODIFIED="1724777128756"/>
 <node TEXT="Slower" ID="ID_594006697" CREATED="1724777151274" MODIFIED="1724777155155"/>
 </node>
@@ -242,13 +245,13 @@
 <node TEXT="Requires a lot of compute power" ID="ID_792614479" CREATED="1724777197818" MODIFIED="1724777203205"/>
 <node TEXT="Works good where the cost of trial/error is low. i.e. it does not take lot of resources to get the feedback" ID="ID_646134383" CREATED="1724777328045" MODIFIED="1724777361920"/>
 </node>
-<node TEXT="Applications" ID="ID_1222911730" CREATED="1724777284020" MODIFIED="1724777288918">
+<node TEXT="Applications" FOLDED="true" ID="ID_1222911730" CREATED="1724777284020" MODIFIED="1724777288918">
 <node TEXT="Robotics" ID="ID_222261849" CREATED="1724777289363" MODIFIED="1724777313751"/>
 <node TEXT="Control physical systems" ID="ID_1757841336" CREATED="1724777424831" MODIFIED="1724777464457"/>
 </node>
 </node>
 </node>
-<node TEXT="Inferencing" FOLDED="true" POSITION="right" ID="ID_1806245775" CREATED="1725389826064" MODIFIED="1725389830402">
+<node TEXT="Inferencing" FOLDED="true" POSITION="bottom_or_right" ID="ID_1806245775" CREATED="1725389826064" MODIFIED="1725389830402">
 <edge COLOR="#ff0000"/>
 <node TEXT="What?" FOLDED="true" ID="ID_910527321" CREATED="1725389846200" MODIFIED="1725389848346">
 <node TEXT="Use trained models to make predictions on decisions" ID="ID_1312682081" CREATED="1725389851569" MODIFIED="1725389877434"/>
@@ -274,20 +277,22 @@
 </node>
 </node>
 </node>
-<node TEXT="Techniques" POSITION="right" ID="ID_1962490556" CREATED="1724777983266" MODIFIED="1724777987179">
+<node TEXT="Techniques" FOLDED="true" POSITION="bottom_or_right" ID="ID_1962490556" CREATED="1724777983266" MODIFIED="1724777987179">
 <edge COLOR="#7c0000"/>
-<node TEXT="Neural Networks" ID="ID_1622785224" CREATED="1724777665012" MODIFIED="1724777669013">
+<node TEXT="Neural Networks" FOLDED="true" ID="ID_1622785224" CREATED="1724777665012" MODIFIED="1724777669013">
 <node TEXT="What?" FOLDED="true" ID="ID_1082463102" CREATED="1724777672500" MODIFIED="1724777674253">
 <node TEXT="Insprired by structure of the brain" ID="ID_1797515656" CREATED="1724777691500" MODIFIED="1724777699701"/>
 <node TEXT="Consists of nodes and links between them" ID="ID_1318957316" CREATED="1724777700539" MODIFIED="1724777721485"/>
-<node TEXT="Expresses complex mathematical models" ID="ID_1639338782" CREATED="1724777746348" MODIFIED="1724777763189">
+<node TEXT="Expresses complex mathematical models" FOLDED="true" ID="ID_1639338782" CREATED="1724777746348" MODIFIED="1724777763189">
 <node TEXT="Links = variable values" ID="ID_119706386" CREATED="1724777763995" MODIFIED="1724777785092"/>
 <node TEXT="Nodes = mathematical functions" ID="ID_1202975193" CREATED="1724777785804" MODIFIED="1724777796621"/>
 </node>
 </node>
 <node TEXT="Training" FOLDED="true" ID="ID_1712171119" CREATED="1724777892485" MODIFIED="1724777896076">
 <node TEXT="Training algo automatically adjusts the values of variables until it is able to produce the right output given the training data" ID="ID_420774164" CREATED="1724777827107" MODIFIED="1724777891183"/>
-<node TEXT="Supervised learning" ID="ID_1463844050" CREATED="1724778042156" MODIFIED="1724778046294"/>
+<node TEXT="Supervised learning" ID="ID_1463844050" CREATED="1724778042156" MODIFIED="1738803805656">
+<arrowlink DESTINATION="ID_1858916597"/>
+</node>
 </node>
 <node TEXT="Applications" FOLDED="true" ID="ID_1566598131" CREATED="1724777908754" MODIFIED="1724777912116">
 <node TEXT="Pattern recognition" FOLDED="true" ID="ID_590496168" CREATED="1724777935258" MODIFIED="1724777954907">
@@ -296,16 +301,16 @@
 </node>
 </node>
 </node>
-<node TEXT="Support Vector Machines" ID="ID_1636599187" CREATED="1724777967811" MODIFIED="1724777976356">
+<node TEXT="Support Vector Machines" FOLDED="true" ID="ID_1636599187" CREATED="1724777967811" MODIFIED="1724777976356">
 <node TEXT="What?" ID="ID_565314148" CREATED="1724777995090" MODIFIED="1724777997397"/>
-<node TEXT="Uses" ID="ID_1298452542" CREATED="1724778010435" MODIFIED="1724778012189">
+<node TEXT="Uses" FOLDED="true" ID="ID_1298452542" CREATED="1724778010435" MODIFIED="1724778012189">
 <node TEXT="Classification" ID="ID_1619285092" CREATED="1724778012388" MODIFIED="1724778015197"/>
 <node TEXT="Regression" ID="ID_141099792" CREATED="1724778015700" MODIFIED="1724778018020"/>
-<node TEXT="Firstcut/ test variables/features" FOLDED="true" ID="ID_298536658" CREATED="1724778283215" MODIFIED="1724778320978">
+<node TEXT="Firstcut/ test variables/features" ID="ID_298536658" CREATED="1724778283215" MODIFIED="1724778320978">
 <node TEXT="Help with feature engineering" ID="ID_1500720245" CREATED="1724778322104" MODIFIED="1724778334705"/>
 </node>
 </node>
-<node TEXT="Training" ID="ID_729340923" CREATED="1724778092124" MODIFIED="1724778094405">
+<node TEXT="Training" FOLDED="true" ID="ID_729340923" CREATED="1724778092124" MODIFIED="1724778094405">
 <node TEXT="Supervised learning" ID="ID_345340851" CREATED="1724778096068" MODIFIED="1725989866523">
 <arrowlink DESTINATION="ID_1858916597"/>
 </node>
@@ -326,7 +331,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Development LC" FOLDED="true" POSITION="right" ID="ID_184506290" CREATED="1724875050401" MODIFIED="1725389576423" TEXT_SHORTENED="true">
+<node TEXT="Development LC" FOLDED="true" POSITION="bottom_or_right" ID="ID_184506290" CREATED="1724875050401" MODIFIED="1725389576423" TEXT_SHORTENED="true">
 <hook URI="file:///C:/Ritwik/technical/AI/Notes/Images/ML%20Process%20Overview.png" SIZE="0.66592675" NAME="ExternalObject"/>
 <edge COLOR="#007c00"/>
 <node TEXT="Problem identification &amp; framing" FOLDED="true" ID="ID_691777994" CREATED="1724875054961" MODIFIED="1724875077131">
@@ -393,22 +398,22 @@
 <node TEXT="Additional training, tweaking, etc." ID="ID_422341549" CREATED="1724878713821" MODIFIED="1724878722374"/>
 </node>
 </node>
-<node TEXT="Algorithms" POSITION="right" ID="ID_1518457588" CREATED="1724777499329" MODIFIED="1724777505235">
+<node TEXT="Algorithms" POSITION="bottom_or_right" ID="ID_1518457588" CREATED="1724777499329" MODIFIED="1724777505235">
 <edge COLOR="#ff00ff"/>
 </node>
-<node TEXT="Models" POSITION="right" ID="ID_1397851966" CREATED="1724777510769" MODIFIED="1724777513058">
+<node TEXT="Models" POSITION="bottom_or_right" ID="ID_1397851966" CREATED="1724777510769" MODIFIED="1724777513058">
 <edge COLOR="#00ffff"/>
 </node>
-<node TEXT="Language Technologies" POSITION="left" ID="ID_1389411799" CREATED="1724782943073" MODIFIED="1724782948771">
+<node TEXT="Language Technologies" FOLDED="true" POSITION="top_or_left" ID="ID_1389411799" CREATED="1724782943073" MODIFIED="1724782948771">
 <edge COLOR="#00007c"/>
-<node TEXT="What?" ID="ID_315586330" CREATED="1724782963784" MODIFIED="1724782965604">
+<node TEXT="What?" FOLDED="true" ID="ID_315586330" CREATED="1724782963784" MODIFIED="1724782965604">
 <node TEXT="" ID="ID_160418571" CREATED="1724782968536" MODIFIED="1724782968536"/>
 </node>
 </node>
-<node TEXT="Terms" POSITION="left" ID="ID_1176883432" CREATED="1724773609698" MODIFIED="1724773612283">
+<node TEXT="Terms" FOLDED="true" POSITION="top_or_left" ID="ID_1176883432" CREATED="1724773609698" MODIFIED="1724773612283">
 <edge COLOR="#0000ff"/>
-<node TEXT="Feature Engineering" ID="ID_1320845295" CREATED="1724773612874" MODIFIED="1725390186133">
-<node TEXT="What?" ID="ID_886190513" CREATED="1724773618682" MODIFIED="1725390186133">
+<node TEXT="Feature Engineering" FOLDED="true" ID="ID_1320845295" CREATED="1724773612874" MODIFIED="1725390186133">
+<node TEXT="What?" FOLDED="true" ID="ID_886190513" CREATED="1724773618682" MODIFIED="1725390186133">
 <node TEXT="Identifying attributes most likely to affect output" ID="ID_101248717" CREATED="1724773622289" MODIFIED="1724773635131"/>
 </node>
 </node>

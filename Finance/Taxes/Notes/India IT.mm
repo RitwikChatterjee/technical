@@ -1,28 +1,34 @@
-<map version="freeplane 1.8.0">
-<!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
+<map version="freeplane 1.12.1">
+<!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="India IT" FOLDED="false" ID="ID_376851141" CREATED="1600650154547" MODIFIED="1600650160786" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES"/>
+    <tags category_separator="::"/>
 
 <map_styles>
-<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
+<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
 <font SIZE="24"/>
-<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
-<stylenode LOCALIZED_TEXT="default" ICON_SIZE="12.0 pt" COLOR="#000000" STYLE="fork">
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="default" ID="ID_1110780412" ICON_SIZE="12 pt" COLOR="#000000" STYLE="fork">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1110780412" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.details"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.tags">
+<font SIZE="10"/>
+</stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.attributes">
 <font SIZE="9"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.note" COLOR="#000000" BACKGROUND_COLOR="#ffffff" TEXT_ALIGN="LEFT"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.selection" BACKGROUND_COLOR="#4e85f8" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#4e85f8"/>
 <stylenode LOCALIZED_TEXT="defaultstyle.floating">
 <edge STYLE="hide_edge"/>
 <cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
 </stylenode>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork">
 <font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
 </stylenode>
@@ -36,8 +42,8 @@
 <icon BUILTIN="yes"/>
 </stylenode>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10.0 pt" SHAPE_VERTICAL_MARGIN="10.0 pt">
+<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="bottom_or_right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="10 pt">
 <font SIZE="18"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="AutomaticLayout.level,1" COLOR="#0033ff">
@@ -63,8 +69,8 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="3" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="IT Return Forms" FOLDED="true" POSITION="right" ID="ID_1078622622" CREATED="1600650203779" MODIFIED="1600650226927">
+<hook NAME="AutomaticEdgeColor" COUNTER="4" RULE="ON_BRANCH_CREATION"/>
+<node TEXT="IT Return Forms" FOLDED="true" POSITION="bottom_or_right" ID="ID_1078622622" CREATED="1600650203779" MODIFIED="1600650226927">
 <edge COLOR="#ff0000"/>
 <node TEXT="ITR 1" FOLDED="true" ID="ID_375548008" CREATED="1600650228122" MODIFIED="1600650234441">
 <node TEXT="aka" FOLDED="true" ID="ID_1900373847" CREATED="1600650236428" MODIFIED="1600650238434">
@@ -102,7 +108,7 @@
 </node>
 </node>
 </node>
-<node TEXT="IT Forms" FOLDED="true" POSITION="right" ID="ID_1697664038" CREATED="1690657779254" MODIFIED="1690657787158">
+<node TEXT="IT Forms" FOLDED="true" POSITION="bottom_or_right" ID="ID_1697664038" CREATED="1690657779254" MODIFIED="1690657787158">
 <edge COLOR="#ff00ff"/>
 <node TEXT="Form26AS" FOLDED="true" ID="ID_356548015" CREATED="1690657789822" MODIFIED="1690657799232">
 <node TEXT="Contains only TDS/TCS info" ID="ID_130194955" CREATED="1690657811902" MODIFIED="1690657823786"/>
@@ -141,7 +147,7 @@
 <node TEXT="Introduced by Budget 2021 - started in Nov &apos;21" ID="ID_899703048" CREATED="1690658589774" MODIFIED="1690658610631"/>
 </node>
 </node>
-<node TEXT="Tax Deductions" FOLDED="true" POSITION="right" ID="ID_1367096548" CREATED="1690670055156" MODIFIED="1690670059406">
+<node TEXT="Tax Deductions" FOLDED="true" POSITION="bottom_or_right" ID="ID_1367096548" CREATED="1690670055156" MODIFIED="1690670059406">
 <edge COLOR="#00ffff"/>
 <node TEXT="VI-A" FOLDED="true" ID="ID_340462476" CREATED="1690670063427" MODIFIED="1690670069250">
 <node TEXT="80C" ID="ID_1667110606" CREATED="1690670323345" MODIFIED="1690670328227">
@@ -175,7 +181,7 @@
 </node>
 <node TEXT="80CCC" ID="ID_47462563" CREATED="1690670419433" MODIFIED="1690670424147">
 <node TEXT="Limits" ID="ID_823856651" CREATED="1690670458961" MODIFIED="1690670510080">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1750722543" STARTINCLINATION="106;0;" ENDINCLINATION="106;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1750722543" STARTINCLINATION="79.5 pt;0 pt;" ENDINCLINATION="79.5 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node TEXT="Eligible Investments" ID="ID_119539799" CREATED="1690670513761" MODIFIED="1690670520131">
 <node TEXT="Certain LIC pension funds" ID="ID_171036162" CREATED="1690670561714" MODIFIED="1690670573171"/>
@@ -188,7 +194,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Sale of Immovable Properties" FOLDED="true" POSITION="right" ID="ID_1630630764" CREATED="1687890545496" MODIFIED="1687892601011">
+<node TEXT="Sale of Immovable Properties" FOLDED="true" POSITION="bottom_or_right" ID="ID_1630630764" CREATED="1687890545496" MODIFIED="1687892601011">
 <edge COLOR="#00ff00"/>
 <node TEXT="Capital Gains Tax" FOLDED="true" ID="ID_477381723" CREATED="1687890591040" MODIFIED="1687893247737">
 <node TEXT="What?" FOLDED="true" ID="ID_1563687259" CREATED="1687890596791" MODIFIED="1687890599129">
@@ -196,7 +202,7 @@
 <node TEXT="Movable capital assets" ID="ID_579438593" CREATED="1687890621479" MODIFIED="1687890635929"/>
 <node TEXT="Immovable capital assets" ID="ID_660006766" CREATED="1687890636703" MODIFIED="1687890642231">
 <node TEXT="see Exemptions" ID="ID_541332258" CREATED="1687890956366" MODIFIED="1687890964991">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_890359454" STARTINCLINATION="618;0;" ENDINCLINATION="618;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_890359454" STARTINCLINATION="463.49999 pt;0 pt;" ENDINCLINATION="463.49999 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 </node>
@@ -343,7 +349,7 @@
 <node TEXT="Sec 54F (sale of non-residential property)" FOLDED="true" ID="ID_663219166" CREATED="1687919261101" MODIFIED="1687919292807">
 <node TEXT="Purchase 1 residential property in India with the sale consideration (more or part thereof)" FOLDED="true" ID="ID_386814174" CREATED="1687919308476" MODIFIED="1687922057319">
 <node TEXT="Period" ID="ID_1227435162" CREATED="1687919652445" MODIFIED="1687919686685">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_668942602" STARTINCLINATION="157;0;" ENDINCLINATION="157;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_668942602" STARTINCLINATION="117.75 pt;0 pt;" ENDINCLINATION="117.75 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node TEXT="Deduction limitations" FOLDED="true" ID="ID_1002465530" CREATED="1687919808523" MODIFIED="1687919814046">
 <node TEXT="Proportionate to the capital gains earned to the sale consideration" FOLDED="true" ID="ID_912427743" CREATED="1687919815516" MODIFIED="1687919851164">
@@ -445,7 +451,7 @@
 </node>
 </node>
 <node TEXT="Reduced TDS" FOLDED="true" ID="ID_1732822022" CREATED="1687923760575" MODIFIED="1687923966056">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_716472075" STARTINCLINATION="123;0;" ENDINCLINATION="123;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_716472075" STARTINCLINATION="92.25 pt;0 pt;" ENDINCLINATION="92.25 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="Based on lower tax certificate issued by IT Dept" ID="ID_38388944" CREATED="1687923773478" MODIFIED="1687923902008"/>
 <node TEXT="Need to check online to ensure authenticity of the certificate" ID="ID_1097849947" CREATED="1687923937990" MODIFIED="1687923953009"/>
 </node>
@@ -455,7 +461,7 @@
 <node TEXT="Obligation" ID="ID_490827243" CREATED="1687922591642" MODIFIED="1687924162312">
 <node TEXT="Obtain TAN (if seller is NRI)" ID="ID_1600668470" CREATED="1687923904719" MODIFIED="1687924279239"/>
 <node TEXT="Deduct TDS" ID="ID_1547882790" CREATED="1687922600618" MODIFIED="1687924730837">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1209801909" STARTINCLINATION="91;0;" ENDINCLINATION="91;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1209801909" STARTINCLINATION="68.25 pt;0 pt;" ENDINCLINATION="68.25 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node TEXT="Produce TDS payment certificate before the registration authority during registration" ID="ID_665468581" CREATED="1687924108126" MODIFIED="1687924321215"/>
 <node TEXT="File TDS return Form 27Q at same Qtr end" FOLDED="true" ID="ID_1471986502" CREATED="1687924328661" MODIFIED="1687924400854">
@@ -517,7 +523,7 @@
 <node TEXT="TDS on sale of property by NRI 2023" ID="ID_585312944" CREATED="1688725654501" MODIFIED="1688725700261" LINK="https://www.charteredclub.com/tds-property-purchase-nri/"/>
 </node>
 </node>
-<node TEXT="Concerns" FOLDED="true" POSITION="left" ID="ID_327330853" CREATED="1600650720384" MODIFIED="1600650729841">
+<node TEXT="Concerns" POSITION="top_or_left" ID="ID_327330853" CREATED="1600650720384" MODIFIED="1600650729841">
 <edge COLOR="#0000ff"/>
 <node TEXT="Mapping income &amp; taxes" FOLDED="true" ID="ID_1758467848" CREATED="1600650731008" MODIFIED="1600650866031">
 <node TEXT="It is important to match income reported to the tax department" ID="ID_1523338795" CREATED="1600650761441" MODIFIED="1600650866030">
@@ -582,6 +588,22 @@
 <node TEXT="Additional disclosures" ID="ID_946270541" CREATED="1600651640265" MODIFIED="1600651647019"/>
 </node>
 </node>
+</node>
+<node TEXT="Compliance issues for NRIs" FOLDED="true" POSITION="top_or_left" ID="ID_7882507" CREATED="1770444359949" MODIFIED="1770444499067">
+<edge COLOR="#ff00ff"/>
+<node TEXT="Remove resident status from bank accounts" ID="ID_80828232" CREATED="1770444383573" MODIFIED="1770444396806">
+<node TEXT="Have NRE/NRO account" ID="ID_535356442" CREATED="1770444402268" MODIFIED="1770444408221"/>
+</node>
+<node TEXT="Remove resident status from demat account" ID="ID_1625266862" CREATED="1770444446043" MODIFIED="1770444455465"/>
+<node TEXT="Convert PAN card to reflect NRI status" ID="ID_1037949445" CREATED="1770444531380" MODIFIED="1770444558319"/>
+<node TEXT="Login to your income tax account and take a look at the AIS statement" ID="ID_1944800865" CREATED="1770444663362" MODIFIED="1770444683810"/>
+<node TEXT="Gather Aadhar card (applicable only for NRI citizens, not for OCI holders)" ID="ID_1155900603" CREATED="1770444776380" MODIFIED="1770444844088"/>
+<node TEXT="Link your PAN with Aadhar" ID="ID_179696518" CREATED="1770444862433" MODIFIED="1770444869098"/>
+<node TEXT="Attend all tax obligations in Inda" ID="ID_365182050" CREATED="1770445019312" MODIFIED="1770445028177"/>
+<node TEXT="Correct name/address/DOB variations appearing across different documents" ID="ID_715537812" CREATED="1770445112714" MODIFIED="1770445137220">
+<node TEXT="Name change in Aadhaar can only happen once in a lifetime. So be careful" ID="ID_595217580" CREATED="1770445252687" MODIFIED="1770445278085"/>
+</node>
+<node TEXT="MF ownership should be convert to NRO status" ID="ID_1698138025" CREATED="1770445422095" MODIFIED="1770445454398"/>
 </node>
 </node>
 </map>

@@ -1,28 +1,34 @@
-<map version="freeplane 1.8.0">
-<!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="Retirement" FOLDED="false" ID="ID_316693898" CREATED="1518553867430" MODIFIED="1518553874418" STYLE="oval">
+<map version="freeplane 1.12.1">
+<!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
+<node TEXT="Retirement Planning" FOLDED="false" ID="ID_316693898" CREATED="1518553867430" MODIFIED="1750125828011" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties fit_to_viewport="false" show_tags="UNDER_NODES" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" showTagCategories="false" show_icon_for_attributes="true" show_note_icons="true"/>
+    <tags category_separator="::"/>
 
 <map_styles>
-<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
+<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
 <font SIZE="24"/>
-<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
-<stylenode LOCALIZED_TEXT="default" ICON_SIZE="12.0 pt" COLOR="#000000" STYLE="fork">
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="default" ID="ID_479631411" ICON_SIZE="12 pt" COLOR="#000000" STYLE="fork">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_479631411" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.details"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.tags">
+<font SIZE="10"/>
+</stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.attributes">
 <font SIZE="9"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.note" COLOR="#000000" BACKGROUND_COLOR="#ffffff" TEXT_ALIGN="LEFT"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.selection" BACKGROUND_COLOR="#4e85f8" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#4e85f8"/>
 <stylenode LOCALIZED_TEXT="defaultstyle.floating">
 <edge STYLE="hide_edge"/>
 <cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
 </stylenode>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork">
 <font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
 </stylenode>
@@ -36,8 +42,8 @@
 <icon BUILTIN="yes"/>
 </stylenode>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10.0 pt" SHAPE_VERTICAL_MARGIN="10.0 pt">
+<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="bottom_or_right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="10 pt">
 <font SIZE="18"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="AutomaticLayout.level,1" COLOR="#0033ff">
@@ -63,8 +69,8 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="2" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="Changing jobs" FOLDED="true" POSITION="right" ID="ID_1917249450" CREATED="1518553880544" MODIFIED="1518553887728">
+<hook NAME="AutomaticEdgeColor" COUNTER="3" RULE="ON_BRANCH_CREATION"/>
+<node TEXT="Changing jobs" FOLDED="true" POSITION="bottom_or_right" ID="ID_1917249450" CREATED="1518553880544" MODIFIED="1518553887728">
 <edge COLOR="#ff0000"/>
 <node TEXT="Considerations" FOLDED="true" ID="ID_821307501" CREATED="1518553893702" MODIFIED="1518553900982">
 <node TEXT="Employee match vesting" ID="ID_932709463" CREATED="1518553908718" MODIFIED="1518553915671"/>
@@ -102,21 +108,80 @@
 </node>
 </node>
 <node TEXT="Rollover to an IRA" FOLDED="true" ID="ID_1875265586" CREATED="1518554163512" MODIFIED="1518554176379">
-<node TEXT="Considerations" FOLDED="true" ID="ID_1233051530" CREATED="1518554687231" MODIFIED="1518554698479">
+<node TEXT="Considerations" ID="ID_1233051530" CREATED="1518554687231" MODIFIED="1518554698479">
 <node TEXT="Needs to ensure true rollover (trustee-to-trustee)" ID="ID_232668551" CREATED="1518554700472" MODIFIED="1518554736872"/>
 </node>
-<node TEXT="Pros" FOLDED="true" ID="ID_1024235839" CREATED="1518554222089" MODIFIED="1518554224611">
+<node TEXT="Pros" ID="ID_1024235839" CREATED="1518554222089" MODIFIED="1518554224611">
 <node TEXT="Employer retirement plans have limited investment options &amp; high fees" ID="ID_309615434" CREATED="1518554225601" MODIFIED="1518554246450"/>
 <node TEXT="IRA opens up investment opportunities (any investment allowed)" ID="ID_266229868" CREATED="1518554253562" MODIFIED="1518554283362"/>
 <node TEXT="Can name any beneficiary (vis-a-vis spouse only for 401K)" ID="ID_1685431698" CREATED="1518554646493" MODIFIED="1518554678215"/>
 </node>
+<node TEXT="Cons" ID="ID_235819351" CREATED="1750123979261" MODIFIED="1750123986271">
+<node TEXT="Limited protection for non-ERISA rollover" ID="ID_373109563" CREATED="1750123992653" MODIFIED="1750124038644">
+<arrowlink DESTINATION="ID_538524476"/>
 </node>
 </node>
 </node>
-<node TEXT="Types" FOLDED="true" POSITION="right" ID="ID_914341493" CREATED="1518651130087" MODIFIED="1711765187751">
+</node>
+</node>
+<node TEXT="Investment Types" FOLDED="true" POSITION="bottom_or_right" ID="ID_914341493" CREATED="1518651130087" MODIFIED="1750125849882">
 <edge COLOR="#0000ff"/>
 <node TEXT="401K" FOLDED="true" ID="ID_1582700849" CREATED="1518651133928" MODIFIED="1518651159531">
-<node TEXT="Tax Deferred" ID="ID_780773353" CREATED="1518651190018" MODIFIED="1518651206130"/>
+<node TEXT="Traditional" FOLDED="true" ID="ID_1470261851" CREATED="1518651178913" MODIFIED="1518651181650">
+<node TEXT="What?" FOLDED="true" ID="ID_207789293" CREATED="1573666134345" MODIFIED="1573666144936">
+<node TEXT="Retirement account offered by employer (EPF)" ID="ID_993022018" CREATED="1749242558668" MODIFIED="1749242640412"/>
+<node TEXT="Needs employer/business sponsorship" ID="ID_1915067460" CREATED="1749242569332" MODIFIED="1749242718565"/>
+</node>
+<node TEXT="Limitations" FOLDED="true" POSITION="bottom_or_right" ID="ID_1078426997" CREATED="1573666435853" MODIFIED="1749242229294">
+<node TEXT="When income below a certain amount annually" ID="ID_743085415" CREATED="1573666146592" MODIFIED="1573666419972"/>
+<node TEXT="Income Limit" ID="ID_1856368521" CREATED="1749242210761" MODIFIED="1749242215965"/>
+<node TEXT="Contribution Limits" FOLDED="true" ID="ID_1324031885" CREATED="1749242216693" MODIFIED="1749242223408">
+<node TEXT="Contribution limits set by IRS each year" ID="ID_1801863647" CREATED="1749242403347" MODIFIED="1749242413262">
+<node TEXT="2024" OBJECT="java.lang.Long|2024" ID="ID_359506403" CREATED="1749242413548" MODIFIED="1749242416742">
+<node TEXT="Employer offered" ID="ID_1751153032" CREATED="1749242830250" MODIFIED="1749242840109">
+<node TEXT="$23000" POSITION="bottom_or_right" ID="ID_978084022" CREATED="1749242417012" MODIFIED="1749242742957"/>
+</node>
+<node TEXT="Self-employed" ID="ID_384869330" CREATED="1749242845611" MODIFIED="1749242853140">
+<node TEXT="$69000" ID="ID_1193626963" CREATED="1749242853715" MODIFIED="1749242857492"/>
+</node>
+</node>
+</node>
+<node TEXT="Higher contribution limits for 50+" ID="ID_453337076" CREATED="1749242427867" MODIFIED="1749242441541"/>
+</node>
+<node TEXT="Pre-withdrawal penalty" FOLDED="true" ID="ID_1574427761" CREATED="1749242453443" MODIFIED="1749242466317">
+<node TEXT="Penalty of 10% if withdrawn before 59.5 years of age" ID="ID_922308013" CREATED="1749242468883" MODIFIED="1749242490973"/>
+</node>
+</node>
+<node TEXT="Tax implications" FOLDED="true" POSITION="bottom_or_right" ID="ID_987157959" CREATED="1573666462914" MODIFIED="1573666469861">
+<node TEXT="Pre-tax contributions" ID="ID_967788460" CREATED="1749242311652" MODIFIED="1749242319094"/>
+<node TEXT="contributions tax-deductible when income &lt; certain amount" FOLDED="true" ID="ID_828411043" CREATED="1573666426808" MODIFIED="1573666583336">
+<node TEXT="Married" FOLDED="true" ID="ID_69162786" CREATED="1573668465261" MODIFIED="1573672449055">
+<node TEXT="2017" OBJECT="java.lang.Long|2017" FOLDED="true" ID="ID_1759306167" CREATED="1573668072436" MODIFIED="1573672456015">
+<node TEXT="Full deduction" FOLDED="true" ID="ID_1272398885" CREATED="1573668085493" MODIFIED="1573668102947">
+<node TEXT="&lt;$62K" ID="ID_1485184456" CREATED="1573668133523" MODIFIED="1573668146022"/>
+</node>
+<node TEXT="Deduction reduced" FOLDED="true" ID="ID_909037047" CREATED="1573668103657" MODIFIED="1573668118053">
+<node TEXT="&lt;$99K" ID="ID_1727715835" CREATED="1573668151382" MODIFIED="1573668168541"/>
+</node>
+<node TEXT="Complete Ineligible" FOLDED="true" ID="ID_727422571" CREATED="1573668120612" MODIFIED="1573668126150">
+<node TEXT="&gt;=$119K" ID="ID_1718024539" CREATED="1573668516472" MODIFIED="1573668547534"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Money grows tax-free till you withdraw" ID="ID_489983011" CREATED="1573666502584" MODIFIED="1573666516757"/>
+<node TEXT="Taxed as ordinary income on withdrawal" ID="ID_1719635497" CREATED="1749242361412" MODIFIED="1749242377629"/>
+</node>
+<node TEXT="Vs" FOLDED="true" ID="ID_364516203" CREATED="1749242658427" MODIFIED="1749242660693">
+<node TEXT="Traditional IRA" FOLDED="true" ID="ID_737318836" CREATED="1749242661091" MODIFIED="1749242670325">
+<node TEXT="Needs employer sponsorship" ID="ID_1103581186" CREATED="1749242671076" MODIFIED="1749242681197"/>
+<node TEXT="Have higher contribution limits" ID="ID_1319293519" CREATED="1749242682036" MODIFIED="1749242688428"/>
+</node>
+</node>
+<node TEXT="Recommendation" FOLDED="true" POSITION="bottom_or_right" ID="ID_559222555" CREATED="1749242510475" MODIFIED="1749242514829">
+<node TEXT="When you expect to have lower income during retirement" ID="ID_1743178866" CREATED="1749242515251" MODIFIED="1749242528828"/>
+</node>
+</node>
 </node>
 <node TEXT="Roth" FOLDED="true" ID="ID_1130394132" CREATED="1518651160528" MODIFIED="1518651164082">
 <node TEXT="After-Tax" ID="ID_1151579172" CREATED="1518651210009" MODIFIED="1518651216914"/>
@@ -124,10 +189,26 @@
 <node TEXT="IRA" FOLDED="true" ID="ID_142015525" CREATED="1518651165408" MODIFIED="1711765187750">
 <node TEXT="Traditional" FOLDED="true" ID="ID_1050872018" CREATED="1518651178913" MODIFIED="1518651181650">
 <node TEXT="What?" FOLDED="true" ID="ID_570379576" CREATED="1573666134345" MODIFIED="1573666144936">
-<node TEXT="Eligibility" FOLDED="true" ID="ID_1386705142" CREATED="1573666435853" MODIFIED="1573666462075">
-<node TEXT="When income below a certain amount annually" ID="ID_1475746036" CREATED="1573666146592" MODIFIED="1573666419972"/>
+<node TEXT="Individual Retirement Account (like PPF)" ID="ID_663651449" CREATED="1749242558668" MODIFIED="1749242568622"/>
+<node TEXT="Does not need employer/business sponsorship" ID="ID_679874669" CREATED="1749242569332" MODIFIED="1749242591157"/>
 </node>
-<node TEXT="Tax implications" FOLDED="true" ID="ID_919902649" CREATED="1573666462914" MODIFIED="1573666469861">
+<node TEXT="Limitations" FOLDED="true" POSITION="bottom_or_right" ID="ID_1386705142" CREATED="1573666435853" MODIFIED="1749242229294">
+<node TEXT="When income below a certain amount annually" ID="ID_1475746036" CREATED="1573666146592" MODIFIED="1573666419972"/>
+<node TEXT="Income Limit" ID="ID_1963268759" CREATED="1749242210761" MODIFIED="1749242215965"/>
+<node TEXT="Contribution Limits" ID="ID_37824594" CREATED="1749242216693" MODIFIED="1749242223408">
+<node TEXT="Contribution limits set by IRS each year" ID="ID_1202314696" CREATED="1749242403347" MODIFIED="1749242413262">
+<node TEXT="2024" OBJECT="java.lang.Long|2024" ID="ID_1563417676" CREATED="1749242413548" MODIFIED="1749242416742">
+<node TEXT="$7000" ID="ID_805024265" CREATED="1749242417012" MODIFIED="1749242422214"/>
+</node>
+</node>
+<node TEXT="Higher contribution limits for 50+" ID="ID_515938996" CREATED="1749242427867" MODIFIED="1749242441541"/>
+</node>
+<node TEXT="Pre-withdrawal penalty" ID="ID_710856372" CREATED="1749242453443" MODIFIED="1749242466317">
+<node TEXT="Penalty of 10% if withdrawn before 59.5 years of age" ID="ID_1632683547" CREATED="1749242468883" MODIFIED="1749242490973"/>
+</node>
+</node>
+<node TEXT="Tax implications" FOLDED="true" POSITION="bottom_or_right" ID="ID_919902649" CREATED="1573666462914" MODIFIED="1573666469861">
+<node TEXT="Pre-tax contributions" ID="ID_701890144" CREATED="1749242311652" MODIFIED="1749242319094"/>
 <node TEXT="contributions tax-deductible when income &lt; certain amount" FOLDED="true" ID="ID_17746592" CREATED="1573666426808" MODIFIED="1573666583336">
 <node TEXT="Married" FOLDED="true" ID="ID_1240536206" CREATED="1573668465261" MODIFIED="1573672449055">
 <node TEXT="2017" OBJECT="java.lang.Long|2017" FOLDED="true" ID="ID_329983431" CREATED="1573668072436" MODIFIED="1573672456015">
@@ -144,7 +225,24 @@
 </node>
 </node>
 <node TEXT="Money grows tax-free till you withdraw" ID="ID_583922781" CREATED="1573666502584" MODIFIED="1573666516757"/>
+<node TEXT="Taxed as ordinary income on withdrawal" ID="ID_1185367284" CREATED="1749242361412" MODIFIED="1749242377629"/>
 </node>
+<node TEXT="Protection" FOLDED="true" POSITION="bottom_or_right" ID="ID_1802153266" CREATED="1750123813349" MODIFIED="1750123818791">
+<node TEXT="Non-ERISA" ID="ID_1442920083" CREATED="1750123836069" MODIFIED="1750123942068">
+<arrowlink DESTINATION="ID_1098752812"/>
+</node>
+<node TEXT="Protection level" FOLDED="true" ID="ID_1383554269" CREATED="1750123843709" MODIFIED="1750123849062">
+<node TEXT="Bankruptcy" FOLDED="true" ID="ID_1064701536" CREATED="1750123850101" MODIFIED="1750123856967">
+<node TEXT="Protected up to $1.5M (2025)" ID="ID_701537244" CREATED="1750123866084" MODIFIED="1750123885527"/>
+<node TEXT="Rollover from ERISA plans - fully protected" ID="ID_1394834372" CREATED="1750123893237" MODIFIED="1750123910775"/>
+</node>
+<node TEXT="Outside Bankruptcy" FOLDED="true" ID="ID_412794184" CREATED="1750123858733" MODIFIED="1750123864895">
+<node TEXT="Based on state exemption laws" ID="ID_1323666640" CREATED="1750123913285" MODIFIED="1750123933605"/>
+</node>
+</node>
+</node>
+<node TEXT="Recommendation" FOLDED="true" POSITION="bottom_or_right" ID="ID_463573961" CREATED="1749242510475" MODIFIED="1749242514829">
+<node TEXT="When you expect to have lower income during retirement" ID="ID_770268241" CREATED="1749242515251" MODIFIED="1749242528828"/>
 </node>
 </node>
 <node TEXT="Roth" FOLDED="true" ID="ID_1942641061" CREATED="1518651182082" MODIFIED="1518651184153">
@@ -197,7 +295,7 @@
 </node>
 <node TEXT="How?" ID="ID_1212882966" CREATED="1575515467720" MODIFIED="1575515472263">
 <node TEXT="Get rid of any of those accounts" FOLDED="true" ID="ID_770523555" CREATED="1575515476216" MODIFIED="1575515499337">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1741241454" STARTINCLINATION="191;0;" ENDINCLINATION="191;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1741241454" STARTINCLINATION="143.25 pt;0 pt;" ENDINCLINATION="143.25 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <node TEXT="Options" FOLDED="true" ID="ID_1744476810" CREATED="1575515489193" MODIFIED="1575515491390">
 <node TEXT="Withdraw the money (not recommended)" ID="ID_1785534316" CREATED="1575515502162" MODIFIED="1575515520621"/>
 <node TEXT="Convert the entire sum to a Roth IRA" FOLDED="true" ID="ID_1510975546" CREATED="1575515521418" MODIFIED="1575515544854">
@@ -261,10 +359,10 @@
 <node TEXT="Calculation" ID="ID_1283520710" CREATED="1711767442585" MODIFIED="1711767453619">
 <node TEXT="Greater of" ID="ID_1903925273" CREATED="1711767455249" MODIFIED="1711767467323">
 <node TEXT="contract value + unrealized strategy earnings" ID="ID_938899293" CREATED="1711767469073" MODIFIED="1711768237061">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_608731272" STARTINCLINATION="522;0;" ENDINCLINATION="522;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_608731272" STARTINCLINATION="391.49999 pt;0 pt;" ENDINCLINATION="391.49999 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 <node TEXT="Return of Purchase Payment Guarantee Amount" ID="ID_1463147795" CREATED="1711767505369" MODIFIED="1711767728256">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_892147657" STARTINCLINATION="380;0;" ENDINCLINATION="380;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_892147657" STARTINCLINATION="284.99999 pt;0 pt;" ENDINCLINATION="284.99999 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 </node>
@@ -295,6 +393,74 @@
 <node TEXT="Surrender charges and/or market value adjustments" ID="ID_1884573378" CREATED="1711765856824" MODIFIED="1711765873178"/>
 <node TEXT="Tax penalties (if withdrawn earlier than 59.5 years)" ID="ID_1099291224" CREATED="1711765874073" MODIFIED="1711765896402"/>
 </node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Laws/Acts" FOLDED="true" POSITION="top_or_left" ID="ID_1239232320" CREATED="1750123085835" MODIFIED="1750123100453">
+<edge COLOR="#00ff00"/>
+<node TEXT="Employee Retirement Income Security Act of 1974 (ERISA)" ID="ID_1098752812" CREATED="1750123101502" MODIFIED="1750123138937">
+<node TEXT="What?" ID="ID_1904186659" CREATED="1750123144574" MODIFIED="1750123146920">
+<node TEXT="Governs most employer sponsored retirement and benefit plans" ID="ID_486924961" CREATED="1750123147703" MODIFIED="1750123180192"/>
+<node TEXT="Sets rules for" ID="ID_255240591" CREATED="1750123182870" MODIFIED="1750123186288">
+<node TEXT="Plan funding" ID="ID_32687381" CREATED="1750123186862" MODIFIED="1750123190488"/>
+<node TEXT="Fiduciary responsibilities" ID="ID_753532568" CREATED="1750123190918" MODIFIED="1750123198888"/>
+<node TEXT="Reporting &amp; disclosures" ID="ID_374039643" CREATED="1750123199877" MODIFIED="1750123210256"/>
+<node ID="ID_804060383" CREATED="1750123217079" MODIFIED="1750123232478"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span style="font-weight: bold;">Creditor Protection</span>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Qualified plans enjoy" ID="ID_1655891017" CREATED="1750123245030" MODIFIED="1750123249433">
+<node TEXT="Strong federal protection" ID="ID_1123675503" CREATED="1750123250086" MODIFIED="1750123261896">
+<node TEXT="Fully protected from creditors" ID="ID_722422831" CREATED="1750123262261" MODIFIED="1750123272592"/>
+<node TEXT="Cannot be seized or garnished by most lawsuits" ID="ID_889048387" CREATED="1750123274037" MODIFIED="1750123284175"/>
+<node TEXT="Protection applies nationwide" ID="ID_1597338415" CREATED="1750123286718" MODIFIED="1750123293887"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Qualified plans" ID="ID_1742102111" CREATED="1750123300950" MODIFIED="1750123307817">
+<node TEXT="401(k)" ID="ID_594716428" CREATED="1750123308645" MODIFIED="1750123314232"/>
+<node TEXT="Traditional Employer Pension (Defined Benefit Plans)" ID="ID_1332103380" CREATED="1750123316462" MODIFIED="1750123333024"/>
+<node TEXT="403(b) (for public schools, non-profits)" ID="ID_1089690351" CREATED="1750123334445" MODIFIED="1750123346878"/>
+<node TEXT="457(b) (govt and non-profits)" ID="ID_1933385138" CREATED="1750123348238" MODIFIED="1750123361176"/>
+<node TEXT="Profit sharing plans" ID="ID_1193896330" CREATED="1750123363221" MODIFIED="1750123369008"/>
+<node TEXT="Money purchase plans" ID="ID_74156472" CREATED="1750123369541" MODIFIED="1750123372888"/>
+<node TEXT="Keogh Plans (HR-10 Plans)" ID="ID_7588211" CREATED="1750123374830" MODIFIED="1750123383624"/>
+</node>
+<node TEXT="General Qualifications" ID="ID_146553749" CREATED="1750123474646" MODIFIED="1750123492687">
+<node TEXT="Sponsored by an employer" ID="ID_1146681789" CREATED="1750123497901" MODIFIED="1750123503007"/>
+<node TEXT="Cover employees other than just the owner or family" ID="ID_75288816" CREATED="1750123504022" MODIFIED="1750123515239"/>
+<node TEXT="Meet specific IRS and DOL rules for participation, vesting, funding, etc." ID="ID_422094940" CREATED="1750123516182" MODIFIED="1750123533326"/>
+</node>
+<node TEXT="Rollover protection" ID="ID_1922527601" CREATED="1750123593325" MODIFIED="1750123598263">
+<node TEXT="To non-ERISA plans" FOLDED="true" ID="ID_538524476" CREATED="1750123611590" MODIFIED="1750123624887">
+<node FOLDED="true" ID="ID_1109841371" CREATED="1750123626158" MODIFIED="1750123739000"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Retain full creditor protection in <span style="font-weight: bold;">bankruptcy</span>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Need to prove direct and traceable rollover" ID="ID_1974046959" CREATED="1750123739756" MODIFIED="1750123759999"/>
+</node>
+<node TEXT="Outside bankruptcy, depends on state laws" ID="ID_1922377126" CREATED="1750123643253" MODIFIED="1750123660888"/>
 </node>
 </node>
 </node>

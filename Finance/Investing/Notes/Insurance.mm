@@ -3,7 +3,7 @@
 <node TEXT="Insurance" FOLDED="false" ID="ID_713049008" CREATED="1700762638988" MODIFIED="1700762654812" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES"/>
+    <properties fit_to_viewport="false" show_tags="UNDER_NODES" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
     <tags category_separator="::"/>
 
 <map_styles>
@@ -72,7 +72,7 @@
 <hook NAME="AutomaticEdgeColor" COUNTER="4" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="Long Term Care" FOLDED="true" POSITION="bottom_or_right" ID="ID_654688126" CREATED="1700766047390" MODIFIED="1700766052296">
 <edge COLOR="#0000ff"/>
-<node TEXT="About" ID="ID_1688443969" CREATED="1700763441262" MODIFIED="1700766060584">
+<node TEXT="About" FOLDED="true" ID="ID_1688443969" CREATED="1700763441262" MODIFIED="1700766060584">
 <node TEXT="Features" FOLDED="true" ID="ID_690823067" CREATED="1700763624445" MODIFIED="1700763630247">
 <node TEXT="Monthly benefits" FOLDED="true" ID="ID_1624174847" CREATED="1700763631157" MODIFIED="1700763636270">
 <node TEXT="Max benefit each month on claim" ID="ID_1497374138" CREATED="1700763689813" MODIFIED="1700763705752"/>
@@ -134,7 +134,7 @@
 </node>
 </node>
 <node TEXT="Types" FOLDED="true" ID="ID_1630631039" CREATED="1700764298341" MODIFIED="1700764301391">
-<node TEXT="Based on benefit" FOLDED="true" ID="ID_1152864992" CREATED="1700763892405" MODIFIED="1700764308630">
+<node TEXT="Based on benefit" ID="ID_1152864992" CREATED="1700763892405" MODIFIED="1700764308630">
 <node TEXT="Traditional/Term LTC (Use it or Lose it)" FOLDED="true" ID="ID_939559198" CREATED="1700763897477" MODIFIED="1700765901489">
 <node TEXT="May have additional riders" ID="ID_1870974366" CREATED="1700765989495" MODIFIED="1700765997873"/>
 </node>

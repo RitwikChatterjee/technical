@@ -1,21 +1,25 @@
-<map version="freeplane 1.9.13">
+<map version="freeplane 1.12.1">
 <!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
 <node TEXT="AWS AI Certification" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1724864849326" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" associatedTemplateLocation="template:/standard-1.6.mm" fit_to_viewport="false"/>
+    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" associatedTemplateLocation="template:/standard-1.6.mm" show_tags="UNDER_NODES"/>
+    <tags category_separator="::"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
 <font SIZE="24"/>
-<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="default" ID="ID_271890427" ICON_SIZE="12 pt" COLOR="#000000" STYLE="fork">
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_271890427" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
-<richcontent CONTENT-TYPE="plain/auto" TYPE="DETAILS"/>
+<richcontent TYPE="DETAILS" CONTENT-TYPE="plain/auto"/>
 <richcontent TYPE="NOTE" CONTENT-TYPE="plain/auto"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.details"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.tags">
+<font SIZE="10"/>
+</stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.attributes">
 <font SIZE="9"/>
 </stylenode>
@@ -26,7 +30,7 @@
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.selection" BACKGROUND_COLOR="#afd3f7" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#afd3f7"/>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork">
 <font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
 </stylenode>
@@ -41,7 +45,7 @@
 <arrowlink COLOR="#003399" TRANSPARENCY="255" DESTINATION="ID_67550811"/>
 </stylenode>
 </stylenode>
-<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="bottom_or_right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="10 pt">
 <font SIZE="18"/>
 </stylenode>
@@ -69,49 +73,18 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="11" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="Syllabus" FOLDED="true" POSITION="right" ID="ID_1473964853" CREATED="1724865592861" MODIFIED="1724865600262">
-<edge COLOR="#ff0000"/>
-<node TEXT="Domain 1" ID="ID_1025859573" CREATED="1724865600925" MODIFIED="1724865603896">
-<node TEXT="Fundamentals of AI and ML (20%)" FOLDED="true" ID="ID_158849912" CREATED="1724865618526" MODIFIED="1724865736915">
-<node TEXT="Basic concepts" ID="ID_565146427" CREATED="1724865638718" MODIFIED="1724865644359"/>
-<node TEXT="Practical use cases" ID="ID_1864346140" CREATED="1724865688183" MODIFIED="1724865696641"/>
-<node TEXT="ML Dev LC" ID="ID_996435663" CREATED="1724865699456" MODIFIED="1724865703609"/>
-</node>
-</node>
-<node TEXT="Domain 2" ID="ID_390938649" CREATED="1724865604645" MODIFIED="1724865606447">
-<node TEXT="Fundamentals of Generative AI (24%)" FOLDED="true" ID="ID_202601601" CREATED="1724865662215" MODIFIED="1724865755810">
-<node TEXT="Concepts" ID="ID_1433340829" CREATED="1724865760753" MODIFIED="1724865764060"/>
-<node TEXT="Capabilities &amp; Limitations" ID="ID_1822548898" CREATED="1724865764576" MODIFIED="1724865774389"/>
-<node TEXT="AWS infra" ID="ID_254857742" CREATED="1724865654879" MODIFIED="1724865658303"/>
-</node>
-</node>
-<node TEXT="Domain 3" ID="ID_1484664760" CREATED="1724865607014" MODIFIED="1724865610039">
-<node TEXT="Applications of Foundation models (28%)" ID="ID_1127923101" CREATED="1724865793314" MODIFIED="1724865827475">
-<node TEXT="Considerations for applications" ID="ID_460411244" CREATED="1724865828123" MODIFIED="1724865834915"/>
-<node TEXT="Prompt engineering" ID="ID_1868733059" CREATED="1724865835634" MODIFIED="1724865840275"/>
-<node TEXT="Training and fine-tuning" ID="ID_738551205" CREATED="1724865840706" MODIFIED="1724865845068"/>
-<node TEXT="" ID="ID_506259254" CREATED="1724865845778" MODIFIED="1724865845778"/>
-</node>
-</node>
-<node TEXT="Domain 4" ID="ID_822917719" CREATED="1724865610758" MODIFIED="1724865616472">
-<node TEXT="Guidelines for Responsble AI (14%)" ID="ID_1289930041" CREATED="1724865855114" MODIFIED="1724865870428"/>
-</node>
-<node TEXT="Domain 5" ID="ID_1445894967" CREATED="1724865871499" MODIFIED="1724865874629">
-<node TEXT="Security compliance and Governance for AI (14%)" ID="ID_918327034" CREATED="1724865874964" MODIFIED="1724865887349"/>
-</node>
-</node>
-<node TEXT="Domain1: Fundamentals of AI, ML and Generative AI" FOLDED="true" POSITION="right" ID="ID_717366934" CREATED="1724865936061" MODIFIED="1724865955166">
+<node TEXT="Domain1: Fundamentals of AI, ML and Generative AI" FOLDED="true" POSITION="bottom_or_right" ID="ID_717366934" CREATED="1724865936061" MODIFIED="1724865955166">
 <edge COLOR="#0000ff"/>
 <node TEXT="Differentiation" FOLDED="true" ID="ID_1803866948" CREATED="1724865991584" MODIFIED="1724866104033" TEXT_SHORTENED="true">
 <hook URI="file:///C:/Ritwik/technical/AI/Notes/Images/AI%20ML%20Gen%20AI%20Differentiation.png" SIZE="1.0" NAME="ExternalObject"/>
-<node TEXT="AI" ID="ID_653719477" CREATED="1724871267546" MODIFIED="1724871271069">
-<node TEXT="What?" ID="ID_702654984" CREATED="1725387302622" MODIFIED="1725387304780">
+<node TEXT="AI" FOLDED="true" ID="ID_653719477" CREATED="1724871267546" MODIFIED="1724871271069">
+<node TEXT="What?" FOLDED="true" ID="ID_702654984" CREATED="1725387302622" MODIFIED="1725387304780">
 <node TEXT="Umbrella term encompassing development of intelligent systems capable of performing tasks typically requiring human intelligence" ID="ID_208201216" CREATED="1725387305522" MODIFIED="1725387396716"/>
 </node>
 </node>
 <node TEXT="ML" FOLDED="true" ID="ID_1408303792" CREATED="1724871272098" MODIFIED="1724872412021" LINK="Machine%20Learning.mm">
 <node TEXT="AWS ML Stack" FOLDED="true" ID="ID_405277849" CREATED="1724878474795" MODIFIED="1725464382664">
-<node TEXT="As of Aug &apos;24" FOLDED="true" ID="ID_1651765917" CREATED="1724878524937" MODIFIED="1725469158603" TEXT_SHORTENED="true">
+<node TEXT="As of Aug &apos;24" FOLDED="true" ID="ID_1651765917" CREATED="1724878524937" MODIFIED="1738814345302" TEXT_SHORTENED="true">
 <hook URI="file:///C:/Ritwik/technical/AI/Notes/Images/AWS%20ML%20stack.png" SIZE="0.6535948" NAME="ExternalObject"/>
 <node TEXT="ML Frameworks &amp; Infra" ID="ID_771017941" CREATED="1724878568768" MODIFIED="1724878593081"/>
 <node TEXT="SageMaker (SM)" FOLDED="true" ID="ID_1256962792" CREATED="1724878594176" MODIFIED="1724879245796">
@@ -197,11 +170,11 @@
 </node>
 </node>
 </node>
-<node TEXT="DL" ID="ID_1154603424" CREATED="1724871285642" MODIFIED="1724871290228">
+<node TEXT="DL" FOLDED="true" ID="ID_1154603424" CREATED="1724871285642" MODIFIED="1724871290228">
 <node TEXT="What?" FOLDED="true" ID="ID_1861360597" CREATED="1725387527219" MODIFIED="1725387531381">
 <node TEXT="Uses concepts of neural networks to train machines" ID="ID_1359239421" CREATED="1724871291027" MODIFIED="1725387600101"/>
 <node TEXT="Tiny units callsed nodes that are connected together" ID="ID_1820343566" CREATED="1725390295774" MODIFIED="1725390316200"/>
-<node TEXT="Nodes organized into layers" ID="ID_978913742" CREATED="1725390317183" MODIFIED="1725390323633">
+<node TEXT="Nodes organized into layers" FOLDED="true" ID="ID_978913742" CREATED="1725390317183" MODIFIED="1725390323633">
 <node TEXT="Input layer" ID="ID_276118636" CREATED="1725390324895" MODIFIED="1725390328872"/>
 <node TEXT="1 or more hidden layers" ID="ID_1289285890" CREATED="1725390329671" MODIFIED="1725390340344"/>
 <node TEXT="Output layer" ID="ID_663613888" CREATED="1725390340815" MODIFIED="1725390344617"/>
@@ -212,7 +185,7 @@
 <node TEXT="Natural Language Processing (NLP)" ID="ID_409000283" CREATED="1725390478412" MODIFIED="1725390492699"/>
 </node>
 </node>
-<node TEXT="GenAI" ID="ID_394979389" CREATED="1724871343493" MODIFIED="1725390657325" LINK="Generative%20AI.mm">
+<node TEXT="GenAI" FOLDED="true" ID="ID_394979389" CREATED="1724871343493" MODIFIED="1725390657325" LINK="Generative%20AI.mm">
 <node TEXT="What?" FOLDED="true" ID="ID_614638579" CREATED="1725390662853" MODIFIED="1725390664982">
 <node TEXT="Generating content based on rules" ID="ID_1992863078" CREATED="1724871347395" MODIFIED="1724871361301"/>
 <node TEXT="Powered by Foundational models (FMs), that are pre-trained on internet-scale data" ID="ID_1129766474" CREATED="1725390725422" MODIFIED="1725390752960"/>
@@ -235,15 +208,15 @@
 </node>
 </node>
 </node>
-<node TEXT="AWS Stack" FOLDED="true" POSITION="right" ID="ID_1382318517" CREATED="1725464026719" MODIFIED="1725465255393" TEXT_SHORTENED="true">
+<node TEXT="AWS Stack" FOLDED="true" POSITION="bottom_or_right" ID="ID_1382318517" CREATED="1725464026719" MODIFIED="1725465255393" TEXT_SHORTENED="true">
 <edge COLOR="#ff00ff"/>
 <hook URI="file:///C:/Ritwik/technical/AI/Notes/Images/AWS%20ML%20stack%20icons.png" SIZE="0.3253796" NAME="ExternalObject"/>
-<node TEXT="Layers" ID="ID_1480608450" CREATED="1725464033023" MODIFIED="1725464069368">
-<node TEXT="Generative AI" ID="ID_1908877218" CREATED="1725464069720" MODIFIED="1725464074050">
+<node TEXT="Layers" FOLDED="true" ID="ID_1480608450" CREATED="1725464033023" MODIFIED="1725464069368">
+<node TEXT="Generative AI" FOLDED="true" ID="ID_1908877218" CREATED="1725464069720" MODIFIED="1725464074050">
 <node TEXT="What?" FOLDED="true" ID="ID_1532853777" CREATED="1725464509940" MODIFIED="1725464512383">
 <node TEXT="Set of tools and services that unlock the power of foundational models" ID="ID_342352478" CREATED="1725464520268" MODIFIED="1725464556583"/>
 </node>
-<node TEXT="Services" ID="ID_1514891193" CREATED="1725464558925" MODIFIED="1725464563678">
+<node TEXT="Services" FOLDED="true" ID="ID_1514891193" CREATED="1725464558925" MODIFIED="1725464563678">
 <node TEXT="SageMaker Jumpstart" FOLDED="true" ID="ID_196440851" CREATED="1725464564005" MODIFIED="1725464574038">
 <node TEXT="What?" FOLDED="true" ID="ID_1785283974" CREATED="1725464105217" MODIFIED="1725468653351">
 <node TEXT="Provides set of solutions for most common use cases which are fully customizable" ID="ID_525376001" CREATED="1725464133467" MODIFIED="1725468653350"/>
@@ -308,8 +281,8 @@
 </node>
 </node>
 </node>
-<node TEXT="Chatbots" ID="ID_552608176" CREATED="1725464350397" MODIFIED="1725464353574">
-<node TEXT="Lex" ID="ID_1608114181" CREATED="1725464354288" MODIFIED="1725464356638">
+<node TEXT="Chatbots" FOLDED="true" ID="ID_552608176" CREATED="1725464350397" MODIFIED="1725464353574">
+<node TEXT="Lex" FOLDED="true" ID="ID_1608114181" CREATED="1725464354288" MODIFIED="1725464356638">
 <node TEXT="What?" FOLDED="true" ID="ID_51222565" CREATED="1725465658313" MODIFIED="1725465660067">
 <node TEXT="Fully managed AI service to design, build, test, and deploy conversational interfaces using voice and text" ID="ID_611795800" CREATED="1725465660722" MODIFIED="1725465701893"/>
 </node>
@@ -397,7 +370,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Security" FOLDED="true" POSITION="right" ID="ID_118941677" CREATED="1726153127134" MODIFIED="1727188162478" LINK="Generative%20AI.mm">
+<node TEXT="Security" FOLDED="true" POSITION="bottom_or_right" ID="ID_118941677" CREATED="1726153127134" MODIFIED="1727188162478" LINK="Generative%20AI.mm">
 <edge COLOR="#00ffff"/>
 <node TEXT="AWS Services &amp; Features" FOLDED="true" ID="ID_1649069928" CREATED="1727191002956" MODIFIED="1727191011749">
 <node TEXT="Shared Responsibility Model" FOLDED="true" ID="ID_134377037" CREATED="1727191036324" MODIFIED="1727191046125">
@@ -536,7 +509,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Governance &amp; Compliance" FOLDED="true" POSITION="right" ID="ID_1774757647" CREATED="1726154317182" MODIFIED="1727188116005" LINK="Generative%20AI.mm">
+<node TEXT="Governance &amp; Compliance" FOLDED="true" POSITION="bottom_or_right" ID="ID_1774757647" CREATED="1726154317182" MODIFIED="1727188116005" LINK="Generative%20AI.mm">
 <edge COLOR="#007c00"/>
 <node TEXT="Related AWS Services" FOLDED="true" ID="ID_1582747696" CREATED="1726164626363" MODIFIED="1726164634573">
 <node TEXT="AWS Config" FOLDED="true" ID="ID_1238568366" CREATED="1726164914684" MODIFIED="1726164918190">
@@ -638,7 +611,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Data Engineering LC Tooling" FOLDED="true" POSITION="right" ID="ID_162582883" CREATED="1727713252940" MODIFIED="1727713264850">
+<node TEXT="Data Engineering LC Tooling" FOLDED="true" POSITION="bottom_or_right" ID="ID_162582883" CREATED="1727713252940" MODIFIED="1727713264850">
 <edge COLOR="#007c7c"/>
 <node TEXT="Stages" FOLDED="true" ID="ID_1998407975" CREATED="1727713265849" MODIFIED="1727713589313" LINK="Generative%20AI.mm">
 <node TEXT="1. Data Pipeline" ID="ID_459569082" CREATED="1727713272639" MODIFIED="1727713305768">
@@ -673,15 +646,46 @@
 </node>
 </node>
 </node>
-<node TEXT="AWS Privacy Reference Architecture (PRA)" FOLDED="true" POSITION="right" ID="ID_1864932080" CREATED="1727714759473" MODIFIED="1727714773581">
+<node TEXT="AWS Privacy Reference Architecture (PRA)" FOLDED="true" POSITION="bottom_or_right" ID="ID_1864932080" CREATED="1727714759473" MODIFIED="1727714773581">
 <edge COLOR="#7c7c00"/>
 <node TEXT="What?" FOLDED="true" ID="ID_1340017908" CREATED="1727714774051" MODIFIED="1727714778196">
 <node TEXT="Set of guidelines to assist in the design and implementation of privacy-supporting controls within AWS services" ID="ID_825491023" CREATED="1727714778674" MODIFIED="1727714795340"/>
 <node TEXT="can help make informed decisions regarding the people, processes, and technology that are necessary to ensure privacy in the AWS Cloud environment" ID="ID_1904437689" CREATED="1727714809324" MODIFIED="1727714839038"/>
 </node>
 </node>
-<node TEXT="Monitoring" POSITION="right" ID="ID_141467047" CREATED="1726593383089" MODIFIED="1727188140332" LINK="Generative%20AI.mm">
+<node TEXT="Monitoring" POSITION="bottom_or_right" ID="ID_141467047" CREATED="1726593383089" MODIFIED="1727188140332" LINK="Generative%20AI.mm">
 <edge COLOR="#7c007c"/>
+</node>
+<node TEXT="Syllabus" FOLDED="true" POSITION="top_or_left" ID="ID_1473964853" CREATED="1724865592861" MODIFIED="1724865600262">
+<edge COLOR="#ff0000"/>
+<node TEXT="Domain 1" ID="ID_1025859573" CREATED="1724865600925" MODIFIED="1724865603896">
+<node TEXT="Fundamentals of AI and ML (20%)" FOLDED="true" ID="ID_158849912" CREATED="1724865618526" MODIFIED="1724865736915">
+<node TEXT="Basic concepts" ID="ID_565146427" CREATED="1724865638718" MODIFIED="1724865644359"/>
+<node TEXT="Practical use cases" ID="ID_1864346140" CREATED="1724865688183" MODIFIED="1724865696641"/>
+<node TEXT="ML Dev LC" ID="ID_996435663" CREATED="1724865699456" MODIFIED="1724865703609"/>
+</node>
+</node>
+<node TEXT="Domain 2" ID="ID_390938649" CREATED="1724865604645" MODIFIED="1724865606447">
+<node TEXT="Fundamentals of Generative AI (24%)" FOLDED="true" ID="ID_202601601" CREATED="1724865662215" MODIFIED="1724865755810">
+<node TEXT="Concepts" ID="ID_1433340829" CREATED="1724865760753" MODIFIED="1724865764060"/>
+<node TEXT="Capabilities &amp; Limitations" ID="ID_1822548898" CREATED="1724865764576" MODIFIED="1724865774389"/>
+<node TEXT="AWS infra" ID="ID_254857742" CREATED="1724865654879" MODIFIED="1724865658303"/>
+</node>
+</node>
+<node TEXT="Domain 3" ID="ID_1484664760" CREATED="1724865607014" MODIFIED="1724865610039">
+<node TEXT="Applications of Foundation models (28%)" ID="ID_1127923101" CREATED="1724865793314" MODIFIED="1724865827475">
+<node TEXT="Considerations for applications" ID="ID_460411244" CREATED="1724865828123" MODIFIED="1724865834915"/>
+<node TEXT="Prompt engineering" ID="ID_1868733059" CREATED="1724865835634" MODIFIED="1724865840275"/>
+<node TEXT="Training and fine-tuning" ID="ID_738551205" CREATED="1724865840706" MODIFIED="1724865845068"/>
+<node TEXT="" ID="ID_506259254" CREATED="1724865845778" MODIFIED="1724865845778"/>
+</node>
+</node>
+<node TEXT="Domain 4" ID="ID_822917719" CREATED="1724865610758" MODIFIED="1724865616472">
+<node TEXT="Guidelines for Responsble AI (14%)" ID="ID_1289930041" CREATED="1724865855114" MODIFIED="1724865870428"/>
+</node>
+<node TEXT="Domain 5" ID="ID_1445894967" CREATED="1724865871499" MODIFIED="1724865874629">
+<node TEXT="Security compliance and Governance for AI (14%)" ID="ID_918327034" CREATED="1724865874964" MODIFIED="1724865887349"/>
+</node>
 </node>
 </node>
 </map>
