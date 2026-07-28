@@ -3,7 +3,7 @@
 <node TEXT="HL7" FOLDED="false" ID="ID_134655880" CREATED="1615394530407" MODIFIED="1615394593799" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_tags="UNDER_NODES"/>
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false" show_icons="BESIDE_NODES" show_tags="UNDER_NODES"/>
     <tags category_separator="::"/>
 
 <map_styles>
@@ -69,11 +69,11 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="7" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="CDS Hooks" FOLDED="true" POSITION="bottom_or_right" ID="ID_1875447070" CREATED="1615394597382" MODIFIED="1615394696238" LINK="https://cds-hooks.hl7.org/">
+<hook NAME="AutomaticEdgeColor" COUNTER="15" RULE="ON_BRANCH_CREATION"/>
+<node TEXT="Clinical Decision Support (CDS) Hooks" FOLDED="true" POSITION="bottom_or_right" ID="ID_1875447070" CREATED="1615394597382" MODIFIED="1750302420915" LINK="https://cds-hooks.hl7.org/">
 <edge COLOR="#ff0000"/>
-<node TEXT="About" FOLDED="true" ID="ID_511304184" CREATED="1615394606966" MODIFIED="1615394609776">
-<node TEXT="What?" FOLDED="true" ID="ID_1981457940" CREATED="1615394610509" MODIFIED="1615394612657">
+<node TEXT="About" ID="ID_511304184" CREATED="1615394606966" MODIFIED="1615394609776">
+<node TEXT="What?" ID="ID_1981457940" CREATED="1615394610509" MODIFIED="1615394612657">
 <node ID="ID_347993375" CREATED="1615394613647" MODIFIED="1615395430399"><richcontent TYPE="NODE">
 
 <html>
@@ -103,11 +103,11 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="How?" FOLDED="true" ID="ID_1189548347" CREATED="1615394878541" MODIFIED="1741292364046" TEXT_SHORTENED="true">
+<node TEXT="How?" ID="ID_1189548347" CREATED="1615394878541" MODIFIED="1615394981314">
 <hook URI="Images/CDS-how.jpg" SIZE="0.8" NAME="ExternalObject"/>
 <node TEXT="User activity inside clinician&apos;s workflow triggers CDS hooks" ID="ID_1967072803" CREATED="1615394984773" MODIFIED="1615395030879"/>
-<node TEXT="When a triggering activity occurs" FOLDED="true" ID="ID_1889158671" CREATED="1615395031476" MODIFIED="1615395043847">
-<node TEXT="CDS client (EHR) notifies each CDS service registered for the activity" FOLDED="true" ID="ID_404796062" CREATED="1615395045716" MODIFIED="1615395072711">
+<node TEXT="When a triggering activity occurs" ID="ID_1889158671" CREATED="1615395031476" MODIFIED="1615395043847">
+<node TEXT="CDS client (EHR) notifies each CDS service registered for the activity" ID="ID_404796062" CREATED="1615395045716" MODIFIED="1615395072711">
 <node TEXT="Invoking data (parameters)" ID="ID_1643837739" CREATED="1615395092300" MODIFIED="1615395139343">
 <node TEXT="context" ID="ID_573372280" CREATED="1615395116456" MODIFIED="1615395186652">
 <font NAME="Courier New"/>
@@ -120,8 +120,8 @@
 </node>
 </node>
 <node TEXT="CDS service provides near-real-time feedback" ID="ID_881520674" CREATED="1615395073739" MODIFIED="1615395089423">
-<node TEXT="CDS Cards" ID="ID_651513988" CREATED="1615395222765" MODIFIED="1741276615523">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1529461800" STARTINCLINATION="657.74998 pt;0 pt;" ENDINCLINATION="598.49998 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<node TEXT="CDS Cards" ID="ID_651513988" CREATED="1615395222765" MODIFIED="1617402240788">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1529461800" STARTINCLINATION="656.99998 pt;0 pt;" ENDINCLINATION="598.49998 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
 </node>
 </node>
@@ -130,10 +130,10 @@
 <node TEXT="Creative Commons Attribution 4.0 International License" ID="ID_159573286" CREATED="1615394734877" MODIFIED="1615394749672"/>
 </node>
 </node>
-<node TEXT="Specification v2 (Mar 2025)" FOLDED="true" ID="ID_623416952" CREATED="1615395501034" MODIFIED="1741276794059" LINK="https://cds-hooks.org/specification/current/">
+<node TEXT="Specification (1.1 DRAFT)" FOLDED="true" ID="ID_623416952" CREATED="1615395501034" MODIFIED="1615396119638" LINK="https://cds-hooks.org/specification/current/">
 <node TEXT="Overview" FOLDED="true" ID="ID_510799584" CREATED="1615395505290" MODIFIED="1615395510877">
 <node TEXT="All data exchanged through RESTful APIs with JSON payloads sent over HTTPS" ID="ID_87564618" CREATED="1615395511563" MODIFIED="1615395540187"/>
-<node TEXT="Unless otherwise specified, JSON attributes/objects SHALL NOT be null or empty" FOLDED="true" ID="ID_471452613" CREATED="1615395585385" MODIFIED="1741276830948">
+<node TEXT="Unless otherwise specified, JSON attributes/objects SHALL NOT be null" FOLDED="true" ID="ID_471452613" CREATED="1615395585385" MODIFIED="1615395632568">
 <node TEXT="If a JSON attribute/object is defined with an optionality of OPTIONAL, but does not have a value, implementers MUST omit it" ID="ID_623159660" CREATED="1615395602882" MODIFIED="1615395643731"/>
 </node>
 </node>
@@ -155,18 +155,17 @@
 </node>
 <node TEXT="Supports" FOLDED="true" ID="ID_1200982061" CREATED="1615394814645" MODIFIED="1615394817424">
 <node TEXT="Synchronous, workflow triggered CDS calls returning information and suggestions" ID="ID_478425243" CREATED="1615394818172" MODIFIED="1615394838785"/>
-<node TEXT="Launching a web page to provide additional info to user" ID="ID_1139394470" CREATED="1741276940135" MODIFIED="1741276955019"/>
 <node TEXT="Launching a user-facing SMART app when CDS requires additional interaction" ID="ID_1921222539" CREATED="1615394842661" MODIFIED="1615394868440"/>
 </node>
 <node TEXT="Components" FOLDED="true" ID="ID_216996107" CREATED="1615395767724" MODIFIED="1615395772029">
 <node TEXT="CDS Services" FOLDED="true" ID="ID_182494931" CREATED="1615395773730" MODIFIED="1615395778583">
-<node TEXT="a service that provides recommendations and guidance" ID="ID_1761874747" CREATED="1615395784170" MODIFIED="1741277010987"/>
+<node TEXT="a service that provides patient-specific recommendations and guidance" ID="ID_1761874747" CREATED="1615395784170" MODIFIED="1615395800452"/>
 <node TEXT="RESTful APIs" FOLDED="true" ID="ID_216883151" CREATED="1615395812667" MODIFIED="1615395819875">
 <node TEXT="Discovery" FOLDED="true" ID="ID_1683196148" CREATED="1615395829163" MODIFIED="1615395832997">
 <node TEXT="Required" ID="ID_1069506612" CREATED="1615395896286" MODIFIED="1615395958932"/>
-<node TEXT="What?" ID="ID_952779344" CREATED="1615395961113" MODIFIED="1615395973474">
+<node TEXT="What?" FOLDED="true" ID="ID_952779344" CREATED="1615395961113" MODIFIED="1615395973474">
 <node TEXT="Allows CDS clients to discover available CDS services" ID="ID_1279011641" CREATED="1615395974312" MODIFIED="1615395996358"/>
-<node TEXT="Includes information such as" ID="ID_1337062828" CREATED="1615395997008" MODIFIED="1615396009574">
+<node TEXT="Includes information such as" FOLDED="true" ID="ID_1337062828" CREATED="1615395997008" MODIFIED="1615396009574">
 <node TEXT="description" ID="ID_948791005" CREATED="1615396010411" MODIFIED="1615396013021"/>
 <node TEXT="when it should be invoked" ID="ID_1638405601" CREATED="1615396015081" MODIFIED="1615396022876"/>
 <node TEXT="any data that is requested to be prefetched" ID="ID_367769950" CREATED="1615396023273" MODIFIED="1615396049871">
@@ -174,7 +173,7 @@
 </node>
 </node>
 </node>
-<node TEXT="Specifications" ID="ID_270238322" CREATED="1615396068817" MODIFIED="1615396166812" LINK="https://cds-hooks.org/specification/current/#discovery">
+<node TEXT="Specifications" FOLDED="true" ID="ID_270238322" CREATED="1615396068817" MODIFIED="1615396166812" LINK="https://cds-hooks.org/specification/current/#discovery">
 <node TEXT="{baseURL}/cds-services" ID="ID_536376366" CREATED="1615396072560" MODIFIED="1615396131134">
 <font NAME="Courier New"/>
 </node>
@@ -186,7 +185,7 @@
 </node>
 </node>
 <node TEXT="CDS Clients" FOLDED="true" ID="ID_249426000" CREATED="1615396205144" MODIFIED="1615396208579">
-<node TEXT="What?" ID="ID_336424119" CREATED="1615396209337" MODIFIED="1615396217917">
+<node TEXT="What?" FOLDED="true" ID="ID_336424119" CREATED="1615396209337" MODIFIED="1615396217917">
 <node TEXT="EHR or other clinical information systems that consume decision support by calling CDS service at specific points in the application&apos;s workflow" ID="ID_353307478" CREATED="1615396218808" MODIFIED="1615396264997"/>
 </node>
 <node TEXT="Data provided" ID="ID_754743374" CREATED="1615396303120" MODIFIED="1615396314896">
@@ -197,24 +196,24 @@
 </node>
 </node>
 <node TEXT="CDS Cards" FOLDED="true" ID="ID_1529461800" CREATED="1615396339343" MODIFIED="1615396367057">
-<node TEXT="What?" ID="ID_1447077081" CREATED="1615395257349" MODIFIED="1615395259806">
+<node TEXT="What?" FOLDED="true" ID="ID_1447077081" CREATED="1615395257349" MODIFIED="1615395259806">
 <node TEXT="Conveys are response/feedback" ID="ID_38105775" CREATED="1615395260949" MODIFIED="1615395271839"/>
 <node TEXT="Can return 0..n of each type" ID="ID_628591021" CREATED="1615395286867" MODIFIED="1615395303718"/>
 </node>
-<node TEXT="Types" ID="ID_1610397896" CREATED="1615395305091" MODIFIED="1615395306974">
+<node TEXT="Types" FOLDED="true" ID="ID_1610397896" CREATED="1615395305091" MODIFIED="1615395306974">
 <node TEXT="Information" FOLDED="true" ID="ID_912886021" CREATED="1615395307748" MODIFIED="1615395313271">
 <node TEXT="provides text for user to read" ID="ID_602486100" CREATED="1615395324676" MODIFIED="1615395333103"/>
 </node>
 <node TEXT="Suggestion" FOLDED="true" ID="ID_1103382278" CREATED="1615395313892" MODIFIED="1615395350765">
 <node TEXT="provides a specific suggestion for which the CDS Client renders a button that the user can click to accept. Clicking automatically populates the suggested change into the clinician&apos;s UI" ID="ID_152010816" CREATED="1615395334324" MODIFIED="1615395361118"/>
 </node>
-<node TEXT="App Link" ID="ID_236529697" CREATED="1615395318819" MODIFIED="1615395323231">
+<node TEXT="App Link" FOLDED="true" ID="ID_236529697" CREATED="1615395318819" MODIFIED="1615395323231">
 <node TEXT="provides a link to an app (often a SMART app) where the user can supply details, step through a flowchart, or do anything else required to help reach an informed decision" ID="ID_1590019561" CREATED="1615395377583" MODIFIED="1615395380749"/>
 </node>
 </node>
 </node>
-<node TEXT="Prefetch Templates" FOLDED="true" ID="ID_1888264368" CREATED="1615401123206" MODIFIED="1619017955931">
-<node TEXT="What?" ID="ID_62909947" CREATED="1615401146120" MODIFIED="1615401148332">
+<node TEXT="Prefetch Templates" ID="ID_1888264368" CREATED="1615401123206" MODIFIED="1619017955931">
+<node TEXT="What?" FOLDED="true" ID="ID_62909947" CREATED="1615401146120" MODIFIED="1615401148332">
 <node ID="ID_1648552700" CREATED="1615401149264" MODIFIED="1619018092985"><richcontent TYPE="NODE">
 
 <html>
@@ -229,7 +228,7 @@
 </html>
 </richcontent>
 </node>
-<node ID="ID_672642194" CREATED="1619018101028" MODIFIED="1619018135890"><richcontent TYPE="NODE">
+<node FOLDED="true" ID="ID_672642194" CREATED="1619018101028" MODIFIED="1619018135890"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -256,7 +255,7 @@
 </node>
 </node>
 <node TEXT="Hooks" FOLDED="true" ID="ID_779370347" CREATED="1618983351158" MODIFIED="1618983355429">
-<node TEXT="What?" ID="ID_1266495391" CREATED="1618983401554" MODIFIED="1619017983194">
+<node TEXT="What?" FOLDED="true" ID="ID_1266495391" CREATED="1618983401554" MODIFIED="1619017983194">
 <node TEXT="Each hook represents something the user is doing in the CDS client" ID="ID_982960263" CREATED="1618983537714" MODIFIED="1618983558921"/>
 <node TEXT="No prescription for default or required set of hooks" ID="ID_1138858384" CREATED="1618983356318" MODIFIED="1618983397784"/>
 <node TEXT="Hooks defined based on required use cases. Can be proposed in a prescribed format using a pull request" ID="ID_467310985" CREATED="1618983410282" MODIFIED="1618983517012"/>
@@ -284,22 +283,22 @@
 </node>
 </node>
 <node TEXT="Calling a CDS Service" FOLDED="true" ID="ID_1735644054" CREATED="1618594845813" MODIFIED="1618594854924">
-<node TEXT="Call" ID="ID_354278213" CREATED="1618594864547" MODIFIED="1618594894161">
-<node TEXT="Specifications" ID="ID_1369561689" CREATED="1618594924849" MODIFIED="1618594981269">
-<node TEXT="HTTP Method" ID="ID_1285328752" CREATED="1618594982027" MODIFIED="1618594986870">
+<node TEXT="Call" FOLDED="true" ID="ID_354278213" CREATED="1618594864547" MODIFIED="1618594894161">
+<node TEXT="Specifications" FOLDED="true" ID="ID_1369561689" CREATED="1618594924849" MODIFIED="1618594981269">
+<node TEXT="HTTP Method" FOLDED="true" ID="ID_1285328752" CREATED="1618594982027" MODIFIED="1618594986870">
 <node TEXT="POST" ID="ID_1626521047" CREATED="1618594987588" MODIFIED="1618595049262"/>
 </node>
-<node TEXT="URI" ID="ID_479439815" CREATED="1618595050740" MODIFIED="1618595053758">
+<node TEXT="URI" FOLDED="true" ID="ID_479439815" CREATED="1618595050740" MODIFIED="1618595053758">
 <node TEXT="{baseURL}/cds-services/{service.id}" ID="ID_1573399221" CREATED="1615396072560" MODIFIED="1618595085908">
 <font NAME="Courier New"/>
 </node>
 </node>
-<node TEXT="Request Body" ID="ID_1530514270" CREATED="1618595087380" MODIFIED="1618595099525">
-<node TEXT="hook*" ID="ID_291263508" CREATED="1618595107589" MODIFIED="1618595177001">
+<node TEXT="Request Body" FOLDED="true" ID="ID_1530514270" CREATED="1618595087380" MODIFIED="1618595099525">
+<node TEXT="hook*" FOLDED="true" ID="ID_291263508" CREATED="1618595107589" MODIFIED="1618595177001">
 <node TEXT="The hook that triggered this CDS Service call" ID="ID_858549883" CREATED="1618595206137" MODIFIED="1618595208437"/>
 </node>
-<node TEXT="hookInstance*" ID="ID_1614501346" CREATED="1618595111419" MODIFIED="1618595183222">
-<node TEXT="A universally unique identifier (UUID) for this particular hook call" ID="ID_1316690325" CREATED="1618595211228" MODIFIED="1618595227158">
+<node TEXT="hookInstance*" FOLDED="true" ID="ID_1614501346" CREATED="1618595111419" MODIFIED="1618595183222">
+<node TEXT="A universally unique identifier (UUID) for this particular hook call" FOLDED="true" ID="ID_1316690325" CREATED="1618595211228" MODIFIED="1618595227158">
 <node TEXT="While working in the CDS Client, a user can perform multiple actions in series or in parallel. For example, a clinician might prescribe two drugs in a row; each prescription action would be assigned a unique hookInstance. This allows a CDS Service to uniquely identify each hook invocation." ID="ID_43957383" CREATED="1618596165209" MODIFIED="1618596175989"/>
 </node>
 </node>
@@ -323,7 +322,7 @@
 <node TEXT="context*" FOLDED="true" ID="ID_908225677" CREATED="1618595137459" MODIFIED="1618595187577">
 <node TEXT="Hook-specific contextual data that the CDS service will need" ID="ID_1758742209" CREATED="1618595559491" MODIFIED="1618595563402"/>
 </node>
-<node TEXT="prefetch" ID="ID_1571025654" CREATED="1618595141356" MODIFIED="1618595143974">
+<node TEXT="prefetch" FOLDED="true" ID="ID_1571025654" CREATED="1618595141356" MODIFIED="1618595143974">
 <node TEXT="The FHIR data that was prefetched by the CDS Client" ID="ID_218809875" CREATED="1618595579090" MODIFIED="1618595585949"/>
 <node TEXT="defines the set of prefetch templates for that service" ID="ID_728292486" CREATED="1619018462476" MODIFIED="1619018470303"/>
 <node ID="ID_466235342" CREATED="1619018475228" MODIFIED="1619018520852"><richcontent TYPE="NODE">
@@ -341,16 +340,16 @@
 </richcontent>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1552607322" STARTINCLINATION="129 pt;0 pt;" ENDINCLINATION="129 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
-<node TEXT="e.g." ID="ID_137786519" CREATED="1619018535084" MODIFIED="1619018545263">
+<node TEXT="e.g." FOLDED="true" ID="ID_137786519" CREATED="1619018535084" MODIFIED="1619018545263">
 <node TEXT="{&#xa;  &quot;prefetch&quot;: {&#xa;    &quot;hemoglobin-a1c&quot;: &quot;Observation?patient={{context.patientId}}&amp;code=4548-4&amp;_count=1&amp;sort:desc=date&quot;&#xa;  }&#xa;}" ID="ID_606862469" CREATED="1619018546979" MODIFIED="1619018572209">
 <font NAME="Courier New"/>
 </node>
 </node>
 </node>
 </node>
-<node TEXT="HTTP Response Codes" ID="ID_491057824" CREATED="1619042795481" MODIFIED="1619042801606">
+<node TEXT="HTTP Response Codes" FOLDED="true" ID="ID_491057824" CREATED="1619042795481" MODIFIED="1619042801606">
 <node TEXT="HTTP200: Success" ID="ID_1292894159" CREATED="1619042848074" MODIFIED="1619042889279"/>
-<node TEXT="HTTP412: Precondition Failed" ID="ID_352535528" CREATED="1619042859417" MODIFIED="1619042882730">
+<node TEXT="HTTP412: Precondition Failed" FOLDED="true" ID="ID_352535528" CREATED="1619042859417" MODIFIED="1619042882730">
 <node TEXT="If the CDS Service is unable to obtain required data because it cannot access the FHIR server and the request did not contain the necessary prefetch keys" ID="ID_648295854" CREATED="1619042948492" MODIFIED="1619042951159"/>
 </node>
 </node>
@@ -360,15 +359,15 @@
 <node TEXT="Providing FHIR Resource to a CDS Service" FOLDED="true" ID="ID_990756470" CREATED="1615400678193" MODIFIED="1615400693380">
 <node TEXT="Options" FOLDED="true" ID="ID_27616364" CREATED="1615400694216" MODIFIED="1615400695963">
 <node TEXT="CDS client passes through Pre-fetch Templates" FOLDED="true" ID="ID_181221386" CREATED="1615400696705" MODIFIED="1615400785502">
-<node TEXT="Passed as key-value pairs" ID="ID_1800454963" CREATED="1615400843634" MODIFIED="1615400856501">
-<node TEXT="Key" ID="ID_1552607322" CREATED="1615400857322" MODIFIED="1615400859299">
+<node TEXT="Passed as key-value pairs" FOLDED="true" ID="ID_1800454963" CREATED="1615400843634" MODIFIED="1615400856501">
+<node TEXT="Key" FOLDED="true" ID="ID_1552607322" CREATED="1615400857322" MODIFIED="1615400859299">
 <node TEXT="Matches a key described in the CDS service description" ID="ID_1309377542" CREATED="1615400859911" MODIFIED="1615400897895"/>
 </node>
-<node TEXT="Value" ID="ID_463333985" CREATED="1615400900584" MODIFIED="1615400902435">
+<node TEXT="Value" FOLDED="true" ID="ID_463333985" CREATED="1615400900584" MODIFIED="1615400902435">
 <node TEXT="FHIR resource" ID="ID_666866799" CREATED="1615400903105" MODIFIED="1615400906235"/>
 </node>
 </node>
-<node TEXT="How?" ID="ID_426035529" CREATED="1619018734644" MODIFIED="1619018737217">
+<node TEXT="How?" FOLDED="true" ID="ID_426035529" CREATED="1619018734644" MODIFIED="1619018737217">
 <node ID="ID_1519385750" CREATED="1615400938431" MODIFIED="1619018250098"><richcontent TYPE="NODE">
 
 <html>
@@ -384,7 +383,7 @@
 </richcontent>
 <arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1888264368" STARTINCLINATION="652.49998 pt;0 pt;" ENDINCLINATION="652.49998 pt;0 pt;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 </node>
-<node TEXT="A CDS Client MAY choose to honor some or all of the desired prefetch templates" ID="ID_1052938739" CREATED="1619018768267" MODIFIED="1619018783777">
+<node TEXT="A CDS Client MAY choose to honor some or all of the desired prefetch templates" FOLDED="true" ID="ID_1052938739" CREATED="1619018768267" MODIFIED="1619018783777">
 <node TEXT="If it chooses not to satisfy a desired prefetch template or is not able to populate a prefetch template, key MUST NOT be sent to CDS Service." ID="ID_1796720507" CREATED="1619033312909" MODIFIED="1619042681916"/>
 <node TEXT="If the CDS Client has no data to populate a template prefetch key, the prefetch template key MUST have a value of null." ID="ID_1950525532" CREATED="1619042705011" MODIFIED="1619042707439"/>
 <node TEXT="CDS Service should validate the prefetched data and retrieve any additional necessary data" ID="ID_1888246672" CREATED="1619042732194" MODIFIED="1619042765684"/>
@@ -392,7 +391,7 @@
 </node>
 </node>
 <node TEXT="CDS Service retrieves from CDS client FHIR server" FOLDED="true" ID="ID_1534899386" CREATED="1615400725208" MODIFIED="1615400795366">
-<node TEXT="How" ID="ID_1839528446" CREATED="1615400965135" MODIFIED="1615400974518">
+<node TEXT="How" FOLDED="true" ID="ID_1839528446" CREATED="1615400965135" MODIFIED="1615400974518">
 <node TEXT="CDS client obtains and passes a bearer token for authorization against its FHIR server" ID="ID_295156797" CREATED="1615400975577" MODIFIED="1615401053676"/>
 </node>
 </node>
@@ -400,10 +399,12 @@
 </node>
 </node>
 <node TEXT="Questions" FOLDED="true" ID="ID_1475556766" CREATED="1619018848627" MODIFIED="1619018852180">
-<node TEXT="Hooks" ID="ID_1867543990" CREATED="1619018857042" MODIFIED="1619018877855">
-<node TEXT="Assuming hooks are at EHR end, how do we register one or more CDS services with a hook?" ID="ID_501590719" CREATED="1619018878795" MODIFIED="1619018965240"/>
+<node TEXT="Hooks" FOLDED="true" ID="ID_1867543990" CREATED="1619018857042" MODIFIED="1619018877855">
+<node TEXT="Assuming hooks are at EHR end, how do we register one or more CDS services with a hook?" FOLDED="true" ID="ID_501590719" CREATED="1619018878795" MODIFIED="1619018965240">
+<node TEXT="Through EHR admin pages" ID="ID_630066202" CREATED="1750302808500" MODIFIED="1750302816688"/>
 </node>
-<node TEXT="Prefetch templates" ID="ID_1360149859" CREATED="1619018971963" MODIFIED="1619018979910">
+</node>
+<node TEXT="Prefetch templates" FOLDED="true" ID="ID_1360149859" CREATED="1619018971963" MODIFIED="1619018979910">
 <node TEXT="How do we &apos;register&apos; prefetch templates with CDS clients?" ID="ID_419722746" CREATED="1619018980443" MODIFIED="1619019007479"/>
 <node TEXT="Specs specify CDS clients may honor prefetch requests. How do I know if they will? What if they don&apos;t?" ID="ID_1044025331" CREATED="1619019045194" MODIFIED="1619019078280"/>
 </node>
@@ -456,211 +457,26 @@
 </node>
 <node TEXT="FHIR" FOLDED="true" POSITION="top_or_left" ID="ID_561222862" CREATED="1620934621342" MODIFIED="1620934623512">
 <edge COLOR="#0000ff"/>
-<node TEXT="About" FOLDED="true" ID="ID_1826261907" CREATED="1620934625805" MODIFIED="1620934630005">
-<node TEXT="What?" FOLDED="true" ID="ID_717675272" CREATED="1741287856911" MODIFIED="1741287865192">
-<node TEXT="HL7 Specs containing 2 primary components" FOLDED="true" ID="ID_91598812" CREATED="1741287866453" MODIFIED="1741287879032">
-<node TEXT="Resources" FOLDED="true" ID="ID_1603201731" CREATED="1741287880485" MODIFIED="1741287883825">
-<node TEXT="Collection of information models (model driven architecture) that define the xxx for business objects" FOLDED="true" ID="ID_94511126" CREATED="1741287888468" MODIFIED="1741287961106">
-<node TEXT="data elements" ID="ID_581611285" CREATED="1741287934924" MODIFIED="1741287941321"/>
-<node TEXT="constraints" ID="ID_1401782739" CREATED="1741287941884" MODIFIED="1741287944535"/>
-<node TEXT="relationships" ID="ID_585979440" CREATED="1741287945092" MODIFIED="1741287951209"/>
-</node>
-</node>
-<node TEXT="APIs" FOLDED="true" ID="ID_1123312970" CREATED="1741287884526" MODIFIED="1741287886736">
-<node TEXT="Well defined interfaces for interoperability" ID="ID_256428135" CREATED="1741287966540" MODIFIED="1741287985448"/>
-</node>
-</node>
-</node>
-<node TEXT="Purpose" FOLDED="true" ID="ID_1882817317" CREATED="1741288155301" MODIFIED="1741288158391">
-<node TEXT="Address interoperability" ID="ID_586241909" CREATED="1741288158884" MODIFIED="1741288451191"/>
-</node>
-<node TEXT="FHIR Composition Framework" FOLDED="true" ID="ID_1502638126" CREATED="1741288734205" MODIFIED="1741289233252" TEXT_SHORTENED="true">
-<hook URI="Images/FHIR%20Composition%20Framework.png" SIZE="0.7614213" NAME="ExternalObject"/>
-<node TEXT="Layers" FOLDED="true" POSITION="top_or_left" ID="ID_817064112" CREATED="1741288465476" MODIFIED="1741288761207">
-<node ID="ID_9044760" CREATED="1741288484735" MODIFIED="1741288484735"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li style="font-size: 12px; line-height: 1.4em; font-family: verdana; margin-top: 0px; margin-right: 0px; margin-bottom: 5px; margin-left: 0px; font-weight: normal">
-        <b style="font-weight: bold">Foundation Resources</b>: Foundation resources are the most rudimentary, foundational resources. They are often used for infrastructural tasks. Although not prohibited, they are not always referenced by other resources.
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-<node ID="ID_247779745" CREATED="1741288484738" MODIFIED="1741288484738"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li style="font-size: 12px; line-height: 1.4em; font-family: verdana; margin-top: 0px; margin-right: 0px; margin-bottom: 5px; margin-left: 0px; font-weight: normal">
-        <b style="font-weight: bold">Base Resources</b>: Layer two consists of base resources. These are often the leaf nodes of a resource graph. In other words, they are often referenced by other resources, but don't typically reference other resources themselves. These resources are typically the most commonly used, and therefore require the highest degree of consistency and architectural rigor. Governance is greatest for resources in layers one and two.
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-<node ID="ID_89695554" CREATED="1741288484775" MODIFIED="1741288484775"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li style="font-size: 12px; line-height: 1.4em; font-family: verdana; margin-top: 0px; margin-right: 0px; margin-bottom: 5px; margin-left: 0px; font-weight: normal">
-        <b style="font-weight: bold">Clinical Resources</b>: Layer 3 includes the resources that are clinical in nature but are also very common across many use cases. This includes resources for clinical observations, clinical treatment, care provision, and medications. These resources can be used by themselves, but typically build on the resources in layer two. For example, an observation resource will reference the patient resource from layer two. These resources are also frequently contextualized when they are referenced by resources in layers three, four and five.
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-<node ID="ID_1267736049" CREATED="1741288484782" MODIFIED="1741288484782"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li style="font-size: 12px; line-height: 1.4em; font-family: verdana; margin-top: 0px; margin-right: 0px; margin-bottom: 5px; margin-left: 0px; font-weight: normal">
-        <b style="font-weight: bold">Financial Resources</b>: Layer four is dedicated to financial resources. Logically, financial resources build on clinical and base resources. For example, a billing resource will reference clinical events and activities as well as base resources like a patient.
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-<node ID="ID_533849917" CREATED="1741288484789" MODIFIED="1741288484789"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li style="font-size: 12px; line-height: 1.4em; font-family: verdana; margin-top: 0px; margin-right: 0px; margin-bottom: 5px; margin-left: 0px; font-weight: normal">
-        <b style="font-weight: bold">Specialized Resources</b>: In layer five, we find more specialized resources for less common use cases. These resources almost always reference resources in lower layers. Given that FHIR places priority on satisfying the most common use cases, there are fewer resources in this layer.
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-<node ID="ID_1079993491" CREATED="1741288484794" MODIFIED="1741288484794"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul>
-      <li style="font-size: 12px; line-height: 1.4em; font-family: verdana; margin-top: 0px; margin-right: 0px; margin-bottom: 5px; margin-left: 0px; font-weight: normal">
-        <b style="font-weight: bold">Resource Contextualization</b>: Layer 6 does not contain resources. However, it does extend the composition framework made up by the first five layers of resources. Layer 6 includes profiles and graphs. Profiles are used to extend, constrain, or otherwise contextualize resources for a given purpose. Graphs are compositions of resources, or webs of resource, that contain attributes of their own.
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node TEXT="Benefits" FOLDED="true" POSITION="top_or_left" ID="ID_1425319200" CREATED="1741288778411" MODIFIED="1741288780997">
-<node ID="ID_445961434" CREATED="1741288789459" MODIFIED="1741288789459"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul style="margin-top: 0px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 25px; color: rgb(51, 51, 51); font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; background-color: rgb(255, 255, 255)">
-      <li style="font-size: 12px; line-height: 1.4em; font-family: verdana; margin-top: 0px; margin-right: 0px; margin-bottom: 5px; margin-left: 0px; font-weight: normal">
-        Organization and manageability of health domains - the framework provides a basis for decomposition and modularity
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-<node ID="ID_720079517" CREATED="1741288789460" MODIFIED="1741288789460"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul style="margin-top: 0px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 25px; color: rgb(51, 51, 51); font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; background-color: rgb(255, 255, 255)">
-      <li style="font-size: 12px; line-height: 1.4em; font-family: verdana; margin-top: 0px; margin-right: 0px; margin-bottom: 5px; margin-left: 0px; font-weight: normal">
-        Identifying commonality - the framework teases out the common areas from the less common areas
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-<node ID="ID_1404842477" CREATED="1741288789465" MODIFIED="1741288789465"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul style="margin-top: 0px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 25px; color: rgb(51, 51, 51); font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; background-color: rgb(255, 255, 255)">
-      <li style="font-size: 12px; line-height: 1.4em; font-family: verdana; margin-top: 0px; margin-right: 0px; margin-bottom: 5px; margin-left: 0px; font-weight: normal">
-        FHIR resources prioritization - the framework provides a structure for determining priorities and delegating work
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-<node ID="ID_1631129676" CREATED="1741288789468" MODIFIED="1741288789468"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <ul style="margin-top: 0px; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 25px; color: rgb(51, 51, 51); font-family: Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px; white-space: normal; background-color: rgb(255, 255, 255)">
-      <li style="font-size: 12px; line-height: 1.4em; font-family: verdana; margin-top: 0px; margin-right: 0px; margin-bottom: 5px; margin-left: 0px; font-weight: normal">
-        Tiered governance levels - the framework separates the areas needing the most stringent and universal governance from those that require more context-specific governance
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-</node>
-</node>
-<node TEXT="Search" FOLDED="true" ID="ID_1206259945" CREATED="1620934630652" MODIFIED="1620934632622">
-<node TEXT="About" FOLDED="true" ID="ID_66287768" CREATED="1633362190142" MODIFIED="1633362208268">
+<node TEXT="About" ID="ID_1826261907" CREATED="1620934625805" MODIFIED="1620934630005"/>
+<node TEXT="Search" ID="ID_1206259945" CREATED="1620934630652" MODIFIED="1620934632622">
+<node TEXT="About" ID="ID_66287768" CREATED="1633362190142" MODIFIED="1633362208268">
 <node TEXT="Each FHIR resource specifies which search parameters should be supported" ID="ID_79003425" CREATED="1633362209153" MODIFIED="1633362228931">
 <node TEXT="Google HealthCare API supports most" ID="ID_1929836569" CREATED="1633992751931" MODIFIED="1633992764602"/>
 </node>
 <node TEXT="Can be performed using GET or POST" ID="ID_1237582106" CREATED="1633362229670" MODIFIED="1633362238032"/>
-<node TEXT="Can be targeted at different levels" ID="ID_1682237817" CREATED="1633992767201" MODIFIED="1633992779194">
+<node TEXT="Can be targeted at different levels" FOLDED="true" ID="ID_1682237817" CREATED="1633992767201" MODIFIED="1633992779194">
 <node TEXT="Entire store" ID="ID_1339671990" CREATED="1633992780215" MODIFIED="1633992784594"/>
 <node TEXT="Specific resource types" ID="ID_1373917153" CREATED="1633992785600" MODIFIED="1633992791041"/>
-<node TEXT="Compartment" ID="ID_775413840" CREATED="1633992791865" MODIFIED="1633992794866">
+<node TEXT="Compartment" FOLDED="true" ID="ID_775413840" CREATED="1633992791865" MODIFIED="1633992794866">
 <node TEXT="A set of associated/linked resources (bi-directional" ID="ID_1032201708" CREATED="1633992862304" MODIFIED="1633992895612"/>
 <node TEXT="E.g. Patient Compartment" ID="ID_584877120" CREATED="1633992898448" MODIFIED="1633992906853"/>
-<node TEXT="Google restriction" ID="ID_1313576769" CREATED="1633992914770" MODIFIED="1633992921057">
+<node TEXT="Google restriction" FOLDED="true" ID="ID_1313576769" CREATED="1633992914770" MODIFIED="1633992921057">
 <node TEXT="Only supports patient compartment only" ID="ID_970454147" CREATED="1633992921856" MODIFIED="1633992935394"/>
 </node>
 </node>
 </node>
 </node>
-<node TEXT="Use-cases" FOLDED="true" ID="ID_1619377842" CREATED="1633993044394" MODIFIED="1633993047531">
+<node TEXT="Use-cases" ID="ID_1619377842" CREATED="1633993044394" MODIFIED="1633993047531">
 <node TEXT="Text search" ID="ID_1269905279" CREATED="1633993048559" MODIFIED="1633993052356">
 <node TEXT="_content - searches ALL searchable fields of a resource for the given _content string" ID="ID_1804232684" CREATED="1633993097760" MODIFIED="1633993131268"/>
 </node>
@@ -676,38 +492,8 @@
 <node TEXT="For e.g. I want all patients associated with this kind of encounter" ID="ID_354361924" CREATED="1634143939237" MODIFIED="1634143959339"/>
 </node>
 </node>
-<node TEXT="Search modifiers" FOLDED="true" ID="ID_625535050" CREATED="1634144007647" MODIFIED="1634144015280">
+<node TEXT="Search modifiers" ID="ID_625535050" CREATED="1634144007647" MODIFIED="1634144015280">
 <node TEXT="" ID="ID_1518699570" CREATED="1634144018063" MODIFIED="1634144018063"/>
-</node>
-</node>
-<node TEXT="Security" FOLDED="true" ID="ID_587462837" CREATED="1741289264178" MODIFIED="1741289266805">
-<node TEXT="Recommendations on Security for use of FHIR" FOLDED="true" ID="ID_1510749956" CREATED="1741289310818" MODIFIED="1741289363397">
-<node TEXT="Securing data in-transit" FOLDED="true" ID="ID_565679807" CREATED="1741289400291" MODIFIED="1741289433555">
-<node TEXT="All exchange of prod data secured using TLS" POSITION="top_or_left" ID="ID_469109094" CREATED="1741289364618" MODIFIED="1741289383747"/>
-</node>
-<node TEXT="Authentication" FOLDED="true" ID="ID_1415822561" CREATED="1741289397378" MODIFIED="1741289439182">
-<node TEXT="Consider use of HL7 SMART on FHIR where appropriate" ID="ID_334080109" CREATED="1741289445506" MODIFIED="1741289607572"/>
-<node TEXT="Users, clients must be authenticated" ID="ID_108643806" CREATED="1741289477786" MODIFIED="1741289494923"/>
-</node>
-<node TEXT="Authorization/Access Control" ID="ID_1982106048" CREATED="1741289501979" MODIFIED="1741289617900"/>
-<node TEXT="Audit" FOLDED="true" ID="ID_378582025" CREATED="1741289618698" MODIFIED="1741289620852">
-<node TEXT="Defined FHIR resources" FOLDED="true" ID="ID_1591529212" CREATED="1741289629379" MODIFIED="1741289634387">
-<node TEXT="Provenance" ID="ID_647272695" CREATED="1741289634769" MODIFIED="1741289638588"/>
-<node TEXT="Audit Event" ID="ID_1628378359" CREATED="1741289639705" MODIFIED="1741289643964"/>
-</node>
-</node>
-<node TEXT="Digital Signatures" FOLDED="true" ID="ID_1571662231" CREATED="1741289655962" MODIFIED="1741289660970">
-<node TEXT="FHIR includes several specifically reserved locations for digital signatures" ID="ID_1417404828" CREATED="1741289661986" MODIFIED="1741289696780"/>
-</node>
-<node TEXT="Labels" FOLDED="true" ID="ID_1662907537" CREATED="1741289706650" MODIFIED="1741289717986">
-<node TEXT="FHIR allows for set of security related tags that affect the way resources are handled" ID="ID_341367586" CREATED="1741289718409" MODIFIED="1741289766029"/>
-</node>
-<node TEXT="Attachments" FOLDED="true" ID="ID_967292615" CREATED="1741289774369" MODIFIED="1741289777148">
-<node TEXT="FHIR allows for binary resources and attachments" ID="ID_1603190251" CREATED="1741289788017" MODIFIED="1741289792724"/>
-</node>
-<node TEXT="Input validation" FOLDED="true" ID="ID_71385179" CREATED="1741289803059" MODIFIED="1741289807308">
-<node TEXT="Validate all input received from other actors to assure the data is well formed and does not contain unwanted payload" ID="ID_1754509917" CREATED="1741289808323" MODIFIED="1741289858108"/>
-</node>
 </node>
 </node>
 <node TEXT="Resources" FOLDED="true" ID="ID_870712913" CREATED="1644958127104" MODIFIED="1644958129604">
@@ -715,171 +501,33 @@
 <node TEXT="Basic Workflow" FOLDED="true" ID="ID_1486884980" CREATED="1644958222751" MODIFIED="1644961667284">
 <node TEXT="Discover the address/endpoint details of the resource(s) that we want to schedule an appointment with" ID="ID_1503843375" CREATED="1644958284366" MODIFIED="1644958317449"/>
 <node TEXT="Check availability on Schedule (optional)" ID="ID_939635218" CREATED="1644958321502" MODIFIED="1644958337289"/>
-<node TEXT="Making the Appointment request" FOLDED="true" ID="ID_970002695" CREATED="1644958338303" MODIFIED="1644958358616">
+<node TEXT="Making the Appointment request" ID="ID_970002695" CREATED="1644958338303" MODIFIED="1644958358616">
 <node TEXT="New Appointment resource created with" ID="ID_1551938741" CREATED="1644961347929" MODIFIED="1644961403605">
 <node TEXT="Appointment.status=&quot;proposed&quot;" ID="ID_1508703083" CREATED="1644958361231" MODIFIED="1644958376960"/>
 <node TEXT="Included participants with status =&quot;needs-action&quot;" ID="ID_1933712521" CREATED="1644961360330" MODIFIED="1644961379974"/>
 </node>
 <node TEXT="Certain statuses may be automatically updated based on system/biz rules" ID="ID_651470575" CREATED="1644961404097" MODIFIED="1644961427320"/>
 </node>
-<node TEXT="Replying to the request" FOLDED="true" ID="ID_593235558" CREATED="1644961431121" MODIFIED="1644961436672">
+<node TEXT="Replying to the request" ID="ID_593235558" CREATED="1644961431121" MODIFIED="1644961436672">
 <node TEXT="AppointmentResponse resource" ID="ID_430241017" CREATED="1644961457977" MODIFIED="1644961478460">
 <node TEXT="Once all participants have their participation status created/updated, overall Appointment is updated" ID="ID_1157843896" CREATED="1644961504203" MODIFIED="1644961541982"/>
 </node>
 </node>
-<node TEXT="Requester checks overall status" FOLDED="true" ID="ID_1539997018" CREATED="1644961575250" MODIFIED="1644961587347">
+<node TEXT="Requester checks overall status" ID="ID_1539997018" CREATED="1644961575250" MODIFIED="1644961587347">
 <node TEXT="Using FHIR pub-sub techniques" ID="ID_425303981" CREATED="1644961598849" MODIFIED="1644961607055"/>
 </node>
 <node TEXT="Wait listing the appointment (optional)" ID="ID_1745565973" CREATED="1644961617032" MODIFIED="1644961633491"/>
 </node>
 <node TEXT="Workflow" FOLDED="true" ID="ID_3884154" CREATED="1644961668521" MODIFIED="1644961671332">
 <node TEXT="Types" FOLDED="true" ID="ID_1003223100" CREATED="1644961672050" MODIFIED="1644961676421">
-<node TEXT="Community (Outlook style)" FOLDED="true" ID="ID_1731832342" CREATED="1644961677257" MODIFIED="1644961688196">
+<node TEXT="Community (Outlook style)" ID="ID_1731832342" CREATED="1644961677257" MODIFIED="1644961688196">
 <node TEXT="Simple slot booking" ID="ID_1506487825" CREATED="1644962405432" MODIFIED="1644962411852"/>
 </node>
-<node TEXT="Clinical (Hospital Style)" FOLDED="true" ID="ID_857439323" CREATED="1644961689153" MODIFIED="1644961696555">
+<node TEXT="Clinical (Hospital Style)" ID="ID_857439323" CREATED="1644961689153" MODIFIED="1644961696555">
 <node TEXT="Require multiple participants" ID="ID_1333627430" CREATED="1644962413727" MODIFIED="1644962419867"/>
 <node TEXT="Should be done using queueing" ID="ID_605379872" CREATED="1644962420344" MODIFIED="1644962450922"/>
 </node>
 </node>
-</node>
-</node>
-</node>
-</node>
-<node TEXT="SMART" FOLDED="true" POSITION="top_or_left" ID="ID_1005451713" CREATED="1741289914297" MODIFIED="1741289917379">
-<edge COLOR="#00ffff"/>
-<node TEXT="About" FOLDED="true" ID="ID_1259936965" CREATED="1741290314089" MODIFIED="1741290323731">
-<node TEXT="Set of foundational patterns for client apps to authn/authz and integrate with FHIR systems" ID="ID_1631728789" CREATED="1741290324994" MODIFIED="1741290357414"/>
-<node TEXT="Based on OAuth 2.0" ID="ID_1554692836" CREATED="1741290359297" MODIFIED="1741290367290"/>
-</node>
-<node TEXT="Specifications" FOLDED="true" ID="ID_647642380" CREATED="1741290375169" MODIFIED="1741290400690">
-<node TEXT="Discovery of server capabilities/configuration" FOLDED="true" ID="ID_960447852" CREATED="1741290401576" MODIFIED="1741290424115">
-<node TEXT="What?" FOLDED="true" ID="ID_385076286" CREATED="1741290456376" MODIFIED="1741290464107">
-<node TEXT="Info about" FOLDED="true" ID="ID_942311761" CREATED="1741290464321" MODIFIED="1741290506122">
-<node TEXT="AuthN URLs" ID="ID_1500369811" CREATED="1741290506752" MODIFIED="1741290516842"/>
-<node TEXT="Features supported" ID="ID_1726389842" CREATED="1741290517551" MODIFIED="1741290523402"/>
-</node>
-</node>
-</node>
-<node TEXT="Client Authorization Patterns" FOLDED="true" ID="ID_260890353" CREATED="1741290426792" MODIFIED="1741369998294">
-<node TEXT="Patterns" FOLDED="true" ID="ID_832938444" CREATED="1741290534336" MODIFIED="1741290537643">
-<node TEXT="via SMART App Launch" FOLDED="true" ID="ID_467497601" CREATED="1741290537896" MODIFIED="1741290550378">
-<node TEXT="For user facing apps" ID="ID_937359470" CREATED="1741290572407" MODIFIED="1741290580507"/>
-<node TEXT="Allows for &quot;launch context&quot; to be shared with app" FOLDED="true" ID="ID_728784895" CREATED="1741290591160" MODIFIED="1741290634889">
-<node TEXT="e.g." FOLDED="true" ID="ID_1924935343" CREATED="1741290612848" MODIFIED="1741290614275">
-<node TEXT="Currently selected patient" ID="ID_1791956850" CREATED="1741290614664" MODIFIED="1741290625746"/>
-</node>
-<node TEXT="based on" FOLDED="true" ID="ID_804628232" CREATED="1741290641128" MODIFIED="1741290643530">
-<node TEXT="User&apos;s session/selection inside an EHR/other Health data s/w" ID="ID_1846304986" CREATED="1741290644089" MODIFIED="1741290676938"/>
-</node>
-<node TEXT="Allows for delegation of a user&apos;s permissions to the app itself" ID="ID_1627838993" CREATED="1741290685592" MODIFIED="1741290705402"/>
-</node>
-</node>
-<node TEXT="via SMART Backend Services" FOLDED="true" ID="ID_1423256632" CREATED="1741290552560" MODIFIED="1741290562546">
-<node TEXT="For headless/automated client applications (backends)" ID="ID_508248627" CREATED="1741290714552" MODIFIED="1741290741098"/>
-<node TEXT="Allows for permissions assignment out-of-band" ID="ID_1396800042" CREATED="1741290757961" MODIFIED="1741290777410"/>
-</node>
-</node>
-</node>
-<node TEXT="Client Authentication Patterns" FOLDED="true" ID="ID_7307082" CREATED="1741290439896" MODIFIED="1741369989048">
-<node TEXT="Patterns" FOLDED="true" ID="ID_1350050714" CREATED="1741290803658" MODIFIED="1741290807450">
-<node FOLDED="true" ID="ID_760391181" CREATED="1741290847543" MODIFIED="1741290884931"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Asymmetric (<span style="font-style: italic;">private key JWT</span>) authentication
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT="Preferred" ID="ID_1223534078" CREATED="1741290904968" MODIFIED="1741290908010"/>
-<node TEXT="Uses asymmetric key pair" ID="ID_1167407699" CREATED="1741290908327" MODIFIED="1741290921218"/>
-</node>
-<node FOLDED="true" ID="ID_791265025" CREATED="1741290860416" MODIFIED="1741290892170"><richcontent TYPE="NODE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Symmetric (<span style="font-style: italic;">client secret</span>) authentication
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT="Uses shared secret" ID="ID_1352232280" CREATED="1741290928807" MODIFIED="1741290939993"/>
-</node>
-</node>
-<node TEXT="Limitations" FOLDED="true" ID="ID_1674921118" CREATED="1741290807930" MODIFIED="1741290809842">
-<node TEXT="client authentication is not required in all authorization scenarios" ID="ID_1130852129" CREATED="1741290811680" MODIFIED="1741290826816"/>
-<node TEXT="not all SMART clients are capable of authenticating" ID="ID_990873109" CREATED="1741290827337" MODIFIED="1741290838690"/>
-</node>
-</node>
-<node TEXT="Scopes" FOLDED="true" ID="ID_254618690" CREATED="1741290970121" MODIFIED="1741290973097">
-<node TEXT="What?" FOLDED="true" ID="ID_387503258" CREATED="1741290974087" MODIFIED="1741290975785">
-<node TEXT="uses a language of “scopes” to define specific access permissions/limitations" ID="ID_135521500" CREATED="1741290975952" MODIFIED="1741291104106"/>
-<node TEXT="Leverages FHIR API definitions for interactions, resource types, and search parameters to describe a permissions model" ID="ID_821037164" CREATED="1741291029024" MODIFIED="1741291041569"/>
-</node>
-</node>
-<node TEXT="Token Introspection" FOLDED="true" ID="ID_1911388013" CREATED="1741291107071" MODIFIED="1741291112969">
-<node TEXT="What?" FOLDED="true" ID="ID_161232580" CREATED="1741291116407" MODIFIED="1741291118842">
-<node TEXT="defines a Token Introspection API allowing Resource Servers or software components to understand the scopes, users, patients, and other context associated with access tokens" ID="ID_35882743" CREATED="1741291119472" MODIFIED="1741291153912"/>
-<node TEXT="allows a looser coupling between Resource Servers and Authorization Servers" ID="ID_1273578125" CREATED="1741291155376" MODIFIED="1741291165912"/>
-</node>
-</node>
-<node TEXT="Persisting App State" FOLDED="true" ID="ID_1374828655" CREATED="1741291247206" MODIFIED="1741291253522">
-<node TEXT="What?" FOLDED="true" ID="ID_1920787731" CREATED="1741291254551" MODIFIED="1741291256072">
-<node TEXT="defines an API for apps to persist state to an EHR" ID="ID_1097959540" CREATED="1741291256919" MODIFIED="1741291265969"/>
-<node TEXT="allows apps to save configuration details including user- or patient-specific payloads" ID="ID_1554085083" CREATED="1741291268071" MODIFIED="1741291291769"/>
-</node>
-</node>
-</node>
-</node>
-<node TEXT="FHIR ACCELERATOR Program" FOLDED="true" POSITION="top_or_left" ID="ID_898415855" CREATED="1741293171179" MODIFIED="1741293288236">
-<edge COLOR="#00007c"/>
-<node TEXT="What?" FOLDED="true" ID="ID_1649192584" CREATED="1741293177738" MODIFIED="1741293179358">
-<node TEXT="Designed to assist communities and collaborative groups in the creation and adoption of FHIR Implementation Guides" ID="ID_1976543146" CREATED="1741293196859" MODIFIED="1741293257133"/>
-<node TEXT="Operate within HL7 but a separate initiative" ID="ID_1021023798" CREATED="1741293259227" MODIFIED="1741293276934"/>
-</node>
-<node TEXT="Projects" FOLDED="true" ID="ID_874323025" CREATED="1741293298674" MODIFIED="1741293335771">
-<node TEXT="Argonaut" FOLDED="true" ID="ID_952840339" CREATED="1741293306299" MODIFIED="1741293330966">
-<node TEXT="What?" ID="ID_1288725185" CREATED="1741293399556" MODIFIED="1741293401676">
-<node TEXT="Implementation Guide (IG) for high priority use-cases for general interoperability" POSITION="top_or_left" ID="ID_1180514398" CREATED="1741293370362" MODIFIED="1741293426327"/>
-</node>
-</node>
-<node TEXT="Carin" FOLDED="true" ID="ID_543325526" CREATED="1741293437330" MODIFIED="1741293439652">
-<node TEXT="What?" ID="ID_291180605" CREATED="1741293440883" MODIFIED="1741293442595">
-<node TEXT="IG for individuals to share their health information when and where they want to" ID="ID_885005322" CREATED="1741293443675" MODIFIED="1741293469036"/>
-</node>
-</node>
-<node TEXT="Codex" FOLDED="true" ID="ID_1715767654" CREATED="1741293475980" MODIFIED="1741293478868">
-<node TEXT="What?" ID="ID_106928701" CREATED="1741293479828" MODIFIED="1741293481517">
-<node TEXT="Data exchange standards for improving cancer patient care and research" ID="ID_1494509451" CREATED="1741293491970" MODIFIED="1741293539228"/>
-</node>
-</node>
-<node TEXT="Da Vinci" FOLDED="true" ID="ID_451656229" CREATED="1741293558450" MODIFIED="1741293562861">
-<node TEXT="What?" ID="ID_214051630" CREATED="1741293563770" MODIFIED="1741293565795">
-<node TEXT="Accelerator to support value based care data exchange" ID="ID_948795929" CREATED="1741293566443" MODIFIED="1741293597780"/>
-</node>
-</node>
-<node TEXT="Gravity" FOLDED="true" ID="ID_88745412" CREATED="1741293602051" MODIFIED="1741293604995">
-<node TEXT="What?" ID="ID_442317275" CREATED="1741293605956" MODIFIED="1741293607684">
-<node TEXT="Accelerator to identify social determinants for health data" ID="ID_1704479041" CREATED="1741293608418" MODIFIED="1741293664213"/>
-</node>
-</node>
-<node TEXT="Helios" FOLDED="true" ID="ID_1559656965" CREATED="1741293672706" MODIFIED="1741293683491">
-<node TEXT="What?" ID="ID_1174358317" CREATED="1741293683986" MODIFIED="1741293685652">
-<node TEXT="Govt/Pvt Sector/ for interoperability of Public Health data" ID="ID_1587051575" CREATED="1741293686443" MODIFIED="1741293704660"/>
-</node>
-</node>
-<node TEXT="Vulcan" FOLDED="true" ID="ID_492556943" CREATED="1741293706147" MODIFIED="1741293708403">
-<node TEXT="What?" FOLDED="true" ID="ID_88924816" CREATED="1741293709050" MODIFIED="1741293710525">
-<node TEXT="Dedicated to connecting clinical research to healthcare data" ID="ID_514039028" CREATED="1741293710939" MODIFIED="1741293728716"/>
 </node>
 </node>
 </node>
@@ -1158,6 +806,198 @@
 </node>
 </node>
 <node TEXT="Making consent aware requests" ID="ID_643308226" CREATED="1683228716953" MODIFIED="1683228724124"/>
+</node>
+</node>
+<node TEXT="Da Vinci Project (HL7 FHIR Interoperability in Healthcare)" FOLDED="true" POSITION="top_or_left" ID="ID_282689550" CREATED="1750311844088" MODIFIED="1750311889554">
+<edge COLOR="#0000ff"/>
+<node TEXT="-&gt; Purpose" FOLDED="true" ID="ID_1339381999" CREATED="1750311854957" MODIFIED="1750311854957">
+<node TEXT="-&gt; Improve payer–provider data exchange" ID="ID_1269107146" CREATED="1750311854957" MODIFIED="1750311854957"/>
+<node TEXT="-&gt; Leverage FHIR for automation and real-time workflows" ID="ID_86627855" CREATED="1750311854957" MODIFIED="1750311854957"/>
+<node TEXT="-&gt; Enable value-based care and reduce administrative burden" ID="ID_588680467" CREATED="1750311854957" MODIFIED="1750311854957"/>
+</node>
+<node TEXT="-&gt; Stakeholders" FOLDED="true" ID="ID_521748140" CREATED="1750311854957" MODIFIED="1750311854957">
+<node TEXT="-&gt; Providers (e.g., hospitals, clinics, EHR vendors)" ID="ID_266952753" CREATED="1750311854958" MODIFIED="1750311854958"/>
+<node TEXT="-&gt; Payers (e.g., insurers, Medicare Advantage plans)" ID="ID_1863486016" CREATED="1750311854958" MODIFIED="1750311854958"/>
+<node TEXT="-&gt; Vendors (e.g., CDS service providers, app developers)" ID="ID_805927659" CREATED="1750311854958" MODIFIED="1750311854958"/>
+<node TEXT="-&gt; Standards bodies (e.g., HL7)" ID="ID_1957108658" CREATED="1750311854958" MODIFIED="1750311854958"/>
+</node>
+<node TEXT="-&gt; Core FHIR Implementation Guides (IGs)" ID="ID_1504612315" CREATED="1750311854958" MODIFIED="1750311854958">
+<node TEXT="-&gt; CRD (Coverage Requirements Discovery)" FOLDED="true" ID="ID_854223023" CREATED="1750311854958" MODIFIED="1750311854958">
+<node TEXT="-&gt; Uses CDS Hooks" ID="ID_169529765" CREATED="1750311854958" MODIFIED="1750311984489">
+<arrowlink DESTINATION="ID_1875447070"/>
+</node>
+<node TEXT="-&gt; Real-time coverage and documentation requirements" ID="ID_250412486" CREATED="1750311854958" MODIFIED="1750311854958"/>
+<node TEXT="-&gt; EHR initiates based on clinical workflow (order-sign)" ID="ID_1879845229" CREATED="1750311854958" MODIFIED="1750311854958"/>
+</node>
+<node TEXT="-&gt; DTR (Document Templates and Rules)" ID="ID_704674460" CREATED="1750311854958" MODIFIED="1750311854958">
+<node TEXT="-&gt; SMART-on-FHIR app" ID="ID_311024907" CREATED="1750311854958" MODIFIED="1750311854958"/>
+<node TEXT="-&gt; Auto-fills payer-specific questionnaires" ID="ID_744944131" CREATED="1750311854958" MODIFIED="1750311854958"/>
+<node TEXT="-&gt; Renders forms dynamically using FHIR Questionnaire/Response" ID="ID_557295292" CREATED="1750311854958" MODIFIED="1750311854958"/>
+</node>
+<node TEXT="-&gt; PAS (Prior Authorization Support)" FOLDED="true" ID="ID_1027205805" CREATED="1750311854958" MODIFIED="1750311854958">
+<node TEXT="-&gt; Combines FHIR with X12 278 standard" ID="ID_807747164" CREATED="1750311854958" MODIFIED="1750311854958"/>
+<node TEXT="-&gt; Submits pre-auth requests electronically" ID="ID_169205633" CREATED="1750311854958" MODIFIED="1750311854958"/>
+<node TEXT="-&gt; Tracks responses from payer in real time" ID="ID_1955580970" CREATED="1750311854958" MODIFIED="1750311854958"/>
+</node>
+<node TEXT="-&gt; CDex (Clinical Data Exchange)" FOLDED="true" ID="ID_697754969" CREATED="1750311854958" MODIFIED="1750311854958">
+<node TEXT="-&gt; Supports unsolicited or requested data exchange" ID="ID_1786274124" CREATED="1750311854958" MODIFIED="1750311854958"/>
+<node TEXT="-&gt; Enables sharing of clinical attachments (e.g., labs, notes, images)" ID="ID_1712408583" CREATED="1750311854958" MODIFIED="1750311854958"/>
+</node>
+<node TEXT="-&gt; PDex (Payer Data Exchange)" FOLDED="true" ID="ID_712335851" CREATED="1750311854958" MODIFIED="1750311854958">
+<node TEXT="-&gt; Enables member data portability" ID="ID_376198407" CREATED="1750311854958" MODIFIED="1750311854958"/>
+<node TEXT="-&gt; Supports payer-to-payer and payer-to-provider sharing" ID="ID_1106383799" CREATED="1750311854958" MODIFIED="1750311854958"/>
+</node>
+<node TEXT="-&gt; Formulary / PlanNet" FOLDED="true" ID="ID_1640519299" CREATED="1750311854958" MODIFIED="1750311854958">
+<node TEXT="-&gt; Publishes payer formularies and provider directories" ID="ID_1643595036" CREATED="1750311854958" MODIFIED="1750311854958"/>
+<node TEXT="-&gt; FHIR APIs for medication and network transparency" ID="ID_462346152" CREATED="1750311854958" MODIFIED="1750311854958"/>
+</node>
+</node>
+<node TEXT="-&gt; Technical Foundations" ID="ID_1519772933" CREATED="1750311854958" MODIFIED="1750311854958">
+<node TEXT="-&gt; HL7 FHIR R4" ID="ID_279443040" CREATED="1750311854959" MODIFIED="1750311854959"/>
+<node TEXT="-&gt; CDS Hooks (event triggers from EHR)" ID="ID_286457786" CREATED="1750311854959" MODIFIED="1750311923344">
+<arrowlink DESTINATION="ID_1875447070"/>
+</node>
+<node TEXT="-&gt; SMART-on-FHIR (app launch, OAuth2)" ID="ID_228062866" CREATED="1750311854959" MODIFIED="1750311854959"/>
+<node TEXT="-&gt; EHR integration (e.g., Epic, Cerner)" ID="ID_399053563" CREATED="1750311854959" MODIFIED="1750311854959"/>
+<node TEXT="-&gt; Payer FHIR endpoints and API gateways" ID="ID_1344243804" CREATED="1750311854959" MODIFIED="1750311854959"/>
+</node>
+<node TEXT="-&gt; Adoption Requirements" FOLDED="true" ID="ID_113406478" CREATED="1750311854959" MODIFIED="1750311854959">
+<node TEXT="-&gt; EHR Side" FOLDED="true" ID="ID_1034192029" CREATED="1750311854959" MODIFIED="1750311854959">
+<node TEXT="-&gt; CDS Hooks support (for CRD)" ID="ID_206252605" CREATED="1750311854959" MODIFIED="1750311854959"/>
+<node TEXT="-&gt; SMART app launch (for DTR)" ID="ID_287494775" CREATED="1750311854959" MODIFIED="1750311854959"/>
+<node TEXT="-&gt; FHIR APIs (for prefetch, context)" ID="ID_66742451" CREATED="1750311854959" MODIFIED="1750311854959"/>
+</node>
+<node TEXT="-&gt; Payer Side" FOLDED="true" ID="ID_1438612590" CREATED="1750311854959" MODIFIED="1750311854959">
+<node TEXT="-&gt; FHIR APIs and Questionnaire support" ID="ID_762166535" CREATED="1750311854959" MODIFIED="1750311854959"/>
+<node TEXT="-&gt; X12 integration for PAS" ID="ID_1308117317" CREATED="1750311854959" MODIFIED="1750311854959"/>
+<node TEXT="-&gt; Real-time decision support rules" ID="ID_97337552" CREATED="1750311854959" MODIFIED="1750311854959"/>
+</node>
+</node>
+<node TEXT="-&gt; Benefits" FOLDED="true" ID="ID_461368760" CREATED="1750311854959" MODIFIED="1750311854959">
+<node TEXT="-&gt; Streamlined prior auth process" ID="ID_289771240" CREATED="1750311854959" MODIFIED="1750311854959"/>
+<node TEXT="-&gt; Reduced manual documentation" ID="ID_1807065000" CREATED="1750311854959" MODIFIED="1750311854959"/>
+<node TEXT="-&gt; Faster coverage decisions" ID="ID_1793540413" CREATED="1750311854959" MODIFIED="1750311854959"/>
+<node TEXT="-&gt; Improved interoperability" ID="ID_1901468810" CREATED="1750311854959" MODIFIED="1750311854959"/>
+<node TEXT="-&gt; Compliance with CMS and ONC rules" ID="ID_1295809233" CREATED="1750311854959" MODIFIED="1750311854959"/>
+</node>
+<node TEXT="-&gt; Industry Support" FOLDED="true" ID="ID_1253766642" CREATED="1750311854959" MODIFIED="1750311854959">
+<node TEXT="-&gt; EHR Vendors" FOLDED="true" ID="ID_584459389" CREATED="1750311854960" MODIFIED="1750311854960">
+<node TEXT="-&gt; Epic, Oracle Cerner, MEDITECH, Veradigm (partial)" ID="ID_118866993" CREATED="1750311854960" MODIFIED="1750311854960"/>
+</node>
+<node TEXT="-&gt; Payers" FOLDED="true" ID="ID_1035431875" CREATED="1750311854960" MODIFIED="1750311854960">
+<node TEXT="-&gt; UnitedHealthcare, Humana, Cambia Health, Aetna, Blue Shield CA" ID="ID_1366819062" CREATED="1750311854960" MODIFIED="1750311854960"/>
+</node>
+<node TEXT="-&gt; Federal Alignment" FOLDED="true" ID="ID_249084774" CREATED="1750311854960" MODIFIED="1750311854960">
+<node TEXT="-&gt; CMS mandates FHIR-based prior auth (by 2027)" ID="ID_801901983" CREATED="1750311854960" MODIFIED="1750311854960"/>
+<node TEXT="-&gt; Supports TEFCA and 21st Century Cures Act goals" ID="ID_616775322" CREATED="1750311854960" MODIFIED="1750311854960"/>
+</node>
+</node>
+</node>
+<node TEXT="SMART on FHIR" FOLDED="true" POSITION="top_or_left" ID="ID_979984287" CREATED="1750312217369" MODIFIED="1750312226103">
+<edge COLOR="#ff00ff"/>
+<node TEXT="Overview" FOLDED="true" ID="ID_1296385734" CREATED="1750312217369" MODIFIED="1750312217369">
+<node TEXT="Stands for &quot;Substitutable Medical Applications, Reusable Technologies on Fast Healthcare Interoperability Resources&quot;" ID="ID_1238903236" CREATED="1750312217369" MODIFIED="1750312217369"/>
+<node TEXT="Open standard for integrating apps with EHRs, portals, and health data systems" ID="ID_1863152461" CREATED="1750312217369" MODIFIED="1750312217369"/>
+<node TEXT="Enables apps to run securely across different health IT systems" ID="ID_1079492781" CREATED="1750312217369" MODIFIED="1750312217369"/>
+</node>
+<node TEXT="Why SMART on FHIR?" FOLDED="true" ID="ID_1939081809" CREATED="1750312522357" MODIFIED="1750312522357">
+<node TEXT="It&apos;s built on existing standards — but tailored for healthcare" ID="ID_1740539239" CREATED="1750312522357" MODIFIED="1750312522357"/>
+<node TEXT="1. Specialization for Healthcare Context" FOLDED="true" ID="ID_1806646125" CREATED="1750312522357" MODIFIED="1750312522357">
+<node TEXT="OAuth2 and OpenID Connect are generic" ID="ID_1845213871" CREATED="1750312522357" MODIFIED="1750312522357"/>
+<node TEXT="SMART defines how to apply them in a clinical context" ID="ID_496130659" CREATED="1750312522357" MODIFIED="1750312522357"/>
+<node TEXT="FHIR-specific scopes like patient/Observation.read" ID="ID_1399102483" CREATED="1750312522357" MODIFIED="1750312522357"/>
+<node TEXT="Supports patient, provider, and system actor roles" ID="ID_218512068" CREATED="1750312522357" MODIFIED="1750312522357"/>
+</node>
+<node TEXT="2. Interoperability Across Vendors" FOLDED="true" ID="ID_855932429" CREATED="1750312522357" MODIFIED="1750312522357">
+<node TEXT="Defines standard app launch workflow across EHRs" ID="ID_903598217" CREATED="1750312522357" MODIFIED="1750312522357"/>
+<node TEXT="Ensures consistent integration in Epic, Cerner, etc." ID="ID_1713950776" CREATED="1750312522357" MODIFIED="1750312522357"/>
+<node TEXT="Enables plug-and-play apps with minimal changes" ID="ID_49805839" CREATED="1750312522357" MODIFIED="1750312522357"/>
+</node>
+<node TEXT="3. Security Profile Designed for EHRs" FOLDED="true" ID="ID_1614564759" CREATED="1750312522357" MODIFIED="1750312522357">
+<node TEXT="Defines secure token usage, scope naming, and claims" ID="ID_1933166886" CREATED="1750312522357" MODIFIED="1750312522357"/>
+<node TEXT="Tailored for HIPAA-compliant and regulated environments" ID="ID_1409615041" CREATED="1750312522357" MODIFIED="1750312522357"/>
+<node TEXT="Reduces risk of misconfiguration" ID="ID_1519814101" CREATED="1750312522357" MODIFIED="1750312522357"/>
+</node>
+<node TEXT="4. Bridging UI/UX Needs" FOLDED="true" ID="ID_909169853" CREATED="1750312522357" MODIFIED="1750312522357">
+<node TEXT="Specifies how apps are launched in clinical workflows" ID="ID_161849757" CREATED="1750312522357" MODIFIED="1750312522357"/>
+<node TEXT="Supports both EHR-embedded and standalone apps" ID="ID_1280521238" CREATED="1750312522357" MODIFIED="1750312522357"/>
+<node TEXT="Passes contextual info like patient ID, encounter" ID="ID_1965950919" CREATED="1750312522357" MODIFIED="1750312522357"/>
+</node>
+<node TEXT="5. Regulatory Compliance" FOLDED="true" ID="ID_1383112216" CREATED="1750312522357" MODIFIED="1750312522357">
+<node TEXT="Required under U.S. 21st Century Cures Act" ID="ID_55912870" CREATED="1750312522358" MODIFIED="1750312522358"/>
+<node TEXT="Enables compliance with API access and patient access rules" ID="ID_64021846" CREATED="1750312522358" MODIFIED="1750312522358"/>
+<node TEXT="Needed for ONC-certified health IT" ID="ID_376150608" CREATED="1750312522358" MODIFIED="1750312522358"/>
+</node>
+<node TEXT="Analogy" FOLDED="true" ID="ID_1930039964" CREATED="1750312522358" MODIFIED="1750312522358">
+<node TEXT="Like REST defines how to use HTTP for APIs" ID="ID_593765105" CREATED="1750312522358" MODIFIED="1750312522358"/>
+<node TEXT="SMART defines how to use OAuth2 + OpenID + FHIR in healthcare" ID="ID_728329388" CREATED="1750312522358" MODIFIED="1750312522358"/>
+</node>
+</node>
+<node TEXT="Core Components" FOLDED="true" ID="ID_1575287827" CREATED="1750312217369" MODIFIED="1750312217369">
+<node TEXT="FHIR (Fast Healthcare Interoperability Resources)" FOLDED="true" ID="ID_93216893" CREATED="1750312217369" MODIFIED="1750312217369">
+<node TEXT="Standard for healthcare data exchange" ID="ID_90442461" CREATED="1750312217369" MODIFIED="1750312217369"/>
+<node TEXT="Defines data formats and APIs" ID="ID_1396653169" CREATED="1750312217369" MODIFIED="1750312217369"/>
+</node>
+<node TEXT="OAuth 2.0" FOLDED="true" ID="ID_558806947" CREATED="1750312217369" MODIFIED="1750312217369">
+<node TEXT="Authentication and authorization protocol" ID="ID_1504151363" CREATED="1750312217369" MODIFIED="1750312217369"/>
+<node TEXT="Secures data access" ID="ID_1311408540" CREATED="1750312217369" MODIFIED="1750312217369"/>
+</node>
+<node TEXT="OpenID Connect" FOLDED="true" ID="ID_263251674" CREATED="1750312217369" MODIFIED="1750312217369">
+<node TEXT="Layer on top of OAuth 2.0" ID="ID_96822782" CREATED="1750312217369" MODIFIED="1750312217369"/>
+<node TEXT="Provides user identity information" ID="ID_1909314189" CREATED="1750312217369" MODIFIED="1750312217369"/>
+</node>
+<node TEXT="SMART App Launch Framework" FOLDED="true" ID="ID_825220209" CREATED="1750312217369" MODIFIED="1750312217369">
+<node TEXT="Standardized method to launch apps within clinical systems" ID="ID_1864414931" CREATED="1750312217369" MODIFIED="1750312217369"/>
+<node TEXT="Supports both EHR-launched and standalone apps" ID="ID_1853867072" CREATED="1750312217369" MODIFIED="1750312217369"/>
+</node>
+</node>
+<node TEXT="Key Features" FOLDED="true" ID="ID_1274318317" CREATED="1750312217369" MODIFIED="1750312217369">
+<node TEXT="Plug-and-play apps across systems" ID="ID_261461373" CREATED="1750312217369" MODIFIED="1750312217369"/>
+<node TEXT="Secure and standardized access to data" ID="ID_1999044209" CREATED="1750312217369" MODIFIED="1750312217369"/>
+<node TEXT="Role-based access controls" ID="ID_1192702197" CREATED="1750312217369" MODIFIED="1750312217369"/>
+<node TEXT="Patient and provider authentication" ID="ID_1806548929" CREATED="1750312217369" MODIFIED="1750312217369"/>
+<node TEXT="App ecosystem support (e.g., Apple Health, Epic App Orchard)" ID="ID_1187940329" CREATED="1750312217369" MODIFIED="1750312217369"/>
+</node>
+<node TEXT="App Types" FOLDED="true" ID="ID_1075290354" CREATED="1750312217369" MODIFIED="1750312217369">
+<node TEXT="EHR-Embedded Apps" FOLDED="true" ID="ID_1692702919" CREATED="1750312217369" MODIFIED="1750312217369">
+<node TEXT="Launched from within the EHR interface" ID="ID_1808564957" CREATED="1750312217369" MODIFIED="1750312217369"/>
+<node TEXT="Context-aware (e.g., patient, user)" ID="ID_367193874" CREATED="1750312217369" MODIFIED="1750312217369"/>
+</node>
+<node TEXT="Standalone Apps" FOLDED="true" ID="ID_976228408" CREATED="1750312217369" MODIFIED="1750312217369">
+<node TEXT="Launched independently" ID="ID_980832499" CREATED="1750312217369" MODIFIED="1750312217369"/>
+<node TEXT="Can connect to EHRs with user/patient authentication" ID="ID_772647697" CREATED="1750312217369" MODIFIED="1750312217369"/>
+</node>
+</node>
+<node TEXT="Use Cases" FOLDED="true" ID="ID_1327354048" CREATED="1750312217369" MODIFIED="1750312217369">
+<node TEXT="Clinical decision support tools" ID="ID_1169322145" CREATED="1750312217369" MODIFIED="1750312217369"/>
+<node TEXT="Patient-facing mobile apps" ID="ID_1615354026" CREATED="1750312217369" MODIFIED="1750312217369"/>
+<node TEXT="Data visualizations and analytics" ID="ID_751729494" CREATED="1750312217369" MODIFIED="1750312217369"/>
+<node TEXT="Chronic disease management tools" ID="ID_1777051995" CREATED="1750312217369" MODIFIED="1750312217369"/>
+</node>
+<node TEXT="Integration Flow" FOLDED="true" ID="ID_1723876674" CREATED="1750312217369" MODIFIED="1750312217369">
+<node TEXT="1. App registration with EHR" ID="ID_84858191" CREATED="1750312217369" MODIFIED="1750312217369"/>
+<node TEXT="2. OAuth 2.0 flow for authentication/authorization" ID="ID_833858339" CREATED="1750312217369" MODIFIED="1750312217369"/>
+<node TEXT="3. App retrieves FHIR resources" ID="ID_302418342" CREATED="1750312217369" MODIFIED="1750312217369"/>
+<node TEXT="4. App displays or uses data contextually" ID="ID_851344210" CREATED="1750312217369" MODIFIED="1750312217369"/>
+</node>
+<node TEXT="Security" FOLDED="true" ID="ID_500498197" CREATED="1750312217369" MODIFIED="1750312217369">
+<node TEXT="Uses secure tokens (access tokens, refresh tokens)" ID="ID_31614779" CREATED="1750312217369" MODIFIED="1750312217369"/>
+<node TEXT="Supports scopes to control data access" ID="ID_627789527" CREATED="1750312217369" MODIFIED="1750312217369"/>
+<node TEXT="Requires secure app registration and HTTPS" ID="ID_1458423975" CREATED="1750312217369" MODIFIED="1750312217369"/>
+</node>
+<node TEXT="Adoption" FOLDED="true" ID="ID_1601469821" CREATED="1750312217369" MODIFIED="1750312217369">
+<node TEXT="Supported by major EHR vendors (Epic, Cerner, Allscripts, etc.)" ID="ID_91707313" CREATED="1750312217369" MODIFIED="1750312217369"/>
+<node TEXT="Mandated by U.S. 21st Century Cures Act" ID="ID_409428174" CREATED="1750312217369" MODIFIED="1750312217369"/>
+<node TEXT="Used in SMART App Gallery, Apple Health, NIH projects" ID="ID_1027445502" CREATED="1750312217369" MODIFIED="1750312217369"/>
+</node>
+<node TEXT="Limitation and Challenges" FOLDED="true" ID="ID_1281777105" CREATED="1750312217369" MODIFIED="1750312217369">
+<node TEXT="Complexity in setup and configuration" ID="ID_1657823553" CREATED="1750312217369" MODIFIED="1750312217369"/>
+<node TEXT="Authorization scope granularity may vary" ID="ID_581886307" CREATED="1750312217369" MODIFIED="1750312217369"/>
+<node TEXT="Dependency on consistent FHIR implementation" ID="ID_1759101416" CREATED="1750312217369" MODIFIED="1750312217369"/>
+</node>
+<node TEXT="Resources" FOLDED="true" ID="ID_1051386441" CREATED="1750312217369" MODIFIED="1750312217369">
+<node TEXT="https://smarthealthit.org" ID="ID_964509400" CREATED="1750312217370" MODIFIED="1750312217370" LINK="https://smarthealthit.org"/>
+<node TEXT="https://hl7.org/fhir/smart-app-launch" ID="ID_380863826" CREATED="1750312217370" MODIFIED="1750312217370" LINK="https://hl7.org/fhir/smart-app-launch"/>
 </node>
 </node>
 </node>
